@@ -1,0 +1,67 @@
+Tue Apr 21 22:35:54 HKT 2026: Checking for new issues...
+Tue Apr 21 22:35:55 HKT 2026: New issue found: #1
+Issue #1: Build an Intelligent Twitter/X Financial Sentiment & Signal Monitor
+Body: 1. Objective
+Develop a resilient, automated data ingestion pipeline using headless browser automation to monitor high-profile Twitter/X accounts for US stock investment signals. The focus is on bypassing anti-scraping measures to fetch real-time, unstructured social data for subsequent AI sentiment analysis.
+
+2. Proposed Technical Stack
+Language: Python 3.11+
+
+Browser Automation: Playwright (Preferred for speed/stealth) or Selenium (if specific legacy extensions are required).
+
+Stealth & Resilience: * Stealth Plugin: Implement playwright-stealth or equivalent to minimize bot detection.
+
+Proxy Management: Integration with a residential proxy service to rotate IPs and prevent bans.
+
+User-Agent Rotation: Dynamic rotation of valid headers/fingerprints.
+
+AI/Analysis: LLM (OpenAI API or local Ollama model) to process content after extraction.
+
+Storage: PostgreSQL (for relational data) + ChromaDB (for vector search on historical tweets).
+
+3. Core Functional Requirements
+Dynamic Rendering: The browser must handle JavaScript-heavy rendering, as X/Twitter loads content dynamically.
+
+Background Request Interception: Configure the scraper to intercept GraphQL/XHR background requests to capture clean JSON responses instead of parsing raw DOM elements (highly recommended for stability).
+
+Rate Limiting & Throttling: Implement randomized human-like delays (time.sleep(random.uniform(2, 5))) between actions.
+
+Session Persistence: Ability to save/load authentication cookies (via a "burner" account) to minimize login prompts and reduce trigger frequency.
+
+4. Implementation Strategy (The "Stealth" Protocol)
+No Hardcoded Selectors: Since X frequently updates CSS classes, the scraper should rely on stable attributes (like data-testid) or AI-based extraction (e.g., using Stagehand or ScrapeGraphAI primitives) to locate tweet content.
+
+Error Handling: Robust retry logic with exponential backoff for 429 (Rate Limit) or 403 (Forbidden) errors.
+
+Logging & Alerts: Log every failed attempt. Send a Telegram/Discord alert if the scraper is blocked so we can manually intervene or update cookies.
+
+5. Acceptance Criteria
+Successfully fetch the "Latest" feed from a list of 20+ tracked handles without being logged out.
+
+Pipeline is capable of running headless (without a GUI) on a server/container (e.g., Docker/AWS EC2).
+
+Scraper successfully exports structured data: [Timestamp, Author, Tweet_Text, Tickers_Detected, Media_URL].
+Tue Apr 21 22:35:56 HKT 2026: Issue received, will process...
+Tue Apr 21 22:35:57 HKT 2026: Acknowledged issue #1
+Tue Apr 21 23:05:59 HKT 2026: Checking for new issues...
+Tue Apr 21 23:06:00 HKT 2026: No new issues (latest: 1)
+Tue Apr 21 23:35:51 HKT 2026: Checking for new issues...
+Tue Apr 21 23:35:52 HKT 2026: No new issues (latest: 1)
+Wed Apr 22 00:05:56 HKT 2026: Checking for new issues...
+Wed Apr 22 00:05:57 HKT 2026: No new issues (latest: 1)
+Wed Apr 22 00:35:50 HKT 2026: Checking for new issues...
+Wed Apr 22 00:35:51 HKT 2026: No new issues (latest: 1)
+Wed Apr 22 01:05:50 HKT 2026: Checking for new issues...
+Wed Apr 22 01:05:51 HKT 2026: No new issues (latest: 1)
+Wed Apr 22 01:35:59 HKT 2026: Checking for new issues...
+Wed Apr 22 01:36:00 HKT 2026: No new issues (latest: 1)
+Wed Apr 22 02:05:53 HKT 2026: Checking for new issues...
+Wed Apr 22 02:05:53 HKT 2026: No new issues (latest: 1)
+Wed Apr 22 02:35:49 HKT 2026: Checking for new issues...
+Wed Apr 22 02:35:51 HKT 2026: No new issues (latest: 1)
+Wed Apr 22 03:05:55 HKT 2026: Checking for new issues...
+Wed Apr 22 03:05:55 HKT 2026: No new issues (latest: 1)
+Wed Apr 22 03:35:53 HKT 2026: Checking for new issues...
+Wed Apr 22 03:35:55 HKT 2026: No new issues (latest: 1)
+Wed Apr 22 04:05:53 HKT 2026: Checking for new issues...
+Wed Apr 22 04:05:53 HKT 2026: No new issues (latest: 1)
