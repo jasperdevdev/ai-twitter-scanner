@@ -1,20 +1,16 @@
-# AI Test
+# AI Twitter Scanner
 
-This is a test repository for AI-driven development workflows.
+AI-powered Twitter/X scanning and analysis tool.
+
+## Features
+
+- Twitter/X data scanning
+- AI-powered analysis
+- Automated reporting
 
 ## Getting Started
 
 TODO: Add setup instructions
-
-## Features
-
-- AI-powered code generation
-- Automated workflows
-- Version control with GitHub
-
-## Contributing
-
-Pull requests are welcome!
 
 ## License
 
