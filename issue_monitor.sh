@@ -8,8 +8,8 @@ LOG_FILE="/root/.openclaw/workspace/ai-twitter-scanner/issue_monitor.log"
 
 echo "$(date): Checking for new issues..." >> "$LOG_FILE"
 
-# Get latest issue number created by user
-LATEST_ISSUE=$(gh api repos/$REPO/issues --jq 'sort_by(.created_at) | reverse | .[0].number' 2>/dev/null)
+# Get latest issue number (including closed issues)
+LATEST_ISSUE=$(gh api "repos/$REPO/issues?state=all" --jq 'sort_by(.created_at) | reverse | .[0].number' 2>/dev/null)
 
 if [ -z "$LATEST_ISSUE" ] || [ "$LATEST_ISSUE" == "null" ]; then
     echo "$(date): No issues found" >> "$LOG_FILE"
