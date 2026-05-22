@@ -2,7 +2,9 @@
 # GitHub Issue Monitor for ai-twitter-scanner
 # Runs every 30 minutes to check for new issues
 
-REPO="jasperdevdev/ai-twitter-scanner"
+REPO="anthropics/claude-code"
+# Also monitor MCP issues separately if needed
+MCP_REPO="modelcontextprotocol/claude-server"
 ISSUE_FILE="/root/.openclaw/workspace/ai-twitter-scanner/.last_issue"
 LOG_FILE="/root/.openclaw/workspace/ai-twitter-scanner/issue_monitor.log"
 
