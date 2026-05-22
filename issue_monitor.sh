@@ -1,6 +1,7 @@
 #!/bin/bash
 # GitHub Issue Monitor for ai-twitter-scanner
-# Runs every 30 minutes to check for new issues
+# Monitors the official Claude Code repo for issues
+# Note: Only adds comments if token has write access to the repo
 
 REPO="anthropics/claude-code"
 # Also monitor MCP issues separately if needed
@@ -37,14 +38,23 @@ ISSUE_BODY=$(gh api repos/$REPO/issues/$LATEST_ISSUE --jq '.body')
 echo "Issue #$LATEST_ISSUE: $ISSUE_TITLE" >> "$LOG_FILE"
 echo "Body: $ISSUE_BODY" >> "$LOG_FILE"
 
-# TODO: Implement issue fixing logic here
-# For now, just acknowledge the issue
-echo "$(date): Issue received, will process..." >> "$LOG_FILE"
-
 # Save last processed issue
 echo "$LATEST_ISSUE" > "$ISSUE_FILE"
 
-# Add a comment to the issue
-gh api repos/$REPO/issues/$LATEST_ISSUE/comments -f body="👀 Issue received! I'll work on this and submit a fix."
+# Try to add a comment (only works if token has write access)
+COMMENT_RESULT=$(gh api repos/$REPO/issues/$LATEST_ISSUE/comments -f body="👀 Issue received! I'll analyze this and work on a fix." 2>&1)
+COMMENT_EXIT=$?
 
-echo "$(date): Acknowledged issue #$LATEST_ISSUE" >> "$LOG_FILE"
+if [ $COMMENT_EXIT -eq 0 ]; then
+    echo "$(date): Acknowledged issue #$LATEST_ISSUE" >> "$LOG_FILE"
+else
+    # Check if it's a permission error
+    if echo "$COMMENT_RESULT" | grep -qi "permission\|unauthorized\|403"; then
+        echo "$(date): Skipped comment - token lacks write permission for $REPO" >> "$LOG_FILE"
+    else
+        echo "$(date): Comment failed: $COMMENT_RESULT" >> "$LOG_FILE"
+    fi
+fi
+
+# Log full issue details for analysis
+echo "$(date): Issue received, will analyze..." >> "$LOG_FILE"
