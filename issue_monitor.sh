@@ -44,10 +44,36 @@ fi
 
 log "Found new issues: $NEW_ISSUES"
 
+# Spam detection: check if title contains excessive special Unicode chars (confusable spam)
+is_spam() {
+    local title="$1"
+    local confusable_count=$(echo "$title" | grep -o '[⋆☆🎀✚卍🍉🍓❀💗【】＋➃𝕙ㄖ尺𝔸Ŝ卍♪♫♬]' | wc -l)
+    local total_chars=$(echo "$title" | wc -c)
+    # If >20% confusable chars, likely spam
+    if [ "$confusable_count" -gt 0 ] && [ "$((confusable_count * 100 / total_chars))" -gt 20 ]; then
+        return 0  # is spam
+    fi
+    # Check for known spam patterns
+    if echo "$title" | grep -qiE '(infolinia|flynas|qatar|airways|polska|24h|call|center|customer service| номер|контактный|телефон)'; then
+        local lower_title=$(echo "$title" | tr '[:upper:]' '[:lower:]')
+        if [[ "$lower_title" == *"infolinia"* ]] || [[ "$lower_title" == *"polska"* ]]; then
+            return 0  # is spam
+        fi
+    fi
+    return 1  # not spam
+}
+
 # Process each new issue
 for ISSUE_NUM in $NEW_ISSUES; do
     ISSUE_TITLE=$(gh api repos/$REPO/issues/$ISSUE_NUM --jq '.title')
     ISSUE_BODY=$(gh api repos/$REPO/issues/$ISSUE_NUM --jq '.body')
+    
+    # Skip spam issues
+    if is_spam "$ISSUE_TITLE"; then
+        log "Skipped issue #$ISSUE_NUM - detected as spam"
+        LAST_PROCESSED=$ISSUE_NUM
+        continue
+    fi
     
     log "Processing issue #$ISSUE_NUM: $ISSUE_TITLE"
     
