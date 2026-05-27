@@ -83,9 +83,11 @@ for ISSUE_NUM in $NEW_ISSUES; do
     LOWER_TITLE=$(echo "$ISSUE_TITLE" | tr '[:upper:]' '[:lower:]')
     LOWER_BODY=$(echo "$ISSUE_BODY" | tr '[:upper:]' '[:lower:]')
     
-    if echo "$LOWER_TITLE" | grep -qiE '(\[bug\]|bug:|bug report|not working|fails|crash|error)'; then
+    # Bug patterns: [BUG], bug:, not working, fails, doesn't, error, crash, broken, conflict
+    if echo "$LOWER_TITLE" | grep -qiE '(\[bug\]|bug:|bug report|not working|fails|crash|error|doesn.?t|broken|conflict|incorrect|wrong)'; then
         CATEGORY="bug"
-    elif echo "$LOWER_TITLE" | grep -qiE '(\[feature\]|feature request|add.*support|should.*support|would be nice)'; then
+    # Feature patterns: [FEATURE], feature request, support, would be nice, capability, request
+    elif echo "$LOWER_TITLE" | grep -qiE '(\[feature\]|feature request|add.*support|should.*support|would be nice|capability|request)'; then
         CATEGORY="feature"
     elif echo "$LOWER_TITLE" | grep -qiE '(\[docs?\]|documentation|document|missing doc)'; then
         CATEGORY="docs"
