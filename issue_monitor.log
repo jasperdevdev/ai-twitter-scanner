@@ -4537,3 +4537,46 @@ Thu May 28 21:52:45 HKT 2026: Tracked issue #63139 [feature]: [Feature Request] 
 Thu May 28 21:52:46 HKT 2026: Processing issue #63140: [Bug] Sub-agent PR review results not validated by orchestrating agent
 Thu May 28 21:52:46 HKT 2026: Tracked issue #63140 [bug]: [Bug] Sub-agent PR review results not validated by orchestrating agent
 Thu May 28 21:52:46 HKT 2026: Completed processing up to issue #63140
+Thu May 28 22:54:37 HKT 2026: Checking for new issues...
+Thu May 28 22:54:39 HKT 2026: Found new issues: 63141 63142 63143 63144 63145 63146 63147 63148 63149 63150 63151 63152 63153 63154 63155 63156 63157 63158 63159 63160 
+Thu May 28 22:54:40 HKT 2026: Processing issue #63141: Subagents on Pro 1M tier: trivial probes pass, real workloads fail at first tool call (probe-vs-workload divergence)
+Thu May 28 22:54:40 HKT 2026: Tracked issue #63141 [memory-issue]: Subagents on Pro 1M tier: trivial probes pass, real workloads fail at first tool call (probe-vs-workload divergence)
+Thu May 28 22:54:41 HKT 2026: Processing issue #63142: Path-scoped rules and subdirectory CLAUDE.md not loaded when creating new files matching the pattern
+Thu May 28 22:54:41 HKT 2026: Tracked issue #63142 [unknown]: Path-scoped rules and subdirectory CLAUDE.md not loaded when creating new files matching the pattern
+Thu May 28 22:54:42 HKT 2026: Processing issue #63143: AskUserQuestion: cancelling during extended thinking poisons the whole session with 400 'thinking blocks cannot be modified' (2.1.153); concurrent prompts overwrite each other
+Thu May 28 22:54:42 HKT 2026: Tracked issue #63143 [unknown]: AskUserQuestion: cancelling during extended thinking poisons the whole session with 400 'thinking blocks cannot be modified' (2.1.153); concurrent prompts overwrite each other
+Thu May 28 22:54:43 HKT 2026: Processing issue #63144: Ideas Missing from Claude Cowork Menu (Windows)
+Thu May 28 22:54:43 HKT 2026: Tracked issue #63144 [unknown]: Ideas Missing from Claude Cowork Menu (Windows)
+Thu May 28 22:54:44 HKT 2026: Processing issue #63145: [BUG_BOUNTY_SAFE_POC_2026] Prompt Injection RCE Test - Command Execution Proof
+Thu May 28 22:54:44 HKT 2026: Tracked issue #63145 [memory-issue]: [BUG_BOUNTY_SAFE_POC_2026] Prompt Injection RCE Test - Command Execution Proof
+Thu May 28 22:54:46 HKT 2026: Processing issue #63146: [BUG] Cowork scheduled task: execution history row not showing after successful run
+Thu May 28 22:54:46 HKT 2026: Tracked issue #63146 [bug]: [BUG] Cowork scheduled task: execution history row not showing after successful run
+Thu May 28 22:54:47 HKT 2026: Processing issue #63147: Resuming an extended-thinking session fails permanently with 400 "thinking blocks cannot be modified" (transcript stores thinking text as empty but keeps signature)
+Thu May 28 22:54:47 HKT 2026: Tracked issue #63147 [bug]: Resuming an extended-thinking session fails permanently with 400 "thinking blocks cannot be modified" (transcript stores thinking text as empty but keeps signature)
+Thu May 28 22:54:49 HKT 2026: Processing issue #63148: [Bug] CwdChanged and FileChanged hooks never fire in v2.1.153
+Thu May 28 22:54:49 HKT 2026: Tracked issue #63148 [bug]: [Bug] CwdChanged and FileChanged hooks never fire in v2.1.153
+Thu May 28 22:54:50 HKT 2026: Processing issue #63149: Auto-archive on PR merge / branch delete — clarify autoArchiveSessions semantics or add dedicated opt-out
+Thu May 28 22:54:50 HKT 2026: Tracked issue #63149 [memory-issue]: Auto-archive on PR merge / branch delete — clarify autoArchiveSessions semantics or add dedicated opt-out
+Thu May 28 22:54:51 HKT 2026: Processing issue #63150: `claude mcp add` echoes Authorization header value verbatim to stdout, leaks bearer tokens to terminal and session transcripts
+Thu May 28 22:54:51 HKT 2026: Tracked issue #63150 [unknown]: `claude mcp add` echoes Authorization header value verbatim to stdout, leaks bearer tokens to terminal and session transcripts
+Thu May 28 22:54:52 HKT 2026: Processing issue #63151: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages
+Thu May 28 22:54:52 HKT 2026: Tracked issue #63151 [bug]: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages
+Thu May 28 22:54:53 HKT 2026: Processing issue #63152: [BUG] Bug report — /insights skill, Claude Code  The /insights skill outputs a malformed file path.
+Thu May 28 22:54:53 HKT 2026: Tracked issue #63152 [bug]: [BUG] Bug report — /insights skill, Claude Code  The /insights skill outputs a malformed file path.
+Thu May 28 22:54:55 HKT 2026: Processing issue #63153: Plugin slash commands render with '*'-inline format instead of two-column, despite matching official plugin shape
+Thu May 28 22:54:55 HKT 2026: Tracked issue #63153 [unknown]: Plugin slash commands render with '*'-inline format instead of two-column, despite matching official plugin shape
+Thu May 28 22:54:56 HKT 2026: Processing issue #63154: [Bug] Unexpected long text generation without user input or goal
+Thu May 28 22:54:56 HKT 2026: Tracked issue #63154 [bug]: [Bug] Unexpected long text generation without user input or goal
+Thu May 28 22:54:57 HKT 2026: Processing issue #63155: [Bug] Thinking blocks causing task progression blocked without user modification
+Thu May 28 22:54:57 HKT 2026: Tracked issue #63155 [bug]: [Bug] Thinking blocks causing task progression blocked without user modification
+Thu May 28 22:54:58 HKT 2026: Processing issue #63156: [BUG]
+Thu May 28 22:54:58 HKT 2026: Tracked issue #63156 [bug]: [BUG]
+Thu May 28 22:55:00 HKT 2026: Processing issue #63157: [BUG] (Critical!)  contamination by an unknown session simirlar to the report => [Bug] Context contamination after auto-compact with unrelated email draft of Tejo/Sado Basin  #63137
+Thu May 28 22:55:00 HKT 2026: Tracked issue #63157 [bug]: [BUG] (Critical!)  contamination by an unknown session simirlar to the report => [Bug] Context contamination after auto-compact with unrelated email draft of Tejo/Sado Basin  #63137
+Thu May 28 22:55:01 HKT 2026: Processing issue #63158: test
+Thu May 28 22:55:01 HKT 2026: Tracked issue #63158 [unknown]: test
+Thu May 28 22:55:03 HKT 2026: Processing issue #63159: [Critical] Opus 4.7 Korean output degeneration — Korean grammar itself collapses in long contexts
+Thu May 28 22:55:03 HKT 2026: Tracked issue #63159 [unknown]: [Critical] Opus 4.7 Korean output degeneration — Korean grammar itself collapses in long contexts
+Thu May 28 22:55:04 HKT 2026: Processing issue #63160: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Thu May 28 22:55:04 HKT 2026: Tracked issue #63160 [bug]: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Thu May 28 22:55:04 HKT 2026: Completed processing up to issue #63160

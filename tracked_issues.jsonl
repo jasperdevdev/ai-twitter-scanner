@@ -458,3 +458,23 @@
 {"number":63138,"title":"[Bug] VSCode terminal output displays corrupted text with garbled symbols\n","category":"bug","tracked_at":"2026-05-28T13:52Z"}
 {"number":63139,"title":"[Feature Request] Add LaTeX/KaTeX math rendering to TUI\n","category":"feature","tracked_at":"2026-05-28T13:52Z"}
 {"number":63140,"title":"[Bug] Sub-agent PR review results not validated by orchestrating agent\n","category":"bug","tracked_at":"2026-05-28T13:52Z"}
+{"number":63141,"title":"Subagents on Pro 1M tier: trivial probes pass, real workloads fail at first tool call (probe-vs-workload divergence)\n","category":"memory-issue","tracked_at":"2026-05-28T14:54Z"}
+{"number":63142,"title":"Path-scoped rules and subdirectory CLAUDE.md not loaded when creating new files matching the pattern\n","category":"unknown","tracked_at":"2026-05-28T14:54Z"}
+{"number":63143,"title":"AskUserQuestion: cancelling during extended thinking poisons the whole session with 400 'thinking blocks cannot be modified' (2.1.153); concurrent prompts overwrite each other\n","category":"unknown","tracked_at":"2026-05-28T14:54Z"}
+{"number":63144,"title":"Ideas Missing from Claude Cowork Menu (Windows)\n","category":"unknown","tracked_at":"2026-05-28T14:54Z"}
+{"number":63145,"title":"[BUG_BOUNTY_SAFE_POC_2026] Prompt Injection RCE Test - Command Execution Proof\n","category":"memory-issue","tracked_at":"2026-05-28T14:54Z"}
+{"number":63146,"title":"[BUG] Cowork scheduled task: execution history row not showing after successful run\n","category":"bug","tracked_at":"2026-05-28T14:54Z"}
+{"number":63147,"title":"Resuming an extended-thinking session fails permanently with 400 \"thinking blocks cannot be modified\" (transcript stores thinking text as empty but keeps signature)\n","category":"bug","tracked_at":"2026-05-28T14:54Z"}
+{"number":63148,"title":"[Bug] CwdChanged and FileChanged hooks never fire in v2.1.153\n","category":"bug","tracked_at":"2026-05-28T14:54Z"}
+{"number":63149,"title":"Auto-archive on PR merge / branch delete — clarify autoArchiveSessions semantics or add dedicated opt-out\n","category":"memory-issue","tracked_at":"2026-05-28T14:54Z"}
+{"number":63150,"title":"`claude mcp add` echoes Authorization header value verbatim to stdout, leaks bearer tokens to terminal and session transcripts\n","category":"unknown","tracked_at":"2026-05-28T14:54Z"}
+{"number":63151,"title":"[Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages\n","category":"bug","tracked_at":"2026-05-28T14:54Z"}
+{"number":63152,"title":"[BUG] Bug report — /insights skill, Claude Code  The /insights skill outputs a malformed file path.\n","category":"bug","tracked_at":"2026-05-28T14:54Z"}
+{"number":63153,"title":"Plugin slash commands render with '*'-inline format instead of two-column, despite matching official plugin shape\n","category":"unknown","tracked_at":"2026-05-28T14:54Z"}
+{"number":63154,"title":"[Bug] Unexpected long text generation without user input or goal\n","category":"bug","tracked_at":"2026-05-28T14:54Z"}
+{"number":63155,"title":"[Bug] Thinking blocks causing task progression blocked without user modification\n","category":"bug","tracked_at":"2026-05-28T14:54Z"}
+{"number":63156,"title":"[BUG]\n","category":"bug","tracked_at":"2026-05-28T14:54Z"}
+{"number":63157,"title":"[BUG] (Critical!)  contamination by an unknown session simirlar to the report => [Bug] Context contamination after auto-compact with unrelated email draft of Tejo/Sado Basin  #63137\n","category":"bug","tracked_at":"2026-05-28T14:55Z"}
+{"number":63158,"title":"test\n","category":"unknown","tracked_at":"2026-05-28T14:55Z"}
+{"number":63159,"title":"[Critical] Opus 4.7 Korean output degeneration — Korean grammar itself collapses in long contexts\n","category":"unknown","tracked_at":"2026-05-28T14:55Z"}
+{"number":63160,"title":"[Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message\n","category":"bug","tracked_at":"2026-05-28T14:55Z"}
