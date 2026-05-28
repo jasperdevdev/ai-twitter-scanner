@@ -4387,3 +4387,153 @@ Thu May 28 17:46:50 HKT 2026: Tracked issue #63065 [unknown]: Slash command auto
 Thu May 28 17:46:52 HKT 2026: Processing issue #63066: PreToolUse hook `if` filter false-positives on complex Bash commands
 Thu May 28 17:46:52 HKT 2026: Tracked issue #63066 [false-positive]: PreToolUse hook `if` filter false-positives on complex Bash commands
 Thu May 28 17:46:52 HKT 2026: Completed processing up to issue #63066
+Thu May 28 18:48:23 HKT 2026: Checking for new issues...
+Thu May 28 18:48:26 HKT 2026: Found new issues: 63067 63068 63069 63070 63071 63072 63073 63074 63075 63076 63078 63079 63080 63081 63082 63084 63085 
+Thu May 28 18:48:27 HKT 2026: Processing issue #63067: [BUG] Diff panel hangs/whites out
+Thu May 28 18:48:27 HKT 2026: Tracked issue #63067 [bug]: [BUG] Diff panel hangs/whites out
+Thu May 28 18:48:28 HKT 2026: Processing issue #63068: Feature Request: Support drag-and-drop for binary documents (.wps, .doc, .docx, .xlsx, .pdf) in VS Code extension
+Thu May 28 18:48:29 HKT 2026: Tracked issue #63068 [feature]: Feature Request: Support drag-and-drop for binary documents (.wps, .doc, .docx, .xlsx, .pdf) in VS Code extension
+Thu May 28 18:48:30 HKT 2026: Processing issue #63069: [BUG] activation of 1M context in VSCode
+Thu May 28 18:48:30 HKT 2026: Tracked issue #63069 [bug]: [BUG] activation of 1M context in VSCode
+Thu May 28 18:48:31 HKT 2026: Processing issue #63070: [FEATURE] Support i18n / language localization for built-in slash command outputs
+Thu May 28 18:48:31 HKT 2026: Tracked issue #63070 [feature]: [FEATURE] Support i18n / language localization for built-in slash command outputs
+Thu May 28 18:48:32 HKT 2026: Processing issue #63071: Ctrl+V para colar imagens deixou de funcionar no CLI (Windows, PowerShell)
+Thu May 28 18:48:32 HKT 2026: Tracked issue #63071 [unknown]: Ctrl+V para colar imagens deixou de funcionar no CLI (Windows, PowerShell)
+Thu May 28 18:48:33 HKT 2026: Processing issue #63072: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages
+Thu May 28 18:48:33 HKT 2026: Tracked issue #63072 [bug]: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages
+Thu May 28 18:48:34 HKT 2026: Processing issue #63073: [FEATURE] Please add Norwegian (Bokmål/Nynorsk) language support to the Claude Code interface
+Thu May 28 18:48:34 HKT 2026: Tracked issue #63073 [feature]: [FEATURE] Please add Norwegian (Bokmål/Nynorsk) language support to the Claude Code interface
+Thu May 28 18:48:35 HKT 2026: Processing issue #63074: [BUG] OTel log events (claude_code.user_prompt, api_request_body, tool_decision, hook_execution_complete) emitted with empty trace_id/span_id while sibling spans correlate correctly
+Thu May 28 18:48:35 HKT 2026: Tracked issue #63074 [bug]: [BUG] OTel log events (claude_code.user_prompt, api_request_body, tool_decision, hook_execution_complete) emitted with empty trace_id/span_id while sibling spans correlate correctly
+Thu May 28 18:48:36 HKT 2026: Processing issue #63075: [BUG] Cowork crashes on every message, no VM logs generated, missing AppData\Roaming\Claude
+Thu May 28 18:48:36 HKT 2026: Tracked issue #63075 [bug]: [BUG] Cowork crashes on every message, no VM logs generated, missing AppData\Roaming\Claude
+Thu May 28 18:48:37 HKT 2026: Processing issue #63076: [FEATURE] first-class session handoff + per-session token budgets for unattended runs
+Thu May 28 18:48:37 HKT 2026: Tracked issue #63076 [feature]: [FEATURE] first-class session handoff + per-session token budgets for unattended runs
+Thu May 28 18:48:38 HKT 2026: Processing issue #63078: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Thu May 28 18:48:38 HKT 2026: Tracked issue #63078 [bug]: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Thu May 28 18:48:39 HKT 2026: Processing issue #63079: [Feature Request] Restore chat pin functionality to title chat submenu
+Thu May 28 18:48:39 HKT 2026: Tracked issue #63079 [feature]: [Feature Request] Restore chat pin functionality to title chat submenu
+Thu May 28 18:48:40 HKT 2026: Processing issue #63080: [BUG] SIGILL issues with version 2.1.153
+Thu May 28 18:48:40 HKT 2026: Tracked issue #63080 [bug]: [BUG] SIGILL issues with version 2.1.153
+Thu May 28 18:48:41 HKT 2026: Processing issue #63081: [BUG] Cowork plugin upload fails with generic "Plugin validation failed" when a `description` field in any SKILL.md frontmatter contains angle brackets (`<…>`)
+Thu May 28 18:48:41 HKT 2026: Tracked issue #63081 [bug]: [BUG] Cowork plugin upload fails with generic "Plugin validation failed" when a `description` field in any SKILL.md frontmatter contains angle brackets (`<…>`)
+Thu May 28 18:48:42 HKT 2026: Processing issue #63082: [BUG] Desktop App 2.1.144+: startup scanner deletes cliSessionId from claude-code-sessions local files on every launch — session not found on disk
+Thu May 28 18:48:42 HKT 2026: Tracked issue #63082 [bug]: [BUG] Desktop App 2.1.144+: startup scanner deletes cliSessionId from claude-code-sessions local files on every launch — session not found on disk
+Thu May 28 18:48:43 HKT 2026: Processing issue #63084: [MODEL] Opus 4.7 not 1M
+Thu May 28 18:48:43 HKT 2026: Tracked issue #63084 [unknown]: [MODEL] Opus 4.7 not 1M
+Thu May 28 18:48:44 HKT 2026: Processing issue #63085: Allow naming/renaming background agents in `claude agents` view
+Thu May 28 18:48:44 HKT 2026: Tracked issue #63085 [unknown]: Allow naming/renaming background agents in `claude agents` view
+Thu May 28 18:48:44 HKT 2026: Completed processing up to issue #63085
+Thu May 28 19:49:51 HKT 2026: Checking for new issues...
+Thu May 28 19:49:52 HKT 2026: Found new issues: 63087 63088 63089 63090 63091 63092 63093 63094 63095 63096 63097 63098 63099 63100 63101 63102 63103 
+Thu May 28 19:49:53 HKT 2026: Processing issue #63087: Agent worktrees are never cleaned up, silently consuming disk space
+Thu May 28 19:49:54 HKT 2026: Tracked issue #63087 [unknown]: Agent worktrees are never cleaned up, silently consuming disk space
+Thu May 28 19:49:55 HKT 2026: Processing issue #63088: Subagent worktrees not auto-cleaned when reviewer writes scratch files
+Thu May 28 19:49:55 HKT 2026: Tracked issue #63088 [unknown]: Subagent worktrees not auto-cleaned when reviewer writes scratch files
+Thu May 28 19:49:56 HKT 2026: Processing issue #63089: [Bug] Skill initialization hangs for extended duration in Plan Mode
+Thu May 28 19:49:57 HKT 2026: Tracked issue #63089 [bug]: [Bug] Skill initialization hangs for extended duration in Plan Mode
+Thu May 28 19:49:58 HKT 2026: Processing issue #63090: Claude Desktop writes malformed registry Run entry (nested escaped quotes) - crashes Windows Task Manager and other Run-key parsers
+Thu May 28 19:49:58 HKT 2026: Tracked issue #63090 [bug]: Claude Desktop writes malformed registry Run entry (nested escaped quotes) - crashes Windows Task Manager and other Run-key parsers
+Thu May 28 19:49:59 HKT 2026: Processing issue #63091: IME candidate window shows at bottom-right corner instead of caret position (Windows CMD)
+Thu May 28 19:49:59 HKT 2026: Tracked issue #63091 [unknown]: IME candidate window shows at bottom-right corner instead of caret position (Windows CMD)
+Thu May 28 19:50:00 HKT 2026: Processing issue #63092: [BUG] Pressing 'Escape' doesn't close the /BTW conversation when the main conversation is asking for approval
+Thu May 28 19:50:00 HKT 2026: Tracked issue #63092 [bug]: [BUG] Pressing 'Escape' doesn't close the /BTW conversation when the main conversation is asking for approval
+Thu May 28 19:50:03 HKT 2026: Processing issue #63093: [BUG] Opus 4.7 (1M) intermittently emits empty-string values for tool_use.input fields, killing the session
+Thu May 28 19:50:03 HKT 2026: Tracked issue #63093 [bug]: [BUG] Opus 4.7 (1M) intermittently emits empty-string values for tool_use.input fields, killing the session
+Thu May 28 19:50:06 HKT 2026: Processing issue #63094: FleetView agent UI shows "running" with incrementing elapsed time after agent has returned
+Thu May 28 19:50:06 HKT 2026: Tracked issue #63094 [unknown]: FleetView agent UI shows "running" with incrementing elapsed time after agent has returned
+Thu May 28 19:50:07 HKT 2026: Processing issue #63095: /doctor flags context-scoped cmd+c binding as macOS conflict (false positive)
+Thu May 28 19:50:07 HKT 2026: Tracked issue #63095 [bug]: /doctor flags context-scoped cmd+c binding as macOS conflict (false positive)
+Thu May 28 19:50:08 HKT 2026: Processing issue #63096: [BUG] Text Rendering in Elvish
+Thu May 28 19:50:08 HKT 2026: Tracked issue #63096 [bug]: [BUG] Text Rendering in Elvish
+Thu May 28 19:50:09 HKT 2026: Processing issue #63097: Desktop app: Bypass Permissions mode flips to Accept Edits on first prompt (M5 / macOS 26.5)
+Thu May 28 19:50:09 HKT 2026: Tracked issue #63097 [memory-issue]: Desktop app: Bypass Permissions mode flips to Accept Edits on first prompt (M5 / macOS 26.5)
+Thu May 28 19:50:10 HKT 2026: Processing issue #63098: [Workaround] Date-Weekday Verification Hook — Prevents Claude from writing wrong weekdays
+Thu May 28 19:50:10 HKT 2026: Tracked issue #63098 [bug]: [Workaround] Date-Weekday Verification Hook — Prevents Claude from writing wrong weekdays
+Thu May 28 19:50:11 HKT 2026: Processing issue #63099: [BUG] Claude Code create c:/memfs directory without asking me.
+Thu May 28 19:50:11 HKT 2026: Tracked issue #63099 [bug]: [BUG] Claude Code create c:/memfs directory without asking me.
+Thu May 28 19:50:13 HKT 2026: Processing issue #63100: [BUG] Claude Code's Bash execution waits forever with no processes running
+Thu May 28 19:50:13 HKT 2026: Tracked issue #63100 [bug]: [BUG] Claude Code's Bash execution waits forever with no processes running
+Thu May 28 19:50:14 HKT 2026: Processing issue #63101: [BUG] usage stays stuck waiting for 5 hr limit after upgrading to premium seat in team plan
+Thu May 28 19:50:14 HKT 2026: Tracked issue #63101 [bug]: [BUG] usage stays stuck waiting for 5 hr limit after upgrading to premium seat in team plan
+Thu May 28 19:50:15 HKT 2026: Processing issue #63102: [Workflow tool] resume cache is unreachable for nontrivial workflows because LLM dispatchers can't transcribe args byte-exactly
+Thu May 28 19:50:15 HKT 2026: Tracked issue #63102 [unknown]: [Workflow tool] resume cache is unreachable for nontrivial workflows because LLM dispatchers can't transcribe args byte-exactly
+Thu May 28 19:50:17 HKT 2026: Processing issue #63103: Code review (Preview): "Add a repository" shows no results for private GitHub org repos
+Thu May 28 19:50:17 HKT 2026: Tracked issue #63103 [unknown]: Code review (Preview): "Add a repository" shows no results for private GitHub org repos
+Thu May 28 19:50:17 HKT 2026: Completed processing up to issue #63103
+Thu May 28 20:51:10 HKT 2026: Checking for new issues...
+Thu May 28 20:51:12 HKT 2026: Found new issues: 63105 63107 63108 63109 63110 63111 63112 63113 63114 63115 63116 63117 63118 63119 63120 63121 63122 
+Thu May 28 20:51:13 HKT 2026: Processing issue #63105: [Feature Request] Add precache expiry hook to enable proactive compaction before token eviction
+Thu May 28 20:51:13 HKT 2026: Tracked issue #63105 [feature]: [Feature Request] Add precache expiry hook to enable proactive compaction before token eviction
+Thu May 28 20:51:14 HKT 2026: Processing issue #63107: [Feature Request] Add semantic search for --resume session history
+Thu May 28 20:51:14 HKT 2026: Tracked issue #63107 [feature]: [Feature Request] Add semantic search for --resume session history
+Thu May 28 20:51:15 HKT 2026: Processing issue #63108: [Feature Request] Add session search, tagging, and filtering capabilities
+Thu May 28 20:51:15 HKT 2026: Tracked issue #63108 [feature]: [Feature Request] Add session search, tagging, and filtering capabilities
+Thu May 28 20:51:16 HKT 2026: Processing issue #63109: [BUG] Cowork Dispatch reports "desktop not available" on Windows 11 while standard Cowork works normally
+Thu May 28 20:51:16 HKT 2026: Tracked issue #63109 [bug]: [BUG] Cowork Dispatch reports "desktop not available" on Windows 11 while standard Cowork works normally
+Thu May 28 20:51:18 HKT 2026: Processing issue #63110: [Bug] Claude Code provides incorrect suggestions with high confidence despite errors
+Thu May 28 20:51:18 HKT 2026: Tracked issue #63110 [bug]: [Bug] Claude Code provides incorrect suggestions with high confidence despite errors
+Thu May 28 20:51:19 HKT 2026: Processing issue #63111: defaultMode: acceptEdits silently overrides per-path permissions.ask rules for Write/Edit
+Thu May 28 20:51:19 HKT 2026: Tracked issue #63111 [memory-issue]: defaultMode: acceptEdits silently overrides per-path permissions.ask rules for Write/Edit
+Thu May 28 20:51:20 HKT 2026: Processing issue #63112: [FEATUR configurable tip interval (e.g. tipIntervalSeconds: 30 in settings)E]
+Thu May 28 20:51:20 HKT 2026: Tracked issue #63112 [unknown]: [FEATUR configurable tip interval (e.g. tipIntervalSeconds: 30 in settings)E]
+Thu May 28 20:51:21 HKT 2026: Processing issue #63113: Plugin marketplace fails to load: schema rejects 'displayName' key (v2.1.153)
+Thu May 28 20:51:22 HKT 2026: Tracked issue #63113 [bug]: Plugin marketplace fails to load: schema rejects 'displayName' key (v2.1.153)
+Thu May 28 20:51:22 HKT 2026: Processing issue #63114: claude agents: in-session copy uses broken OSC 52 path while overview correctly uses tmux buffer
+Thu May 28 20:51:22 HKT 2026: Tracked issue #63114 [bug]: claude agents: in-session copy uses broken OSC 52 path while overview correctly uses tmux buffer
+Thu May 28 20:51:23 HKT 2026: Processing issue #63115: [BUG]
+Thu May 28 20:51:23 HKT 2026: Tracked issue #63115 [bug]: [BUG]
+Thu May 28 20:51:25 HKT 2026: Processing issue #63116: [BUG] Plugin agent descriptions (and custom agents) load unconditionally into context — no parity with disable-model-invocation for skills
+Thu May 28 20:51:25 HKT 2026: Tracked issue #63116 [bug]: [BUG] Plugin agent descriptions (and custom agents) load unconditionally into context — no parity with disable-model-invocation for skills
+Thu May 28 20:51:26 HKT 2026: Processing issue #63117: Crashed ultrareview consumed a free credit despite producing zero findings
+Thu May 28 20:51:26 HKT 2026: Tracked issue #63117 [bug]: Crashed ultrareview consumed a free credit despite producing zero findings
+Thu May 28 20:51:27 HKT 2026: Processing issue #63118: [Bug] Character rendering issue - invisible or missing text display
+Thu May 28 20:51:27 HKT 2026: Tracked issue #63118 [bug]: [Bug] Character rendering issue - invisible or missing text display
+Thu May 28 20:51:28 HKT 2026: Processing issue #63119: [BUG] Cowork: processo Claude Code encerra com código 3 — .claude.json não contém token de autenticação (Windows 11 25H2)
+Thu May 28 20:51:28 HKT 2026: Tracked issue #63119 [bug]: [BUG] Cowork: processo Claude Code encerra com código 3 — .claude.json não contém token de autenticação (Windows 11 25H2)
+Thu May 28 20:51:29 HKT 2026: Processing issue #63120: [BUG] 2.1.153 silently discards tools/list response from rmcp 0.12.0 HTTP MCP server (works in 2.1.152, wire-identical handshake)
+Thu May 28 20:51:29 HKT 2026: Tracked issue #63120 [bug]: [BUG] 2.1.153 silently discards tools/list response from rmcp 0.12.0 HTTP MCP server (works in 2.1.152, wire-identical handshake)
+Thu May 28 20:51:30 HKT 2026: Processing issue #63121: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages
+Thu May 28 20:51:30 HKT 2026: Tracked issue #63121 [bug]: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages
+Thu May 28 20:51:31 HKT 2026: Processing issue #63122: VS Code extension: option to auto-resume last session when reopening a workspace folder
+Thu May 28 20:51:31 HKT 2026: Tracked issue #63122 [unknown]: VS Code extension: option to auto-resume last session when reopening a workspace folder
+Thu May 28 20:51:31 HKT 2026: Completed processing up to issue #63122
+Thu May 28 21:52:23 HKT 2026: Checking for new issues...
+Thu May 28 21:52:24 HKT 2026: Found new issues: 63123 63124 63125 63126 63127 63128 63129 63130 63131 63132 63133 63134 63135 63136 63137 63138 63139 63140 
+Thu May 28 21:52:25 HKT 2026: Processing issue #63123: [Bug] Conversation continuation failure
+Thu May 28 21:52:25 HKT 2026: Tracked issue #63123 [bug]: [Bug] Conversation continuation failure
+Thu May 28 21:52:26 HKT 2026: Processing issue #63124: [BUG] Cowork crashes every time I start a new chat or attempt to continue an existing one in any project. The error displayed is: "Claude Code è andato in crash
+Thu May 28 21:52:26 HKT 2026: Tracked issue #63124 [bug]: [BUG] Cowork crashes every time I start a new chat or attempt to continue an existing one in any project. The error displayed is: "Claude Code è andato in crash
+Thu May 28 21:52:28 HKT 2026: Processing issue #63125: [Bug] Unannounced quota changes
+Thu May 28 21:52:28 HKT 2026: Tracked issue #63125 [bug]: [Bug] Unannounced quota changes
+Thu May 28 21:52:29 HKT 2026: Processing issue #63126: Native update/install fails with 'socket connection was closed unexpectedly' behind proxy — undici TLS incompatibility
+Thu May 28 21:52:29 HKT 2026: Tracked issue #63126 [bug]: Native update/install fails with 'socket connection was closed unexpectedly' behind proxy — undici TLS incompatibility
+Thu May 28 21:52:30 HKT 2026: Processing issue #63127: [BUG] Session name reverting after manual change
+Thu May 28 21:52:30 HKT 2026: Tracked issue #63127 [bug]: [BUG] Session name reverting after manual change
+Thu May 28 21:52:32 HKT 2026: Processing issue #63128: [BUG] 非正常思考，上下文过长时，一直显示思考，点击interrupt按钮失效
+Thu May 28 21:52:32 HKT 2026: Tracked issue #63128 [bug]: [BUG] 非正常思考，上下文过长时，一直显示思考，点击interrupt按钮失效
+Thu May 28 21:52:33 HKT 2026: Processing issue #63129: Honor `tools:` frontmatter when an agent is invoked via `@mention` — strip `Task` only when the agent did not declare it
+Thu May 28 21:52:33 HKT 2026: Tracked issue #63129 [unknown]: Honor `tools:` frontmatter when an agent is invoked via `@mention` — strip `Task` only when the agent did not declare it
+Thu May 28 21:52:34 HKT 2026: Processing issue #63130: macOS TCC popup still recurring on v2.1.153 — "2.1.153" would like to access data from other apps
+Thu May 28 21:52:34 HKT 2026: Tracked issue #63130 [unknown]: macOS TCC popup still recurring on v2.1.153 — "2.1.153" would like to access data from other apps
+Thu May 28 21:52:35 HKT 2026: Processing issue #63131: Claude Code leaks pty handles — exhausts pseudo-terminals on macOS after long session
+Thu May 28 21:52:35 HKT 2026: Tracked issue #63131 [unknown]: Claude Code leaks pty handles — exhausts pseudo-terminals on macOS after long session
+Thu May 28 21:52:36 HKT 2026: Processing issue #63132: [Bug] Agent fails to execute or respond to user input
+Thu May 28 21:52:36 HKT 2026: Tracked issue #63132 [bug]: [Bug] Agent fails to execute or respond to user input
+Thu May 28 21:52:37 HKT 2026: Processing issue #63133: [BUG] Persistent "Expecting value: line 1 column 1 (char 0)" JSON parse error after tool execution
+Thu May 28 21:52:37 HKT 2026: Tracked issue #63133 [bug]: [BUG] Persistent "Expecting value: line 1 column 1 (char 0)" JSON parse error after tool execution
+Thu May 28 21:52:38 HKT 2026: Processing issue #63134: [Feature Request] Implement proactive unit test coverage recommendations for recurring bugs
+Thu May 28 21:52:38 HKT 2026: Tracked issue #63134 [feature]: [Feature Request] Implement proactive unit test coverage recommendations for recurring bugs
+Thu May 28 21:52:39 HKT 2026: Processing issue #63135: VS Code panel lacks status line + terminal lacks image paste in Codespaces, forcing a tradeoff
+Thu May 28 21:52:39 HKT 2026: Tracked issue #63135 [unknown]: VS Code panel lacks status line + terminal lacks image paste in Codespaces, forcing a tradeoff
+Thu May 28 21:52:41 HKT 2026: Processing issue #63136: `/powerup` only shows ~10 lessons — allow viewing the full catalog
+Thu May 28 21:52:41 HKT 2026: Tracked issue #63136 [unknown]: `/powerup` only shows ~10 lessons — allow viewing the full catalog
+Thu May 28 21:52:42 HKT 2026: Processing issue #63137: [Bug] Context contamination after auto-compact with unrelated email draft of Tejo/Sado Basin
+Thu May 28 21:52:43 HKT 2026: Tracked issue #63137 [bug]: [Bug] Context contamination after auto-compact with unrelated email draft of Tejo/Sado Basin
+Thu May 28 21:52:43 HKT 2026: Processing issue #63138: [Bug] VSCode terminal output displays corrupted text with garbled symbols
+Thu May 28 21:52:44 HKT 2026: Tracked issue #63138 [bug]: [Bug] VSCode terminal output displays corrupted text with garbled symbols
+Thu May 28 21:52:45 HKT 2026: Processing issue #63139: [Feature Request] Add LaTeX/KaTeX math rendering to TUI
+Thu May 28 21:52:45 HKT 2026: Tracked issue #63139 [feature]: [Feature Request] Add LaTeX/KaTeX math rendering to TUI
+Thu May 28 21:52:46 HKT 2026: Processing issue #63140: [Bug] Sub-agent PR review results not validated by orchestrating agent
+Thu May 28 21:52:46 HKT 2026: Tracked issue #63140 [bug]: [Bug] Sub-agent PR review results not validated by orchestrating agent
+Thu May 28 21:52:46 HKT 2026: Completed processing up to issue #63140
