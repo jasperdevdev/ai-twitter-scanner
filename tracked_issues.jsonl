@@ -246,3 +246,146 @@
 {"number": 62913, "title": "VS Code extension: past conversation tabs show titles but empty content / no context on reopen (Windows, mapped network drive)\n", "category": "memory-issue", "tracked_at": "2026-05-27T20:28Z"}
 {"number": 62914, "title": "[BUG] Claude Code 2.1.152 hangs on startup (Fedora 42, VirtualBox)\n", "category": "bug", "tracked_at": "2026-05-27T20:28Z"}
 {"number": 62915, "title": "claude code desktop app section re-arrange capability\n", "category": "feature", "tracked_at": "2026-05-27T20:28Z"}
+{"number":62918,"title":"Managed Agents: shared-filesystem default conflicts with per-task isolation disciplines\n","category":"bug","tracked_at":"2026-05-27T21:31Z"}
+{"number":62919,"title":"Managed Agents: idle session billing details not publicly disclosed\n","category":"unknown","tracked_at":"2026-05-27T21:31Z"}
+{"number":62920,"title":"Managed Agents: specialist kill / interrupt semantics not documented\n","category":"docs","tracked_at":"2026-05-27T21:31Z"}
+{"number":62922,"title":"Multiline input: arrow keys should navigate lines, not history\n","category":"unknown","tracked_at":"2026-05-27T21:31Z"}
+{"number":62923,"title":"I appreciate you wanting me to help, but I need clarification. \n\nYou're asking me to generate a GitHub issue title based on a bug report, but your message describes a testing request rather than a specific bug that's been encountered.\n\nTo create an appropr\n","category":"bug","tracked_at":"2026-05-27T21:31Z"}
+{"number":62924,"title":"[BUG] Remote Control bridge fails with \"/login\" on macOS desktop app despite valid claude.ai auth\n","category":"bug","tracked_at":"2026-05-27T21:31Z"}
+{"number":62925,"title":"[BUG] AI given misleading system context after compaction\n","category":"bug","tracked_at":"2026-05-27T21:31Z"}
+{"number":62926,"title":"[BUG] Claude Code VS Code extension truncates HTML files on save (LF→CRLF rewrite chops trailing scripts)\n","category":"bug","tracked_at":"2026-05-27T21:31Z"}
+{"number":62927,"title":"Claude Desktop: GitHubPrManager polling stalls main process with several worktrees on Windows (1.9255.2.0)\n","category":"unknown","tracked_at":"2026-05-27T21:31Z"}
+{"number":62928,"title":"[BUG] PR monitoring routine silently no-ops on repos that report CI via commit statuses\n","category":"bug","tracked_at":"2026-05-27T21:31Z"}
+{"number":62929,"title":"Add a visible scrollbar to the TUI for fine-grained scroll navigation\n","category":"unknown","tracked_at":"2026-05-27T21:31Z"}
+{"number":62930,"title":"Org-configured plugin marketplaces not synced to local CLI on login\n","category":"unknown","tracked_at":"2026-05-27T22:33Z"}
+{"number":62931,"title":"[Bug] /exit with worktree generates invalid resume command\n","category":"bug","tracked_at":"2026-05-27T22:33Z"}
+{"number":62932,"title":"[BUG] Cowork sandbox FUSE mount serves stale inode for entire session — silently corrupts bash git commit; now also corrupts .git/config on every Windows-side gh pr merge\n","category":"bug","tracked_at":"2026-05-27T22:33Z"}
+{"number":62933,"title":"[BUG] Cowork can't mount paths inside Dropbox on macOS.\n","category":"bug","tracked_at":"2026-05-27T22:33Z"}
+{"number":62934,"title":"Claude violated explicit CLAUDE.md rule and leaked site-specific identifiers into a public GitHub PR body\n","category":"memory-issue","tracked_at":"2026-05-27T22:33Z"}
+{"number":62935,"title":"Claude Code sessions inconsistently sync to Claude iOS app — some sessions visible, others not\n","category":"unknown","tracked_at":"2026-05-27T22:33Z"}
+{"number":62936,"title":"MCP server configurations should inherit from parent directories\n","category":"unknown","tracked_at":"2026-05-27T22:33Z"}
+{"number":62937,"title":"**[BUG] Cowork: sessiondata.vhdx not found — path mismatch between copy destination and expected location**\n","category":"bug","tracked_at":"2026-05-27T22:33Z"}
+{"number":62938,"title":"[BUG] Cowork (Windows): caches fill sessiondata.vhdx; env-based caches can't be self-fixed & orphaned session dirs never cleaned\n","category":"bug","tracked_at":"2026-05-27T22:33Z"}
+{"number":62940,"title":"Opus 4.7 (1M context) regressing on prompt fidelity + scope discipline — session log\n","category":"unknown","tracked_at":"2026-05-27T22:33Z"}
+{"number":62941,"title":"fix(ralph-wiggum): correctly read last assistant text from transcript\n","category":"memory-issue","tracked_at":"2026-05-27T22:33Z"}
+{"number":62942,"title":"claude-in-chrome: Browser extension never connects on Linux (tabs_context_mcp always returns 'not connected')\n","category":"unknown","tracked_at":"2026-05-27T22:33Z"}
+{"number":62943,"title":"[FEATURE] Support Dracula and other terminal themes for syntax highlighting in CLI\n","category":"feature","tracked_at":"2026-05-27T23:34Z"}
+{"number":62944,"title":"docs: clarify that project CLAUDE.md / AGENTS.md are not inherited by subagents\n","category":"memory-issue","tracked_at":"2026-05-27T23:35Z"}
+{"number":62945,"title":"enhancement: first-class subagent policy primitive — explicit in-prompt rules still get rationalized past\n","category":"false-positive","tracked_at":"2026-05-27T23:35Z"}
+{"number":62946,"title":"[Bug] EnterWorktree fails when agent has cwd override in isolated mode\n","category":"bug","tracked_at":"2026-05-27T23:35Z"}
+{"number":62947,"title":"[BUG] `gitStatus` snapshot is captured at process launch, not at first-prompt-submit — goes stale when other workers commit before you type\n","category":"bug","tracked_at":"2026-05-27T23:35Z"}
+{"number":62948,"title":"[FEATURE] [BUG] [ENHANCEMENT] Chrome Extension Not Dismissible - No way out.\n","category":"bug","tracked_at":"2026-05-27T23:35Z"}
+{"number":62949,"title":"[BUG] [Bug] Cowork Desktop only shows Sonnet 4.6 (1M) — no standard 200K option, triggers usage credits error on Max plan\n","category":"bug","tracked_at":"2026-05-27T23:35Z"}
+{"number":62950,"title":"[Bug] Auto-update failed with diagnostic error\n","category":"bug","tracked_at":"2026-05-27T23:35Z"}
+{"number":62951,"title":"[BUG] Releases not gated behind changelog update. Doctor reports stale \"Latest version\".\n","category":"bug","tracked_at":"2026-05-27T23:35Z"}
+{"number":62952,"title":"Hooks fail on non-FHS systems (NixOS): ENOENT posix_spawn '/bin/sh'\n","category":"unknown","tracked_at":"2026-05-27T23:35Z"}
+{"number":62953,"title":"[Bug] Cannot write to temporary directory on macOS\n","category":"bug","tracked_at":"2026-05-27T23:35Z"}
+{"number":62954,"title":"Session list should show sessions from all entrypoints (VS Code + Desktop)\n","category":"unknown","tracked_at":"2026-05-27T23:35Z"}
+{"number":62955,"title":"[BUG] Preview pane spawned by background session opens in foreground session and stays there\n","category":"bug","tracked_at":"2026-05-28T00:35Z"}
+{"number":62956,"title":"[BUG] Claude Code agent violated explicit instructions, consumed 25%+ of weekly Max(20x) usage, then denied the violation.\n","category":"bug","tracked_at":"2026-05-28T00:35Z"}
+{"number":62957,"title":"v2.1.152 native installer build hangs indefinitely on ARM aarch64 Linux\n","category":"unknown","tracked_at":"2026-05-28T00:35Z"}
+{"number":62958,"title":"[Bug] Claude 4.6 Model Instability: Frequent Instruction Drift\n","category":"bug","tracked_at":"2026-05-28T00:35Z"}
+{"number":62959,"title":"[BUG] Session transcripts silently auto-deleted after 30 days; sidebar shows ghost entries that error on click\n","category":"bug","tracked_at":"2026-05-28T00:35Z"}
+{"number":62960,"title":"[FEATURE] GUI project/session switcher in Claude Code Desktop\n","category":"feature","tracked_at":"2026-05-28T00:35Z"}
+{"number":62961,"title":"Korean outputs use informal/slang verb \"박다\" (bakda) at 18× baseline frequency\n","category":"unknown","tracked_at":"2026-05-28T00:35Z"}
+{"number":62962,"title":"claude --continue ignores ANTHROPIC_DEFAULT_OPUS_MODEL, resumes on 200K instead of configured 1M\n","category":"memory-issue","tracked_at":"2026-05-28T00:35Z"}
+{"number":62963,"title":"[BUG] Bug: 400 error \"thinking blocks must be passed back\" with third-party compatible endpoints after upgrade to 2.1.152\n","category":"bug","tracked_at":"2026-05-28T01:36Z"}
+{"number":62964,"title":"MCP `.mcp.json` project-trust modal re-fires on every launch in Linux docker container (v2.1.141 and v2.1.152)\n","category":"unknown","tracked_at":"2026-05-28T01:36Z"}
+{"number":62965,"title":"[Bug] Transcript corruption from unsafe tool_result/thinking block separation during compaction\n","category":"bug","tracked_at":"2026-05-28T01:36Z"}
+{"number":62966,"title":"`claude plugin uninstall` refuses with \"enabled at project scope\" when plugin is absent from every enabledPlugins map (contradicts `disable` which reports already-disabled)\n","category":"unknown","tracked_at":"2026-05-28T01:36Z"}
+{"number":62967,"title":"[BUG] Claude in Chrome v1.0.74 — MCP bridge navigation and read tools wedge after May 27 update\n","category":"bug","tracked_at":"2026-05-28T01:36Z"}
+{"number":62968,"title":"[BUG] CCR routine runs stuck at \"setting up a cloud container\" — stop button doesn't clear status\n","category":"bug","tracked_at":"2026-05-28T01:36Z"}
+{"number":62969,"title":"[BUG] Korean (Hangul) IME: last syllable dropped on space/punctuation in input\n","category":"bug","tracked_at":"2026-05-28T01:36Z"}
+{"number":62970,"title":"[BUG] Bash commands produce no output on Windows 11\n","category":"bug","tracked_at":"2026-05-28T01:36Z"}
+{"number":62971,"title":"[BUG] Persistent ECONNRESET on macOS — works in curl, fails in CLI and VS Code extension; root cause appears to be ProtonVPN WireGuard system extension leaving 12 utun interfaces + conflicting IPv6 routes\n","category":"bug","tracked_at":"2026-05-28T01:36Z"}
+{"number":62972,"title":"Discord plugin inbound notifications silently dropped on CC 2.1.153 (Windows)\n","category":"unknown","tracked_at":"2026-05-28T01:36Z"}
+{"number":62973,"title":"[FEATURE] Support for Strict Enterprise APIM Gateways (Custom Paths, Payload Injection, SSE Fallbacks)\n","category":"feature","tracked_at":"2026-05-28T01:36Z"}
+{"number":62974,"title":"Hook event: PreModelResponse (inject context before model plans)\n","category":"unknown","tracked_at":"2026-05-28T02:38Z"}
+{"number":62975,"title":"[Bug] Image Processing Failure: Unable to Parse Crop Phenology Color Pattern\n","category":"bug","tracked_at":"2026-05-28T02:38Z"}
+{"number":62976,"title":"[UX] /plugin install on an already-installed plugin does not refresh stale cache, leaving users on outdated versions\n","category":"unknown","tracked_at":"2026-05-28T02:38Z"}
+{"number":62977,"title":"[BUG] Claude Code on the web: autofix sessions stopped receiving bot PR review comments (Copilot/Codex)\n","category":"bug","tracked_at":"2026-05-28T02:38Z"}
+{"number":62978,"title":"Bash tool permanently broken (exit 1, no output) after a killed background task\n","category":"bug","tracked_at":"2026-05-28T02:38Z"}
+{"number":62979,"title":"🚨Claude Code VSCode Extension Does Not Detect Custom Slash Commands From .claude/commands\n","category":"unknown","tracked_at":"2026-05-28T02:38Z"}
+{"number":62980,"title":"Cross-client session syncing between VS Code extension and Desktop app\n","category":"unknown","tracked_at":"2026-05-28T02:38Z"}
+{"number":62981,"title":"[BUG] Plugin marketplace MCP connector remains stuck \"still connecting\" when mcp-remote requires OAuth\n","category":"bug","tracked_at":"2026-05-28T02:38Z"}
+{"number":62982,"title":"[BUG] macOS Claude Desktop fails to launch when claude-code-sessions is restored; sessions lose titles and Remote Control disconnects\n","category":"bug","tracked_at":"2026-05-28T02:38Z"}
+{"number":62983,"title":"Opus 4.7 behavioral regression: loaded instruction-following discipline degraded in recent Claude Code/Cowork updates\n","category":"regression","tracked_at":"2026-05-28T03:39Z"}
+{"number":62984,"title":"[BUG] Tailscale via Homebrew CLI + Mac App Store GUI, both Macs on macOS, Cowork blocked by VPN detector despite Tailscale being a mesh VPN with no traffic interception\n","category":"bug","tracked_at":"2026-05-28T03:39Z"}
+{"number":62985,"title":"stopShellPty on tab switch kills active sessions (exit 143) — regression in May 27 build\n","category":"regression","tracked_at":"2026-05-28T03:39Z"}
+{"number":62987,"title":"[BUG] claude rm/stop/reap SIGKILLs background session tree without SIGTERM grace, orphaning git index.lock and similar\n","category":"bug","tracked_at":"2026-05-28T03:39Z"}
+{"number":62988,"title":"[BUG] Default git workflow in the system prompt was pushed without context or consent\n","category":"bug","tracked_at":"2026-05-28T03:39Z"}
+{"number":62989,"title":"[MODEL] Inconsistent output quality / Ignoring instructions (overfitting and inappropriate repetition of Korean vocabulary)\n","category":"memory-issue","tracked_at":"2026-05-28T03:39Z"}
+{"number":62990,"title":"You've hit your weekly limit · resets May 31 at 5pm (Asia/Shanghai)\n","category":"unknown","tracked_at":"2026-05-28T03:39Z"}
+{"number":62991,"title":"Paid yearly subscription silently downgraded to Free with no user action\n","category":"unknown","tracked_at":"2026-05-28T04:40Z"}
+{"number":62992,"title":"[Regression v2.1.153] Plugin bash hooks fail with \"echo: write error: Permission denied\" on Windows   (claude-mem, shell: \"bash\")\n","category":"bug","tracked_at":"2026-05-28T04:40Z"}
+{"number":62993,"title":"[BUG] Connector toggles in conversation are not clickable — must click text label instead\n","category":"bug","tracked_at":"2026-05-28T04:40Z"}
+{"number":62994,"title":"[remote-control] Input from mobile app/browser not reaching host session — output works fine\n","category":"unknown","tracked_at":"2026-05-28T04:40Z"}
+{"number":62995,"title":"[BUG]\n","category":"bug","tracked_at":"2026-05-28T04:40Z"}
+{"number":62996,"title":"Model fails to read/reference CLAUDE.md contents despite being loaded in context\n","category":"bug","tracked_at":"2026-05-28T04:40Z"}
+{"number":62997,"title":"[BUG] Claude Desktop reinstall destroys Code chat history (transcripts + Recents) while regular Chat history, project files, and memory all survive\n","category":"bug","tracked_at":"2026-05-28T05:41Z"}
+{"number":62998,"title":"Bypass mode clamps to Accept Edits even with the toggle ON (Claude Code Desktop 1.9255.2 / CC 2.1.149)\n","category":"unknown","tracked_at":"2026-05-28T05:41Z"}
+{"number":62999,"title":"[BUG] TUI input freezes randomly mid-typing — entire prompt becomes unresponsive for minutes\n","category":"bug","tracked_at":"2026-05-28T05:41Z"}
+{"number":63000,"title":"[BUG] Cowork downloads Linux ELF binary instead of macOS binary on macOS Sonoma 14.8.7 — exit code 132 (SIGILL) on every session\n","category":"bug","tracked_at":"2026-05-28T05:41Z"}
+{"number":63001,"title":"[Feature Request] Persistent project memory — sessions forget everything on close, forcing users to keep many sessions open\n","category":"feature","tracked_at":"2026-05-28T05:41Z"}
+{"number":63002,"title":"[Bug] Thread context stale after sleep/resume, returns outdated date and calendar data\n","category":"bug","tracked_at":"2026-05-28T05:41Z"}
+{"number":63003,"title":"[FEATURE] Add context window usage indicator and warning before auto-compaction\n","category":"feature","tracked_at":"2026-05-28T05:41Z"}
+{"number":63004,"title":"[BUG] Dictation error: Invalid character in header content [\"x-config-keyterms\"] on Windows\n","category":"bug","tracked_at":"2026-05-28T05:41Z"}
+{"number":63005,"title":"[Bug] Anthropic API Error: Server rate limiting despite normal usage\n","category":"bug","tracked_at":"2026-05-28T05:41Z"}
+{"number":63006,"title":"Does delegating work to `claude -p` subprocesses reduce context accumulation in the parent session?\n","category":"unknown","tracked_at":"2026-05-28T06:42Z"}
+{"number":63007,"title":"[BUG] Claude Code hangs on M1 Mac when terminal says \"opening browser to sign in\" and browser opens\n","category":"bug","tracked_at":"2026-05-28T06:42Z"}
+{"number":63008,"title":"[BUG] Claude_Preview MCP preview_start spawns dev server with main-repo cwd instead of session's worktree cwd\n","category":"bug","tracked_at":"2026-05-28T06:42Z"}
+{"number":63009,"title":"[Bug] Anthropic API Error: Server rate limiting during request execution\n","category":"bug","tracked_at":"2026-05-28T06:42Z"}
+{"number":63010,"title":"[Bug] Anthropic API Error: Server rate limiting on concurrent requests\n","category":"bug","tracked_at":"2026-05-28T06:42Z"}
+{"number":63011,"title":"[Bug] Ultraplan ready notification fires before cloud agent completes execution\n","category":"bug","tracked_at":"2026-05-28T06:42Z"}
+{"number":63012,"title":"[BUG] API 500 ERROR ALL THROUGHOUT THE DAY\n","category":"bug","tracked_at":"2026-05-28T06:42Z"}
+{"number":63013,"title":"[BUG] Cowork: Live Artifacts folder path changed in 1.9255.2, no automatic migration from Documents\\Claude\\Artifacts\n","category":"bug","tracked_at":"2026-05-28T06:42Z"}
+{"number":63014,"title":"[BUG]  API Error: Server is temporarily limiting requests (not your usage limit) · Rate limited\n","category":"bug","tracked_at":"2026-05-28T06:42Z"}
+{"number":63015,"title":"[Bug] Auto-compact never triggers despite statusline reporting \"100% context used\" (v2.1.153, Max sub, 200K mode)\n","category":"bug","tracked_at":"2026-05-28T06:42Z"}
+{"number":63016,"title":"[BUG] [Desktop / macOS] 'Open in → New Window' detached session: font renders smaller than main, no per-window controls, Cmd+/Cmd- keystrokes routed to main window instead\n","category":"bug","tracked_at":"2026-05-28T06:42Z"}
+{"number":63017,"title":"Feature request: option to switch between classic and new minimal UI\n","category":"feature","tracked_at":"2026-05-28T06:42Z"}
+{"number":63018,"title":"[Feature Request] Show timestamps for each message\n","category":"feature","tracked_at":"2026-05-28T06:42Z"}
+{"number":63019,"title":"[BUG] Terminal corruption when permission prompt appears while navigating Agent Teams agent selection menu\n","category":"bug","tracked_at":"2026-05-28T06:42Z"}
+{"number":63020,"title":"[FEATURE] Allow users to customize the background color of the Claude desktop app beyond the current light/dark theme presets.\n","category":"feature","tracked_at":"2026-05-28T07:43Z"}
+{"number":63021,"title":"[BUG] Statusline not displaying on Windows [fixed]\n","category":"bug","tracked_at":"2026-05-28T07:43Z"}
+{"number":63022,"title":"Background agent UI Stop button is a no-op for stuck agents — process keeps consuming tokens\n","category":"unknown","tracked_at":"2026-05-28T07:43Z"}
+{"number":63023,"title":"Background agents silently die on session pause/resume — no completion notification, no work recovery\n","category":"unknown","tracked_at":"2026-05-28T07:43Z"}
+{"number":63024,"title":"Add option to hide email address from welcome banner\n","category":"unknown","tracked_at":"2026-05-28T07:43Z"}
+{"number":63025,"title":"[BUG] SSH Remote: `projects` field in remote ~/.claude.json becomes null after desktop restart — jsonl files intact, UI shows 'No messages yet' for every session\n","category":"bug","tracked_at":"2026-05-28T07:43Z"}
+{"number":63026,"title":"[Bug] Claude Code not applying fixes despite claiming to complete tasks\n","category":"bug","tracked_at":"2026-05-28T07:43Z"}
+{"number":63027,"title":"billing is unfair and poorly documented\n","category":"docs","tracked_at":"2026-05-28T07:43Z"}
+{"number":63028,"title":"[BUG] Claude Code on the web: declared plugins inactive on first session, require restart to fully load\n","category":"bug","tracked_at":"2026-05-28T07:43Z"}
+{"number":63029,"title":"[BUG] Restore from archive deleted sessions instead of restoring them\n","category":"bug","tracked_at":"2026-05-28T07:43Z"}
+{"number":63030,"title":"[BUG] M365 connector fails with AADSTS50011 in Cowork — localhost vs 127.0.0.1 redirect URI mismatch\n","category":"bug","tracked_at":"2026-05-28T07:43Z"}
+{"number":63031,"title":"claude agents: workflow slash-commands missing from dispatch-input completion (regression-adjacent to #61424)\n","category":"regression","tracked_at":"2026-05-28T07:43Z"}
+{"number":63032,"title":"Claude Desktop's Info.plist missing TCC usage strings, blocks all EventKit-based MCP servers\n","category":"unknown","tracked_at":"2026-05-28T07:43Z"}
+{"number":63033,"title":"False-positive safety blocks on self-administered governance amendments — request for owner-authority mode for verified professional users\n","category":"feature","tracked_at":"2026-05-28T07:43Z"}
+{"number":63034,"title":"[BUG] Stop pushing \"AUTO\"-mode\n","category":"bug","tracked_at":"2026-05-28T08:44Z"}
+{"number":63035,"title":"[DOCS] Plugin marketplace guide omits `skipLfs` option for git-based sources\n","category":"docs","tracked_at":"2026-05-28T08:44Z"}
+{"number":63036,"title":"[DOCS] MCP docs omit combined startup notification for MCP server and connector authentication\n","category":"docs","tracked_at":"2026-05-28T08:44Z"}
+{"number":63037,"title":"[DOCS] Agent view docs omit macOS Privacy & Security identity for background agents\n","category":"docs","tracked_at":"2026-05-28T08:44Z"}
+{"number":63038,"title":"[DOCS] Npm update docs do not explain release-channel behavior for `claude update`\n","category":"docs","tracked_at":"2026-05-28T08:44Z"}
+{"number":63039,"title":"[DOCS] Agent SDK docs omit `subagent_type: \"claude\"` worktree and output persistence behavior\n","category":"docs","tracked_at":"2026-05-28T08:44Z"}
+{"number":63040,"title":"[DOCS] Background session docs omit `$CLAUDE_JOB_DIR` temp-file behavior\n","category":"docs","tracked_at":"2026-05-28T08:44Z"}
+{"number":63041,"title":"[FR] mask env-var values in 'claude mcp get <server>' output\n","category":"unknown","tracked_at":"2026-05-28T08:44Z"}
+{"number":63042,"title":"[FR] subagent worktrees should not inherit stale local 'user.email' from prior dispatches\n","category":"unknown","tracked_at":"2026-05-28T08:44Z"}
+{"number":63043,"title":"[BUG] Windows: Grep tool leaks rg.exe + conhost.exe processes (~2000 zombies / 14 GB RAM in long sessions)\n","category":"bug","tracked_at":"2026-05-28T08:44Z"}
+{"number":63044,"title":"[BUG] Stats dashboard \"Peak hour\" appears off by one hour\n","category":"bug","tracked_at":"2026-05-28T08:44Z"}
+{"number":63045,"title":"[BUG] Diff highlight (teal SGR background) bleeds past changed text in 2.1.150–2.1.153\n","category":"bug","tracked_at":"2026-05-28T08:44Z"}
+{"number":63046,"title":"[FEATURE] confirm before deleting session\n","category":"feature","tracked_at":"2026-05-28T08:44Z"}
+{"number":63047,"title":"Plugin PostToolUse hooks still silently skip in Claude Desktop / Cowork (re-filing closed #51904)\n","category":"unknown","tracked_at":"2026-05-28T08:44Z"}
+{"number":63048,"title":"/code-review skill: silent fallback to main...HEAD reviews other people's commits, and JSON-only output is hard to read\n","category":"unknown","tracked_at":"2026-05-28T08:44Z"}
+{"number":63049,"title":"[FEATURE] Add `cache.ruby-lang.org` to allowlist\n","category":"feature","tracked_at":"2026-05-28T08:44Z"}
+{"number":63050,"title":"Monitor tool doesn't source the shell snapshot like Bash does; PATH-dependent tools (jq, sleep, etc.) fail in Monitor commands on macOS/Nix\n","category":"bug","tracked_at":"2026-05-28T08:44Z"}
+{"number":63051,"title":"[Bug] Anthropic API Error: 529 Overloaded\n","category":"bug","tracked_at":"2026-05-28T09:46Z"}
+{"number":63052,"title":"[Bug] Long input lines truncated with ellipsis while typing instead of wrapping in terminal UI\n","category":"bug","tracked_at":"2026-05-28T09:46Z"}
+{"number":63053,"title":"[FEATURE] VS Code extension: Render submitted user messages as Markdown in chat\n","category":"feature","tracked_at":"2026-05-28T09:46Z"}
+{"number":63055,"title":"[BUG] RemoteTrigger create/update returns HTTP 400 with circular error: \"event_type is required\" / \"unknown field event_type\"\n","category":"bug","tracked_at":"2026-05-28T09:46Z"}
+{"number":63056,"title":"[BUG] Option to hide or minimize the built-in \"status footer\" (multi-line debug/cost panel) [re-raise of #31475]\n","category":"bug","tracked_at":"2026-05-28T09:46Z"}
+{"number":63057,"title":"[Bug] Feedback submissions being closed without review or action\n","category":"bug","tracked_at":"2026-05-28T09:46Z"}
+{"number":63058,"title":"[FEATURE] Word-jump cursor navigation in Chat input (option+arrow / bindable actions)\n","category":"feature","tracked_at":"2026-05-28T09:46Z"}
+{"number":63059,"title":"[FEATURE] ! shell mode: filesystem tab completion\n","category":"feature","tracked_at":"2026-05-28T09:46Z"}
+{"number":63060,"title":"[BUG] API Error: Usage credits required for 1M context\n","category":"bug","tracked_at":"2026-05-28T09:46Z"}
+{"number":63063,"title":"[FEATURE] Support Cmd+V image paste from clipboard\n","category":"feature","tracked_at":"2026-05-28T09:46Z"}
+{"number":63064,"title":"[FEATURE] Enhance claude.ai M365 connector to support MS Planner\n","category":"feature","tracked_at":"2026-05-28T09:46Z"}
+{"number":63065,"title":"Slash command autocomplete hijacks pasted absolute file paths starting with /\n","category":"unknown","tracked_at":"2026-05-28T09:46Z"}
+{"number":63066,"title":"PreToolUse hook `if` filter false-positives on complex Bash commands\n","category":"false-positive","tracked_at":"2026-05-28T09:46Z"}
