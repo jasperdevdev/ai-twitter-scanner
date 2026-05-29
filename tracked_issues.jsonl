@@ -829,3 +829,18 @@
 {"number":63574,"title":"[Bug] Anthropic API Error: Cannot modify thinking or redacted_thinking blocks in assistant message\n","category":"bug","tracked_at":"2026-05-29T08:48Z"}
 {"number":63575,"title":"[FEATURE] disableBypassPermissionsMode should accept booleans (managed settings)\n","category":"feature","tracked_at":"2026-05-29T08:48Z"}
 {"number":63576,"title":"[Bug] Parallel tool calls trigger persistent \"Cancelled\" errors\n","category":"bug","tracked_at":"2026-05-29T08:48Z"}
+{"number":63613,"title":"You've hit your session limit · resets 6:20pm (Europe/Helsinki)\n","category":"unknown","tracked_at":"2026-05-29T11:55Z"}
+{"number":63614,"title":"You've hit your session limit · resets 6:20pm (Europe/Helsinki)\n","category":"unknown","tracked_at":"2026-05-29T11:56Z"}
+{"number":63610,"title":"[Bug] Excessive token consumption for SVG legend modifications\n","category":"bug","tracked_at":"2026-05-29T11:58Z"}
+{"number":63611,"title":"`/model` picker stores `opus[1m]` then next-turn validator rejects it as \"may not exist\" (Claude Max, Linux, `--resume`d session)\n","category":"memory-issue","tracked_at":"2026-05-29T11:58Z"}
+{"number":63615,"title":"[BUG] Korean word '영역' excessively and incorrectly inserted in responses — Opus 4.7, 4.8\n","category":"bug","tracked_at":"2026-05-29T11:58Z"}
+{"number":63616,"title":"[BUG] Claude Code fails BASH invocations\n","category":"bug","tracked_at":"2026-05-29T11:58Z"}
+{"number":63617,"title":"[BUG] No logout mechanism in VSCodium extension — credentials irrecoverable without CLI\n","category":"bug","tracked_at":"2026-05-29T11:58Z"}
+{"number":63618,"title":"Feature Request: Session rename and folder/tag grouping\n","category":"feature","tracked_at":"2026-05-29T11:58Z"}
+{"number":63619,"title":"[BUG] CCR manual trigger hangs at \"Setting up a cloud container\" — scheduled runs complete fine\n","category":"bug","tracked_at":"2026-05-29T11:58Z"}
+{"number":63620,"title":"[BUG] Stop hook evaluator fails with 400: \"output_config.format: Extra inputs are not permitted\"       (Bedrock)\n","category":"bug","tracked_at":"2026-05-29T11:58Z"}
+{"number":63621,"title":"Claude Code Access Disabled After Payment - Account: seodepartment1@gmail.com\n","category":"unknown","tracked_at":"2026-05-29T11:59Z"}
+{"number":63622,"title":"[BUG] [Desktop App] Claude desktop app not launching on Windows 11 ARM64/Snapdragon X\n","category":"bug","tracked_at":"2026-05-29T11:59Z"}
+{"number":63623,"title":"Windows: MCP server spawning causes brief console window flash (missing CREATE_NO_WINDOW flag)\n","category":"unknown","tracked_at":"2026-05-29T11:59Z"}
+{"number":63624,"title":"[BUG] Disabled plugin state in\n  ~/.claude/settings.json survives uninstall + reinstall\n","category":"bug","tracked_at":"2026-05-29T11:59Z"}
+{"number":63625,"title":"[DOCS] `plugin update` docs do not specify whether existing dependencies of a meta-plugin are re-resolved\n","category":"docs","tracked_at":"2026-05-29T11:59Z"}
