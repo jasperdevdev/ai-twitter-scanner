@@ -478,3 +478,354 @@
 {"number":63158,"title":"test\n","category":"unknown","tracked_at":"2026-05-28T14:55Z"}
 {"number":63159,"title":"[Critical] Opus 4.7 Korean output degeneration — Korean grammar itself collapses in long contexts\n","category":"unknown","tracked_at":"2026-05-28T14:55Z"}
 {"number":63160,"title":"[Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message\n","category":"bug","tracked_at":"2026-05-28T14:55Z"}
+{"number":63161,"title":"[BUG] Title: Autocompact buffer persists across /clear — wastes tokens for irrelevant old context\n","category":"bug","tracked_at":"2026-05-28T15:56Z"}
+{"number":63162,"title":"[Bug] Auto-Compact loses user input before processing in conversation history\n","category":"bug","tracked_at":"2026-05-28T15:56Z"}
+{"number":63163,"title":"Feature: per-invocation effort parameter + runtime session-config introspection for skills\n","category":"unknown","tracked_at":"2026-05-28T15:56Z"}
+{"number":63164,"title":"Auto-mode classifier mislabels Azure DevOps vote -5 as \"Reject\" when denying PR vote actions\n","category":"unknown","tracked_at":"2026-05-28T15:56Z"}
+{"number":63165,"title":"[BUG] Claude Desktop and   Claude Code CLI never re-register MCP tools after OAuth 2.1 handshake on a remote HTTP   server\n","category":"bug","tracked_at":"2026-05-28T15:56Z"}
+{"number":63166,"title":"[BUG] Workspace file tags leak across sessions\n","category":"bug","tracked_at":"2026-05-28T15:56Z"}
+{"number":63167,"title":"[BUG] Ink renderer crashes on Windows 11 build 26200 (Canary)  duplicate banners, terminal mode leaks, mid-operation aborts\n","category":"bug","tracked_at":"2026-05-28T15:56Z"}
+{"number":63168,"title":"[BUG] Claude Code Desktop issue\n","category":"bug","tracked_at":"2026-05-28T15:56Z"}
+{"number":63169,"title":"PTY master fd leak in Claude desktop app exhausts macOS kern.tty.ptmx_max after ~2-3 days\n","category":"unknown","tracked_at":"2026-05-28T15:56Z"}
+{"number":63170,"title":"[BUG] Claude Code — Session Management after Unexpected Interruption\n","category":"bug","tracked_at":"2026-05-28T15:56Z"}
+{"number":63171,"title":"[Windows] Cowork OpenTelemetry exporter does not initialize - zero events emitted to any destination, including loopback\n","category":"unknown","tracked_at":"2026-05-28T15:56Z"}
+{"number":63172,"title":"[Bug] Opus 4.7: 400 `thinking blocks ... cannot be modified` on long extended-thinking sessions, triggered by history-altering events (scheduled prompts / parallel tool-call cancellation)\n","category":"bug","tracked_at":"2026-05-28T15:56Z"}
+{"number":63173,"title":"[BUG]  API Error: Server is temporarily limiting requests (not your usage limit) · Rate      limited\n","category":"bug","tracked_at":"2026-05-28T15:56Z"}
+{"number":63174,"title":"Multi-plugin custom marketplace: only first plugin registered in installed_plugins.json, skills don't load\n","category":"memory-issue","tracked_at":"2026-05-28T15:56Z"}
+{"number":63175,"title":"[BUG] Git push through the SDK's git proxy fan-outs into ~500 GitHub REST API calls, exhausting the 5,000/hour budget after a handful of pushes\n","category":"bug","tracked_at":"2026-05-28T15:56Z"}
+{"number":63176,"title":"[BUG] Claude took liberties it really shouldn't with my global config\n","category":"bug","tracked_at":"2026-05-28T15:56Z"}
+{"number":63177,"title":"[BUG] Agent window focus lost after navigating with arrow keys, causing scroll deadlock\n","category":"bug","tracked_at":"2026-05-28T15:56Z"}
+{"number":63178,"title":"[BUG] `--model` flag silently ignored in interactive sessions (works in `--print` only)\n","category":"bug","tracked_at":"2026-05-28T15:56Z"}
+{"number":63179,"title":"[BUG] Dispatch permanently shows \"desktop appears offline\" on Windows 11 - never worked on first use\n","category":"bug","tracked_at":"2026-05-28T15:57Z"}
+{"number":63180,"title":"feat: support per-command enableWeakerNetworkIsolation as safer alternative to dangerouslyDisableSandbox\n","category":"unknown","tracked_at":"2026-05-28T15:57Z"}
+{"number":63181,"title":"/code-review outputs a raw JSON array instead of readable findings\n","category":"unknown","tracked_at":"2026-05-28T15:57Z"}
+{"number":63182,"title":"[BUG] Cowork — Additional allowed domains ignored on Team plan; same domain works on Pro plan\n","category":"bug","tracked_at":"2026-05-28T15:57Z"}
+{"number":63183,"title":"Haiku\n","category":"unknown","tracked_at":"2026-05-28T15:57Z"}
+{"number":63184,"title":"[Bug] False positive blocking beneficial outcomes in tool execution\n","category":"bug","tracked_at":"2026-05-28T16:57Z"}
+{"number":63185,"title":"3P Bedrock SSO: credentials silently expire without triggering re-auth on day 2+\n","category":"unknown","tracked_at":"2026-05-28T16:57Z"}
+{"number":63186,"title":"CLAUDE_AUTOCOMPACT_PCT_OVERRIDE in settings.json env block silently ignored by autocompact logic\n","category":"memory-issue","tracked_at":"2026-05-28T16:57Z"}
+{"number":63187,"title":"Auto-compaction deletes main session JSONL before verifying summary completion, causing data loss\n","category":"unknown","tracked_at":"2026-05-28T16:57Z"}
+{"number":63188,"title":"[Bug] Claude Code not executing stated actions or producing expected results\n","category":"bug","tracked_at":"2026-05-28T16:57Z"}
+{"number":63189,"title":"Use PR template in /commit-push-pr command\n","category":"unknown","tracked_at":"2026-05-28T16:57Z"}
+{"number":63190,"title":"[FEATURE] Deferred Messages — Queue Input for End of Turn\n","category":"feature","tracked_at":"2026-05-28T16:57Z"}
+{"number":63191,"title":"[BUG] Up/Down arrows in input box navigate history instead of moving cursor — regression in 2.1.149+\n","category":"bug","tracked_at":"2026-05-28T16:57Z"}
+{"number":63192,"title":"Cancelling a parallel tool-call batch corrupts thinking blocks -> 400 \"thinking blocks cannot be modified\" permanently wedges the session\n","category":"unknown","tracked_at":"2026-05-28T16:57Z"}
+{"number":63193,"title":"Claude Code caused data loss, then contradicted itself about recovery (two incidents, one session)\n","category":"unknown","tracked_at":"2026-05-28T16:57Z"}
+{"number":63194,"title":"[Bug] Unclear error messages from Claude Code CLI\n","category":"bug","tracked_at":"2026-05-28T16:57Z"}
+{"number":63195,"title":"[Bug] Agent tool rejecting due to context size limit exceeded\n","category":"bug","tracked_at":"2026-05-28T16:57Z"}
+{"number":63197,"title":"[BUG] Compaction fails with \"context window limit\" error even when context usage is low (e.g., 20%) — regression in v2.1.153\n","category":"bug","tracked_at":"2026-05-28T16:57Z"}
+{"number":63198,"title":"Remote Control entitlement lost after May 27-28 incident — `Error: Remote Control is not yet enabled for your account` on active Max subscription\n","category":"bug","tracked_at":"2026-05-28T16:58Z"}
+{"number":63199,"title":"[Bug] Anthropic API Error: Cannot Modify Thinking Blocks in Assistant Messages\n","category":"bug","tracked_at":"2026-05-28T16:58Z"}
+{"number":63200,"title":"PreToolUse hook exit code 2 does not block Write tool\n","category":"memory-issue","tracked_at":"2026-05-28T16:58Z"}
+{"number":63201,"title":"[Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message\n","category":"bug","tracked_at":"2026-05-28T16:58Z"}
+{"number":63202,"title":"[Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages\n","category":"bug","tracked_at":"2026-05-28T16:58Z"}
+{"number":63203,"title":"[Bug] Thinking blocks in latest assistant message are immutable\n","category":"bug","tracked_at":"2026-05-28T16:58Z"}
+{"number":63204,"title":"GUI: dispatch file:// and custom-scheme clicks to OS shell handler\n","category":"unknown","tracked_at":"2026-05-28T16:58Z"}
+{"number":63205,"title":"Show current model in statusLine by default\n","category":"memory-issue","tracked_at":"2026-05-28T16:58Z"}
+{"number":63206,"title":"[Bug] Agent console becomes unresponsive to keyboard input after multiple agents initialized\n","category":"bug","tracked_at":"2026-05-28T16:58Z"}
+{"number":63207,"title":"[FEATURE] PreToolUse hooks should have a way of updating the environment\n","category":"feature","tracked_at":"2026-05-28T16:58Z"}
+{"number":63208,"title":"[Bug] Unable to start or use Claude Code CLI\n","category":"bug","tracked_at":"2026-05-28T16:58Z"}
+{"number":63215,"title":"[Bug] @ autocomplete loses sibling repos after a file edit in multi-repo workspace\n","category":"bug","tracked_at":"2026-05-28T17:59Z"}
+{"number":63216,"title":"[Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages\n","category":"bug","tracked_at":"2026-05-28T17:59Z"}
+{"number":63217,"title":"Unclear error message when creating sub-agent without authentication\n","category":"bug","tracked_at":"2026-05-28T17:59Z"}
+{"number":63218,"title":"[Bug] Anthropic API errors causing frequent failures and high token usage\n","category":"bug","tracked_at":"2026-05-28T17:59Z"}
+{"number":63219,"title":"[BUG] @ mention file picker only shows packages, not individual files (desktop app - Code tab)\n","category":"bug","tracked_at":"2026-05-28T17:59Z"}
+{"number":63220,"title":"[Bug] TUI panel footer remains sticky and consumes excessive terminal space\n","category":"bug","tracked_at":"2026-05-28T17:59Z"}
+{"number":63221,"title":"[Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message\n","category":"bug","tracked_at":"2026-05-28T17:59Z"}
+{"number":63222,"title":"PR-status polling exhausts GitHub GraphQL rate limit on repos with many open PRs\n","category":"unknown","tracked_at":"2026-05-28T17:59Z"}
+{"number":63223,"title":"[Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages\n","category":"bug","tracked_at":"2026-05-28T17:59Z"}
+{"number":63224,"title":"[Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages\n","category":"bug","tracked_at":"2026-05-28T17:59Z"}
+{"number":63225,"title":"[BUG] Windows: welcome panel not shown in some project folders (2.1.153)\n","category":"bug","tracked_at":"2026-05-28T17:59Z"}
+{"number":63226,"title":"[Bug] Anthropic API Error: thinking blocks corrupted during context compaction with extended thinking enabled\n","category":"bug","tracked_at":"2026-05-28T17:59Z"}
+{"number":63227,"title":"API 400 \"thinking blocks cannot be modified\" permanently bricks session during agent activation (interleaved thinking + tool use)\n","category":"unknown","tracked_at":"2026-05-28T17:59Z"}
+{"number":63228,"title":"Right-click Copy copies the whole message instead of the selection; pasted text retains dark background\n","category":"memory-issue","tracked_at":"2026-05-28T17:59Z"}
+{"number":63229,"title":"Mid-session model switch corrupts conversation when extended thinking is enabled (API 400: 'thinking blocks cannot be modified')\n","category":"unknown","tracked_at":"2026-05-28T17:59Z"}
+{"number":63230,"title":"[BUG] Markdown file links in chat output do not open files when clicked (VS Code extension)\n","category":"bug","tracked_at":"2026-05-28T17:59Z"}
+{"number":63231,"title":"Stuck retry loop: `400 thinking blocks cannot be modified` on large interleaved-thinking turns using AskUserQuestion\n","category":"unknown","tracked_at":"2026-05-28T17:59Z"}
+{"number":63232,"title":"[FEATURE] Prompt user for approval before auto-compaction proceeds\n","category":"feature","tracked_at":"2026-05-28T17:59Z"}
+{"number":63234,"title":"[BUG] Claude in Chrome — Navigation blocked for teams.cloud.microsoft and outlook.cloud.microsoft after Microsoft domain migration**\n","category":"bug","tracked_at":"2026-05-28T17:59Z"}
+{"number":63235,"title":"[Bug] Anthropic API Error: Cannot Modify Thinking Blocks in Assistant Messages\n","category":"bug","tracked_at":"2026-05-28T17:59Z"}
+{"number":63236,"title":"[BUG] Claude Desktop — Personal plugins panel renders list but is entirely non-interactive (macOS, v1.9255.2)\n","category":"bug","tracked_at":"2026-05-28T17:59Z"}
+{"number":63237,"title":"[Bug] error when using Workflows\n","category":"bug","tracked_at":"2026-05-28T17:59Z"}
+{"number":63238,"title":"[BUG] Persistent \"update available\" notification despite being on latest version\n","category":"bug","tracked_at":"2026-05-28T17:59Z"}
+{"number":63239,"title":"[Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message\n","category":"bug","tracked_at":"2026-05-28T17:59Z"}
+{"number":63240,"title":"[BUG] Sweep Agent from /code-review never completes\n","category":"bug","tracked_at":"2026-05-28T17:59Z"}
+{"number":63241,"title":"[Bug] Tool calls not executing or returning results\n","category":"bug","tracked_at":"2026-05-28T17:59Z"}
+{"number":63242,"title":"[FEATURE] Cloud-synced memory and settings across machines\n","category":"feature","tracked_at":"2026-05-28T17:59Z"}
+{"number":63243,"title":"[Bug] Terminal UI freezes when Ctrl+O view exits during interactive prompt in plan mode\n","category":"bug","tracked_at":"2026-05-28T17:59Z"}
+{"number":63244,"title":"Continuous api errors when using claude code with Opus 4.7 with thinking on low\n","category":"bug","tracked_at":"2026-05-28T17:59Z"}
+{"number":63245,"title":"[Feature Request] Add support for installing and using previous Claude Code versions\n","category":"feature","tracked_at":"2026-05-28T17:59Z"}
+{"number":63258,"title":"Opus 4.8: backgrounded subagents crash with 400 \"thinking blocks cannot be modified\"\n","category":"bug","tracked_at":"2026-05-28T19:03Z"}
+{"number":63259,"title":"[Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message\n","category":"bug","tracked_at":"2026-05-28T19:03Z"}
+{"number":63260,"title":"[Bug] Opus 4.7 fabricates stable preferences (\"my default\") to rationalize arbitrary choices when challenged\n","category":"bug","tracked_at":"2026-05-28T19:03Z"}
+{"number":63261,"title":"[Bug] Unable to update Claude Code CLI\n","category":"bug","tracked_at":"2026-05-28T19:03Z"}
+{"number":63263,"title":"[BUG] Desktop app: /remote-control mints link + connects bridge (main.log) but in-chat link/QR panel never renders\n","category":"bug","tracked_at":"2026-05-28T19:03Z"}
+{"number":63264,"title":"Feature: sessionColor and sessionName in .claude/settings.json\n","category":"unknown","tracked_at":"2026-05-28T19:03Z"}
+{"number":63265,"title":"[BUG] Anthropic API error: thinking blocks\n","category":"bug","tracked_at":"2026-05-28T19:03Z"}
+{"number":63266,"title":"[FEATURE] Support Remote MCPs in Cowork as in Claude Code\n","category":"feature","tracked_at":"2026-05-28T19:03Z"}
+{"number":63267,"title":"[Bug] Anthropic API Error: 400 Bad Request with Redacted Thinking - 0 4.7 & 4.8\n","category":"bug","tracked_at":"2026-05-28T19:03Z"}
+{"number":63268,"title":"[Bug] Anthropic API Error: Cannot modify thinking blocks from different model versions\n","category":"bug","tracked_at":"2026-05-28T19:03Z"}
+{"number":63270,"title":"[Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message\n","category":"bug","tracked_at":"2026-05-28T19:03Z"}
+{"number":63271,"title":"[BUG] Mode/permission changes mid-tool-loop (effortLevel: xhigh) poisons entire session\n","category":"bug","tracked_at":"2026-05-28T19:03Z"}
+{"number":63272,"title":"[Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message\n","category":"bug","tracked_at":"2026-05-28T19:03Z"}
+{"number":63273,"title":"[Bug] Anthropic API Error: Cannot Modify Thinking Blocks in Assistant Messages\n","category":"bug","tracked_at":"2026-05-28T19:03Z"}
+{"number":63274,"title":"Session failure log: Opus 4.6 ignores its own rules for an entire session\n","category":"memory-issue","tracked_at":"2026-05-28T19:03Z"}
+{"number":63275,"title":"[BUG] \"400 Guardrail was enabled\" error when using Claude Opus 4.8 with AWS Bedrock\n","category":"bug","tracked_at":"2026-05-28T19:03Z"}
+{"number":63276,"title":"[Feature Request] Add subagent approach selection option to avoid accidental feedback\n","category":"feature","tracked_at":"2026-05-28T19:03Z"}
+{"number":63277,"title":"Persistent 400 'thinking blocks in the latest assistant message cannot be modified' — interleaved thinking persisted with empty text + signature bricks sessions\n","category":"unknown","tracked_at":"2026-05-28T19:03Z"}
+{"number":63278,"title":"[Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages\n","category":"bug","tracked_at":"2026-05-28T19:03Z"}
+{"number":63279,"title":"[Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message\n","category":"bug","tracked_at":"2026-05-28T19:03Z"}
+{"number":63280,"title":"[Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message\n","category":"bug","tracked_at":"2026-05-28T19:03Z"}
+{"number":63281,"title":"[BUG] DesktopvsApp\n","category":"bug","tracked_at":"2026-05-28T19:03Z"}
+{"number":63282,"title":"[BUG] Opus 4.7 cache hit rate collapse after May 27 incident — Messages 1.1k→88.9k in 9 minutes, $630/session\n","category":"bug","tracked_at":"2026-05-28T19:03Z"}
+{"number":63283,"title":"[Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages\n","category":"bug","tracked_at":"2026-05-28T19:03Z"}
+{"number":63284,"title":"[Bug] Anthropic API Error: Invalid thinking block format\n","category":"bug","tracked_at":"2026-05-28T19:03Z"}
+{"number":63285,"title":"[BUG] FUCK CLAUDE\n","category":"bug","tracked_at":"2026-05-28T19:03Z"}
+{"number":63286,"title":"[Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages\n","category":"bug","tracked_at":"2026-05-28T19:03Z"}
+{"number":63287,"title":"Opus 4.8 extended thinking: Stop hook block re-entry corrupts thinking blocks → 400\n","category":"false-positive","tracked_at":"2026-05-28T19:03Z"}
+{"number":63288,"title":"[Bug] 4.8 Fails when accessing previous model history\n","category":"bug","tracked_at":"2026-05-28T19:03Z"}
+{"number":63289,"title":"[Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message\n","category":"bug","tracked_at":"2026-05-28T19:04Z"}
+{"number":63318,"title":"[BUG] Excessive RAM usage with multiple parallel chats (~10 sessions → 30 GB memory pressure, macOS OOM)\n","category":"bug","tracked_at":"2026-05-28T20:04Z"}
+{"number":63319,"title":"[DOCS] Managed MCP policy docs omit invalid `allowedMcpServers`/`deniedMcpServers` entry behavior\n","category":"docs","tracked_at":"2026-05-28T20:04Z"}
+{"number":63320,"title":"[DOCS] Effort docs omit `CLAUDE_CODE_ALWAYS_ENABLE_EFFORT` unsupported-model behavior\n","category":"docs","tracked_at":"2026-05-28T20:05Z"}
+{"number":63321,"title":"[Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message\n","category":"bug","tracked_at":"2026-05-28T20:05Z"}
+{"number":63322,"title":"Regression (2.1.147–2.1.150?): resuming an extended-thinking session after a CC update/model-switch → unrecoverable 400, session bricked\n","category":"regression","tracked_at":"2026-05-28T20:05Z"}
+{"number":63323,"title":"[DOCS] Windows updater docs omit `claude.exe` in-use recovery guidance\n","category":"docs","tracked_at":"2026-05-28T20:05Z"}
+{"number":63324,"title":"[DOCS] VS Code auto mode docs still tie mode-picker visibility to bypass-permissions setting\n","category":"docs","tracked_at":"2026-05-28T20:05Z"}
+{"number":63325,"title":"[DOCS] MCP docs omit `/mcp` tool list and detail rendering behavior\n","category":"docs","tracked_at":"2026-05-28T20:05Z"}
+{"number":63326,"title":"[DOCS] Fine-grained tool streaming docs still describe provider opt-in behavior\n","category":"docs","tracked_at":"2026-05-28T20:05Z"}
+{"number":63327,"title":"[Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages\n","category":"bug","tracked_at":"2026-05-28T20:05Z"}
+{"number":63328,"title":"[Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages\n","category":"bug","tracked_at":"2026-05-28T20:05Z"}
+{"number":63329,"title":"bypassPermissions: session startup reads flat pref, GUI toggle writes per-account pref — they never sync\n","category":"memory-issue","tracked_at":"2026-05-28T20:05Z"}
+{"number":63330,"title":"[BUG] Claude Desktop Code tab causes disk write limit violation — 8.5GB in 11 min, macOS kills app (M5, v1.9659.1)\n","category":"bug","tracked_at":"2026-05-28T20:05Z"}
+{"number":63331,"title":"Ultrareview v2.1.96: docs describe /tasks command + claude ultrareview --json subcommand that don't exist; findings hard to read after completion\n","category":"unknown","tracked_at":"2026-05-28T20:05Z"}
+{"number":63332,"title":"[Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message\n","category":"bug","tracked_at":"2026-05-28T20:05Z"}
+{"number":63333,"title":"I'd be happy to help create a GitHub issue title, but I don't see the error message in your message. Could you please share the specific error you're encountering? That way I can generate an accurate and descriptive issue title for you.\n","category":"bug","tracked_at":"2026-05-28T20:05Z"}
+{"number":63334,"title":"[BUG] Claude in Chrome `file_upload` rejects all scheduled-task sessions with misleading error (real cause: INVALID_SESSION)\n","category":"bug","tracked_at":"2026-05-28T20:05Z"}
+{"number":63335,"title":"Extended thinking: signed thinking block 'cannot be modified' (400) permanently wedges session\n","category":"unknown","tracked_at":"2026-05-28T20:05Z"}
+{"number":63336,"title":"RTL text support for Hebrew (and Arabic) in Claude Code\n","category":"unknown","tracked_at":"2026-05-28T20:05Z"}
+{"number":63337,"title":"[Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message\n","category":"bug","tracked_at":"2026-05-28T20:05Z"}
+{"number":63338,"title":"[Bug] Random errors occurring across multiple operations\n","category":"bug","tracked_at":"2026-05-28T20:05Z"}
+{"number":63339,"title":"[Bug] Auto-update fails silently\n","category":"bug","tracked_at":"2026-05-28T20:05Z"}
+{"number":63340,"title":"[Bug] Output fragments repeating in infinite loop during session\n","category":"bug","tracked_at":"2026-05-28T20:05Z"}
+{"number":63341,"title":"[Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages\n","category":"bug","tracked_at":"2026-05-28T20:05Z"}
+{"number":63342,"title":"[BUG] Ctrl-G to edit file in VS Code picks up mouse events after file opens in IDE\n","category":"bug","tracked_at":"2026-05-28T20:05Z"}
+{"number":63343,"title":"PreToolUse hook: optional field to display a prominent warning string above the command in the permission dialog\n","category":"false-positive","tracked_at":"2026-05-28T20:05Z"}
+{"number":63344,"title":"[BUG] Context window progress bar fill width doesn't match displayed percentage (under-fills by ~15-20%)\n","category":"bug","tracked_at":"2026-05-28T20:05Z"}
+{"number":63345,"title":"[Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message\n","category":"bug","tracked_at":"2026-05-28T20:05Z"}
+{"number":63346,"title":"[Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message\n","category":"bug","tracked_at":"2026-05-28T20:05Z"}
+{"number":63347,"title":"[BUG] in security_reminder_hook.py  ,  CHANGELOG.md  , gitutil.py  , llm.py ,  feed.xml\n","category":"bug","tracked_at":"2026-05-28T20:05Z"}
+{"number":63355,"title":"[Bug] Claude Code Plugin Installation in Zed says Installed to AppCode\n","category":"bug","tracked_at":"2026-05-28T21:06Z"}
+{"number":63356,"title":"[MODEL] Sub-agents (Haiku) over-edit structured config files despite explicit \"surgical edits only\" instructions\n","category":"unknown","tracked_at":"2026-05-28T21:06Z"}
+{"number":63357,"title":"[Bug] Thinking blocks in resumed conversations cannot be modified, permanently breaking session\n","category":"bug","tracked_at":"2026-05-28T21:06Z"}
+{"number":63358,"title":"Opus 4.8 returns empty thinking blocks — no thinking shown in chat (same regression as Opus 4.7 #49268)\n","category":"regression","tracked_at":"2026-05-28T21:06Z"}
+{"number":63359,"title":"[Bug] Invalid Message Format Error\n","category":"bug","tracked_at":"2026-05-28T21:06Z"}
+{"number":63360,"title":"Cowork: Support Claude Code hooks (~/.claude/settings.json — UserPromptSubmit, Stop, etc.)\n","category":"unknown","tracked_at":"2026-05-28T21:06Z"}
+{"number":63361,"title":"[Bug] Anthropic API Error: Cannot Modify Thinking Blocks in Assistant Messages\n","category":"bug","tracked_at":"2026-05-28T21:06Z"}
+{"number":63362,"title":"400 'thinking blocks in the latest assistant message cannot be modified' with extended thinking + experimental agent-teams (bridge-session)\n","category":"memory-issue","tracked_at":"2026-05-28T21:06Z"}
+{"number":63363,"title":"[FEATURE] Allow copy-as-markdown from the Claude VSCode Extension\n","category":"feature","tracked_at":"2026-05-28T21:06Z"}
+{"number":63364,"title":"[Bug] Opus 4.8 Fails to use tools and softbricks context: Cannot modify thinking blocks in assistant message\n","category":"bug","tracked_at":"2026-05-28T21:06Z"}
+{"number":63365,"title":"[BUG] Validating KiCad schematic for Exhaust Gas Sensor using MAX31856, Claude Code kept reporting pins 2-4 backwards\n","category":"bug","tracked_at":"2026-05-28T21:06Z"}
+{"number":63366,"title":"[BUG]  2.1.154 appears to send messages[].role=\"system\" to Anthropic-compatible providers, causing schema parse failures\n","category":"bug","tracked_at":"2026-05-28T21:06Z"}
+{"number":63367,"title":"[Bug] Model uses offensive phrase \"en cristiano\" in Spanish responses\n","category":"bug","tracked_at":"2026-05-28T21:06Z"}
+{"number":63368,"title":"[Bug] Claude generates offensive Spanish phrase \"en cristiano\" in responses\n","category":"bug","tracked_at":"2026-05-28T21:06Z"}
+{"number":63369,"title":"[Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message\n","category":"bug","tracked_at":"2026-05-28T21:06Z"}
+{"number":63370,"title":"Hook path with spaces in username executes wrong file on Windows — unquoted ~ expansion splits path at space\n","category":"bug","tracked_at":"2026-05-28T21:06Z"}
+{"number":63371,"title":"Approve-once-per-session for repeated identical tool calls\n","category":"unknown","tracked_at":"2026-05-28T21:06Z"}
+{"number":63372,"title":"[FEATURE] Human-readable IDs for background tool tasks\n","category":"feature","tracked_at":"2026-05-28T21:06Z"}
+{"number":63373,"title":"[BUG] v2.1.85 breaks syntax highlighting on MacOS 26\n","category":"bug","tracked_at":"2026-05-28T21:06Z"}
+{"number":63374,"title":"Interrupting an interleaved-thinking turn mid-stream wedges the session: unrecoverable 400 \"thinking blocks ... cannot be modified\"\n","category":"unknown","tracked_at":"2026-05-28T21:06Z"}
+{"number":63375,"title":"[BUG] Slash command (/usage) during in-flight advisor() call splits assistant message in JSONL, permanently 400s the session (v2.1.154; repro of stale-closed #50527)\n","category":"bug","tracked_at":"2026-05-28T21:06Z"}
+{"number":63376,"title":"[BUG] Claude code --resume is not properly resolving custom model IDs from settings.json\n","category":"bug","tracked_at":"2026-05-28T21:06Z"}
+{"number":63377,"title":"[Bug] Metrics telemetry collection disabled or non-functional\n","category":"bug","tracked_at":"2026-05-28T21:06Z"}
+{"number":63378,"title":"[BUG]  /doctor reports Claude is not in path\n","category":"bug","tracked_at":"2026-05-28T21:06Z"}
+{"number":63379,"title":"[BUG] Desktop app cancels stdio MCP tool calls at ~60s and ignores MCP_TOOL_TIMEOUT; the CLI honors it\n","category":"bug","tracked_at":"2026-05-28T21:06Z"}
+{"number":63380,"title":"[Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages\n","category":"bug","tracked_at":"2026-05-28T21:06Z"}
+{"number":63381,"title":"[Bug] Unidentified Error Encountered\n","category":"bug","tracked_at":"2026-05-28T21:06Z"}
+{"number":63382,"title":"Fix Hookify tests example semantics\n","category":"unknown","tracked_at":"2026-05-28T21:06Z"}
+{"number":63383,"title":"[BUG]\n","category":"bug","tracked_at":"2026-05-28T21:06Z"}
+{"number":63384,"title":"[Bug] Persistent Anthropic API Connection Errors\n","category":"bug","tracked_at":"2026-05-28T21:06Z"}
+{"number":63385,"title":"[FEATURE] Persistent visible indicator of the currently selected working folder + recursive subfolder access\n","category":"feature","tracked_at":"2026-05-28T22:07Z"}
+{"number":63386,"title":"[BUG] Claude code triggered a workflow it spinned up more then 99 agents and used up all my 5 hour credits\n","category":"bug","tracked_at":"2026-05-28T22:07Z"}
+{"number":63387,"title":"[BUG] Severe productivity regression: long stalls (90s–minutes) with nonsensical reasoning labels, no token usage displayed (v2.1.145)\n","category":"bug","tracked_at":"2026-05-28T22:07Z"}
+{"number":63388,"title":"[Bug] Managed Settings in Enterprise Org Setup, isn't being applied to Windows Claude Desktop just stand-alone Claude CLI\n","category":"bug","tracked_at":"2026-05-28T22:07Z"}
+{"number":63389,"title":"[BUG] Background task chip stuck in \"Running\" state; Stop button has no effect\n","category":"bug","tracked_at":"2026-05-28T22:07Z"}
+{"number":63390,"title":"Interactive session turns hang intermittently on all models (Opus 4.8, Sonnet 4.6) — headless calls fast\n","category":"unknown","tracked_at":"2026-05-28T22:07Z"}
+{"number":63391,"title":"[BUG] failure to reinstall workspace/ access to cowork\n","category":"bug","tracked_at":"2026-05-28T22:07Z"}
+{"number":63393,"title":"400 'thinking blocks cannot be modified' when a run_in_background tool completes (interleaved thinking + Opus 1M)\n","category":"unknown","tracked_at":"2026-05-28T22:07Z"}
+{"number":63394,"title":"2.1.154 regression: bridge/remote-control session replay re-sends persisted (empty-text, signed) thinking blocks -> 400 'thinking blocks cannot be modified', session unrecoverable\n","category":"regression","tracked_at":"2026-05-28T22:07Z"}
+{"number":63395,"title":"[BUG] anthropic一直报错 macos macos系统中的vscode软件中的claude code插件，版本 2.1.154  anthropic.claude-code\n","category":"bug","tracked_at":"2026-05-28T22:08Z"}
+{"number":63396,"title":"[BUG] CLI 2.1.154 builds invalid request after context ops (compact/clear/model-switch): system role at messages[0], and modified signed thinking blocks → 400\n","category":"bug","tracked_at":"2026-05-28T22:08Z"}
+{"number":63397,"title":"Claude Desktop (Windows MSIX) auto-update silently fails with 0x80073D02 while app is running\n","category":"bug","tracked_at":"2026-05-28T22:08Z"}
+{"number":63398,"title":"[Bug] Intermittent Bash command failures with exit code 1\n","category":"bug","tracked_at":"2026-05-28T22:08Z"}
+{"number":63399,"title":"[BUG] Claude initiated failed shell tasks fail to disappear\n","category":"bug","tracked_at":"2026-05-28T22:08Z"}
+{"number":63400,"title":"[Bug] Workflow process not followed: missing ticket, branch, work tree, and undocumented staging database changes\n","category":"bug","tracked_at":"2026-05-28T22:08Z"}
+{"number":63401,"title":"[BUG] Agent tool leaks Electron renderer processes\n","category":"bug","tracked_at":"2026-05-28T22:08Z"}
+{"number":63402,"title":"Auto-update on Windows shipped a binary that boots into Bun's CLI instead of Claude Code (2.1.154 -> 2.1.156)\n","category":"unknown","tracked_at":"2026-05-28T22:08Z"}
+{"number":63403,"title":"Feature: expose context window usage programmatically\n","category":"unknown","tracked_at":"2026-05-28T22:08Z"}
+{"number":63404,"title":"messages.11.content.11: `thinking` or `redacted_thinking` blocks in the latest assistant message cannot be modified.\n","category":"unknown","tracked_at":"2026-05-28T22:08Z"}
+{"number":63405,"title":"Chat panel: wrap long lines instead of horizontal scroll\n","category":"unknown","tracked_at":"2026-05-28T22:08Z"}
+{"number":63406,"title":"Desktop (Code tab): /remote-control falls through to the model instead of being executed by the client\n","category":"unknown","tracked_at":"2026-05-28T23:09Z"}
+{"number":63407,"title":"[Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message\n","category":"bug","tracked_at":"2026-05-28T23:09Z"}
+{"number":63408,"title":"Memory write corrupts thinking-block signature → 400 on every subsequent request\n","category":"feature","tracked_at":"2026-05-28T23:09Z"}
+{"number":63409,"title":"[Bug] Agent continues operation while hallucinating invalid outputs without error detection\n","category":"bug","tracked_at":"2026-05-28T23:09Z"}
+{"number":63410,"title":"Resumed extended-thinking sessions permanently 400 with \"thinking blocks ... cannot be modified\" (esp. after model change / with /goal)\n","category":"memory-issue","tracked_at":"2026-05-28T23:09Z"}
+{"number":63411,"title":"[Bug] Anthropic API Error: Tool Call Parsing Failed\n","category":"bug","tracked_at":"2026-05-28T23:09Z"}
+{"number":63412,"title":"Opus 4.8: \"thinking blocks cannot be modified\" (400) on long tool-heavy chats; Opus 4.7 unaffected\n","category":"unknown","tracked_at":"2026-05-28T23:09Z"}
+{"number":63413,"title":"[FEATURE] Session-only flag for typed /model <name> (or a setting to disable global persistence)\n","category":"feature","tracked_at":"2026-05-28T23:09Z"}
+{"number":63414,"title":"[BUG] Remote Control (iOS, iPhone) not rendering/interacting properly\n","category":"bug","tracked_at":"2026-05-28T23:09Z"}
+{"number":63415,"title":"[FEATURE] Team-Agents: stable naming + live stand-up (field report from a working setup)\n","category":"feature","tracked_at":"2026-05-28T23:09Z"}
+{"number":63416,"title":"\"during a security review get 400\" \n","category":"unknown","tracked_at":"2026-05-28T23:09Z"}
+{"number":63417,"title":"[FEATURE] Native worktree support with submodules\n","category":"feature","tracked_at":"2026-05-28T23:09Z"}
+{"number":63418,"title":"[BUG] API Error: 400 messages.7.content.12: `thinking` or `redacted_thinking` blocks in the latest assistant message cannot be modified. These blocks      must remain as they were in the original response.\n","category":"bug","tracked_at":"2026-05-28T23:09Z"}
+{"number":63419,"title":"Claude used inline without consent\n","category":"unknown","tracked_at":"2026-05-28T23:09Z"}
+{"number":63420,"title":"[Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message\n","category":"bug","tracked_at":"2026-05-28T23:09Z"}
+{"number":63422,"title":"[MODEL]\n","category":"unknown","tracked_at":"2026-05-28T23:09Z"}
+{"number":63423,"title":"[BUG] CLI 2.1.154 breaks with API Error 422 - Invalid message role \"system\"\n","category":"bug","tracked_at":"2026-05-28T23:09Z"}
+{"number":63424,"title":"[BUG] Pro account suspended 10+ days, no specific reason, official tools only, active subscription ignored\n","category":"bug","tracked_at":"2026-05-28T23:09Z"}
+{"number":63425,"title":"[Bug] \"workflow\" keyword conflicts with tool trigger syntax\n","category":"bug","tracked_at":"2026-05-28T23:09Z"}
+{"number":63426,"title":"[Bug] Context window fills quickly and auto-compact not triggering at 80% threshold\n","category":"bug","tracked_at":"2026-05-28T23:09Z"}
+{"number":63427,"title":"[BUG] Up/down arrow key functions in context window\n","category":"bug","tracked_at":"2026-05-29T00:10Z"}
+{"number":63428,"title":"I don't see a bug report in your message. Could you please provide the actual bug report details that you'd like me to convert into a GitHub issue title?\n","category":"bug","tracked_at":"2026-05-29T00:10Z"}
+{"number":63429,"title":"[BUG] Agent View: right-arrow into running agent freezes Terminal.app with partial black render (process idle, Terminal stops drawing)\n","category":"bug","tracked_at":"2026-05-29T00:10Z"}
+{"number":63430,"title":"[FEATURE] Global CLAUDE.md preferences should apply across all projects without needing to be duplicated in project-level memory\n","category":"feature","tracked_at":"2026-05-29T00:10Z"}
+{"number":63431,"title":"[BUG] Claude Agents Plugin Skills Autocomplete is inconsistent with a normal session\n","category":"bug","tracked_at":"2026-05-29T00:10Z"}
+{"number":63433,"title":"[Feature Request] Auto theme mode should dynamically follow system appearance changes\n","category":"feature","tracked_at":"2026-05-29T00:10Z"}
+{"number":63434,"title":"[Feature] Allow mounting of `agent/memory/` subpath under Cowork session directory for subagents\n","category":"feature","tracked_at":"2026-05-29T00:10Z"}
+{"number":63435,"title":"[BUG] Session resume fails with 400 \"Invalid model name\" until /model is run (regression, started ~mid-May 2026)\n","category":"bug","tracked_at":"2026-05-29T01:11Z"}
+{"number":63436,"title":"Subagent/Workflow creation forwards raw MCP tool schemas → 400 on connector tool with top-level oneOf/anyOf/allOf\n","category":"unknown","tracked_at":"2026-05-29T01:11Z"}
+{"number":63437,"title":"/resume command becomes unresponsive after window switch with NO_FLICKER enabled\n","category":"unknown","tracked_at":"2026-05-29T01:11Z"}
+{"number":63438,"title":"[Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message\n","category":"bug","tracked_at":"2026-05-29T01:11Z"}
+{"number":63440,"title":"Claude Code repeatedly violates explicit 'confirm before action' instructions\n","category":"unknown","tracked_at":"2026-05-29T01:11Z"}
+{"number":63441,"title":"[Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message\n","category":"bug","tracked_at":"2026-05-29T01:11Z"}
+{"number":63442,"title":"[Feature Request] Display full instruction contents in CronCreate loop confirmation\n","category":"feature","tracked_at":"2026-05-29T01:11Z"}
+{"number":63443,"title":"[Feature Request] Allow /feedback command without including private session data!\n","category":"feature","tracked_at":"2026-05-29T01:12Z"}
+{"number":63444,"title":"[Bug] Excessive token consumption in API requests\n","category":"bug","tracked_at":"2026-05-29T01:12Z"}
+{"number":63445,"title":"[BUG]  Workspace trust dialog re-prompts every session when CWD is home directory (non-git)\n","category":"bug","tracked_at":"2026-05-29T01:12Z"}
+{"number":63446,"title":"[Bug] Fork from message history uses latest message instead of fork point\n","category":"bug","tracked_at":"2026-05-29T01:12Z"}
+{"number":63447,"title":"context_window_size reported as 200000 for claude-opus-4-8 (1M-context model) → \"100% context used\" clamps prematurely\n","category":"unknown","tracked_at":"2026-05-29T01:12Z"}
+{"number":63448,"title":"Opus 4.8: thinking blocks broken by context compaction — 400 error on every turn after first compaction\n","category":"bug","tracked_at":"2026-05-29T01:12Z"}
+{"number":63449,"title":"[MODEL] Model repeatedly violates clearly stated instructions despite extensive reinforcement (memory, CLAUDE.md, in-conversation corrections)\n","category":"memory-issue","tracked_at":"2026-05-29T02:12Z"}
+{"number":63450,"title":"[Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message\n","category":"bug","tracked_at":"2026-05-29T02:12Z"}
+{"number":63451,"title":"[Bug] Claude Opus 4.8 ignores MCP tool definitions, hallucinates parameters\n","category":"bug","tracked_at":"2026-05-29T02:12Z"}
+{"number":63452,"title":"Channel notifications (notifications/claude/channel) buffered instead of injected when agent is idle\n","category":"unknown","tracked_at":"2026-05-29T02:12Z"}
+{"number":63453,"title":"[BUG] /goal stop hook fires after every assistant turn, interrupting user mid-message\n","category":"bug","tracked_at":"2026-05-29T02:12Z"}
+{"number":63454,"title":"[BUG] API Error: 400 Failed to deserialize the JSON body into the target type\n","category":"bug","tracked_at":"2026-05-29T02:12Z"}
+{"number":63455,"title":"[Bug] Claude Code consuming excessive tokens without completing simple tasks on Claude 3.5 Sonnet\n","category":"bug","tracked_at":"2026-05-29T02:12Z"}
+{"number":63456,"title":"Opus 4.8 not selectable in CLI `/model` despite being available on account\n","category":"unknown","tracked_at":"2026-05-29T02:12Z"}
+{"number":63457,"title":"[BUG] v2.1.154 regression: custom agents via `/agents` fail with \"messages[1].role: unknown variant `system`\"\n","category":"bug","tracked_at":"2026-05-29T02:13Z"}
+{"number":63458,"title":"[FEATURE] Desktop: expose worktree name/base input in UI + pass branch-prefix & base branch into the WorktreeCreate hook payload\n","category":"feature","tracked_at":"2026-05-29T02:13Z"}
+{"number":63459,"title":"[BUG] Thinking text empty / \"Thought for Xs\" not expandable on Opus 4.7+ in VS Code extension — fallback thinking-config branch omits `display`\n","category":"bug","tracked_at":"2026-05-29T02:13Z"}
+{"number":63460,"title":"docs: update deprecated npm install instructions in plugins/README.md\n","category":"unknown","tracked_at":"2026-05-29T02:13Z"}
+{"number":63461,"title":"[Bug] Claude Code API response latency degradation\n","category":"bug","tracked_at":"2026-05-29T02:13Z"}
+{"number":63462,"title":"Phantom `⏺ Human:` lines appearing in transcript — assistant acts on instructions the user never typed\n","category":"unknown","tracked_at":"2026-05-29T02:13Z"}
+{"number":63463,"title":"[BUG] Unrecoverable `400 … thinking/redacted_thinking blocks … cannot be modified` permanently bricks a session — reproduced across two independent sessions (v2.1.154)\n","category":"bug","tracked_at":"2026-05-29T02:13Z"}
+{"number":63464,"title":"Over 100% context and not triggering autocompaction\n","category":"unknown","tracked_at":"2026-05-29T02:13Z"}
+{"number":63465,"title":"Chat session rename doesn't update in sidebar until VS Code restarts\n","category":"bug","tracked_at":"2026-05-29T02:13Z"}
+{"number":63466,"title":"[BUG] JetBrains AI Chat agent fails on Windows - spawn UNKNOWN / CLAUDE_CODE_GIT_BASH_PATH not passed to ACP process\n","category":"bug","tracked_at":"2026-05-29T02:13Z"}
+{"number":63467,"title":"docs: add Windows gh CLI install instruction in commit-commands README\n","category":"unknown","tracked_at":"2026-05-29T02:13Z"}
+{"number":63468,"title":"[Bug] Statusline effort.level reports \"xhigh\" instead of \"ultra\" for ultracode mode\n","category":"bug","tracked_at":"2026-05-29T02:13Z"}
+{"number":63469,"title":"[BUG] API 400 \"messages[1].role must be either 'user' or 'assistant', but got 'system'\" (v2.1.156)\n","category":"bug","tracked_at":"2026-05-29T02:13Z"}
+{"number":63470,"title":"Remote Control silently fails when HTTPS-scanning AV (e.g. Norton 360) intercepts TLS - Node rejects MITM cert chain\n","category":"bug","tracked_at":"2026-05-29T03:14Z"}
+{"number":63471,"title":"API Error 400 with custom model via ANTHROPIC_BASE_URL when plugins are loaded\n","category":"bug","tracked_at":"2026-05-29T03:14Z"}
+{"number":63473,"title":"[BUG] Claude Code for VS Code API Error: 400 messages[1].role must be either 'user' or 'assistant', but got 'system'\n","category":"bug","tracked_at":"2026-05-29T03:14Z"}
+{"number":63474,"title":"[Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages\n","category":"bug","tracked_at":"2026-05-29T03:14Z"}
+{"number":63475,"title":"Extended thinking + tool use: signature-only thinking blocks permanently break --resume (400 cannot be modified)\n","category":"unknown","tracked_at":"2026-05-29T03:14Z"}
+{"number":63476,"title":"[BUG] Opus 4.8: compaction partially overwrites visible chat scrollback above the summary (was previously retained)\n","category":"bug","tracked_at":"2026-05-29T03:14Z"}
+{"number":63477,"title":"Feature request: Hard workspace boundary enforcement for project isolation\n","category":"feature","tracked_at":"2026-05-29T03:14Z"}
+{"number":63478,"title":"/memory command fails to resolve symlinked user memory file in WSL\n","category":"bug","tracked_at":"2026-05-29T03:14Z"}
+{"number":63479,"title":"[BUG] CLAUDE_CODE_DISABLE_1M_CONTEXT ignored in  2.1.156\n","category":"bug","tracked_at":"2026-05-29T03:14Z"}
+{"number":63480,"title":"[FEATURE] Allowlist-only file access + deny rules for MCP tools (WebFetch, WebSearch)\n","category":"feature","tracked_at":"2026-05-29T04:15Z"}
+{"number":63481,"title":"[Bug] Claude Opus 4.8: Tool call parsing fails when extended thinking is triggered\n","category":"bug","tracked_at":"2026-05-29T04:15Z"}
+{"number":63482,"title":"Claude in Chrome (VS Code extension, macOS): @browser prompt injects + tab created, but mcp__claude-in-chrome__* tools never register (no native-messaging manifest / native host / bridge socket)\n","category":"unknown","tracked_at":"2026-05-29T04:15Z"}
+{"number":63483,"title":"[BUG] claude app crashes seconds after being opened\n","category":"bug","tracked_at":"2026-05-29T04:15Z"}
+{"number":63484,"title":"[BUG] Bug Report: Loading spinner freezes + no response, correlated with repeated \"malformed tool call\" retries\n","category":"bug","tracked_at":"2026-05-29T04:15Z"}
+{"number":63485,"title":"[Bug] Model performance degradation - Opus underperforming on code tasks\n","category":"bug","tracked_at":"2026-05-29T04:15Z"}
+{"number":63486,"title":"asset_add_file MCP tool (Adobe connector) — file picker doesn't open in Claude Code desktop app (macOS)\n","category":"bug","tracked_at":"2026-05-29T04:15Z"}
+{"number":63487,"title":"[BUG] Mismatched content block type content_block_delta thinking\n","category":"bug","tracked_at":"2026-05-29T04:15Z"}
+{"number":63488,"title":"[Feature Request] Add timestamp display for conversation interactions\n","category":"feature","tracked_at":"2026-05-29T04:15Z"}
+{"number":63489,"title":"[BUG] \"Desktop app blocked by VS Code extension processes even without computer use enabled\"\n","category":"bug","tracked_at":"2026-05-29T04:15Z"}
+{"number":63490,"title":"[Bug] Screenshot tool repeatedly requests accessibility permission instead of using provided screenshot\n","category":"bug","tracked_at":"2026-05-29T04:15Z"}
+{"number":63491,"title":"[FEATURE] Add `/mode <mode>` command to switch Claude Code mode\n","category":"feature","tracked_at":"2026-05-29T04:15Z"}
+{"number":63492,"title":"[BUG] API 400 Error - role: system deserialization failure\n","category":"bug","tracked_at":"2026-05-29T04:15Z"}
+{"number":63493,"title":"[FEATURE]\n","category":"feature","tracked_at":"2026-05-29T04:45Z"}
+{"number":63494,"title":"[BUG] Opus 4.7 halts turn early after PreToolUse hook emits additionalContext on 2 calls\n","category":"bug","tracked_at":"2026-05-29T04:45Z"}
+{"number":63495,"title":"SessionEnd hook reports 'Hook cancelled' even when hook exits 0 immediately\n","category":"memory-issue","tracked_at":"2026-05-29T04:45Z"}
+{"number":63496,"title":"Click-to-copy affordance on agent-designated content\n","category":"unknown","tracked_at":"2026-05-29T04:45Z"}
+{"number":63497,"title":"[Feature Request] Separate cached token tracking for brainstorming sessions from main session\n","category":"feature","tracked_at":"2026-05-29T04:45Z"}
+{"number":63498,"title":"[Bug] /effort shows \"Ultracode needs dynamic workflows enabled\" even when dynamic workflows are on\n","category":"bug","tracked_at":"2026-05-29T04:45Z"}
+{"number":63499,"title":"[BUG] /compact fails with cyber safeguards false positive during legitimate defensive security session\n","category":"bug","tracked_at":"2026-05-29T04:45Z"}
+{"number":63500,"title":"[BUG] Fullscreen TUI default (~v2.1.150) breaks macOS VoiceOver / screen-reader access in Terminal.app\n","category":"bug","tracked_at":"2026-05-29T04:45Z"}
+{"number":63501,"title":"[BUG] /terminal-setup writes to wrong path for VSCode installed in portable mode (e.g. via Scoop)\n","category":"bug","tracked_at":"2026-05-29T04:45Z"}
+{"number":63502,"title":"[Bug] Session context lost after overnight inactivity or resumption\n","category":"bug","tracked_at":"2026-05-29T04:45Z"}
+{"number":63503,"title":"[Bug] Insufficient error information provided\n","category":"bug","tracked_at":"2026-05-29T04:45Z"}
+{"number":63504,"title":"[BUG] Windows: host CPU pressure starves Claude Code input loop — `claude agents` arrow keys/typing dead until load drops\n","category":"bug","tracked_at":"2026-05-29T04:45Z"}
+{"number":63505,"title":"[Feature Request] Agent should prioritize Read tool before Write/Update operations instead of using cat\n","category":"feature","tracked_at":"2026-05-29T04:45Z"}
+{"number":63506,"title":"[BUG] Claude Code keeps flagging on it's own injections\n","category":"bug","tracked_at":"2026-05-29T05:15Z"}
+{"number":63507,"title":"[BUG] Server-side tool (advisor) bricks session: auto-rename system-reminder injected between server_tool_use and tool_result causes 400\n","category":"bug","tracked_at":"2026-05-29T05:15Z"}
+{"number":63508,"title":"Headless + interleaved thinking + tool use: thinking block intermittently mutated → 400 \"thinking blocks in the latest assistant message cannot be modified\"\n","category":"unknown","tracked_at":"2026-05-29T05:15Z"}
+{"number":63509,"title":"Context/compact button triggers compact on single click with no confirmation or undo\n","category":"unknown","tracked_at":"2026-05-29T05:15Z"}
+{"number":63510,"title":"[BUG] VS Code extension sends invalid system role in messages array\n","category":"bug","tracked_at":"2026-05-29T05:15Z"}
+{"number":63511,"title":"[Bug] Excessive token consumption during framework analysis and code generation\n","category":"bug","tracked_at":"2026-05-29T05:15Z"}
+{"number":63512,"title":"[Bug] Anthropic API Error: thinking blocks in assistant message cannot be modified\n","category":"bug","tracked_at":"2026-05-29T05:15Z"}
+{"number":63513,"title":"[BUG] Claude code admits to costing me money and tokens\n","category":"bug","tracked_at":"2026-05-29T05:45Z"}
+{"number":63514,"title":"PowerShell tool disabled under MINGW64/Git Bash on Windows\n","category":"unknown","tracked_at":"2026-05-29T05:45Z"}
+{"number":63515,"title":"Max plan: Claude Code may compress context at 200K instead of using extended context window\n","category":"unknown","tracked_at":"2026-05-29T05:45Z"}
+{"number":63516,"title":"PR widget: GitHubPrManager drops --repo when session cwd is a non-git parent dir\n","category":"unknown","tracked_at":"2026-05-29T05:45Z"}
+{"number":63517,"title":"[BUG]\n","category":"bug","tracked_at":"2026-05-29T05:45Z"}
+{"number":63518,"title":"[BUG] Claude desktop installer fails with HRESULT 0x80073CF6 on Windows 11 Home\n","category":"bug","tracked_at":"2026-05-29T06:15Z"}
+{"number":63519,"title":"[Bug] Tool invocation fails with corrupted strings on WSL\n","category":"bug","tracked_at":"2026-05-29T06:15Z"}
+{"number":63520,"title":"[BUG] Claude Code doesn't work (you write any question, thinks for 5 minutes and stops), Claude Cowork and Claude Chat works.\n","category":"bug","tracked_at":"2026-05-29T06:15Z"}
+{"number":63521,"title":"Feature request: Add cursorLineStart/cursorLineEnd actions for Chat input\n","category":"feature","tracked_at":"2026-05-29T06:15Z"}
+{"number":63522,"title":"[ultrareview] Two consecutive crashes on large diff — free credits consumed without findings\n","category":"bug","tracked_at":"2026-05-29T06:15Z"}
+{"number":63523,"title":"[BUG] Claude Opus 4.8 makes changes outside the current worktree for the current session\n","category":"bug","tracked_at":"2026-05-29T06:15Z"}
+{"number":63524,"title":"Session crashed with \"Usage credits required\" error after auto-switching to 1M context mode\n","category":"bug","tracked_at":"2026-05-29T06:15Z"}
+{"number":63525,"title":"Built-in `Grep`/`Glob` tools unavailable when `ENABLE_TOOL_SEARCH=1` (not in active set, not discoverable via ToolSearch)\n","category":"unknown","tracked_at":"2026-05-29T06:45Z"}
+{"number":63526,"title":"claude.ai/code constantly redirects to /code/family (Firefox)\n","category":"unknown","tracked_at":"2026-05-29T06:45Z"}
+{"number":63527,"title":"[BUG] Session history empty in VSCode extension when working directory is on a mapped Windows drive\n","category":"bug","tracked_at":"2026-05-29T06:45Z"}
+{"number":63528,"title":"[Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages\n","category":"bug","tracked_at":"2026-05-29T06:45Z"}
+{"number":63529,"title":"[Feature Request] Expose Fast mode state to statusLine scripts\n","category":"feature","tracked_at":"2026-05-29T06:45Z"}
+{"number":63530,"title":"[BUG] Switching devices leads to stale prompt replay if one device has network partitioned\n","category":"bug","tracked_at":"2026-05-29T06:45Z"}
+{"number":63531,"title":"[BUG] ClaudeCodeManager-VM Checksum Mismatch on macOS Apple Silicon — v1.9659.2\n","category":"bug","tracked_at":"2026-05-29T06:45Z"}
+{"number":63532,"title":"[BUG] /context shows 0 tokens for all MCP tools on Bedrock — countTokensWithFallback fails with 400 tools.0.custom.eager_input_streaming: Extra inputs are not permitted\n","category":"bug","tracked_at":"2026-05-29T06:45Z"}
+{"number":63533,"title":"[BUG] Setting only disableAutoUpdates locks Cowork and third-party inference panes as org-managed (macOS com.anthropic.claudefordesktop)\n","category":"bug","tracked_at":"2026-05-29T06:45Z"}
+{"number":63535,"title":"I'm unable to generate a GitHub issue title from this report because the description \"best in the new ultracode\" doesn't contain enough technical information about a specific problem, error, or feature request.\n\nTo create a proper issue title, I would need\n","category":"bug","tracked_at":"2026-05-29T06:45Z"}
+{"number":63536,"title":"[BUG] OTel api_request model attribute drops [1m] suffix while runtime serves 1M context — Cost-by-model dashboard misattributes ~50% of Opus spend\n","category":"bug","tracked_at":"2026-05-29T06:45Z"}
+{"number":63537,"title":"[Bug] Session restore creates truncated chat history from claude agents list\n","category":"bug","tracked_at":"2026-05-29T06:45Z"}
+{"number":63538,"title":"Model fabricates tool output (and even a user instruction) when a parallel batch is partially cancelled / appears empty\n","category":"unknown","tracked_at":"2026-05-29T07:46Z"}
+{"number":63539,"title":"[Bug] Commands hanging/freezing indefinitely during session execution\n","category":"bug","tracked_at":"2026-05-29T07:46Z"}
+{"number":63540,"title":"Workflow tool: script parse errors always blame \"TypeScript syntax\" even for plain-JS errors (misleading)\n","category":"bug","tracked_at":"2026-05-29T07:46Z"}
+{"number":63541,"title":"Cloud environment \"Environment variables\" aren't available to the Setup script\n","category":"unknown","tracked_at":"2026-05-29T07:46Z"}
+{"number":63542,"title":"[BUG]  Native memory leak (~1.5 GB/min RssAnon) in interactive mode — regression between 2.1.140 and 2.1.150\n","category":"bug","tracked_at":"2026-05-29T07:46Z"}
+{"number":63543,"title":"New site\n","category":"unknown","tracked_at":"2026-05-29T07:46Z"}
+{"number":63545,"title":"Claude Code inside tmux: scroll hits input not scrollback, no rich mode (\"waiting for output\"), transcript not saved\n","category":"unknown","tracked_at":"2026-05-29T07:46Z"}
+{"number":63546,"title":"[Bug] Opus 4.8 on Bedrock: \"thinking.type.enabled\" not supported — regression from #51439\n","category":"bug","tracked_at":"2026-05-29T07:46Z"}
+{"number":63547,"title":"[Regression 1.9659.2] computer-use tools disconnect after first use in Code mode (Windows)\n","category":"regression","tracked_at":"2026-05-29T07:46Z"}
+{"number":63548,"title":"[Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message\n","category":"bug","tracked_at":"2026-05-29T07:46Z"}
+{"number":63549,"title":"[BUG] Account connector sync overwrites claude_desktop_config.json, wiping manually-added MCP servers and re-adding removed ones\n","category":"bug","tracked_at":"2026-05-29T08:47Z"}
+{"number":63550,"title":"[BUG] Stale \"Pull request status couldn't be checked\" on archived sessions whose repo/worktree was deleted\n","category":"bug","tracked_at":"2026-05-29T08:47Z"}
+{"number":63551,"title":"[BUG] No way to reassign or remove session-to-project associations after the assignment feature was removed\n","category":"bug","tracked_at":"2026-05-29T08:47Z"}
+{"number":63552,"title":"[Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message\n","category":"bug","tracked_at":"2026-05-29T08:47Z"}
+{"number":63553,"title":"[Bug] Advisor tool result split across messages causes 400 on session resume\n","category":"bug","tracked_at":"2026-05-29T08:47Z"}
+{"number":63554,"title":"Claude provides incorrect guidance about its own /agents feature, causing ~2M token waste\n","category":"bug","tracked_at":"2026-05-29T08:47Z"}
+{"number":63555,"title":"[FEATURE] In-product feedback-to-remedy loop for Max plan users\n","category":"feature","tracked_at":"2026-05-29T08:47Z"}
+{"number":63556,"title":"[Feature Request] Add diff view for plan updates to track changes across iterations\n","category":"feature","tracked_at":"2026-05-29T08:47Z"}
+{"number":63557,"title":"[Bug] Agentic loop terminates prematurely without completing task\n","category":"bug","tracked_at":"2026-05-29T08:47Z"}
+{"number":63559,"title":"[Bug] Frequent ECONNRESET errors with failed retry logic in autonomous sessions\n","category":"bug","tracked_at":"2026-05-29T08:47Z"}
+{"number":63560,"title":"[BUG] | v2.1.156: settings.json \"model\" field silently ignored for interactive  sessions\n","category":"bug","tracked_at":"2026-05-29T08:47Z"}
+{"number":63561,"title":"[Bug] Auto mode display broken when tabbing with Claude 4.8 models\n","category":"bug","tracked_at":"2026-05-29T08:47Z"}
+{"number":63562,"title":"feat: /mcp query <tool> <args> — invoke MCP tools directly from the slash command interface\n","category":"unknown","tracked_at":"2026-05-29T08:47Z"}
+{"number":63563,"title":"[Bug] Anthropic API Error: Cannot Modify Thinking Blocks in Assistant Messages\n","category":"bug","tracked_at":"2026-05-29T08:47Z"}
+{"number":63564,"title":"[BUG] Claude Code on windows Dispatch\n","category":"bug","tracked_at":"2026-05-29T08:48Z"}
+{"number":63565,"title":"Behavior report: over-orchestration + unverified factual claim + self-violated instruction on a small docs task (Claude Code vs Codex)\n","category":"unknown","tracked_at":"2026-05-29T08:48Z"}
+{"number":63566,"title":"[BUG] /claude-api bundled skill saturates context unconditionally — ~77% spike from neutral question\n","category":"bug","tracked_at":"2026-05-29T08:48Z"}
+{"number":63567,"title":"[Bug] Anthropic API Error: 529 Overloaded\n","category":"bug","tracked_at":"2026-05-29T08:48Z"}
+{"number":63568,"title":"API 400 error: thinking blocks modified in /plan mode conversation history\n","category":"bug","tracked_at":"2026-05-29T08:48Z"}
+{"number":63569,"title":"[BUG] Compatibility issue with DeepSeek API: \"unknown variant 'system'\" error in messages\n","category":"bug","tracked_at":"2026-05-29T08:48Z"}
+{"number":63570,"title":"Unable to use Practitest app using chrome extension\n","category":"unknown","tracked_at":"2026-05-29T08:48Z"}
+{"number":63571,"title":"[Bug] Anthropic API Error: Model temporarily unavailable blocks Edit operations in auto mode\n","category":"bug","tracked_at":"2026-05-29T08:48Z"}
+{"number":63572,"title":"[Bug] Anthropic API Error: Output blocked by content filtering policy\n","category":"bug","tracked_at":"2026-05-29T08:48Z"}
+{"number":63573,"title":"[Bug] Claude Code ignoring user requests to perform visual checks\n","category":"bug","tracked_at":"2026-05-29T08:48Z"}
+{"number":63574,"title":"[Bug] Anthropic API Error: Cannot modify thinking or redacted_thinking blocks in assistant message\n","category":"bug","tracked_at":"2026-05-29T08:48Z"}
+{"number":63575,"title":"[FEATURE] disableBypassPermissionsMode should accept booleans (managed settings)\n","category":"feature","tracked_at":"2026-05-29T08:48Z"}
+{"number":63576,"title":"[Bug] Parallel tool calls trigger persistent \"Cancelled\" errors\n","category":"bug","tracked_at":"2026-05-29T08:48Z"}

@@ -4580,3 +4580,771 @@ Thu May 28 22:55:03 HKT 2026: Tracked issue #63159 [unknown]: [Critical] Opus 4.
 Thu May 28 22:55:04 HKT 2026: Processing issue #63160: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
 Thu May 28 22:55:04 HKT 2026: Tracked issue #63160 [bug]: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
 Thu May 28 22:55:04 HKT 2026: Completed processing up to issue #63160
+Thu May 28 23:56:36 HKT 2026: Checking for new issues...
+Thu May 28 23:56:37 HKT 2026: Found new issues: 63161 63162 63163 63164 63165 63166 63167 63168 63169 63170 63171 63172 63173 63174 63175 63176 63177 63178 63179 63180 63181 63182 63183 
+Thu May 28 23:56:38 HKT 2026: Processing issue #63161: [BUG] Title: Autocompact buffer persists across /clear — wastes tokens for irrelevant old context
+Thu May 28 23:56:38 HKT 2026: Tracked issue #63161 [bug]: [BUG] Title: Autocompact buffer persists across /clear — wastes tokens for irrelevant old context
+Thu May 28 23:56:39 HKT 2026: Processing issue #63162: [Bug] Auto-Compact loses user input before processing in conversation history
+Thu May 28 23:56:40 HKT 2026: Tracked issue #63162 [bug]: [Bug] Auto-Compact loses user input before processing in conversation history
+Thu May 28 23:56:41 HKT 2026: Processing issue #63163: Feature: per-invocation effort parameter + runtime session-config introspection for skills
+Thu May 28 23:56:41 HKT 2026: Tracked issue #63163 [unknown]: Feature: per-invocation effort parameter + runtime session-config introspection for skills
+Thu May 28 23:56:42 HKT 2026: Processing issue #63164: Auto-mode classifier mislabels Azure DevOps vote -5 as "Reject" when denying PR vote actions
+Thu May 28 23:56:42 HKT 2026: Tracked issue #63164 [unknown]: Auto-mode classifier mislabels Azure DevOps vote -5 as "Reject" when denying PR vote actions
+Thu May 28 23:56:44 HKT 2026: Processing issue #63165: [BUG] Claude Desktop and   Claude Code CLI never re-register MCP tools after OAuth 2.1 handshake on a remote HTTP   server
+Thu May 28 23:56:44 HKT 2026: Tracked issue #63165 [bug]: [BUG] Claude Desktop and   Claude Code CLI never re-register MCP tools after OAuth 2.1 handshake on a remote HTTP   server
+Thu May 28 23:56:45 HKT 2026: Processing issue #63166: [BUG] Workspace file tags leak across sessions
+Thu May 28 23:56:45 HKT 2026: Tracked issue #63166 [bug]: [BUG] Workspace file tags leak across sessions
+Thu May 28 23:56:46 HKT 2026: Processing issue #63167: [BUG] Ink renderer crashes on Windows 11 build 26200 (Canary)  duplicate banners, terminal mode leaks, mid-operation aborts
+Thu May 28 23:56:46 HKT 2026: Tracked issue #63167 [bug]: [BUG] Ink renderer crashes on Windows 11 build 26200 (Canary)  duplicate banners, terminal mode leaks, mid-operation aborts
+Thu May 28 23:56:47 HKT 2026: Processing issue #63168: [BUG] Claude Code Desktop issue
+Thu May 28 23:56:47 HKT 2026: Tracked issue #63168 [bug]: [BUG] Claude Code Desktop issue
+Thu May 28 23:56:48 HKT 2026: Processing issue #63169: PTY master fd leak in Claude desktop app exhausts macOS kern.tty.ptmx_max after ~2-3 days
+Thu May 28 23:56:48 HKT 2026: Tracked issue #63169 [unknown]: PTY master fd leak in Claude desktop app exhausts macOS kern.tty.ptmx_max after ~2-3 days
+Thu May 28 23:56:49 HKT 2026: Processing issue #63170: [BUG] Claude Code — Session Management after Unexpected Interruption
+Thu May 28 23:56:50 HKT 2026: Tracked issue #63170 [bug]: [BUG] Claude Code — Session Management after Unexpected Interruption
+Thu May 28 23:56:51 HKT 2026: Processing issue #63171: [Windows] Cowork OpenTelemetry exporter does not initialize - zero events emitted to any destination, including loopback
+Thu May 28 23:56:51 HKT 2026: Tracked issue #63171 [unknown]: [Windows] Cowork OpenTelemetry exporter does not initialize - zero events emitted to any destination, including loopback
+Thu May 28 23:56:52 HKT 2026: Processing issue #63172: [Bug] Opus 4.7: 400 `thinking blocks ... cannot be modified` on long extended-thinking sessions, triggered by history-altering events (scheduled prompts / parallel tool-call cancellation)
+Thu May 28 23:56:52 HKT 2026: Tracked issue #63172 [bug]: [Bug] Opus 4.7: 400 `thinking blocks ... cannot be modified` on long extended-thinking sessions, triggered by history-altering events (scheduled prompts / parallel tool-call cancellation)
+Thu May 28 23:56:54 HKT 2026: Processing issue #63173: [BUG]  API Error: Server is temporarily limiting requests (not your usage limit) · Rate      limited
+Thu May 28 23:56:54 HKT 2026: Tracked issue #63173 [bug]: [BUG]  API Error: Server is temporarily limiting requests (not your usage limit) · Rate      limited
+Thu May 28 23:56:55 HKT 2026: Processing issue #63174: Multi-plugin custom marketplace: only first plugin registered in installed_plugins.json, skills don't load
+Thu May 28 23:56:55 HKT 2026: Tracked issue #63174 [memory-issue]: Multi-plugin custom marketplace: only first plugin registered in installed_plugins.json, skills don't load
+Thu May 28 23:56:56 HKT 2026: Processing issue #63175: [BUG] Git push through the SDK's git proxy fan-outs into ~500 GitHub REST API calls, exhausting the 5,000/hour budget after a handful of pushes
+Thu May 28 23:56:56 HKT 2026: Tracked issue #63175 [bug]: [BUG] Git push through the SDK's git proxy fan-outs into ~500 GitHub REST API calls, exhausting the 5,000/hour budget after a handful of pushes
+Thu May 28 23:56:57 HKT 2026: Processing issue #63176: [BUG] Claude took liberties it really shouldn't with my global config
+Thu May 28 23:56:57 HKT 2026: Tracked issue #63176 [bug]: [BUG] Claude took liberties it really shouldn't with my global config
+Thu May 28 23:56:58 HKT 2026: Processing issue #63177: [BUG] Agent window focus lost after navigating with arrow keys, causing scroll deadlock
+Thu May 28 23:56:58 HKT 2026: Tracked issue #63177 [bug]: [BUG] Agent window focus lost after navigating with arrow keys, causing scroll deadlock
+Thu May 28 23:56:59 HKT 2026: Processing issue #63178: [BUG] `--model` flag silently ignored in interactive sessions (works in `--print` only)
+Thu May 28 23:56:59 HKT 2026: Tracked issue #63178 [bug]: [BUG] `--model` flag silently ignored in interactive sessions (works in `--print` only)
+Thu May 28 23:57:01 HKT 2026: Processing issue #63179: [BUG] Dispatch permanently shows "desktop appears offline" on Windows 11 - never worked on first use
+Thu May 28 23:57:01 HKT 2026: Tracked issue #63179 [bug]: [BUG] Dispatch permanently shows "desktop appears offline" on Windows 11 - never worked on first use
+Thu May 28 23:57:02 HKT 2026: Processing issue #63180: feat: support per-command enableWeakerNetworkIsolation as safer alternative to dangerouslyDisableSandbox
+Thu May 28 23:57:02 HKT 2026: Tracked issue #63180 [unknown]: feat: support per-command enableWeakerNetworkIsolation as safer alternative to dangerouslyDisableSandbox
+Thu May 28 23:57:03 HKT 2026: Processing issue #63181: /code-review outputs a raw JSON array instead of readable findings
+Thu May 28 23:57:04 HKT 2026: Tracked issue #63181 [unknown]: /code-review outputs a raw JSON array instead of readable findings
+Thu May 28 23:57:05 HKT 2026: Processing issue #63182: [BUG] Cowork — Additional allowed domains ignored on Team plan; same domain works on Pro plan
+Thu May 28 23:57:05 HKT 2026: Tracked issue #63182 [bug]: [BUG] Cowork — Additional allowed domains ignored on Team plan; same domain works on Pro plan
+Thu May 28 23:57:06 HKT 2026: Processing issue #63183: Haiku
+Thu May 28 23:57:06 HKT 2026: Tracked issue #63183 [unknown]: Haiku
+Thu May 28 23:57:06 HKT 2026: Completed processing up to issue #63183
+Fri May 29 00:57:42 HKT 2026: Checking for new issues...
+Fri May 29 00:57:44 HKT 2026: Found new issues: 63184 63185 63186 63187 63188 63189 63190 63191 63192 63193 63194 63195 63197 63198 63199 63200 63201 63202 63203 63204 63205 63206 63207 63208 
+Fri May 29 00:57:45 HKT 2026: Processing issue #63184: [Bug] False positive blocking beneficial outcomes in tool execution
+Fri May 29 00:57:45 HKT 2026: Tracked issue #63184 [bug]: [Bug] False positive blocking beneficial outcomes in tool execution
+Fri May 29 00:57:46 HKT 2026: Processing issue #63185: 3P Bedrock SSO: credentials silently expire without triggering re-auth on day 2+
+Fri May 29 00:57:46 HKT 2026: Tracked issue #63185 [unknown]: 3P Bedrock SSO: credentials silently expire without triggering re-auth on day 2+
+Fri May 29 00:57:47 HKT 2026: Processing issue #63186: CLAUDE_AUTOCOMPACT_PCT_OVERRIDE in settings.json env block silently ignored by autocompact logic
+Fri May 29 00:57:47 HKT 2026: Tracked issue #63186 [memory-issue]: CLAUDE_AUTOCOMPACT_PCT_OVERRIDE in settings.json env block silently ignored by autocompact logic
+Fri May 29 00:57:48 HKT 2026: Processing issue #63187: Auto-compaction deletes main session JSONL before verifying summary completion, causing data loss
+Fri May 29 00:57:49 HKT 2026: Tracked issue #63187 [unknown]: Auto-compaction deletes main session JSONL before verifying summary completion, causing data loss
+Fri May 29 00:57:49 HKT 2026: Processing issue #63188: [Bug] Claude Code not executing stated actions or producing expected results
+Fri May 29 00:57:50 HKT 2026: Tracked issue #63188 [bug]: [Bug] Claude Code not executing stated actions or producing expected results
+Fri May 29 00:57:51 HKT 2026: Processing issue #63189: Use PR template in /commit-push-pr command
+Fri May 29 00:57:51 HKT 2026: Tracked issue #63189 [unknown]: Use PR template in /commit-push-pr command
+Fri May 29 00:57:52 HKT 2026: Processing issue #63190: [FEATURE] Deferred Messages — Queue Input for End of Turn
+Fri May 29 00:57:52 HKT 2026: Tracked issue #63190 [feature]: [FEATURE] Deferred Messages — Queue Input for End of Turn
+Fri May 29 00:57:53 HKT 2026: Processing issue #63191: [BUG] Up/Down arrows in input box navigate history instead of moving cursor — regression in 2.1.149+
+Fri May 29 00:57:53 HKT 2026: Tracked issue #63191 [bug]: [BUG] Up/Down arrows in input box navigate history instead of moving cursor — regression in 2.1.149+
+Fri May 29 00:57:54 HKT 2026: Processing issue #63192: Cancelling a parallel tool-call batch corrupts thinking blocks -> 400 "thinking blocks cannot be modified" permanently wedges the session
+Fri May 29 00:57:54 HKT 2026: Tracked issue #63192 [unknown]: Cancelling a parallel tool-call batch corrupts thinking blocks -> 400 "thinking blocks cannot be modified" permanently wedges the session
+Fri May 29 00:57:55 HKT 2026: Processing issue #63193: Claude Code caused data loss, then contradicted itself about recovery (two incidents, one session)
+Fri May 29 00:57:55 HKT 2026: Tracked issue #63193 [unknown]: Claude Code caused data loss, then contradicted itself about recovery (two incidents, one session)
+Fri May 29 00:57:56 HKT 2026: Processing issue #63194: [Bug] Unclear error messages from Claude Code CLI
+Fri May 29 00:57:56 HKT 2026: Tracked issue #63194 [bug]: [Bug] Unclear error messages from Claude Code CLI
+Fri May 29 00:57:57 HKT 2026: Processing issue #63195: [Bug] Agent tool rejecting due to context size limit exceeded
+Fri May 29 00:57:58 HKT 2026: Tracked issue #63195 [bug]: [Bug] Agent tool rejecting due to context size limit exceeded
+Fri May 29 00:57:58 HKT 2026: Processing issue #63197: [BUG] Compaction fails with "context window limit" error even when context usage is low (e.g., 20%) — regression in v2.1.153
+Fri May 29 00:57:59 HKT 2026: Tracked issue #63197 [bug]: [BUG] Compaction fails with "context window limit" error even when context usage is low (e.g., 20%) — regression in v2.1.153
+Fri May 29 00:58:00 HKT 2026: Processing issue #63198: Remote Control entitlement lost after May 27-28 incident — `Error: Remote Control is not yet enabled for your account` on active Max subscription
+Fri May 29 00:58:00 HKT 2026: Tracked issue #63198 [bug]: Remote Control entitlement lost after May 27-28 incident — `Error: Remote Control is not yet enabled for your account` on active Max subscription
+Fri May 29 00:58:01 HKT 2026: Processing issue #63199: [Bug] Anthropic API Error: Cannot Modify Thinking Blocks in Assistant Messages
+Fri May 29 00:58:01 HKT 2026: Tracked issue #63199 [bug]: [Bug] Anthropic API Error: Cannot Modify Thinking Blocks in Assistant Messages
+Fri May 29 00:58:02 HKT 2026: Processing issue #63200: PreToolUse hook exit code 2 does not block Write tool
+Fri May 29 00:58:02 HKT 2026: Tracked issue #63200 [memory-issue]: PreToolUse hook exit code 2 does not block Write tool
+Fri May 29 00:58:03 HKT 2026: Processing issue #63201: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 00:58:03 HKT 2026: Tracked issue #63201 [bug]: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 00:58:05 HKT 2026: Processing issue #63202: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages
+Fri May 29 00:58:05 HKT 2026: Tracked issue #63202 [bug]: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages
+Fri May 29 00:58:06 HKT 2026: Processing issue #63203: [Bug] Thinking blocks in latest assistant message are immutable
+Fri May 29 00:58:06 HKT 2026: Tracked issue #63203 [bug]: [Bug] Thinking blocks in latest assistant message are immutable
+Fri May 29 00:58:07 HKT 2026: Processing issue #63204: GUI: dispatch file:// and custom-scheme clicks to OS shell handler
+Fri May 29 00:58:07 HKT 2026: Tracked issue #63204 [unknown]: GUI: dispatch file:// and custom-scheme clicks to OS shell handler
+Fri May 29 00:58:08 HKT 2026: Processing issue #63205: Show current model in statusLine by default
+Fri May 29 00:58:08 HKT 2026: Tracked issue #63205 [memory-issue]: Show current model in statusLine by default
+Fri May 29 00:58:09 HKT 2026: Processing issue #63206: [Bug] Agent console becomes unresponsive to keyboard input after multiple agents initialized
+Fri May 29 00:58:09 HKT 2026: Tracked issue #63206 [bug]: [Bug] Agent console becomes unresponsive to keyboard input after multiple agents initialized
+Fri May 29 00:58:11 HKT 2026: Processing issue #63207: [FEATURE] PreToolUse hooks should have a way of updating the environment
+Fri May 29 00:58:11 HKT 2026: Tracked issue #63207 [feature]: [FEATURE] PreToolUse hooks should have a way of updating the environment
+Fri May 29 00:58:12 HKT 2026: Processing issue #63208: [Bug] Unable to start or use Claude Code CLI
+Fri May 29 00:58:12 HKT 2026: Tracked issue #63208 [bug]: [Bug] Unable to start or use Claude Code CLI
+Fri May 29 00:58:12 HKT 2026: Completed processing up to issue #63208
+Fri May 29 01:59:02 HKT 2026: Checking for new issues...
+Fri May 29 01:59:04 HKT 2026: Found new issues: 63215 63216 63217 63218 63219 63220 63221 63222 63223 63224 63225 63226 63227 63228 63229 63230 63231 63232 63234 63235 63236 63237 63238 63239 63240 63241 63242 63243 63244 63245 
+Fri May 29 01:59:06 HKT 2026: Processing issue #63215: [Bug] @ autocomplete loses sibling repos after a file edit in multi-repo workspace
+Fri May 29 01:59:06 HKT 2026: Tracked issue #63215 [bug]: [Bug] @ autocomplete loses sibling repos after a file edit in multi-repo workspace
+Fri May 29 01:59:07 HKT 2026: Processing issue #63216: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages
+Fri May 29 01:59:07 HKT 2026: Tracked issue #63216 [bug]: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages
+Fri May 29 01:59:08 HKT 2026: Processing issue #63217: Unclear error message when creating sub-agent without authentication
+Fri May 29 01:59:08 HKT 2026: Tracked issue #63217 [bug]: Unclear error message when creating sub-agent without authentication
+Fri May 29 01:59:09 HKT 2026: Processing issue #63218: [Bug] Anthropic API errors causing frequent failures and high token usage
+Fri May 29 01:59:09 HKT 2026: Tracked issue #63218 [bug]: [Bug] Anthropic API errors causing frequent failures and high token usage
+Fri May 29 01:59:10 HKT 2026: Processing issue #63219: [BUG] @ mention file picker only shows packages, not individual files (desktop app - Code tab)
+Fri May 29 01:59:10 HKT 2026: Tracked issue #63219 [bug]: [BUG] @ mention file picker only shows packages, not individual files (desktop app - Code tab)
+Fri May 29 01:59:11 HKT 2026: Processing issue #63220: [Bug] TUI panel footer remains sticky and consumes excessive terminal space
+Fri May 29 01:59:11 HKT 2026: Tracked issue #63220 [bug]: [Bug] TUI panel footer remains sticky and consumes excessive terminal space
+Fri May 29 01:59:12 HKT 2026: Processing issue #63221: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 01:59:12 HKT 2026: Tracked issue #63221 [bug]: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 01:59:14 HKT 2026: Processing issue #63222: PR-status polling exhausts GitHub GraphQL rate limit on repos with many open PRs
+Fri May 29 01:59:14 HKT 2026: Tracked issue #63222 [unknown]: PR-status polling exhausts GitHub GraphQL rate limit on repos with many open PRs
+Fri May 29 01:59:15 HKT 2026: Processing issue #63223: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages
+Fri May 29 01:59:15 HKT 2026: Tracked issue #63223 [bug]: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages
+Fri May 29 01:59:16 HKT 2026: Processing issue #63224: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages
+Fri May 29 01:59:16 HKT 2026: Tracked issue #63224 [bug]: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages
+Fri May 29 01:59:17 HKT 2026: Processing issue #63225: [BUG] Windows: welcome panel not shown in some project folders (2.1.153)
+Fri May 29 01:59:17 HKT 2026: Tracked issue #63225 [bug]: [BUG] Windows: welcome panel not shown in some project folders (2.1.153)
+Fri May 29 01:59:18 HKT 2026: Processing issue #63226: [Bug] Anthropic API Error: thinking blocks corrupted during context compaction with extended thinking enabled
+Fri May 29 01:59:18 HKT 2026: Tracked issue #63226 [bug]: [Bug] Anthropic API Error: thinking blocks corrupted during context compaction with extended thinking enabled
+Fri May 29 01:59:20 HKT 2026: Processing issue #63227: API 400 "thinking blocks cannot be modified" permanently bricks session during agent activation (interleaved thinking + tool use)
+Fri May 29 01:59:20 HKT 2026: Tracked issue #63227 [unknown]: API 400 "thinking blocks cannot be modified" permanently bricks session during agent activation (interleaved thinking + tool use)
+Fri May 29 01:59:21 HKT 2026: Processing issue #63228: Right-click Copy copies the whole message instead of the selection; pasted text retains dark background
+Fri May 29 01:59:21 HKT 2026: Tracked issue #63228 [memory-issue]: Right-click Copy copies the whole message instead of the selection; pasted text retains dark background
+Fri May 29 01:59:22 HKT 2026: Processing issue #63229: Mid-session model switch corrupts conversation when extended thinking is enabled (API 400: 'thinking blocks cannot be modified')
+Fri May 29 01:59:22 HKT 2026: Tracked issue #63229 [unknown]: Mid-session model switch corrupts conversation when extended thinking is enabled (API 400: 'thinking blocks cannot be modified')
+Fri May 29 01:59:23 HKT 2026: Processing issue #63230: [BUG] Markdown file links in chat output do not open files when clicked (VS Code extension)
+Fri May 29 01:59:23 HKT 2026: Tracked issue #63230 [bug]: [BUG] Markdown file links in chat output do not open files when clicked (VS Code extension)
+Fri May 29 01:59:25 HKT 2026: Processing issue #63231: Stuck retry loop: `400 thinking blocks cannot be modified` on large interleaved-thinking turns using AskUserQuestion
+Fri May 29 01:59:25 HKT 2026: Tracked issue #63231 [unknown]: Stuck retry loop: `400 thinking blocks cannot be modified` on large interleaved-thinking turns using AskUserQuestion
+Fri May 29 01:59:26 HKT 2026: Processing issue #63232: [FEATURE] Prompt user for approval before auto-compaction proceeds
+Fri May 29 01:59:26 HKT 2026: Tracked issue #63232 [feature]: [FEATURE] Prompt user for approval before auto-compaction proceeds
+Fri May 29 01:59:27 HKT 2026: Processing issue #63234: [BUG] Claude in Chrome — Navigation blocked for teams.cloud.microsoft and outlook.cloud.microsoft after Microsoft domain migration**
+Fri May 29 01:59:27 HKT 2026: Tracked issue #63234 [bug]: [BUG] Claude in Chrome — Navigation blocked for teams.cloud.microsoft and outlook.cloud.microsoft after Microsoft domain migration**
+Fri May 29 01:59:28 HKT 2026: Processing issue #63235: [Bug] Anthropic API Error: Cannot Modify Thinking Blocks in Assistant Messages
+Fri May 29 01:59:28 HKT 2026: Tracked issue #63235 [bug]: [Bug] Anthropic API Error: Cannot Modify Thinking Blocks in Assistant Messages
+Fri May 29 01:59:30 HKT 2026: Processing issue #63236: [BUG] Claude Desktop — Personal plugins panel renders list but is entirely non-interactive (macOS, v1.9255.2)
+Fri May 29 01:59:30 HKT 2026: Tracked issue #63236 [bug]: [BUG] Claude Desktop — Personal plugins panel renders list but is entirely non-interactive (macOS, v1.9255.2)
+Fri May 29 01:59:31 HKT 2026: Processing issue #63237: [Bug] error when using Workflows
+Fri May 29 01:59:31 HKT 2026: Tracked issue #63237 [bug]: [Bug] error when using Workflows
+Fri May 29 01:59:32 HKT 2026: Processing issue #63238: [BUG] Persistent "update available" notification despite being on latest version
+Fri May 29 01:59:32 HKT 2026: Tracked issue #63238 [bug]: [BUG] Persistent "update available" notification despite being on latest version
+Fri May 29 01:59:33 HKT 2026: Processing issue #63239: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 01:59:33 HKT 2026: Tracked issue #63239 [bug]: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 01:59:35 HKT 2026: Processing issue #63240: [BUG] Sweep Agent from /code-review never completes
+Fri May 29 01:59:35 HKT 2026: Tracked issue #63240 [bug]: [BUG] Sweep Agent from /code-review never completes
+Fri May 29 01:59:36 HKT 2026: Processing issue #63241: [Bug] Tool calls not executing or returning results
+Fri May 29 01:59:36 HKT 2026: Tracked issue #63241 [bug]: [Bug] Tool calls not executing or returning results
+Fri May 29 01:59:37 HKT 2026: Processing issue #63242: [FEATURE] Cloud-synced memory and settings across machines
+Fri May 29 01:59:37 HKT 2026: Tracked issue #63242 [feature]: [FEATURE] Cloud-synced memory and settings across machines
+Fri May 29 01:59:38 HKT 2026: Processing issue #63243: [Bug] Terminal UI freezes when Ctrl+O view exits during interactive prompt in plan mode
+Fri May 29 01:59:38 HKT 2026: Tracked issue #63243 [bug]: [Bug] Terminal UI freezes when Ctrl+O view exits during interactive prompt in plan mode
+Fri May 29 01:59:39 HKT 2026: Processing issue #63244: Continuous api errors when using claude code with Opus 4.7 with thinking on low
+Fri May 29 01:59:39 HKT 2026: Tracked issue #63244 [bug]: Continuous api errors when using claude code with Opus 4.7 with thinking on low
+Fri May 29 01:59:40 HKT 2026: Processing issue #63245: [Feature Request] Add support for installing and using previous Claude Code versions
+Fri May 29 01:59:40 HKT 2026: Tracked issue #63245 [feature]: [Feature Request] Add support for installing and using previous Claude Code versions
+Fri May 29 01:59:40 HKT 2026: Completed processing up to issue #63245
+Fri May 29 03:03:20 HKT 2026: Checking for new issues...
+Fri May 29 03:03:21 HKT 2026: Found new issues: 63258 63259 63260 63261 63263 63264 63265 63266 63267 63268 63270 63271 63272 63273 63274 63275 63276 63277 63278 63279 63280 63281 63282 63283 63284 63285 63286 63287 63288 63289 
+Fri May 29 03:03:22 HKT 2026: Processing issue #63258: Opus 4.8: backgrounded subagents crash with 400 "thinking blocks cannot be modified"
+Fri May 29 03:03:22 HKT 2026: Tracked issue #63258 [bug]: Opus 4.8: backgrounded subagents crash with 400 "thinking blocks cannot be modified"
+Fri May 29 03:03:24 HKT 2026: Processing issue #63259: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 03:03:24 HKT 2026: Tracked issue #63259 [bug]: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 03:03:25 HKT 2026: Processing issue #63260: [Bug] Opus 4.7 fabricates stable preferences ("my default") to rationalize arbitrary choices when challenged
+Fri May 29 03:03:25 HKT 2026: Tracked issue #63260 [bug]: [Bug] Opus 4.7 fabricates stable preferences ("my default") to rationalize arbitrary choices when challenged
+Fri May 29 03:03:26 HKT 2026: Processing issue #63261: [Bug] Unable to update Claude Code CLI
+Fri May 29 03:03:26 HKT 2026: Tracked issue #63261 [bug]: [Bug] Unable to update Claude Code CLI
+Fri May 29 03:03:27 HKT 2026: Processing issue #63263: [BUG] Desktop app: /remote-control mints link + connects bridge (main.log) but in-chat link/QR panel never renders
+Fri May 29 03:03:27 HKT 2026: Tracked issue #63263 [bug]: [BUG] Desktop app: /remote-control mints link + connects bridge (main.log) but in-chat link/QR panel never renders
+Fri May 29 03:03:28 HKT 2026: Processing issue #63264: Feature: sessionColor and sessionName in .claude/settings.json
+Fri May 29 03:03:28 HKT 2026: Tracked issue #63264 [unknown]: Feature: sessionColor and sessionName in .claude/settings.json
+Fri May 29 03:03:29 HKT 2026: Processing issue #63265: [BUG] Anthropic API error: thinking blocks
+Fri May 29 03:03:29 HKT 2026: Tracked issue #63265 [bug]: [BUG] Anthropic API error: thinking blocks
+Fri May 29 03:03:31 HKT 2026: Processing issue #63266: [FEATURE] Support Remote MCPs in Cowork as in Claude Code
+Fri May 29 03:03:31 HKT 2026: Tracked issue #63266 [feature]: [FEATURE] Support Remote MCPs in Cowork as in Claude Code
+Fri May 29 03:03:32 HKT 2026: Processing issue #63267: [Bug] Anthropic API Error: 400 Bad Request with Redacted Thinking - 0 4.7 & 4.8
+Fri May 29 03:03:32 HKT 2026: Tracked issue #63267 [bug]: [Bug] Anthropic API Error: 400 Bad Request with Redacted Thinking - 0 4.7 & 4.8
+Fri May 29 03:03:33 HKT 2026: Processing issue #63268: [Bug] Anthropic API Error: Cannot modify thinking blocks from different model versions
+Fri May 29 03:03:33 HKT 2026: Tracked issue #63268 [bug]: [Bug] Anthropic API Error: Cannot modify thinking blocks from different model versions
+Fri May 29 03:03:34 HKT 2026: Processing issue #63270: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 03:03:34 HKT 2026: Tracked issue #63270 [bug]: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 03:03:35 HKT 2026: Processing issue #63271: [BUG] Mode/permission changes mid-tool-loop (effortLevel: xhigh) poisons entire session
+Fri May 29 03:03:35 HKT 2026: Tracked issue #63271 [bug]: [BUG] Mode/permission changes mid-tool-loop (effortLevel: xhigh) poisons entire session
+Fri May 29 03:03:37 HKT 2026: Processing issue #63272: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 03:03:37 HKT 2026: Tracked issue #63272 [bug]: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 03:03:38 HKT 2026: Processing issue #63273: [Bug] Anthropic API Error: Cannot Modify Thinking Blocks in Assistant Messages
+Fri May 29 03:03:38 HKT 2026: Tracked issue #63273 [bug]: [Bug] Anthropic API Error: Cannot Modify Thinking Blocks in Assistant Messages
+Fri May 29 03:03:39 HKT 2026: Processing issue #63274: Session failure log: Opus 4.6 ignores its own rules for an entire session
+Fri May 29 03:03:39 HKT 2026: Tracked issue #63274 [memory-issue]: Session failure log: Opus 4.6 ignores its own rules for an entire session
+Fri May 29 03:03:40 HKT 2026: Processing issue #63275: [BUG] "400 Guardrail was enabled" error when using Claude Opus 4.8 with AWS Bedrock
+Fri May 29 03:03:40 HKT 2026: Tracked issue #63275 [bug]: [BUG] "400 Guardrail was enabled" error when using Claude Opus 4.8 with AWS Bedrock
+Fri May 29 03:03:42 HKT 2026: Processing issue #63276: [Feature Request] Add subagent approach selection option to avoid accidental feedback
+Fri May 29 03:03:42 HKT 2026: Tracked issue #63276 [feature]: [Feature Request] Add subagent approach selection option to avoid accidental feedback
+Fri May 29 03:03:44 HKT 2026: Processing issue #63277: Persistent 400 'thinking blocks in the latest assistant message cannot be modified' — interleaved thinking persisted with empty text + signature bricks sessions
+Fri May 29 03:03:44 HKT 2026: Tracked issue #63277 [unknown]: Persistent 400 'thinking blocks in the latest assistant message cannot be modified' — interleaved thinking persisted with empty text + signature bricks sessions
+Fri May 29 03:03:45 HKT 2026: Processing issue #63278: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages
+Fri May 29 03:03:46 HKT 2026: Tracked issue #63278 [bug]: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages
+Fri May 29 03:03:47 HKT 2026: Processing issue #63279: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 03:03:47 HKT 2026: Tracked issue #63279 [bug]: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 03:03:48 HKT 2026: Processing issue #63280: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 03:03:48 HKT 2026: Tracked issue #63280 [bug]: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 03:03:50 HKT 2026: Processing issue #63281: [BUG] DesktopvsApp
+Fri May 29 03:03:50 HKT 2026: Tracked issue #63281 [bug]: [BUG] DesktopvsApp
+Fri May 29 03:03:51 HKT 2026: Processing issue #63282: [BUG] Opus 4.7 cache hit rate collapse after May 27 incident — Messages 1.1k→88.9k in 9 minutes, $630/session
+Fri May 29 03:03:51 HKT 2026: Tracked issue #63282 [bug]: [BUG] Opus 4.7 cache hit rate collapse after May 27 incident — Messages 1.1k→88.9k in 9 minutes, $630/session
+Fri May 29 03:03:53 HKT 2026: Processing issue #63283: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages
+Fri May 29 03:03:53 HKT 2026: Tracked issue #63283 [bug]: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages
+Fri May 29 03:03:54 HKT 2026: Processing issue #63284: [Bug] Anthropic API Error: Invalid thinking block format
+Fri May 29 03:03:54 HKT 2026: Tracked issue #63284 [bug]: [Bug] Anthropic API Error: Invalid thinking block format
+Fri May 29 03:03:55 HKT 2026: Processing issue #63285: [BUG] FUCK CLAUDE
+Fri May 29 03:03:55 HKT 2026: Tracked issue #63285 [bug]: [BUG] FUCK CLAUDE
+Fri May 29 03:03:56 HKT 2026: Processing issue #63286: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages
+Fri May 29 03:03:56 HKT 2026: Tracked issue #63286 [bug]: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages
+Fri May 29 03:03:57 HKT 2026: Processing issue #63287: Opus 4.8 extended thinking: Stop hook block re-entry corrupts thinking blocks → 400
+Fri May 29 03:03:57 HKT 2026: Tracked issue #63287 [false-positive]: Opus 4.8 extended thinking: Stop hook block re-entry corrupts thinking blocks → 400
+Fri May 29 03:03:59 HKT 2026: Processing issue #63288: [Bug] 4.8 Fails when accessing previous model history
+Fri May 29 03:03:59 HKT 2026: Tracked issue #63288 [bug]: [Bug] 4.8 Fails when accessing previous model history
+Fri May 29 03:04:00 HKT 2026: Processing issue #63289: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 03:04:00 HKT 2026: Tracked issue #63289 [bug]: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 03:04:00 HKT 2026: Completed processing up to issue #63289
+Fri May 29 04:04:54 HKT 2026: Checking for new issues...
+Fri May 29 04:04:56 HKT 2026: Found new issues: 63318 63319 63320 63321 63322 63323 63324 63325 63326 63327 63328 63329 63330 63331 63332 63333 63334 63335 63336 63337 63338 63339 63340 63341 63342 63343 63344 63345 63346 63347 
+Fri May 29 04:04:58 HKT 2026: Processing issue #63318: [BUG] Excessive RAM usage with multiple parallel chats (~10 sessions → 30 GB memory pressure, macOS OOM)
+Fri May 29 04:04:58 HKT 2026: Tracked issue #63318 [bug]: [BUG] Excessive RAM usage with multiple parallel chats (~10 sessions → 30 GB memory pressure, macOS OOM)
+Fri May 29 04:04:59 HKT 2026: Processing issue #63319: [DOCS] Managed MCP policy docs omit invalid `allowedMcpServers`/`deniedMcpServers` entry behavior
+Fri May 29 04:04:59 HKT 2026: Tracked issue #63319 [docs]: [DOCS] Managed MCP policy docs omit invalid `allowedMcpServers`/`deniedMcpServers` entry behavior
+Fri May 29 04:05:00 HKT 2026: Processing issue #63320: [DOCS] Effort docs omit `CLAUDE_CODE_ALWAYS_ENABLE_EFFORT` unsupported-model behavior
+Fri May 29 04:05:01 HKT 2026: Tracked issue #63320 [docs]: [DOCS] Effort docs omit `CLAUDE_CODE_ALWAYS_ENABLE_EFFORT` unsupported-model behavior
+Fri May 29 04:05:03 HKT 2026: Processing issue #63321: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 04:05:04 HKT 2026: Tracked issue #63321 [bug]: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 04:05:05 HKT 2026: Processing issue #63322: Regression (2.1.147–2.1.150?): resuming an extended-thinking session after a CC update/model-switch → unrecoverable 400, session bricked
+Fri May 29 04:05:05 HKT 2026: Tracked issue #63322 [regression]: Regression (2.1.147–2.1.150?): resuming an extended-thinking session after a CC update/model-switch → unrecoverable 400, session bricked
+Fri May 29 04:05:07 HKT 2026: Processing issue #63323: [DOCS] Windows updater docs omit `claude.exe` in-use recovery guidance
+Fri May 29 04:05:07 HKT 2026: Tracked issue #63323 [docs]: [DOCS] Windows updater docs omit `claude.exe` in-use recovery guidance
+Fri May 29 04:05:08 HKT 2026: Processing issue #63324: [DOCS] VS Code auto mode docs still tie mode-picker visibility to bypass-permissions setting
+Fri May 29 04:05:08 HKT 2026: Tracked issue #63324 [docs]: [DOCS] VS Code auto mode docs still tie mode-picker visibility to bypass-permissions setting
+Fri May 29 04:05:10 HKT 2026: Processing issue #63325: [DOCS] MCP docs omit `/mcp` tool list and detail rendering behavior
+Fri May 29 04:05:10 HKT 2026: Tracked issue #63325 [docs]: [DOCS] MCP docs omit `/mcp` tool list and detail rendering behavior
+Fri May 29 04:05:12 HKT 2026: Processing issue #63326: [DOCS] Fine-grained tool streaming docs still describe provider opt-in behavior
+Fri May 29 04:05:12 HKT 2026: Tracked issue #63326 [docs]: [DOCS] Fine-grained tool streaming docs still describe provider opt-in behavior
+Fri May 29 04:05:13 HKT 2026: Processing issue #63327: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages
+Fri May 29 04:05:13 HKT 2026: Tracked issue #63327 [bug]: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages
+Fri May 29 04:05:15 HKT 2026: Processing issue #63328: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages
+Fri May 29 04:05:15 HKT 2026: Tracked issue #63328 [bug]: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages
+Fri May 29 04:05:16 HKT 2026: Processing issue #63329: bypassPermissions: session startup reads flat pref, GUI toggle writes per-account pref — they never sync
+Fri May 29 04:05:16 HKT 2026: Tracked issue #63329 [memory-issue]: bypassPermissions: session startup reads flat pref, GUI toggle writes per-account pref — they never sync
+Fri May 29 04:05:19 HKT 2026: Processing issue #63330: [BUG] Claude Desktop Code tab causes disk write limit violation — 8.5GB in 11 min, macOS kills app (M5, v1.9659.1)
+Fri May 29 04:05:19 HKT 2026: Tracked issue #63330 [bug]: [BUG] Claude Desktop Code tab causes disk write limit violation — 8.5GB in 11 min, macOS kills app (M5, v1.9659.1)
+Fri May 29 04:05:20 HKT 2026: Processing issue #63331: Ultrareview v2.1.96: docs describe /tasks command + claude ultrareview --json subcommand that don't exist; findings hard to read after completion
+Fri May 29 04:05:20 HKT 2026: Tracked issue #63331 [unknown]: Ultrareview v2.1.96: docs describe /tasks command + claude ultrareview --json subcommand that don't exist; findings hard to read after completion
+Fri May 29 04:05:21 HKT 2026: Processing issue #63332: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 04:05:21 HKT 2026: Tracked issue #63332 [bug]: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 04:05:23 HKT 2026: Processing issue #63333: I'd be happy to help create a GitHub issue title, but I don't see the error message in your message. Could you please share the specific error you're encountering? That way I can generate an accurate and descriptive issue title for you.
+Fri May 29 04:05:23 HKT 2026: Tracked issue #63333 [bug]: I'd be happy to help create a GitHub issue title, but I don't see the error message in your message. Could you please share the specific error you're encountering? That way I can generate an accurate and descriptive issue title for you.
+Fri May 29 04:05:24 HKT 2026: Processing issue #63334: [BUG] Claude in Chrome `file_upload` rejects all scheduled-task sessions with misleading error (real cause: INVALID_SESSION)
+Fri May 29 04:05:24 HKT 2026: Tracked issue #63334 [bug]: [BUG] Claude in Chrome `file_upload` rejects all scheduled-task sessions with misleading error (real cause: INVALID_SESSION)
+Fri May 29 04:05:26 HKT 2026: Processing issue #63335: Extended thinking: signed thinking block 'cannot be modified' (400) permanently wedges session
+Fri May 29 04:05:26 HKT 2026: Tracked issue #63335 [unknown]: Extended thinking: signed thinking block 'cannot be modified' (400) permanently wedges session
+Fri May 29 04:05:27 HKT 2026: Processing issue #63336: RTL text support for Hebrew (and Arabic) in Claude Code
+Fri May 29 04:05:27 HKT 2026: Tracked issue #63336 [unknown]: RTL text support for Hebrew (and Arabic) in Claude Code
+Fri May 29 04:05:28 HKT 2026: Processing issue #63337: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 04:05:28 HKT 2026: Tracked issue #63337 [bug]: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 04:05:29 HKT 2026: Processing issue #63338: [Bug] Random errors occurring across multiple operations
+Fri May 29 04:05:30 HKT 2026: Tracked issue #63338 [bug]: [Bug] Random errors occurring across multiple operations
+Fri May 29 04:05:31 HKT 2026: Processing issue #63339: [Bug] Auto-update fails silently
+Fri May 29 04:05:32 HKT 2026: Tracked issue #63339 [bug]: [Bug] Auto-update fails silently
+Fri May 29 04:05:33 HKT 2026: Processing issue #63340: [Bug] Output fragments repeating in infinite loop during session
+Fri May 29 04:05:33 HKT 2026: Tracked issue #63340 [bug]: [Bug] Output fragments repeating in infinite loop during session
+Fri May 29 04:05:34 HKT 2026: Processing issue #63341: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages
+Fri May 29 04:05:34 HKT 2026: Tracked issue #63341 [bug]: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages
+Fri May 29 04:05:36 HKT 2026: Processing issue #63342: [BUG] Ctrl-G to edit file in VS Code picks up mouse events after file opens in IDE
+Fri May 29 04:05:36 HKT 2026: Tracked issue #63342 [bug]: [BUG] Ctrl-G to edit file in VS Code picks up mouse events after file opens in IDE
+Fri May 29 04:05:37 HKT 2026: Processing issue #63343: PreToolUse hook: optional field to display a prominent warning string above the command in the permission dialog
+Fri May 29 04:05:37 HKT 2026: Tracked issue #63343 [false-positive]: PreToolUse hook: optional field to display a prominent warning string above the command in the permission dialog
+Fri May 29 04:05:38 HKT 2026: Processing issue #63344: [BUG] Context window progress bar fill width doesn't match displayed percentage (under-fills by ~15-20%)
+Fri May 29 04:05:38 HKT 2026: Tracked issue #63344 [bug]: [BUG] Context window progress bar fill width doesn't match displayed percentage (under-fills by ~15-20%)
+Fri May 29 04:05:39 HKT 2026: Processing issue #63345: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 04:05:39 HKT 2026: Tracked issue #63345 [bug]: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 04:05:41 HKT 2026: Processing issue #63346: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 04:05:41 HKT 2026: Tracked issue #63346 [bug]: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 04:05:42 HKT 2026: Processing issue #63347: [BUG] in security_reminder_hook.py  ,  CHANGELOG.md  , gitutil.py  , llm.py ,  feed.xml
+Fri May 29 04:05:42 HKT 2026: Tracked issue #63347 [bug]: [BUG] in security_reminder_hook.py  ,  CHANGELOG.md  , gitutil.py  , llm.py ,  feed.xml
+Fri May 29 04:05:42 HKT 2026: Completed processing up to issue #63347
+Fri May 29 05:06:24 HKT 2026: Checking for new issues...
+Fri May 29 05:06:25 HKT 2026: Found new issues: 63355 63356 63357 63358 63359 63360 63361 63362 63363 63364 63365 63366 63367 63368 63369 63370 63371 63372 63373 63374 63375 63376 63377 63378 63379 63380 63381 63382 63383 63384 
+Fri May 29 05:06:26 HKT 2026: Processing issue #63355: [Bug] Claude Code Plugin Installation in Zed says Installed to AppCode
+Fri May 29 05:06:26 HKT 2026: Tracked issue #63355 [bug]: [Bug] Claude Code Plugin Installation in Zed says Installed to AppCode
+Fri May 29 05:06:27 HKT 2026: Processing issue #63356: [MODEL] Sub-agents (Haiku) over-edit structured config files despite explicit "surgical edits only" instructions
+Fri May 29 05:06:27 HKT 2026: Tracked issue #63356 [unknown]: [MODEL] Sub-agents (Haiku) over-edit structured config files despite explicit "surgical edits only" instructions
+Fri May 29 05:06:28 HKT 2026: Processing issue #63357: [Bug] Thinking blocks in resumed conversations cannot be modified, permanently breaking session
+Fri May 29 05:06:28 HKT 2026: Tracked issue #63357 [bug]: [Bug] Thinking blocks in resumed conversations cannot be modified, permanently breaking session
+Fri May 29 05:06:29 HKT 2026: Processing issue #63358: Opus 4.8 returns empty thinking blocks — no thinking shown in chat (same regression as Opus 4.7 #49268)
+Fri May 29 05:06:29 HKT 2026: Tracked issue #63358 [regression]: Opus 4.8 returns empty thinking blocks — no thinking shown in chat (same regression as Opus 4.7 #49268)
+Fri May 29 05:06:30 HKT 2026: Processing issue #63359: [Bug] Invalid Message Format Error
+Fri May 29 05:06:30 HKT 2026: Tracked issue #63359 [bug]: [Bug] Invalid Message Format Error
+Fri May 29 05:06:32 HKT 2026: Processing issue #63360: Cowork: Support Claude Code hooks (~/.claude/settings.json — UserPromptSubmit, Stop, etc.)
+Fri May 29 05:06:32 HKT 2026: Tracked issue #63360 [unknown]: Cowork: Support Claude Code hooks (~/.claude/settings.json — UserPromptSubmit, Stop, etc.)
+Fri May 29 05:06:33 HKT 2026: Processing issue #63361: [Bug] Anthropic API Error: Cannot Modify Thinking Blocks in Assistant Messages
+Fri May 29 05:06:33 HKT 2026: Tracked issue #63361 [bug]: [Bug] Anthropic API Error: Cannot Modify Thinking Blocks in Assistant Messages
+Fri May 29 05:06:34 HKT 2026: Processing issue #63362: 400 'thinking blocks in the latest assistant message cannot be modified' with extended thinking + experimental agent-teams (bridge-session)
+Fri May 29 05:06:34 HKT 2026: Tracked issue #63362 [memory-issue]: 400 'thinking blocks in the latest assistant message cannot be modified' with extended thinking + experimental agent-teams (bridge-session)
+Fri May 29 05:06:35 HKT 2026: Processing issue #63363: [FEATURE] Allow copy-as-markdown from the Claude VSCode Extension
+Fri May 29 05:06:35 HKT 2026: Tracked issue #63363 [feature]: [FEATURE] Allow copy-as-markdown from the Claude VSCode Extension
+Fri May 29 05:06:36 HKT 2026: Processing issue #63364: [Bug] Opus 4.8 Fails to use tools and softbricks context: Cannot modify thinking blocks in assistant message
+Fri May 29 05:06:36 HKT 2026: Tracked issue #63364 [bug]: [Bug] Opus 4.8 Fails to use tools and softbricks context: Cannot modify thinking blocks in assistant message
+Fri May 29 05:06:37 HKT 2026: Processing issue #63365: [BUG] Validating KiCad schematic for Exhaust Gas Sensor using MAX31856, Claude Code kept reporting pins 2-4 backwards
+Fri May 29 05:06:37 HKT 2026: Tracked issue #63365 [bug]: [BUG] Validating KiCad schematic for Exhaust Gas Sensor using MAX31856, Claude Code kept reporting pins 2-4 backwards
+Fri May 29 05:06:38 HKT 2026: Processing issue #63366: [BUG]  2.1.154 appears to send messages[].role="system" to Anthropic-compatible providers, causing schema parse failures
+Fri May 29 05:06:38 HKT 2026: Tracked issue #63366 [bug]: [BUG]  2.1.154 appears to send messages[].role="system" to Anthropic-compatible providers, causing schema parse failures
+Fri May 29 05:06:39 HKT 2026: Processing issue #63367: [Bug] Model uses offensive phrase "en cristiano" in Spanish responses
+Fri May 29 05:06:39 HKT 2026: Tracked issue #63367 [bug]: [Bug] Model uses offensive phrase "en cristiano" in Spanish responses
+Fri May 29 05:06:40 HKT 2026: Processing issue #63368: [Bug] Claude generates offensive Spanish phrase "en cristiano" in responses
+Fri May 29 05:06:41 HKT 2026: Tracked issue #63368 [bug]: [Bug] Claude generates offensive Spanish phrase "en cristiano" in responses
+Fri May 29 05:06:42 HKT 2026: Processing issue #63369: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 05:06:42 HKT 2026: Tracked issue #63369 [bug]: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 05:06:43 HKT 2026: Processing issue #63370: Hook path with spaces in username executes wrong file on Windows — unquoted ~ expansion splits path at space
+Fri May 29 05:06:43 HKT 2026: Tracked issue #63370 [bug]: Hook path with spaces in username executes wrong file on Windows — unquoted ~ expansion splits path at space
+Fri May 29 05:06:44 HKT 2026: Processing issue #63371: Approve-once-per-session for repeated identical tool calls
+Fri May 29 05:06:44 HKT 2026: Tracked issue #63371 [unknown]: Approve-once-per-session for repeated identical tool calls
+Fri May 29 05:06:45 HKT 2026: Processing issue #63372: [FEATURE] Human-readable IDs for background tool tasks
+Fri May 29 05:06:45 HKT 2026: Tracked issue #63372 [feature]: [FEATURE] Human-readable IDs for background tool tasks
+Fri May 29 05:06:46 HKT 2026: Processing issue #63373: [BUG] v2.1.85 breaks syntax highlighting on MacOS 26
+Fri May 29 05:06:46 HKT 2026: Tracked issue #63373 [bug]: [BUG] v2.1.85 breaks syntax highlighting on MacOS 26
+Fri May 29 05:06:47 HKT 2026: Processing issue #63374: Interrupting an interleaved-thinking turn mid-stream wedges the session: unrecoverable 400 "thinking blocks ... cannot be modified"
+Fri May 29 05:06:47 HKT 2026: Tracked issue #63374 [unknown]: Interrupting an interleaved-thinking turn mid-stream wedges the session: unrecoverable 400 "thinking blocks ... cannot be modified"
+Fri May 29 05:06:49 HKT 2026: Processing issue #63375: [BUG] Slash command (/usage) during in-flight advisor() call splits assistant message in JSONL, permanently 400s the session (v2.1.154; repro of stale-closed #50527)
+Fri May 29 05:06:49 HKT 2026: Tracked issue #63375 [bug]: [BUG] Slash command (/usage) during in-flight advisor() call splits assistant message in JSONL, permanently 400s the session (v2.1.154; repro of stale-closed #50527)
+Fri May 29 05:06:50 HKT 2026: Processing issue #63376: [BUG] Claude code --resume is not properly resolving custom model IDs from settings.json
+Fri May 29 05:06:50 HKT 2026: Tracked issue #63376 [bug]: [BUG] Claude code --resume is not properly resolving custom model IDs from settings.json
+Fri May 29 05:06:51 HKT 2026: Processing issue #63377: [Bug] Metrics telemetry collection disabled or non-functional
+Fri May 29 05:06:51 HKT 2026: Tracked issue #63377 [bug]: [Bug] Metrics telemetry collection disabled or non-functional
+Fri May 29 05:06:52 HKT 2026: Processing issue #63378: [BUG]  /doctor reports Claude is not in path
+Fri May 29 05:06:52 HKT 2026: Tracked issue #63378 [bug]: [BUG]  /doctor reports Claude is not in path
+Fri May 29 05:06:53 HKT 2026: Processing issue #63379: [BUG] Desktop app cancels stdio MCP tool calls at ~60s and ignores MCP_TOOL_TIMEOUT; the CLI honors it
+Fri May 29 05:06:53 HKT 2026: Tracked issue #63379 [bug]: [BUG] Desktop app cancels stdio MCP tool calls at ~60s and ignores MCP_TOOL_TIMEOUT; the CLI honors it
+Fri May 29 05:06:54 HKT 2026: Processing issue #63380: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages
+Fri May 29 05:06:54 HKT 2026: Tracked issue #63380 [bug]: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages
+Fri May 29 05:06:55 HKT 2026: Processing issue #63381: [Bug] Unidentified Error Encountered
+Fri May 29 05:06:55 HKT 2026: Tracked issue #63381 [bug]: [Bug] Unidentified Error Encountered
+Fri May 29 05:06:57 HKT 2026: Processing issue #63382: Fix Hookify tests example semantics
+Fri May 29 05:06:57 HKT 2026: Tracked issue #63382 [unknown]: Fix Hookify tests example semantics
+Fri May 29 05:06:58 HKT 2026: Processing issue #63383: [BUG]
+Fri May 29 05:06:58 HKT 2026: Tracked issue #63383 [bug]: [BUG]
+Fri May 29 05:06:59 HKT 2026: Processing issue #63384: [Bug] Persistent Anthropic API Connection Errors
+Fri May 29 05:06:59 HKT 2026: Tracked issue #63384 [bug]: [Bug] Persistent Anthropic API Connection Errors
+Fri May 29 05:06:59 HKT 2026: Completed processing up to issue #63384
+Fri May 29 06:07:45 HKT 2026: Checking for new issues...
+Fri May 29 06:07:46 HKT 2026: Found new issues: 63385 63386 63387 63388 63389 63390 63391 63393 63394 63395 63396 63397 63398 63399 63400 63401 63402 63403 63404 63405 
+Fri May 29 06:07:48 HKT 2026: Processing issue #63385: [FEATURE] Persistent visible indicator of the currently selected working folder + recursive subfolder access
+Fri May 29 06:07:48 HKT 2026: Tracked issue #63385 [feature]: [FEATURE] Persistent visible indicator of the currently selected working folder + recursive subfolder access
+Fri May 29 06:07:49 HKT 2026: Processing issue #63386: [BUG] Claude code triggered a workflow it spinned up more then 99 agents and used up all my 5 hour credits
+Fri May 29 06:07:49 HKT 2026: Tracked issue #63386 [bug]: [BUG] Claude code triggered a workflow it spinned up more then 99 agents and used up all my 5 hour credits
+Fri May 29 06:07:50 HKT 2026: Processing issue #63387: [BUG] Severe productivity regression: long stalls (90s–minutes) with nonsensical reasoning labels, no token usage displayed (v2.1.145)
+Fri May 29 06:07:50 HKT 2026: Tracked issue #63387 [bug]: [BUG] Severe productivity regression: long stalls (90s–minutes) with nonsensical reasoning labels, no token usage displayed (v2.1.145)
+Fri May 29 06:07:51 HKT 2026: Processing issue #63388: [Bug] Managed Settings in Enterprise Org Setup, isn't being applied to Windows Claude Desktop just stand-alone Claude CLI
+Fri May 29 06:07:51 HKT 2026: Tracked issue #63388 [bug]: [Bug] Managed Settings in Enterprise Org Setup, isn't being applied to Windows Claude Desktop just stand-alone Claude CLI
+Fri May 29 06:07:53 HKT 2026: Processing issue #63389: [BUG] Background task chip stuck in "Running" state; Stop button has no effect
+Fri May 29 06:07:53 HKT 2026: Tracked issue #63389 [bug]: [BUG] Background task chip stuck in "Running" state; Stop button has no effect
+Fri May 29 06:07:54 HKT 2026: Processing issue #63390: Interactive session turns hang intermittently on all models (Opus 4.8, Sonnet 4.6) — headless calls fast
+Fri May 29 06:07:54 HKT 2026: Tracked issue #63390 [unknown]: Interactive session turns hang intermittently on all models (Opus 4.8, Sonnet 4.6) — headless calls fast
+Fri May 29 06:07:56 HKT 2026: Processing issue #63391: [BUG] failure to reinstall workspace/ access to cowork
+Fri May 29 06:07:56 HKT 2026: Tracked issue #63391 [bug]: [BUG] failure to reinstall workspace/ access to cowork
+Fri May 29 06:07:57 HKT 2026: Processing issue #63393: 400 'thinking blocks cannot be modified' when a run_in_background tool completes (interleaved thinking + Opus 1M)
+Fri May 29 06:07:57 HKT 2026: Tracked issue #63393 [unknown]: 400 'thinking blocks cannot be modified' when a run_in_background tool completes (interleaved thinking + Opus 1M)
+Fri May 29 06:07:58 HKT 2026: Processing issue #63394: 2.1.154 regression: bridge/remote-control session replay re-sends persisted (empty-text, signed) thinking blocks -> 400 'thinking blocks cannot be modified', session unrecoverable
+Fri May 29 06:07:58 HKT 2026: Tracked issue #63394 [regression]: 2.1.154 regression: bridge/remote-control session replay re-sends persisted (empty-text, signed) thinking blocks -> 400 'thinking blocks cannot be modified', session unrecoverable
+Fri May 29 06:08:00 HKT 2026: Processing issue #63395: [BUG] anthropic一直报错 macos macos系统中的vscode软件中的claude code插件，版本 2.1.154  anthropic.claude-code
+Fri May 29 06:08:00 HKT 2026: Tracked issue #63395 [bug]: [BUG] anthropic一直报错 macos macos系统中的vscode软件中的claude code插件，版本 2.1.154  anthropic.claude-code
+Fri May 29 06:08:01 HKT 2026: Processing issue #63396: [BUG] CLI 2.1.154 builds invalid request after context ops (compact/clear/model-switch): system role at messages[0], and modified signed thinking blocks → 400
+Fri May 29 06:08:01 HKT 2026: Tracked issue #63396 [bug]: [BUG] CLI 2.1.154 builds invalid request after context ops (compact/clear/model-switch): system role at messages[0], and modified signed thinking blocks → 400
+Fri May 29 06:08:03 HKT 2026: Processing issue #63397: Claude Desktop (Windows MSIX) auto-update silently fails with 0x80073D02 while app is running
+Fri May 29 06:08:03 HKT 2026: Tracked issue #63397 [bug]: Claude Desktop (Windows MSIX) auto-update silently fails with 0x80073D02 while app is running
+Fri May 29 06:08:05 HKT 2026: Processing issue #63398: [Bug] Intermittent Bash command failures with exit code 1
+Fri May 29 06:08:05 HKT 2026: Tracked issue #63398 [bug]: [Bug] Intermittent Bash command failures with exit code 1
+Fri May 29 06:08:06 HKT 2026: Processing issue #63399: [BUG] Claude initiated failed shell tasks fail to disappear
+Fri May 29 06:08:06 HKT 2026: Tracked issue #63399 [bug]: [BUG] Claude initiated failed shell tasks fail to disappear
+Fri May 29 06:08:08 HKT 2026: Processing issue #63400: [Bug] Workflow process not followed: missing ticket, branch, work tree, and undocumented staging database changes
+Fri May 29 06:08:08 HKT 2026: Tracked issue #63400 [bug]: [Bug] Workflow process not followed: missing ticket, branch, work tree, and undocumented staging database changes
+Fri May 29 06:08:09 HKT 2026: Processing issue #63401: [BUG] Agent tool leaks Electron renderer processes
+Fri May 29 06:08:09 HKT 2026: Tracked issue #63401 [bug]: [BUG] Agent tool leaks Electron renderer processes
+Fri May 29 06:08:10 HKT 2026: Processing issue #63402: Auto-update on Windows shipped a binary that boots into Bun's CLI instead of Claude Code (2.1.154 -> 2.1.156)
+Fri May 29 06:08:10 HKT 2026: Tracked issue #63402 [unknown]: Auto-update on Windows shipped a binary that boots into Bun's CLI instead of Claude Code (2.1.154 -> 2.1.156)
+Fri May 29 06:08:11 HKT 2026: Processing issue #63403: Feature: expose context window usage programmatically
+Fri May 29 06:08:11 HKT 2026: Tracked issue #63403 [unknown]: Feature: expose context window usage programmatically
+Fri May 29 06:08:12 HKT 2026: Processing issue #63404: messages.11.content.11: `thinking` or `redacted_thinking` blocks in the latest assistant message cannot be modified.
+Fri May 29 06:08:13 HKT 2026: Tracked issue #63404 [unknown]: messages.11.content.11: `thinking` or `redacted_thinking` blocks in the latest assistant message cannot be modified.
+Fri May 29 06:08:15 HKT 2026: Processing issue #63405: Chat panel: wrap long lines instead of horizontal scroll
+Fri May 29 06:08:15 HKT 2026: Tracked issue #63405 [unknown]: Chat panel: wrap long lines instead of horizontal scroll
+Fri May 29 06:08:15 HKT 2026: Completed processing up to issue #63405
+Fri May 29 07:09:19 HKT 2026: Checking for new issues...
+Fri May 29 07:09:21 HKT 2026: Found new issues: 63406 63407 63408 63409 63410 63411 63412 63413 63414 63415 63416 63417 63418 63419 63420 63422 63423 63424 63425 63426 
+Fri May 29 07:09:22 HKT 2026: Processing issue #63406: Desktop (Code tab): /remote-control falls through to the model instead of being executed by the client
+Fri May 29 07:09:22 HKT 2026: Tracked issue #63406 [unknown]: Desktop (Code tab): /remote-control falls through to the model instead of being executed by the client
+Fri May 29 07:09:23 HKT 2026: Processing issue #63407: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 07:09:23 HKT 2026: Tracked issue #63407 [bug]: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 07:09:23 HKT 2026: Processing issue #63408: Memory write corrupts thinking-block signature → 400 on every subsequent request
+Fri May 29 07:09:24 HKT 2026: Tracked issue #63408 [feature]: Memory write corrupts thinking-block signature → 400 on every subsequent request
+Fri May 29 07:09:24 HKT 2026: Processing issue #63409: [Bug] Agent continues operation while hallucinating invalid outputs without error detection
+Fri May 29 07:09:24 HKT 2026: Tracked issue #63409 [bug]: [Bug] Agent continues operation while hallucinating invalid outputs without error detection
+Fri May 29 07:09:25 HKT 2026: Processing issue #63410: Resumed extended-thinking sessions permanently 400 with "thinking blocks ... cannot be modified" (esp. after model change / with /goal)
+Fri May 29 07:09:25 HKT 2026: Tracked issue #63410 [memory-issue]: Resumed extended-thinking sessions permanently 400 with "thinking blocks ... cannot be modified" (esp. after model change / with /goal)
+Fri May 29 07:09:26 HKT 2026: Processing issue #63411: [Bug] Anthropic API Error: Tool Call Parsing Failed
+Fri May 29 07:09:26 HKT 2026: Tracked issue #63411 [bug]: [Bug] Anthropic API Error: Tool Call Parsing Failed
+Fri May 29 07:09:27 HKT 2026: Processing issue #63412: Opus 4.8: "thinking blocks cannot be modified" (400) on long tool-heavy chats; Opus 4.7 unaffected
+Fri May 29 07:09:27 HKT 2026: Tracked issue #63412 [unknown]: Opus 4.8: "thinking blocks cannot be modified" (400) on long tool-heavy chats; Opus 4.7 unaffected
+Fri May 29 07:09:28 HKT 2026: Processing issue #63413: [FEATURE] Session-only flag for typed /model <name> (or a setting to disable global persistence)
+Fri May 29 07:09:28 HKT 2026: Tracked issue #63413 [feature]: [FEATURE] Session-only flag for typed /model <name> (or a setting to disable global persistence)
+Fri May 29 07:09:29 HKT 2026: Processing issue #63414: [BUG] Remote Control (iOS, iPhone) not rendering/interacting properly
+Fri May 29 07:09:29 HKT 2026: Tracked issue #63414 [bug]: [BUG] Remote Control (iOS, iPhone) not rendering/interacting properly
+Fri May 29 07:09:30 HKT 2026: Processing issue #63415: [FEATURE] Team-Agents: stable naming + live stand-up (field report from a working setup)
+Fri May 29 07:09:30 HKT 2026: Tracked issue #63415 [feature]: [FEATURE] Team-Agents: stable naming + live stand-up (field report from a working setup)
+Fri May 29 07:09:31 HKT 2026: Processing issue #63416: "during a security review get 400" 
+Fri May 29 07:09:31 HKT 2026: Tracked issue #63416 [unknown]: "during a security review get 400" 
+Fri May 29 07:09:32 HKT 2026: Processing issue #63417: [FEATURE] Native worktree support with submodules
+Fri May 29 07:09:32 HKT 2026: Tracked issue #63417 [feature]: [FEATURE] Native worktree support with submodules
+Fri May 29 07:09:34 HKT 2026: Processing issue #63418: [BUG] API Error: 400 messages.7.content.12: `thinking` or `redacted_thinking` blocks in the latest assistant message cannot be modified. These blocks      must remain as they were in the original response.
+Fri May 29 07:09:34 HKT 2026: Tracked issue #63418 [bug]: [BUG] API Error: 400 messages.7.content.12: `thinking` or `redacted_thinking` blocks in the latest assistant message cannot be modified. These blocks      must remain as they were in the original response.
+Fri May 29 07:09:34 HKT 2026: Processing issue #63419: Claude used inline without consent
+Fri May 29 07:09:34 HKT 2026: Tracked issue #63419 [unknown]: Claude used inline without consent
+Fri May 29 07:09:35 HKT 2026: Processing issue #63420: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 07:09:35 HKT 2026: Tracked issue #63420 [bug]: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 07:09:36 HKT 2026: Processing issue #63422: [MODEL]
+Fri May 29 07:09:36 HKT 2026: Tracked issue #63422 [unknown]: [MODEL]
+Fri May 29 07:09:37 HKT 2026: Processing issue #63423: [BUG] CLI 2.1.154 breaks with API Error 422 - Invalid message role "system"
+Fri May 29 07:09:37 HKT 2026: Tracked issue #63423 [bug]: [BUG] CLI 2.1.154 breaks with API Error 422 - Invalid message role "system"
+Fri May 29 07:09:38 HKT 2026: Processing issue #63424: [BUG] Pro account suspended 10+ days, no specific reason, official tools only, active subscription ignored
+Fri May 29 07:09:38 HKT 2026: Tracked issue #63424 [bug]: [BUG] Pro account suspended 10+ days, no specific reason, official tools only, active subscription ignored
+Fri May 29 07:09:39 HKT 2026: Processing issue #63425: [Bug] "workflow" keyword conflicts with tool trigger syntax
+Fri May 29 07:09:39 HKT 2026: Tracked issue #63425 [bug]: [Bug] "workflow" keyword conflicts with tool trigger syntax
+Fri May 29 07:09:40 HKT 2026: Processing issue #63426: [Bug] Context window fills quickly and auto-compact not triggering at 80% threshold
+Fri May 29 07:09:40 HKT 2026: Tracked issue #63426 [bug]: [Bug] Context window fills quickly and auto-compact not triggering at 80% threshold
+Fri May 29 07:09:40 HKT 2026: Completed processing up to issue #63426
+Fri May 29 08:10:49 HKT 2026: Checking for new issues...
+Fri May 29 08:10:50 HKT 2026: Found new issues: 63427 63428 63429 63430 63431 63433 63434 
+Fri May 29 08:10:51 HKT 2026: Processing issue #63427: [BUG] Up/down arrow key functions in context window
+Fri May 29 08:10:51 HKT 2026: Tracked issue #63427 [bug]: [BUG] Up/down arrow key functions in context window
+Fri May 29 08:10:51 HKT 2026: Processing issue #63428: I don't see a bug report in your message. Could you please provide the actual bug report details that you'd like me to convert into a GitHub issue title?
+Fri May 29 08:10:52 HKT 2026: Tracked issue #63428 [bug]: I don't see a bug report in your message. Could you please provide the actual bug report details that you'd like me to convert into a GitHub issue title?
+Fri May 29 08:10:52 HKT 2026: Processing issue #63429: [BUG] Agent View: right-arrow into running agent freezes Terminal.app with partial black render (process idle, Terminal stops drawing)
+Fri May 29 08:10:52 HKT 2026: Tracked issue #63429 [bug]: [BUG] Agent View: right-arrow into running agent freezes Terminal.app with partial black render (process idle, Terminal stops drawing)
+Fri May 29 08:10:53 HKT 2026: Processing issue #63430: [FEATURE] Global CLAUDE.md preferences should apply across all projects without needing to be duplicated in project-level memory
+Fri May 29 08:10:53 HKT 2026: Tracked issue #63430 [feature]: [FEATURE] Global CLAUDE.md preferences should apply across all projects without needing to be duplicated in project-level memory
+Fri May 29 08:10:54 HKT 2026: Processing issue #63431: [BUG] Claude Agents Plugin Skills Autocomplete is inconsistent with a normal session
+Fri May 29 08:10:54 HKT 2026: Tracked issue #63431 [bug]: [BUG] Claude Agents Plugin Skills Autocomplete is inconsistent with a normal session
+Fri May 29 08:10:55 HKT 2026: Processing issue #63433: [Feature Request] Auto theme mode should dynamically follow system appearance changes
+Fri May 29 08:10:55 HKT 2026: Tracked issue #63433 [feature]: [Feature Request] Auto theme mode should dynamically follow system appearance changes
+Fri May 29 08:10:56 HKT 2026: Processing issue #63434: [Feature] Allow mounting of `agent/memory/` subpath under Cowork session directory for subagents
+Fri May 29 08:10:56 HKT 2026: Tracked issue #63434 [feature]: [Feature] Allow mounting of `agent/memory/` subpath under Cowork session directory for subagents
+Fri May 29 08:10:56 HKT 2026: Completed processing up to issue #63434
+Fri May 29 09:11:51 HKT 2026: Checking for new issues...
+Fri May 29 09:11:53 HKT 2026: Found new issues: 63435 63436 63437 63438 63440 63441 63442 63443 63444 63445 63446 63447 63448 
+Fri May 29 09:11:54 HKT 2026: Processing issue #63435: [BUG] Session resume fails with 400 "Invalid model name" until /model is run (regression, started ~mid-May 2026)
+Fri May 29 09:11:54 HKT 2026: Tracked issue #63435 [bug]: [BUG] Session resume fails with 400 "Invalid model name" until /model is run (regression, started ~mid-May 2026)
+Fri May 29 09:11:54 HKT 2026: Processing issue #63436: Subagent/Workflow creation forwards raw MCP tool schemas → 400 on connector tool with top-level oneOf/anyOf/allOf
+Fri May 29 09:11:55 HKT 2026: Tracked issue #63436 [unknown]: Subagent/Workflow creation forwards raw MCP tool schemas → 400 on connector tool with top-level oneOf/anyOf/allOf
+Fri May 29 09:11:55 HKT 2026: Processing issue #63437: /resume command becomes unresponsive after window switch with NO_FLICKER enabled
+Fri May 29 09:11:55 HKT 2026: Tracked issue #63437 [unknown]: /resume command becomes unresponsive after window switch with NO_FLICKER enabled
+Fri May 29 09:11:56 HKT 2026: Processing issue #63438: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 09:11:56 HKT 2026: Tracked issue #63438 [bug]: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 09:11:57 HKT 2026: Processing issue #63440: Claude Code repeatedly violates explicit 'confirm before action' instructions
+Fri May 29 09:11:57 HKT 2026: Tracked issue #63440 [unknown]: Claude Code repeatedly violates explicit 'confirm before action' instructions
+Fri May 29 09:11:58 HKT 2026: Processing issue #63441: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 09:11:58 HKT 2026: Tracked issue #63441 [bug]: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 09:11:59 HKT 2026: Processing issue #63442: [Feature Request] Display full instruction contents in CronCreate loop confirmation
+Fri May 29 09:11:59 HKT 2026: Tracked issue #63442 [feature]: [Feature Request] Display full instruction contents in CronCreate loop confirmation
+Fri May 29 09:12:01 HKT 2026: Processing issue #63443: [Feature Request] Allow /feedback command without including private session data!
+Fri May 29 09:12:01 HKT 2026: Tracked issue #63443 [feature]: [Feature Request] Allow /feedback command without including private session data!
+Fri May 29 09:12:02 HKT 2026: Processing issue #63444: [Bug] Excessive token consumption in API requests
+Fri May 29 09:12:02 HKT 2026: Tracked issue #63444 [bug]: [Bug] Excessive token consumption in API requests
+Fri May 29 09:12:03 HKT 2026: Processing issue #63445: [BUG]  Workspace trust dialog re-prompts every session when CWD is home directory (non-git)
+Fri May 29 09:12:03 HKT 2026: Tracked issue #63445 [bug]: [BUG]  Workspace trust dialog re-prompts every session when CWD is home directory (non-git)
+Fri May 29 09:12:04 HKT 2026: Processing issue #63446: [Bug] Fork from message history uses latest message instead of fork point
+Fri May 29 09:12:04 HKT 2026: Tracked issue #63446 [bug]: [Bug] Fork from message history uses latest message instead of fork point
+Fri May 29 09:12:05 HKT 2026: Processing issue #63447: context_window_size reported as 200000 for claude-opus-4-8 (1M-context model) → "100% context used" clamps prematurely
+Fri May 29 09:12:05 HKT 2026: Tracked issue #63447 [unknown]: context_window_size reported as 200000 for claude-opus-4-8 (1M-context model) → "100% context used" clamps prematurely
+Fri May 29 09:12:06 HKT 2026: Processing issue #63448: Opus 4.8: thinking blocks broken by context compaction — 400 error on every turn after first compaction
+Fri May 29 09:12:06 HKT 2026: Tracked issue #63448 [bug]: Opus 4.8: thinking blocks broken by context compaction — 400 error on every turn after first compaction
+Fri May 29 09:12:06 HKT 2026: Completed processing up to issue #63448
+Fri May 29 10:12:50 HKT 2026: Checking for new issues...
+Fri May 29 10:12:51 HKT 2026: Found new issues: 63449 63450 63451 63452 63453 63454 63455 63456 63457 63458 63459 63460 63461 63462 63463 63464 63465 63466 63467 63468 63469 
+Fri May 29 10:12:52 HKT 2026: Processing issue #63449: [MODEL] Model repeatedly violates clearly stated instructions despite extensive reinforcement (memory, CLAUDE.md, in-conversation corrections)
+Fri May 29 10:12:52 HKT 2026: Tracked issue #63449 [memory-issue]: [MODEL] Model repeatedly violates clearly stated instructions despite extensive reinforcement (memory, CLAUDE.md, in-conversation corrections)
+Fri May 29 10:12:53 HKT 2026: Processing issue #63450: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 10:12:53 HKT 2026: Tracked issue #63450 [bug]: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 10:12:54 HKT 2026: Processing issue #63451: [Bug] Claude Opus 4.8 ignores MCP tool definitions, hallucinates parameters
+Fri May 29 10:12:54 HKT 2026: Tracked issue #63451 [bug]: [Bug] Claude Opus 4.8 ignores MCP tool definitions, hallucinates parameters
+Fri May 29 10:12:55 HKT 2026: Processing issue #63452: Channel notifications (notifications/claude/channel) buffered instead of injected when agent is idle
+Fri May 29 10:12:55 HKT 2026: Tracked issue #63452 [unknown]: Channel notifications (notifications/claude/channel) buffered instead of injected when agent is idle
+Fri May 29 10:12:56 HKT 2026: Processing issue #63453: [BUG] /goal stop hook fires after every assistant turn, interrupting user mid-message
+Fri May 29 10:12:56 HKT 2026: Tracked issue #63453 [bug]: [BUG] /goal stop hook fires after every assistant turn, interrupting user mid-message
+Fri May 29 10:12:57 HKT 2026: Processing issue #63454: [BUG] API Error: 400 Failed to deserialize the JSON body into the target type
+Fri May 29 10:12:57 HKT 2026: Tracked issue #63454 [bug]: [BUG] API Error: 400 Failed to deserialize the JSON body into the target type
+Fri May 29 10:12:58 HKT 2026: Processing issue #63455: [Bug] Claude Code consuming excessive tokens without completing simple tasks on Claude 3.5 Sonnet
+Fri May 29 10:12:58 HKT 2026: Tracked issue #63455 [bug]: [Bug] Claude Code consuming excessive tokens without completing simple tasks on Claude 3.5 Sonnet
+Fri May 29 10:12:59 HKT 2026: Processing issue #63456: Opus 4.8 not selectable in CLI `/model` despite being available on account
+Fri May 29 10:12:59 HKT 2026: Tracked issue #63456 [unknown]: Opus 4.8 not selectable in CLI `/model` despite being available on account
+Fri May 29 10:13:00 HKT 2026: Processing issue #63457: [BUG] v2.1.154 regression: custom agents via `/agents` fail with "messages[1].role: unknown variant `system`"
+Fri May 29 10:13:00 HKT 2026: Tracked issue #63457 [bug]: [BUG] v2.1.154 regression: custom agents via `/agents` fail with "messages[1].role: unknown variant `system`"
+Fri May 29 10:13:01 HKT 2026: Processing issue #63458: [FEATURE] Desktop: expose worktree name/base input in UI + pass branch-prefix & base branch into the WorktreeCreate hook payload
+Fri May 29 10:13:01 HKT 2026: Tracked issue #63458 [feature]: [FEATURE] Desktop: expose worktree name/base input in UI + pass branch-prefix & base branch into the WorktreeCreate hook payload
+Fri May 29 10:13:02 HKT 2026: Processing issue #63459: [BUG] Thinking text empty / "Thought for Xs" not expandable on Opus 4.7+ in VS Code extension — fallback thinking-config branch omits `display`
+Fri May 29 10:13:02 HKT 2026: Tracked issue #63459 [bug]: [BUG] Thinking text empty / "Thought for Xs" not expandable on Opus 4.7+ in VS Code extension — fallback thinking-config branch omits `display`
+Fri May 29 10:13:03 HKT 2026: Processing issue #63460: docs: update deprecated npm install instructions in plugins/README.md
+Fri May 29 10:13:03 HKT 2026: Tracked issue #63460 [unknown]: docs: update deprecated npm install instructions in plugins/README.md
+Fri May 29 10:13:04 HKT 2026: Processing issue #63461: [Bug] Claude Code API response latency degradation
+Fri May 29 10:13:04 HKT 2026: Tracked issue #63461 [bug]: [Bug] Claude Code API response latency degradation
+Fri May 29 10:13:05 HKT 2026: Processing issue #63462: Phantom `⏺ Human:` lines appearing in transcript — assistant acts on instructions the user never typed
+Fri May 29 10:13:05 HKT 2026: Tracked issue #63462 [unknown]: Phantom `⏺ Human:` lines appearing in transcript — assistant acts on instructions the user never typed
+Fri May 29 10:13:06 HKT 2026: Processing issue #63463: [BUG] Unrecoverable `400 … thinking/redacted_thinking blocks … cannot be modified` permanently bricks a session — reproduced across two independent sessions (v2.1.154)
+Fri May 29 10:13:06 HKT 2026: Tracked issue #63463 [bug]: [BUG] Unrecoverable `400 … thinking/redacted_thinking blocks … cannot be modified` permanently bricks a session — reproduced across two independent sessions (v2.1.154)
+Fri May 29 10:13:07 HKT 2026: Processing issue #63464: Over 100% context and not triggering autocompaction
+Fri May 29 10:13:07 HKT 2026: Tracked issue #63464 [unknown]: Over 100% context and not triggering autocompaction
+Fri May 29 10:13:08 HKT 2026: Processing issue #63465: Chat session rename doesn't update in sidebar until VS Code restarts
+Fri May 29 10:13:08 HKT 2026: Tracked issue #63465 [bug]: Chat session rename doesn't update in sidebar until VS Code restarts
+Fri May 29 10:13:09 HKT 2026: Processing issue #63466: [BUG] JetBrains AI Chat agent fails on Windows - spawn UNKNOWN / CLAUDE_CODE_GIT_BASH_PATH not passed to ACP process
+Fri May 29 10:13:09 HKT 2026: Tracked issue #63466 [bug]: [BUG] JetBrains AI Chat agent fails on Windows - spawn UNKNOWN / CLAUDE_CODE_GIT_BASH_PATH not passed to ACP process
+Fri May 29 10:13:10 HKT 2026: Processing issue #63467: docs: add Windows gh CLI install instruction in commit-commands README
+Fri May 29 10:13:10 HKT 2026: Tracked issue #63467 [unknown]: docs: add Windows gh CLI install instruction in commit-commands README
+Fri May 29 10:13:11 HKT 2026: Processing issue #63468: [Bug] Statusline effort.level reports "xhigh" instead of "ultra" for ultracode mode
+Fri May 29 10:13:11 HKT 2026: Tracked issue #63468 [bug]: [Bug] Statusline effort.level reports "xhigh" instead of "ultra" for ultracode mode
+Fri May 29 10:13:12 HKT 2026: Processing issue #63469: [BUG] API 400 "messages[1].role must be either 'user' or 'assistant', but got 'system'" (v2.1.156)
+Fri May 29 10:13:12 HKT 2026: Tracked issue #63469 [bug]: [BUG] API 400 "messages[1].role must be either 'user' or 'assistant', but got 'system'" (v2.1.156)
+Fri May 29 10:13:12 HKT 2026: Completed processing up to issue #63469
+Fri May 29 11:14:30 HKT 2026: Checking for new issues...
+Fri May 29 11:14:33 HKT 2026: Found new issues: 63470 63471 63473 63474 63475 63476 63477 63478 63479 
+Fri May 29 11:14:34 HKT 2026: Processing issue #63470: Remote Control silently fails when HTTPS-scanning AV (e.g. Norton 360) intercepts TLS - Node rejects MITM cert chain
+Fri May 29 11:14:34 HKT 2026: Tracked issue #63470 [bug]: Remote Control silently fails when HTTPS-scanning AV (e.g. Norton 360) intercepts TLS - Node rejects MITM cert chain
+Fri May 29 11:14:35 HKT 2026: Processing issue #63471: API Error 400 with custom model via ANTHROPIC_BASE_URL when plugins are loaded
+Fri May 29 11:14:35 HKT 2026: Tracked issue #63471 [bug]: API Error 400 with custom model via ANTHROPIC_BASE_URL when plugins are loaded
+Fri May 29 11:14:36 HKT 2026: Processing issue #63473: [BUG] Claude Code for VS Code API Error: 400 messages[1].role must be either 'user' or 'assistant', but got 'system'
+Fri May 29 11:14:36 HKT 2026: Tracked issue #63473 [bug]: [BUG] Claude Code for VS Code API Error: 400 messages[1].role must be either 'user' or 'assistant', but got 'system'
+Fri May 29 11:14:37 HKT 2026: Processing issue #63474: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages
+Fri May 29 11:14:37 HKT 2026: Tracked issue #63474 [bug]: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages
+Fri May 29 11:14:38 HKT 2026: Processing issue #63475: Extended thinking + tool use: signature-only thinking blocks permanently break --resume (400 cannot be modified)
+Fri May 29 11:14:38 HKT 2026: Tracked issue #63475 [unknown]: Extended thinking + tool use: signature-only thinking blocks permanently break --resume (400 cannot be modified)
+Fri May 29 11:14:39 HKT 2026: Processing issue #63476: [BUG] Opus 4.8: compaction partially overwrites visible chat scrollback above the summary (was previously retained)
+Fri May 29 11:14:39 HKT 2026: Tracked issue #63476 [bug]: [BUG] Opus 4.8: compaction partially overwrites visible chat scrollback above the summary (was previously retained)
+Fri May 29 11:14:40 HKT 2026: Processing issue #63477: Feature request: Hard workspace boundary enforcement for project isolation
+Fri May 29 11:14:40 HKT 2026: Tracked issue #63477 [feature]: Feature request: Hard workspace boundary enforcement for project isolation
+Fri May 29 11:14:41 HKT 2026: Processing issue #63478: /memory command fails to resolve symlinked user memory file in WSL
+Fri May 29 11:14:41 HKT 2026: Tracked issue #63478 [bug]: /memory command fails to resolve symlinked user memory file in WSL
+Fri May 29 11:14:42 HKT 2026: Processing issue #63479: [BUG] CLAUDE_CODE_DISABLE_1M_CONTEXT ignored in  2.1.156
+Fri May 29 11:14:42 HKT 2026: Tracked issue #63479 [bug]: [BUG] CLAUDE_CODE_DISABLE_1M_CONTEXT ignored in  2.1.156
+Fri May 29 11:14:42 HKT 2026: Completed processing up to issue #63479
+Fri May 29 12:15:26 HKT 2026: Checking for new issues...
+Fri May 29 12:15:27 HKT 2026: Found new issues: 63480 63481 63482 63483 63484 63485 63486 63487 63488 63489 63490 63491 63492 
+Fri May 29 12:15:28 HKT 2026: Processing issue #63480: [FEATURE] Allowlist-only file access + deny rules for MCP tools (WebFetch, WebSearch)
+Fri May 29 12:15:28 HKT 2026: Tracked issue #63480 [feature]: [FEATURE] Allowlist-only file access + deny rules for MCP tools (WebFetch, WebSearch)
+Fri May 29 12:15:29 HKT 2026: Processing issue #63481: [Bug] Claude Opus 4.8: Tool call parsing fails when extended thinking is triggered
+Fri May 29 12:15:29 HKT 2026: Tracked issue #63481 [bug]: [Bug] Claude Opus 4.8: Tool call parsing fails when extended thinking is triggered
+Fri May 29 12:15:30 HKT 2026: Processing issue #63482: Claude in Chrome (VS Code extension, macOS): @browser prompt injects + tab created, but mcp__claude-in-chrome__* tools never register (no native-messaging manifest / native host / bridge socket)
+Fri May 29 12:15:30 HKT 2026: Tracked issue #63482 [unknown]: Claude in Chrome (VS Code extension, macOS): @browser prompt injects + tab created, but mcp__claude-in-chrome__* tools never register (no native-messaging manifest / native host / bridge socket)
+Fri May 29 12:15:31 HKT 2026: Processing issue #63483: [BUG] claude app crashes seconds after being opened
+Fri May 29 12:15:31 HKT 2026: Tracked issue #63483 [bug]: [BUG] claude app crashes seconds after being opened
+Fri May 29 12:15:32 HKT 2026: Processing issue #63484: [BUG] Bug Report: Loading spinner freezes + no response, correlated with repeated "malformed tool call" retries
+Fri May 29 12:15:32 HKT 2026: Tracked issue #63484 [bug]: [BUG] Bug Report: Loading spinner freezes + no response, correlated with repeated "malformed tool call" retries
+Fri May 29 12:15:33 HKT 2026: Processing issue #63485: [Bug] Model performance degradation - Opus underperforming on code tasks
+Fri May 29 12:15:33 HKT 2026: Tracked issue #63485 [bug]: [Bug] Model performance degradation - Opus underperforming on code tasks
+Fri May 29 12:15:34 HKT 2026: Processing issue #63486: asset_add_file MCP tool (Adobe connector) — file picker doesn't open in Claude Code desktop app (macOS)
+Fri May 29 12:15:34 HKT 2026: Tracked issue #63486 [bug]: asset_add_file MCP tool (Adobe connector) — file picker doesn't open in Claude Code desktop app (macOS)
+Fri May 29 12:15:35 HKT 2026: Processing issue #63487: [BUG] Mismatched content block type content_block_delta thinking
+Fri May 29 12:15:35 HKT 2026: Tracked issue #63487 [bug]: [BUG] Mismatched content block type content_block_delta thinking
+Fri May 29 12:15:36 HKT 2026: Processing issue #63488: [Feature Request] Add timestamp display for conversation interactions
+Fri May 29 12:15:36 HKT 2026: Tracked issue #63488 [feature]: [Feature Request] Add timestamp display for conversation interactions
+Fri May 29 12:15:37 HKT 2026: Processing issue #63489: [BUG] "Desktop app blocked by VS Code extension processes even without computer use enabled"
+Fri May 29 12:15:37 HKT 2026: Tracked issue #63489 [bug]: [BUG] "Desktop app blocked by VS Code extension processes even without computer use enabled"
+Fri May 29 12:15:38 HKT 2026: Processing issue #63490: [Bug] Screenshot tool repeatedly requests accessibility permission instead of using provided screenshot
+Fri May 29 12:15:38 HKT 2026: Tracked issue #63490 [bug]: [Bug] Screenshot tool repeatedly requests accessibility permission instead of using provided screenshot
+Fri May 29 12:15:38 HKT 2026: Processing issue #63491: [FEATURE] Add `/mode <mode>` command to switch Claude Code mode
+Fri May 29 12:15:38 HKT 2026: Tracked issue #63491 [feature]: [FEATURE] Add `/mode <mode>` command to switch Claude Code mode
+Fri May 29 12:15:39 HKT 2026: Processing issue #63492: [BUG] API 400 Error - role: system deserialization failure
+Fri May 29 12:15:39 HKT 2026: Tracked issue #63492 [bug]: [BUG] API 400 Error - role: system deserialization failure
+Fri May 29 12:15:39 HKT 2026: Completed processing up to issue #63492
+Fri May 29 12:45:25 HKT 2026: Checking for new issues...
+Fri May 29 12:45:26 HKT 2026: Found new issues: 63493 63494 63495 63496 63497 63498 63499 63500 63501 63502 63503 63504 63505 
+Fri May 29 12:45:27 HKT 2026: Processing issue #63493: [FEATURE]
+Fri May 29 12:45:27 HKT 2026: Tracked issue #63493 [feature]: [FEATURE]
+Fri May 29 12:45:28 HKT 2026: Processing issue #63494: [BUG] Opus 4.7 halts turn early after PreToolUse hook emits additionalContext on 2 calls
+Fri May 29 12:45:28 HKT 2026: Tracked issue #63494 [bug]: [BUG] Opus 4.7 halts turn early after PreToolUse hook emits additionalContext on 2 calls
+Fri May 29 12:45:29 HKT 2026: Processing issue #63495: SessionEnd hook reports 'Hook cancelled' even when hook exits 0 immediately
+Fri May 29 12:45:30 HKT 2026: Tracked issue #63495 [memory-issue]: SessionEnd hook reports 'Hook cancelled' even when hook exits 0 immediately
+Fri May 29 12:45:30 HKT 2026: Processing issue #63496: Click-to-copy affordance on agent-designated content
+Fri May 29 12:45:30 HKT 2026: Tracked issue #63496 [unknown]: Click-to-copy affordance on agent-designated content
+Fri May 29 12:45:31 HKT 2026: Processing issue #63497: [Feature Request] Separate cached token tracking for brainstorming sessions from main session
+Fri May 29 12:45:31 HKT 2026: Tracked issue #63497 [feature]: [Feature Request] Separate cached token tracking for brainstorming sessions from main session
+Fri May 29 12:45:32 HKT 2026: Processing issue #63498: [Bug] /effort shows "Ultracode needs dynamic workflows enabled" even when dynamic workflows are on
+Fri May 29 12:45:32 HKT 2026: Tracked issue #63498 [bug]: [Bug] /effort shows "Ultracode needs dynamic workflows enabled" even when dynamic workflows are on
+Fri May 29 12:45:33 HKT 2026: Processing issue #63499: [BUG] /compact fails with cyber safeguards false positive during legitimate defensive security session
+Fri May 29 12:45:33 HKT 2026: Tracked issue #63499 [bug]: [BUG] /compact fails with cyber safeguards false positive during legitimate defensive security session
+Fri May 29 12:45:34 HKT 2026: Processing issue #63500: [BUG] Fullscreen TUI default (~v2.1.150) breaks macOS VoiceOver / screen-reader access in Terminal.app
+Fri May 29 12:45:34 HKT 2026: Tracked issue #63500 [bug]: [BUG] Fullscreen TUI default (~v2.1.150) breaks macOS VoiceOver / screen-reader access in Terminal.app
+Fri May 29 12:45:35 HKT 2026: Processing issue #63501: [BUG] /terminal-setup writes to wrong path for VSCode installed in portable mode (e.g. via Scoop)
+Fri May 29 12:45:35 HKT 2026: Tracked issue #63501 [bug]: [BUG] /terminal-setup writes to wrong path for VSCode installed in portable mode (e.g. via Scoop)
+Fri May 29 12:45:36 HKT 2026: Processing issue #63502: [Bug] Session context lost after overnight inactivity or resumption
+Fri May 29 12:45:36 HKT 2026: Tracked issue #63502 [bug]: [Bug] Session context lost after overnight inactivity or resumption
+Fri May 29 12:45:37 HKT 2026: Processing issue #63503: [Bug] Insufficient error information provided
+Fri May 29 12:45:37 HKT 2026: Tracked issue #63503 [bug]: [Bug] Insufficient error information provided
+Fri May 29 12:45:38 HKT 2026: Processing issue #63504: [BUG] Windows: host CPU pressure starves Claude Code input loop — `claude agents` arrow keys/typing dead until load drops
+Fri May 29 12:45:38 HKT 2026: Tracked issue #63504 [bug]: [BUG] Windows: host CPU pressure starves Claude Code input loop — `claude agents` arrow keys/typing dead until load drops
+Fri May 29 12:45:38 HKT 2026: Processing issue #63505: [Feature Request] Agent should prioritize Read tool before Write/Update operations instead of using cat
+Fri May 29 12:45:38 HKT 2026: Tracked issue #63505 [feature]: [Feature Request] Agent should prioritize Read tool before Write/Update operations instead of using cat
+Fri May 29 12:45:38 HKT 2026: Completed processing up to issue #63505
+Fri May 29 13:15:30 HKT 2026: Checking for new issues...
+Fri May 29 13:15:31 HKT 2026: Found new issues: 63506 63507 63508 63509 63510 63511 63512 
+Fri May 29 13:15:31 HKT 2026: Processing issue #63506: [BUG] Claude Code keeps flagging on it's own injections
+Fri May 29 13:15:31 HKT 2026: Tracked issue #63506 [bug]: [BUG] Claude Code keeps flagging on it's own injections
+Fri May 29 13:15:32 HKT 2026: Processing issue #63507: [BUG] Server-side tool (advisor) bricks session: auto-rename system-reminder injected between server_tool_use and tool_result causes 400
+Fri May 29 13:15:32 HKT 2026: Tracked issue #63507 [bug]: [BUG] Server-side tool (advisor) bricks session: auto-rename system-reminder injected between server_tool_use and tool_result causes 400
+Fri May 29 13:15:33 HKT 2026: Processing issue #63508: Headless + interleaved thinking + tool use: thinking block intermittently mutated → 400 "thinking blocks in the latest assistant message cannot be modified"
+Fri May 29 13:15:33 HKT 2026: Tracked issue #63508 [unknown]: Headless + interleaved thinking + tool use: thinking block intermittently mutated → 400 "thinking blocks in the latest assistant message cannot be modified"
+Fri May 29 13:15:34 HKT 2026: Processing issue #63509: Context/compact button triggers compact on single click with no confirmation or undo
+Fri May 29 13:15:34 HKT 2026: Tracked issue #63509 [unknown]: Context/compact button triggers compact on single click with no confirmation or undo
+Fri May 29 13:15:35 HKT 2026: Processing issue #63510: [BUG] VS Code extension sends invalid system role in messages array
+Fri May 29 13:15:35 HKT 2026: Tracked issue #63510 [bug]: [BUG] VS Code extension sends invalid system role in messages array
+Fri May 29 13:15:36 HKT 2026: Processing issue #63511: [Bug] Excessive token consumption during framework analysis and code generation
+Fri May 29 13:15:36 HKT 2026: Tracked issue #63511 [bug]: [Bug] Excessive token consumption during framework analysis and code generation
+Fri May 29 13:15:37 HKT 2026: Processing issue #63512: [Bug] Anthropic API Error: thinking blocks in assistant message cannot be modified
+Fri May 29 13:15:37 HKT 2026: Tracked issue #63512 [bug]: [Bug] Anthropic API Error: thinking blocks in assistant message cannot be modified
+Fri May 29 13:15:37 HKT 2026: Completed processing up to issue #63512
+Fri May 29 13:45:23 HKT 2026: Checking for new issues...
+Fri May 29 13:45:25 HKT 2026: Found new issues: 63513 63514 63515 63516 63517 
+Fri May 29 13:45:26 HKT 2026: Processing issue #63513: [BUG] Claude code admits to costing me money and tokens
+Fri May 29 13:45:26 HKT 2026: Tracked issue #63513 [bug]: [BUG] Claude code admits to costing me money and tokens
+Fri May 29 13:45:27 HKT 2026: Processing issue #63514: PowerShell tool disabled under MINGW64/Git Bash on Windows
+Fri May 29 13:45:27 HKT 2026: Tracked issue #63514 [unknown]: PowerShell tool disabled under MINGW64/Git Bash on Windows
+Fri May 29 13:45:28 HKT 2026: Processing issue #63515: Max plan: Claude Code may compress context at 200K instead of using extended context window
+Fri May 29 13:45:28 HKT 2026: Tracked issue #63515 [unknown]: Max plan: Claude Code may compress context at 200K instead of using extended context window
+Fri May 29 13:45:29 HKT 2026: Processing issue #63516: PR widget: GitHubPrManager drops --repo when session cwd is a non-git parent dir
+Fri May 29 13:45:29 HKT 2026: Tracked issue #63516 [unknown]: PR widget: GitHubPrManager drops --repo when session cwd is a non-git parent dir
+Fri May 29 13:45:30 HKT 2026: Processing issue #63517: [BUG]
+Fri May 29 13:45:30 HKT 2026: Tracked issue #63517 [bug]: [BUG]
+Fri May 29 13:45:30 HKT 2026: Completed processing up to issue #63517
+Fri May 29 14:15:22 HKT 2026: Checking for new issues...
+Fri May 29 14:15:23 HKT 2026: Found new issues: 63518 63519 63520 63521 63522 63523 63524 
+Fri May 29 14:15:24 HKT 2026: Processing issue #63518: [BUG] Claude desktop installer fails with HRESULT 0x80073CF6 on Windows 11 Home
+Fri May 29 14:15:24 HKT 2026: Tracked issue #63518 [bug]: [BUG] Claude desktop installer fails with HRESULT 0x80073CF6 on Windows 11 Home
+Fri May 29 14:15:25 HKT 2026: Processing issue #63519: [Bug] Tool invocation fails with corrupted strings on WSL
+Fri May 29 14:15:25 HKT 2026: Tracked issue #63519 [bug]: [Bug] Tool invocation fails with corrupted strings on WSL
+Fri May 29 14:15:26 HKT 2026: Processing issue #63520: [BUG] Claude Code doesn't work (you write any question, thinks for 5 minutes and stops), Claude Cowork and Claude Chat works.
+Fri May 29 14:15:26 HKT 2026: Tracked issue #63520 [bug]: [BUG] Claude Code doesn't work (you write any question, thinks for 5 minutes and stops), Claude Cowork and Claude Chat works.
+Fri May 29 14:15:27 HKT 2026: Processing issue #63521: Feature request: Add cursorLineStart/cursorLineEnd actions for Chat input
+Fri May 29 14:15:27 HKT 2026: Tracked issue #63521 [feature]: Feature request: Add cursorLineStart/cursorLineEnd actions for Chat input
+Fri May 29 14:15:28 HKT 2026: Processing issue #63522: [ultrareview] Two consecutive crashes on large diff — free credits consumed without findings
+Fri May 29 14:15:28 HKT 2026: Tracked issue #63522 [bug]: [ultrareview] Two consecutive crashes on large diff — free credits consumed without findings
+Fri May 29 14:15:29 HKT 2026: Processing issue #63523: [BUG] Claude Opus 4.8 makes changes outside the current worktree for the current session
+Fri May 29 14:15:29 HKT 2026: Tracked issue #63523 [bug]: [BUG] Claude Opus 4.8 makes changes outside the current worktree for the current session
+Fri May 29 14:15:30 HKT 2026: Processing issue #63524: Session crashed with "Usage credits required" error after auto-switching to 1M context mode
+Fri May 29 14:15:30 HKT 2026: Tracked issue #63524 [bug]: Session crashed with "Usage credits required" error after auto-switching to 1M context mode
+Fri May 29 14:15:30 HKT 2026: Completed processing up to issue #63524
+Fri May 29 14:45:27 HKT 2026: Checking for new issues...
+Fri May 29 14:45:29 HKT 2026: Found new issues: 63525 63526 63527 63528 63529 63530 63531 63532 63533 63535 63536 63537 
+Fri May 29 14:45:30 HKT 2026: Processing issue #63525: Built-in `Grep`/`Glob` tools unavailable when `ENABLE_TOOL_SEARCH=1` (not in active set, not discoverable via ToolSearch)
+Fri May 29 14:45:30 HKT 2026: Tracked issue #63525 [unknown]: Built-in `Grep`/`Glob` tools unavailable when `ENABLE_TOOL_SEARCH=1` (not in active set, not discoverable via ToolSearch)
+Fri May 29 14:45:31 HKT 2026: Processing issue #63526: claude.ai/code constantly redirects to /code/family (Firefox)
+Fri May 29 14:45:31 HKT 2026: Tracked issue #63526 [unknown]: claude.ai/code constantly redirects to /code/family (Firefox)
+Fri May 29 14:45:32 HKT 2026: Processing issue #63527: [BUG] Session history empty in VSCode extension when working directory is on a mapped Windows drive
+Fri May 29 14:45:32 HKT 2026: Tracked issue #63527 [bug]: [BUG] Session history empty in VSCode extension when working directory is on a mapped Windows drive
+Fri May 29 14:45:33 HKT 2026: Processing issue #63528: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages
+Fri May 29 14:45:33 HKT 2026: Tracked issue #63528 [bug]: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages
+Fri May 29 14:45:34 HKT 2026: Processing issue #63529: [Feature Request] Expose Fast mode state to statusLine scripts
+Fri May 29 14:45:34 HKT 2026: Tracked issue #63529 [feature]: [Feature Request] Expose Fast mode state to statusLine scripts
+Fri May 29 14:45:35 HKT 2026: Processing issue #63530: [BUG] Switching devices leads to stale prompt replay if one device has network partitioned
+Fri May 29 14:45:35 HKT 2026: Tracked issue #63530 [bug]: [BUG] Switching devices leads to stale prompt replay if one device has network partitioned
+Fri May 29 14:45:35 HKT 2026: Processing issue #63531: [BUG] ClaudeCodeManager-VM Checksum Mismatch on macOS Apple Silicon — v1.9659.2
+Fri May 29 14:45:36 HKT 2026: Tracked issue #63531 [bug]: [BUG] ClaudeCodeManager-VM Checksum Mismatch on macOS Apple Silicon — v1.9659.2
+Fri May 29 14:45:36 HKT 2026: Processing issue #63532: [BUG] /context shows 0 tokens for all MCP tools on Bedrock — countTokensWithFallback fails with 400 tools.0.custom.eager_input_streaming: Extra inputs are not permitted
+Fri May 29 14:45:36 HKT 2026: Tracked issue #63532 [bug]: [BUG] /context shows 0 tokens for all MCP tools on Bedrock — countTokensWithFallback fails with 400 tools.0.custom.eager_input_streaming: Extra inputs are not permitted
+Fri May 29 14:45:38 HKT 2026: Processing issue #63533: [BUG] Setting only disableAutoUpdates locks Cowork and third-party inference panes as org-managed (macOS com.anthropic.claudefordesktop)
+Fri May 29 14:45:38 HKT 2026: Tracked issue #63533 [bug]: [BUG] Setting only disableAutoUpdates locks Cowork and third-party inference panes as org-managed (macOS com.anthropic.claudefordesktop)
+Fri May 29 14:45:38 HKT 2026: Processing issue #63535: I'm unable to generate a GitHub issue title from this report because the description "best in the new ultracode" doesn't contain enough technical information about a specific problem, error, or feature request.
+
+To create a proper issue title, I would need
+Fri May 29 14:45:38 HKT 2026: Tracked issue #63535 [bug]: I'm unable to generate a GitHub issue title from this report because the description "best in the new ultracode" doesn't contain enough technical information about a specific problem, error, or feature request.
+
+To create a proper issue title, I would need
+Fri May 29 14:45:39 HKT 2026: Processing issue #63536: [BUG] OTel api_request model attribute drops [1m] suffix while runtime serves 1M context — Cost-by-model dashboard misattributes ~50% of Opus spend
+Fri May 29 14:45:39 HKT 2026: Tracked issue #63536 [bug]: [BUG] OTel api_request model attribute drops [1m] suffix while runtime serves 1M context — Cost-by-model dashboard misattributes ~50% of Opus spend
+Fri May 29 14:45:40 HKT 2026: Processing issue #63537: [Bug] Session restore creates truncated chat history from claude agents list
+Fri May 29 14:45:40 HKT 2026: Tracked issue #63537 [bug]: [Bug] Session restore creates truncated chat history from claude agents list
+Fri May 29 14:45:40 HKT 2026: Completed processing up to issue #63537
+Fri May 29 15:46:28 HKT 2026: Checking for new issues...
+Fri May 29 15:46:29 HKT 2026: Found new issues: 63538 63539 63540 63541 63542 63543 63545 63546 63547 63548 
+Fri May 29 15:46:30 HKT 2026: Processing issue #63538: Model fabricates tool output (and even a user instruction) when a parallel batch is partially cancelled / appears empty
+Fri May 29 15:46:30 HKT 2026: Tracked issue #63538 [unknown]: Model fabricates tool output (and even a user instruction) when a parallel batch is partially cancelled / appears empty
+Fri May 29 15:46:31 HKT 2026: Processing issue #63539: [Bug] Commands hanging/freezing indefinitely during session execution
+Fri May 29 15:46:31 HKT 2026: Tracked issue #63539 [bug]: [Bug] Commands hanging/freezing indefinitely during session execution
+Fri May 29 15:46:32 HKT 2026: Processing issue #63540: Workflow tool: script parse errors always blame "TypeScript syntax" even for plain-JS errors (misleading)
+Fri May 29 15:46:32 HKT 2026: Tracked issue #63540 [bug]: Workflow tool: script parse errors always blame "TypeScript syntax" even for plain-JS errors (misleading)
+Fri May 29 15:46:33 HKT 2026: Processing issue #63541: Cloud environment "Environment variables" aren't available to the Setup script
+Fri May 29 15:46:33 HKT 2026: Tracked issue #63541 [unknown]: Cloud environment "Environment variables" aren't available to the Setup script
+Fri May 29 15:46:34 HKT 2026: Processing issue #63542: [BUG]  Native memory leak (~1.5 GB/min RssAnon) in interactive mode — regression between 2.1.140 and 2.1.150
+Fri May 29 15:46:34 HKT 2026: Tracked issue #63542 [bug]: [BUG]  Native memory leak (~1.5 GB/min RssAnon) in interactive mode — regression between 2.1.140 and 2.1.150
+Fri May 29 15:46:35 HKT 2026: Processing issue #63543: New site
+Fri May 29 15:46:35 HKT 2026: Tracked issue #63543 [unknown]: New site
+Fri May 29 15:46:36 HKT 2026: Processing issue #63545: Claude Code inside tmux: scroll hits input not scrollback, no rich mode ("waiting for output"), transcript not saved
+Fri May 29 15:46:36 HKT 2026: Tracked issue #63545 [unknown]: Claude Code inside tmux: scroll hits input not scrollback, no rich mode ("waiting for output"), transcript not saved
+Fri May 29 15:46:37 HKT 2026: Processing issue #63546: [Bug] Opus 4.8 on Bedrock: "thinking.type.enabled" not supported — regression from #51439
+Fri May 29 15:46:37 HKT 2026: Tracked issue #63546 [bug]: [Bug] Opus 4.8 on Bedrock: "thinking.type.enabled" not supported — regression from #51439
+Fri May 29 15:46:38 HKT 2026: Processing issue #63547: [Regression 1.9659.2] computer-use tools disconnect after first use in Code mode (Windows)
+Fri May 29 15:46:38 HKT 2026: Tracked issue #63547 [regression]: [Regression 1.9659.2] computer-use tools disconnect after first use in Code mode (Windows)
+Fri May 29 15:46:39 HKT 2026: Processing issue #63548: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 15:46:39 HKT 2026: Tracked issue #63548 [bug]: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 15:46:39 HKT 2026: Completed processing up to issue #63548
+Fri May 29 16:47:45 HKT 2026: Checking for new issues...
+Fri May 29 16:47:46 HKT 2026: Found new issues: 63549 63550 63551 63552 63553 63554 63555 63556 63557 63559 63560 63561 63562 63563 63564 63565 63566 63567 63568 63569 63570 63571 63572 63573 63574 63575 63576 
+Fri May 29 16:47:47 HKT 2026: Processing issue #63549: [BUG] Account connector sync overwrites claude_desktop_config.json, wiping manually-added MCP servers and re-adding removed ones
+Fri May 29 16:47:47 HKT 2026: Tracked issue #63549 [bug]: [BUG] Account connector sync overwrites claude_desktop_config.json, wiping manually-added MCP servers and re-adding removed ones
+Fri May 29 16:47:48 HKT 2026: Processing issue #63550: [BUG] Stale "Pull request status couldn't be checked" on archived sessions whose repo/worktree was deleted
+Fri May 29 16:47:48 HKT 2026: Tracked issue #63550 [bug]: [BUG] Stale "Pull request status couldn't be checked" on archived sessions whose repo/worktree was deleted
+Fri May 29 16:47:49 HKT 2026: Processing issue #63551: [BUG] No way to reassign or remove session-to-project associations after the assignment feature was removed
+Fri May 29 16:47:49 HKT 2026: Tracked issue #63551 [bug]: [BUG] No way to reassign or remove session-to-project associations after the assignment feature was removed
+Fri May 29 16:47:50 HKT 2026: Processing issue #63552: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 16:47:50 HKT 2026: Tracked issue #63552 [bug]: [Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message
+Fri May 29 16:47:50 HKT 2026: Processing issue #63553: [Bug] Advisor tool result split across messages causes 400 on session resume
+Fri May 29 16:47:50 HKT 2026: Tracked issue #63553 [bug]: [Bug] Advisor tool result split across messages causes 400 on session resume
+Fri May 29 16:47:51 HKT 2026: Processing issue #63554: Claude provides incorrect guidance about its own /agents feature, causing ~2M token waste
+Fri May 29 16:47:51 HKT 2026: Tracked issue #63554 [bug]: Claude provides incorrect guidance about its own /agents feature, causing ~2M token waste
+Fri May 29 16:47:52 HKT 2026: Processing issue #63555: [FEATURE] In-product feedback-to-remedy loop for Max plan users
+Fri May 29 16:47:52 HKT 2026: Tracked issue #63555 [feature]: [FEATURE] In-product feedback-to-remedy loop for Max plan users
+Fri May 29 16:47:53 HKT 2026: Processing issue #63556: [Feature Request] Add diff view for plan updates to track changes across iterations
+Fri May 29 16:47:53 HKT 2026: Tracked issue #63556 [feature]: [Feature Request] Add diff view for plan updates to track changes across iterations
+Fri May 29 16:47:54 HKT 2026: Processing issue #63557: [Bug] Agentic loop terminates prematurely without completing task
+Fri May 29 16:47:54 HKT 2026: Tracked issue #63557 [bug]: [Bug] Agentic loop terminates prematurely without completing task
+Fri May 29 16:47:55 HKT 2026: Processing issue #63559: [Bug] Frequent ECONNRESET errors with failed retry logic in autonomous sessions
+Fri May 29 16:47:55 HKT 2026: Tracked issue #63559 [bug]: [Bug] Frequent ECONNRESET errors with failed retry logic in autonomous sessions
+Fri May 29 16:47:56 HKT 2026: Processing issue #63560: [BUG] | v2.1.156: settings.json "model" field silently ignored for interactive  sessions
+Fri May 29 16:47:56 HKT 2026: Tracked issue #63560 [bug]: [BUG] | v2.1.156: settings.json "model" field silently ignored for interactive  sessions
+Fri May 29 16:47:57 HKT 2026: Processing issue #63561: [Bug] Auto mode display broken when tabbing with Claude 4.8 models
+Fri May 29 16:47:57 HKT 2026: Tracked issue #63561 [bug]: [Bug] Auto mode display broken when tabbing with Claude 4.8 models
+Fri May 29 16:47:58 HKT 2026: Processing issue #63562: feat: /mcp query <tool> <args> — invoke MCP tools directly from the slash command interface
+Fri May 29 16:47:58 HKT 2026: Tracked issue #63562 [unknown]: feat: /mcp query <tool> <args> — invoke MCP tools directly from the slash command interface
+Fri May 29 16:47:59 HKT 2026: Processing issue #63563: [Bug] Anthropic API Error: Cannot Modify Thinking Blocks in Assistant Messages
+Fri May 29 16:47:59 HKT 2026: Tracked issue #63563 [bug]: [Bug] Anthropic API Error: Cannot Modify Thinking Blocks in Assistant Messages
+Fri May 29 16:48:00 HKT 2026: Processing issue #63564: [BUG] Claude Code on windows Dispatch
+Fri May 29 16:48:00 HKT 2026: Tracked issue #63564 [bug]: [BUG] Claude Code on windows Dispatch
+Fri May 29 16:48:01 HKT 2026: Processing issue #63565: Behavior report: over-orchestration + unverified factual claim + self-violated instruction on a small docs task (Claude Code vs Codex)
+Fri May 29 16:48:01 HKT 2026: Tracked issue #63565 [unknown]: Behavior report: over-orchestration + unverified factual claim + self-violated instruction on a small docs task (Claude Code vs Codex)
+Fri May 29 16:48:03 HKT 2026: Processing issue #63566: [BUG] /claude-api bundled skill saturates context unconditionally — ~77% spike from neutral question
+Fri May 29 16:48:03 HKT 2026: Tracked issue #63566 [bug]: [BUG] /claude-api bundled skill saturates context unconditionally — ~77% spike from neutral question
+Fri May 29 16:48:04 HKT 2026: Processing issue #63567: [Bug] Anthropic API Error: 529 Overloaded
+Fri May 29 16:48:04 HKT 2026: Tracked issue #63567 [bug]: [Bug] Anthropic API Error: 529 Overloaded
+Fri May 29 16:48:05 HKT 2026: Processing issue #63568: API 400 error: thinking blocks modified in /plan mode conversation history
+Fri May 29 16:48:05 HKT 2026: Tracked issue #63568 [bug]: API 400 error: thinking blocks modified in /plan mode conversation history
+Fri May 29 16:48:06 HKT 2026: Processing issue #63569: [BUG] Compatibility issue with DeepSeek API: "unknown variant 'system'" error in messages
+Fri May 29 16:48:06 HKT 2026: Tracked issue #63569 [bug]: [BUG] Compatibility issue with DeepSeek API: "unknown variant 'system'" error in messages
+Fri May 29 16:48:07 HKT 2026: Processing issue #63570: Unable to use Practitest app using chrome extension
+Fri May 29 16:48:07 HKT 2026: Tracked issue #63570 [unknown]: Unable to use Practitest app using chrome extension
+Fri May 29 16:48:08 HKT 2026: Processing issue #63571: [Bug] Anthropic API Error: Model temporarily unavailable blocks Edit operations in auto mode
+Fri May 29 16:48:08 HKT 2026: Tracked issue #63571 [bug]: [Bug] Anthropic API Error: Model temporarily unavailable blocks Edit operations in auto mode
+Fri May 29 16:48:09 HKT 2026: Processing issue #63572: [Bug] Anthropic API Error: Output blocked by content filtering policy
+Fri May 29 16:48:09 HKT 2026: Tracked issue #63572 [bug]: [Bug] Anthropic API Error: Output blocked by content filtering policy
+Fri May 29 16:48:10 HKT 2026: Processing issue #63573: [Bug] Claude Code ignoring user requests to perform visual checks
+Fri May 29 16:48:10 HKT 2026: Tracked issue #63573 [bug]: [Bug] Claude Code ignoring user requests to perform visual checks
+Fri May 29 16:48:11 HKT 2026: Processing issue #63574: [Bug] Anthropic API Error: Cannot modify thinking or redacted_thinking blocks in assistant message
+Fri May 29 16:48:11 HKT 2026: Tracked issue #63574 [bug]: [Bug] Anthropic API Error: Cannot modify thinking or redacted_thinking blocks in assistant message
+Fri May 29 16:48:12 HKT 2026: Processing issue #63575: [FEATURE] disableBypassPermissionsMode should accept booleans (managed settings)
+Fri May 29 16:48:12 HKT 2026: Tracked issue #63575 [feature]: [FEATURE] disableBypassPermissionsMode should accept booleans (managed settings)
+Fri May 29 16:48:13 HKT 2026: Processing issue #63576: [Bug] Parallel tool calls trigger persistent "Cancelled" errors
+Fri May 29 16:48:13 HKT 2026: Tracked issue #63576 [bug]: [Bug] Parallel tool calls trigger persistent "Cancelled" errors
+Fri May 29 16:48:13 HKT 2026: Completed processing up to issue #63576
+Fri May 29 16:49:48 HKT 2026: Checking for new issues...
+Fri May 29 16:49:50 HKT 2026: No new issues (last processed: 63576)
