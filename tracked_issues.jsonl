@@ -1288,3 +1288,60 @@
 {"number":64128,"title":"Auto-mode classifier: `allow` rules silently ignored for default-branch protection; self-modification block contradicts documented escape hatch\n","category":"docs","tracked_at":"2026-05-31T05:05Z"}
 {"number":64129,"title":"[Bug] Opus 4.8 responses not displayed after tool use — quota consumed with no output\n","category":"bug","tracked_at":"2026-05-31T05:05Z"}
 {"number":64130,"title":"GitHub integration connects via OAuth only — private repos inaccessible in remote agents\n","category":"unknown","tracked_at":"2026-05-31T05:05Z"}
+{"number":64131,"title":"[Bug] Workflow stuck in idle state for 9-10 minutes\n","category":"bug","tracked_at":"2026-05-31T06:07Z"}
+{"number":64132,"title":"[Bug] Claude Code advisor process crashing or becoming unresponsive\n","category":"bug","tracked_at":"2026-05-31T06:07Z"}
+{"number":64133,"title":"Native CLI 2.1.152 consumes 8 GB+ RAM on regex with bounded repetition over minified single-line input\n","category":"memory-issue","tracked_at":"2026-05-31T06:07Z"}
+{"number":64134,"title":"[BUG] Remote Control (Android version) always fails to deliver .APK files\n","category":"bug","tracked_at":"2026-05-31T06:07Z"}
+{"number":64136,"title":"v2.1.158 (Opus 4.8): main session missing Grep/Glob, Bash storms, duplicate Bash commands, fabricated branches/commits/files, excessive shell text commands\n","category":"unknown","tracked_at":"2026-05-31T06:07Z"}
+{"number":64137,"title":"[FEATURE]  honesty exemption\n","category":"feature","tracked_at":"2026-05-31T06:07Z"}
+{"number":64138,"title":"[BUG] Built-in local slash command output (e.g. /context) doesn't create a rewind checkpoint, while plugin commands do\n","category":"bug","tracked_at":"2026-05-31T07:08Z"}
+{"number":64139,"title":"[Feature Request] Add window title indicator for Claude Code prompt state (green/red/yellow LED)\n","category":"feature","tracked_at":"2026-05-31T07:08Z"}
+{"number":64141,"title":"[FEATURE] Add a True Isolated / Incognito Chat Mode with User-Controlled Privacy Context Switch\n","category":"feature","tracked_at":"2026-05-31T07:08Z"}
+{"number":64142,"title":"IntelliJ plugin: change chat panel color when not in focus\n","category":"unknown","tracked_at":"2026-05-31T07:08Z"}
+{"number":64143,"title":"[BUG] Session limits maxing out on their own, without any interaction from user.\n","category":"bug","tracked_at":"2026-05-31T07:08Z"}
+{"number":64144,"title":"In-flight /btw side conversation silently lost on Code -> Cowork -> Code switch (data loss)\n","category":"memory-issue","tracked_at":"2026-05-31T07:08Z"}
+{"number":64145,"title":"Skill tool invocation triggers bypass_permissions_gate_blocked, downgrading session from bypassPermissions to acceptEdits\n","category":"unknown","tracked_at":"2026-05-31T08:09Z"}
+{"number":64147,"title":"[Bug] Anthropic API Error 400: System message in messages array breaks session unrecoverably\n","category":"bug","tracked_at":"2026-05-31T08:09Z"}
+{"number":64148,"title":"[BUG] Invalid Request\n","category":"bug","tracked_at":"2026-05-31T08:09Z"}
+{"number":64149,"title":"[Feature Request] Improve error recovery and self-correction during multi-step operations\n","category":"bug","tracked_at":"2026-05-31T08:09Z"}
+{"number":64151,"title":"Bundled GrowthBook clientKey intermittently returns 400 \"Invalid API Key\" → all feature flags fail → channels & Remote Control unavailable\n","category":"memory-issue","tracked_at":"2026-05-31T08:09Z"}
+{"number":64152,"title":"Claude Opus over-engineers simple tasks in agentic/CLI mode, wasting tokens\n","category":"unknown","tracked_at":"2026-05-31T08:09Z"}
+{"number":64153,"title":"[BUG] Opus 4.8 medium effort spends 46k output tokens on hidden thinking for a simple coding turn\n","category":"bug","tracked_at":"2026-05-31T08:09Z"}
+{"number":64154,"title":"[FEATURE] I really wish I could minimize the questions popup window\n","category":"feature","tracked_at":"2026-05-31T08:09Z"}
+{"number":64155,"title":"[BUG] .claude/CLAUDE.local.md not being loaded\n","category":"bug","tracked_at":"2026-05-31T08:09Z"}
+{"number":64156,"title":"No warning when selected model is incompatible with xhigh/Ultracode effort level\n","category":"unknown","tracked_at":"2026-05-31T09:10Z"}
+{"number":64157,"title":"[BUG]\n","category":"bug","tracked_at":"2026-05-31T09:10Z"}
+{"number":64159,"title":"[Bug] Text formatting lost when returning from /plugins command\n","category":"bug","tracked_at":"2026-05-31T09:10Z"}
+{"number":64160,"title":"Claude repeatedly ignores tool rejections and burns user tokens\n","category":"memory-issue","tracked_at":"2026-05-31T09:10Z"}
+{"number":64161,"title":"Claude Code (Opus 4.7) silently narrows user-assigned task scope using self-generated safety heuristic, even when explicit in-session directive and persistent memory forbid it; laundered through external reviewer agent\n","category":"memory-issue","tracked_at":"2026-05-31T09:10Z"}
+{"number":64162,"title":"[BUG] Plan-mode read-only guarantee is bypassed by spawned subagents — auto mode classifier governs subagents instead of plan mode.\n","category":"bug","tracked_at":"2026-05-31T09:10Z"}
+{"number":64163,"title":"[BUG] Visible console windows pop up for every bash command on Windows (Git Bash) — missing windowsHide flag\n","category":"bug","tracked_at":"2026-05-31T09:10Z"}
+{"number":64165,"title":"Feature request: Bash tool should respect user's configured shell\n","category":"feature","tracked_at":"2026-05-31T09:10Z"}
+{"number":64166,"title":"[Bug] Claude ignores CLAUDE.md language rule and responds in Ukrainian despite English input\n","category":"bug","tracked_at":"2026-05-31T10:11Z"}
+{"number":64168,"title":"[BUG] VS Code extension subprocess init timeout on WSL2/Ubuntu 26.04 — CLI fully healthy (stream-json handshake works from terminal)\n","category":"bug","tracked_at":"2026-05-31T10:11Z"}
+{"number":64169,"title":"[BUG] Claude does not let me change\n","category":"bug","tracked_at":"2026-05-31T10:11Z"}
+{"number":64170,"title":"[FEATURE] Add PermissionResolved hook event\n","category":"feature","tracked_at":"2026-05-31T10:11Z"}
+{"number":64171,"title":"Feedback: noticeable reliability regression — agent edits from memory, silent Edit failures shipped broken code to prod\n","category":"bug","tracked_at":"2026-05-31T10:12Z"}
+{"number":64172,"title":"[DOCS] Wrong and deprecated npm install command shown on claude.ai/code\n","category":"bug","tracked_at":"2026-05-31T10:12Z"}
+{"number":64173,"title":"Channel splash shows 'plugin not installed' for all plugin-type channels despite channels working correctly (v2.1.145)\n","category":"false-positive","tracked_at":"2026-05-31T10:12Z"}
+{"number":64174,"title":"Claude Code assistant repeatedly takes unauthorized actions, ignores stored behavioral rules\n","category":"memory-issue","tracked_at":"2026-05-31T10:12Z"}
+{"number":64175,"title":"Claude Code wastes user quota with repeated \n  trial-and-error instead of verifying calculations before coding\n","category":"bug","tracked_at":"2026-05-31T10:12Z"}
+{"number":64176,"title":"Regression in 2.1.150-2.1.158: malformed tool_use blocks not parseable, retry-resistant\n","category":"regression","tracked_at":"2026-05-31T10:12Z"}
+{"number":64177,"title":"Workflow counts API-errored subagents as \"completed\"; 429/500/529 storm under multi-agent load\n","category":"bug","tracked_at":"2026-05-31T10:12Z"}
+{"number":64178,"title":"[Feature Request] Require confirmation for open questions before presenting plan start options\n","category":"feature","tracked_at":"2026-05-31T10:12Z"}
+{"number":64180,"title":"[FEATURE] PostAssistantResponse\n","category":"feature","tracked_at":"2026-05-31T11:13Z"}
+{"number":64181,"title":"Feature request: verbatim/bash-only mode for slash commands\n","category":"feature","tracked_at":"2026-05-31T11:13Z"}
+{"number":64182,"title":"[BUG]  Linux sandbox: proxy UNIX sockets not visible to subprocesses (missing bind after --tmpfs /tmp)\n","category":"bug","tracked_at":"2026-05-31T11:13Z"}
+{"number":64183,"title":"[FEATURE] unarchive the archived sessions in Claude Code.. i accidentally archived my sessions\n","category":"feature","tracked_at":"2026-05-31T11:13Z"}
+{"number":64184,"title":"[BUG] everything broke down on windos desktop app\n","category":"bug","tracked_at":"2026-05-31T11:13Z"}
+{"number":64185,"title":"[FEATURE] HTML viewer and .md edit in Claude Desktop App\n","category":"feature","tracked_at":"2026-05-31T11:13Z"}
+{"number":64186,"title":"[BUG] You ran our of memory\n","category":"bug","tracked_at":"2026-05-31T11:13Z"}
+{"number":64189,"title":"[BUG] - ultrareview failed and consumed free use credit\n","category":"bug","tracked_at":"2026-05-31T11:13Z"}
+{"number":64191,"title":"`/desktop` fails: \"Cannot determine working directory … transcript may be incomplete\" after EnterWorktree→ExitWorktree (transcript fragmented across project dirs; bridge-session record has no cwd)\n","category":"bug","tracked_at":"2026-05-31T11:13Z"}
+{"number":64192,"title":"TaskCreate 'task tools haven't been used recently' system-reminder fires repeatedly per long session — needs suppression knob (cross-repo from AaaS-Love/.claude#2048)\n","category":"memory-issue","tracked_at":"2026-05-31T11:13Z"}
+{"number":64193,"title":"[Feature/UX] Yellow notification dot never clears on read + no way to configure dot behaviour\n","category":"unknown","tracked_at":"2026-05-31T11:13Z"}
+{"number":64194,"title":"Token waste bug: Workflow spawned 44 parallel agents to read files instead of using git clone (2M tokens vs ~1000)\n","category":"bug","tracked_at":"2026-05-31T11:13Z"}
+{"number":64195,"title":"[Feature Request] Restore deprecated Claude Opus versions (4.6, 4.7) with deprecation warnings\n","category":"feature","tracked_at":"2026-05-31T11:13Z"}
+{"number":64196,"title":"Claude Pro: 1M context limit breaks active workflows without warning\n","category":"unknown","tracked_at":"2026-05-31T11:13Z"}
+{"number":64197,"title":"[BUG] macOS: npm/Homebrew install places native binary at bin/claude.exe, causing recurring \"claude.exe would like to access data from other apps\" TCC prompts\n","category":"bug","tracked_at":"2026-05-31T11:13Z"}
+{"number":64198,"title":"[MODEL] False-positive cyber-safety block on benign Minecraft mod documentation task\n","category":"docs","tracked_at":"2026-05-31T11:13Z"}

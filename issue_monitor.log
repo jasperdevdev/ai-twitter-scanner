@@ -6542,3 +6542,146 @@ Sun May 31 13:05:27 HKT 2026: Tracked issue #64129 [bug]: [Bug] Opus 4.8 respons
 Sun May 31 13:05:30 HKT 2026: Processing issue #64130: GitHub integration connects via OAuth only — private repos inaccessible in remote agents
 Sun May 31 13:05:30 HKT 2026: Tracked issue #64130 [unknown]: GitHub integration connects via OAuth only — private repos inaccessible in remote agents
 Sun May 31 13:05:30 HKT 2026: Completed processing up to issue #64130
+Sun May 31 14:07:11 HKT 2026: Checking for new issues...
+Sun May 31 14:07:12 HKT 2026: Found new issues: 64131 64132 64133 64134 64135 64136 64137 
+Sun May 31 14:07:15 HKT 2026: Processing issue #64131: [Bug] Workflow stuck in idle state for 9-10 minutes
+Sun May 31 14:07:15 HKT 2026: Tracked issue #64131 [bug]: [Bug] Workflow stuck in idle state for 9-10 minutes
+Sun May 31 14:07:17 HKT 2026: Processing issue #64132: [Bug] Claude Code advisor process crashing or becoming unresponsive
+Sun May 31 14:07:17 HKT 2026: Tracked issue #64132 [bug]: [Bug] Claude Code advisor process crashing or becoming unresponsive
+Sun May 31 14:07:20 HKT 2026: Processing issue #64133: Native CLI 2.1.152 consumes 8 GB+ RAM on regex with bounded repetition over minified single-line input
+Sun May 31 14:07:20 HKT 2026: Tracked issue #64133 [memory-issue]: Native CLI 2.1.152 consumes 8 GB+ RAM on regex with bounded repetition over minified single-line input
+Sun May 31 14:07:23 HKT 2026: Processing issue #64134: [BUG] Remote Control (Android version) always fails to deliver .APK files
+Sun May 31 14:07:23 HKT 2026: Tracked issue #64134 [bug]: [BUG] Remote Control (Android version) always fails to deliver .APK files
+Sun May 31 14:07:24 HKT 2026: Skipped issue #64135 - detected as spam
+Sun May 31 14:07:26 HKT 2026: Processing issue #64136: v2.1.158 (Opus 4.8): main session missing Grep/Glob, Bash storms, duplicate Bash commands, fabricated branches/commits/files, excessive shell text commands
+Sun May 31 14:07:26 HKT 2026: Tracked issue #64136 [unknown]: v2.1.158 (Opus 4.8): main session missing Grep/Glob, Bash storms, duplicate Bash commands, fabricated branches/commits/files, excessive shell text commands
+Sun May 31 14:07:29 HKT 2026: Processing issue #64137: [FEATURE]  honesty exemption
+Sun May 31 14:07:29 HKT 2026: Tracked issue #64137 [feature]: [FEATURE]  honesty exemption
+Sun May 31 14:07:29 HKT 2026: Completed processing up to issue #64137
+Sun May 31 15:08:13 HKT 2026: Checking for new issues...
+Sun May 31 15:08:15 HKT 2026: Found new issues: 64138 64139 64140 64141 64142 64143 64144 
+Sun May 31 15:08:17 HKT 2026: Processing issue #64138: [BUG] Built-in local slash command output (e.g. /context) doesn't create a rewind checkpoint, while plugin commands do
+Sun May 31 15:08:17 HKT 2026: Tracked issue #64138 [bug]: [BUG] Built-in local slash command output (e.g. /context) doesn't create a rewind checkpoint, while plugin commands do
+Sun May 31 15:08:20 HKT 2026: Processing issue #64139: [Feature Request] Add window title indicator for Claude Code prompt state (green/red/yellow LED)
+Sun May 31 15:08:20 HKT 2026: Tracked issue #64139 [feature]: [Feature Request] Add window title indicator for Claude Code prompt state (green/red/yellow LED)
+Sun May 31 15:08:21 HKT 2026: Skipped issue #64140 - detected as spam
+Sun May 31 15:08:24 HKT 2026: Processing issue #64141: [FEATURE] Add a True Isolated / Incognito Chat Mode with User-Controlled Privacy Context Switch
+Sun May 31 15:08:24 HKT 2026: Tracked issue #64141 [feature]: [FEATURE] Add a True Isolated / Incognito Chat Mode with User-Controlled Privacy Context Switch
+Sun May 31 15:08:26 HKT 2026: Processing issue #64142: IntelliJ plugin: change chat panel color when not in focus
+Sun May 31 15:08:26 HKT 2026: Tracked issue #64142 [unknown]: IntelliJ plugin: change chat panel color when not in focus
+Sun May 31 15:08:29 HKT 2026: Processing issue #64143: [BUG] Session limits maxing out on their own, without any interaction from user.
+Sun May 31 15:08:29 HKT 2026: Tracked issue #64143 [bug]: [BUG] Session limits maxing out on their own, without any interaction from user.
+Sun May 31 15:08:31 HKT 2026: Processing issue #64144: In-flight /btw side conversation silently lost on Code -> Cowork -> Code switch (data loss)
+Sun May 31 15:08:31 HKT 2026: Tracked issue #64144 [memory-issue]: In-flight /btw side conversation silently lost on Code -> Cowork -> Code switch (data loss)
+Sun May 31 15:08:31 HKT 2026: Completed processing up to issue #64144
+Sun May 31 16:09:28 HKT 2026: Checking for new issues...
+Sun May 31 16:09:30 HKT 2026: Found new issues: 64145 64147 64148 64149 64150 64151 64152 64153 64154 64155 
+Sun May 31 16:09:32 HKT 2026: Processing issue #64145: Skill tool invocation triggers bypass_permissions_gate_blocked, downgrading session from bypassPermissions to acceptEdits
+Sun May 31 16:09:32 HKT 2026: Tracked issue #64145 [unknown]: Skill tool invocation triggers bypass_permissions_gate_blocked, downgrading session from bypassPermissions to acceptEdits
+Sun May 31 16:09:35 HKT 2026: Processing issue #64147: [Bug] Anthropic API Error 400: System message in messages array breaks session unrecoverably
+Sun May 31 16:09:35 HKT 2026: Tracked issue #64147 [bug]: [Bug] Anthropic API Error 400: System message in messages array breaks session unrecoverably
+Sun May 31 16:09:37 HKT 2026: Processing issue #64148: [BUG] Invalid Request
+Sun May 31 16:09:37 HKT 2026: Tracked issue #64148 [bug]: [BUG] Invalid Request
+Sun May 31 16:09:40 HKT 2026: Processing issue #64149: [Feature Request] Improve error recovery and self-correction during multi-step operations
+Sun May 31 16:09:40 HKT 2026: Tracked issue #64149 [bug]: [Feature Request] Improve error recovery and self-correction during multi-step operations
+Sun May 31 16:09:41 HKT 2026: Skipped issue #64150 - detected as spam
+Sun May 31 16:09:43 HKT 2026: Processing issue #64151: Bundled GrowthBook clientKey intermittently returns 400 "Invalid API Key" → all feature flags fail → channels & Remote Control unavailable
+Sun May 31 16:09:43 HKT 2026: Tracked issue #64151 [memory-issue]: Bundled GrowthBook clientKey intermittently returns 400 "Invalid API Key" → all feature flags fail → channels & Remote Control unavailable
+Sun May 31 16:09:45 HKT 2026: Processing issue #64152: Claude Opus over-engineers simple tasks in agentic/CLI mode, wasting tokens
+Sun May 31 16:09:45 HKT 2026: Tracked issue #64152 [unknown]: Claude Opus over-engineers simple tasks in agentic/CLI mode, wasting tokens
+Sun May 31 16:09:47 HKT 2026: Processing issue #64153: [BUG] Opus 4.8 medium effort spends 46k output tokens on hidden thinking for a simple coding turn
+Sun May 31 16:09:48 HKT 2026: Tracked issue #64153 [bug]: [BUG] Opus 4.8 medium effort spends 46k output tokens on hidden thinking for a simple coding turn
+Sun May 31 16:09:50 HKT 2026: Processing issue #64154: [FEATURE] I really wish I could minimize the questions popup window
+Sun May 31 16:09:50 HKT 2026: Tracked issue #64154 [feature]: [FEATURE] I really wish I could minimize the questions popup window
+Sun May 31 16:09:53 HKT 2026: Processing issue #64155: [BUG] .claude/CLAUDE.local.md not being loaded
+Sun May 31 16:09:53 HKT 2026: Tracked issue #64155 [bug]: [BUG] .claude/CLAUDE.local.md not being loaded
+Sun May 31 16:09:53 HKT 2026: Completed processing up to issue #64155
+Sun May 31 17:10:35 HKT 2026: Checking for new issues...
+Sun May 31 17:10:36 HKT 2026: Found new issues: 64156 64157 64158 64159 64160 64161 64162 64163 64164 64165 
+Sun May 31 17:10:39 HKT 2026: Processing issue #64156: No warning when selected model is incompatible with xhigh/Ultracode effort level
+Sun May 31 17:10:39 HKT 2026: Tracked issue #64156 [unknown]: No warning when selected model is incompatible with xhigh/Ultracode effort level
+Sun May 31 17:10:40 HKT 2026: Processing issue #64157: [BUG]
+Sun May 31 17:10:40 HKT 2026: Tracked issue #64157 [bug]: [BUG]
+Sun May 31 17:10:40 HKT 2026: Skipped issue #64158 - detected as spam
+Sun May 31 17:10:43 HKT 2026: Processing issue #64159: [Bug] Text formatting lost when returning from /plugins command
+Sun May 31 17:10:43 HKT 2026: Tracked issue #64159 [bug]: [Bug] Text formatting lost when returning from /plugins command
+Sun May 31 17:10:45 HKT 2026: Processing issue #64160: Claude repeatedly ignores tool rejections and burns user tokens
+Sun May 31 17:10:45 HKT 2026: Tracked issue #64160 [memory-issue]: Claude repeatedly ignores tool rejections and burns user tokens
+Sun May 31 17:10:48 HKT 2026: Processing issue #64161: Claude Code (Opus 4.7) silently narrows user-assigned task scope using self-generated safety heuristic, even when explicit in-session directive and persistent memory forbid it; laundered through external reviewer agent
+Sun May 31 17:10:48 HKT 2026: Tracked issue #64161 [memory-issue]: Claude Code (Opus 4.7) silently narrows user-assigned task scope using self-generated safety heuristic, even when explicit in-session directive and persistent memory forbid it; laundered through external reviewer agent
+Sun May 31 17:10:51 HKT 2026: Processing issue #64162: [BUG] Plan-mode read-only guarantee is bypassed by spawned subagents — auto mode classifier governs subagents instead of plan mode.
+Sun May 31 17:10:51 HKT 2026: Tracked issue #64162 [bug]: [BUG] Plan-mode read-only guarantee is bypassed by spawned subagents — auto mode classifier governs subagents instead of plan mode.
+Sun May 31 17:10:53 HKT 2026: Processing issue #64163: [BUG] Visible console windows pop up for every bash command on Windows (Git Bash) — missing windowsHide flag
+Sun May 31 17:10:53 HKT 2026: Tracked issue #64163 [bug]: [BUG] Visible console windows pop up for every bash command on Windows (Git Bash) — missing windowsHide flag
+Sun May 31 17:10:54 HKT 2026: Skipped issue #64164 - detected as spam
+Sun May 31 17:10:57 HKT 2026: Processing issue #64165: Feature request: Bash tool should respect user's configured shell
+Sun May 31 17:10:57 HKT 2026: Tracked issue #64165 [feature]: Feature request: Bash tool should respect user's configured shell
+Sun May 31 17:10:57 HKT 2026: Completed processing up to issue #64165
+Sun May 31 18:11:47 HKT 2026: Checking for new issues...
+Sun May 31 18:11:48 HKT 2026: Found new issues: 64166 64168 64169 64170 64171 64172 64173 64174 64175 64176 64177 64178 
+Sun May 31 18:11:51 HKT 2026: Processing issue #64166: [Bug] Claude ignores CLAUDE.md language rule and responds in Ukrainian despite English input
+Sun May 31 18:11:51 HKT 2026: Tracked issue #64166 [bug]: [Bug] Claude ignores CLAUDE.md language rule and responds in Ukrainian despite English input
+Sun May 31 18:11:54 HKT 2026: Processing issue #64168: [BUG] VS Code extension subprocess init timeout on WSL2/Ubuntu 26.04 — CLI fully healthy (stream-json handshake works from terminal)
+Sun May 31 18:11:54 HKT 2026: Tracked issue #64168 [bug]: [BUG] VS Code extension subprocess init timeout on WSL2/Ubuntu 26.04 — CLI fully healthy (stream-json handshake works from terminal)
+Sun May 31 18:11:56 HKT 2026: Processing issue #64169: [BUG] Claude does not let me change
+Sun May 31 18:11:56 HKT 2026: Tracked issue #64169 [bug]: [BUG] Claude does not let me change
+Sun May 31 18:11:59 HKT 2026: Processing issue #64170: [FEATURE] Add PermissionResolved hook event
+Sun May 31 18:11:59 HKT 2026: Tracked issue #64170 [feature]: [FEATURE] Add PermissionResolved hook event
+Sun May 31 18:12:04 HKT 2026: Processing issue #64171: Feedback: noticeable reliability regression — agent edits from memory, silent Edit failures shipped broken code to prod
+Sun May 31 18:12:04 HKT 2026: Tracked issue #64171 [bug]: Feedback: noticeable reliability regression — agent edits from memory, silent Edit failures shipped broken code to prod
+Sun May 31 18:12:07 HKT 2026: Processing issue #64172: [DOCS] Wrong and deprecated npm install command shown on claude.ai/code
+Sun May 31 18:12:07 HKT 2026: Tracked issue #64172 [bug]: [DOCS] Wrong and deprecated npm install command shown on claude.ai/code
+Sun May 31 18:12:10 HKT 2026: Processing issue #64173: Channel splash shows 'plugin not installed' for all plugin-type channels despite channels working correctly (v2.1.145)
+Sun May 31 18:12:10 HKT 2026: Tracked issue #64173 [false-positive]: Channel splash shows 'plugin not installed' for all plugin-type channels despite channels working correctly (v2.1.145)
+Sun May 31 18:12:13 HKT 2026: Processing issue #64174: Claude Code assistant repeatedly takes unauthorized actions, ignores stored behavioral rules
+Sun May 31 18:12:13 HKT 2026: Tracked issue #64174 [memory-issue]: Claude Code assistant repeatedly takes unauthorized actions, ignores stored behavioral rules
+Sun May 31 18:12:16 HKT 2026: Processing issue #64175: Claude Code wastes user quota with repeated 
+  trial-and-error instead of verifying calculations before coding
+Sun May 31 18:12:16 HKT 2026: Tracked issue #64175 [bug]: Claude Code wastes user quota with repeated 
+  trial-and-error instead of verifying calculations before coding
+Sun May 31 18:12:18 HKT 2026: Processing issue #64176: Regression in 2.1.150-2.1.158: malformed tool_use blocks not parseable, retry-resistant
+Sun May 31 18:12:18 HKT 2026: Tracked issue #64176 [regression]: Regression in 2.1.150-2.1.158: malformed tool_use blocks not parseable, retry-resistant
+Sun May 31 18:12:21 HKT 2026: Processing issue #64177: Workflow counts API-errored subagents as "completed"; 429/500/529 storm under multi-agent load
+Sun May 31 18:12:21 HKT 2026: Tracked issue #64177 [bug]: Workflow counts API-errored subagents as "completed"; 429/500/529 storm under multi-agent load
+Sun May 31 18:12:24 HKT 2026: Processing issue #64178: [Feature Request] Require confirmation for open questions before presenting plan start options
+Sun May 31 18:12:24 HKT 2026: Tracked issue #64178 [feature]: [Feature Request] Require confirmation for open questions before presenting plan start options
+Sun May 31 18:12:24 HKT 2026: Completed processing up to issue #64178
+Sun May 31 19:13:03 HKT 2026: Checking for new issues...
+Sun May 31 19:13:04 HKT 2026: Found new issues: 64179 64180 64181 64182 64183 64184 64185 64186 64187 64188 64189 64190 64191 64192 64193 64194 64195 64196 64197 64198 
+Sun May 31 19:13:05 HKT 2026: Skipped issue #64179 - detected as spam
+Sun May 31 19:13:08 HKT 2026: Processing issue #64180: [FEATURE] PostAssistantResponse
+Sun May 31 19:13:08 HKT 2026: Tracked issue #64180 [feature]: [FEATURE] PostAssistantResponse
+Sun May 31 19:13:11 HKT 2026: Processing issue #64181: Feature request: verbatim/bash-only mode for slash commands
+Sun May 31 19:13:11 HKT 2026: Tracked issue #64181 [feature]: Feature request: verbatim/bash-only mode for slash commands
+Sun May 31 19:13:14 HKT 2026: Processing issue #64182: [BUG]  Linux sandbox: proxy UNIX sockets not visible to subprocesses (missing bind after --tmpfs /tmp)
+Sun May 31 19:13:14 HKT 2026: Tracked issue #64182 [bug]: [BUG]  Linux sandbox: proxy UNIX sockets not visible to subprocesses (missing bind after --tmpfs /tmp)
+Sun May 31 19:13:17 HKT 2026: Processing issue #64183: [FEATURE] unarchive the archived sessions in Claude Code.. i accidentally archived my sessions
+Sun May 31 19:13:17 HKT 2026: Tracked issue #64183 [feature]: [FEATURE] unarchive the archived sessions in Claude Code.. i accidentally archived my sessions
+Sun May 31 19:13:19 HKT 2026: Processing issue #64184: [BUG] everything broke down on windos desktop app
+Sun May 31 19:13:19 HKT 2026: Tracked issue #64184 [bug]: [BUG] everything broke down on windos desktop app
+Sun May 31 19:13:22 HKT 2026: Processing issue #64185: [FEATURE] HTML viewer and .md edit in Claude Desktop App
+Sun May 31 19:13:22 HKT 2026: Tracked issue #64185 [feature]: [FEATURE] HTML viewer and .md edit in Claude Desktop App
+Sun May 31 19:13:25 HKT 2026: Processing issue #64186: [BUG] You ran our of memory
+Sun May 31 19:13:25 HKT 2026: Tracked issue #64186 [bug]: [BUG] You ran our of memory
+Sun May 31 19:13:26 HKT 2026: Skipped issue #64187 - detected as spam
+Sun May 31 19:13:27 HKT 2026: Skipped issue #64188 - detected as spam
+Sun May 31 19:13:29 HKT 2026: Processing issue #64189: [BUG] - ultrareview failed and consumed free use credit
+Sun May 31 19:13:29 HKT 2026: Tracked issue #64189 [bug]: [BUG] - ultrareview failed and consumed free use credit
+Sun May 31 19:13:30 HKT 2026: Skipped issue #64190 - detected as spam
+Sun May 31 19:13:33 HKT 2026: Processing issue #64191: `/desktop` fails: "Cannot determine working directory … transcript may be incomplete" after EnterWorktree→ExitWorktree (transcript fragmented across project dirs; bridge-session record has no cwd)
+Sun May 31 19:13:33 HKT 2026: Tracked issue #64191 [bug]: `/desktop` fails: "Cannot determine working directory … transcript may be incomplete" after EnterWorktree→ExitWorktree (transcript fragmented across project dirs; bridge-session record has no cwd)
+Sun May 31 19:13:36 HKT 2026: Processing issue #64192: TaskCreate 'task tools haven't been used recently' system-reminder fires repeatedly per long session — needs suppression knob (cross-repo from AaaS-Love/.claude#2048)
+Sun May 31 19:13:37 HKT 2026: Tracked issue #64192 [memory-issue]: TaskCreate 'task tools haven't been used recently' system-reminder fires repeatedly per long session — needs suppression knob (cross-repo from AaaS-Love/.claude#2048)
+Sun May 31 19:13:39 HKT 2026: Processing issue #64193: [Feature/UX] Yellow notification dot never clears on read + no way to configure dot behaviour
+Sun May 31 19:13:39 HKT 2026: Tracked issue #64193 [unknown]: [Feature/UX] Yellow notification dot never clears on read + no way to configure dot behaviour
+Sun May 31 19:13:41 HKT 2026: Processing issue #64194: Token waste bug: Workflow spawned 44 parallel agents to read files instead of using git clone (2M tokens vs ~1000)
+Sun May 31 19:13:41 HKT 2026: Tracked issue #64194 [bug]: Token waste bug: Workflow spawned 44 parallel agents to read files instead of using git clone (2M tokens vs ~1000)
+Sun May 31 19:13:44 HKT 2026: Processing issue #64195: [Feature Request] Restore deprecated Claude Opus versions (4.6, 4.7) with deprecation warnings
+Sun May 31 19:13:44 HKT 2026: Tracked issue #64195 [feature]: [Feature Request] Restore deprecated Claude Opus versions (4.6, 4.7) with deprecation warnings
+Sun May 31 19:13:47 HKT 2026: Processing issue #64196: Claude Pro: 1M context limit breaks active workflows without warning
+Sun May 31 19:13:47 HKT 2026: Tracked issue #64196 [unknown]: Claude Pro: 1M context limit breaks active workflows without warning
+Sun May 31 19:13:49 HKT 2026: Processing issue #64197: [BUG] macOS: npm/Homebrew install places native binary at bin/claude.exe, causing recurring "claude.exe would like to access data from other apps" TCC prompts
+Sun May 31 19:13:49 HKT 2026: Tracked issue #64197 [bug]: [BUG] macOS: npm/Homebrew install places native binary at bin/claude.exe, causing recurring "claude.exe would like to access data from other apps" TCC prompts
+Sun May 31 19:13:52 HKT 2026: Processing issue #64198: [MODEL] False-positive cyber-safety block on benign Minecraft mod documentation task
+Sun May 31 19:13:52 HKT 2026: Tracked issue #64198 [docs]: [MODEL] False-positive cyber-safety block on benign Minecraft mod documentation task
+Sun May 31 19:13:52 HKT 2026: Completed processing up to issue #64198
