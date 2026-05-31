@@ -82,7 +82,7 @@ normalize_title() {
     echo "$title" | xargs 2>/dev/null || echo "$title"
 }
 
-# Check for exact duplicates (normalized titles must match exactly)
+# Check for duplicates - require substantially similar titles (not just keywords)
 is_duplicate() {
     local title="$1"
     local normalized
@@ -92,16 +92,30 @@ is_duplicate() {
         return 1
     fi
     
+    # Get the issue number to avoid self-comparison
+    local current_issue_num=$(echo "$title" | grep -oE '[0-9]+' | head -1) || true
+    
+    # Only flag as duplicate if the normalized title is substantial (at least 25 chars)
+    # This prevents short generic phrases from matching too easily
+    local normalized_len=$(echo "$normalized" | wc -c)
+    if [ "$normalized_len" -lt 25 ]; then
+        return 1
+    fi
+    
     if [ -f "$TRACKED_FILE" ]; then
         # Compare against full normalized titles line by line
         while IFS= read -r old_title; do
             [ -z "$old_title" ] && continue
             local old_normalized
             old_normalized=$(normalize_title "$old_title") || true
-            if [ "$normalized" = "$old_normalized" ]; then
-                return 0
+            # Only flag as duplicate if EXACT match AND substantial length
+            if [ "$normalized" = "$old_normalized" ] && [ -n "$old_normalized" ]; then
+                local old_len=$(echo "$old_normalized" | wc -c)
+                if [ "$old_len" -ge 25 ]; then
+                    return 0
+                fi
             fi
-        done < <(tail -20 "$TRACKED_FILE" | jq -r '.title' 2>/dev/null)
+        done < <(tail -30 "$TRACKED_FILE" | jq -r '.title' 2>/dev/null)
     fi
     return 1
 }
