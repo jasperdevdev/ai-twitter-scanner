@@ -69,3 +69,48 @@
 ---
 Token lacks write permission to comment on issues directly.
 Summary pushed to repo for tracking.
+
+# Latest Issues Analysis (May 30, 2026 - Evening)
+# Generated: 2026-05-30 22:44 HKT
+
+## Summary from Issue Monitor Run
+
+Total new issues found: 30
+Latest issue tracked: #63976
+
+### Tracked Issues Breakdown
+
+#### 🟠 Bug Reports (need fixing in Claude Code binary)
+
+| Issue | Title | Priority |
+|-------|-------|----------|
+| #63970 | Read tool hangs indefinitely during execution | HIGH |
+| #63971 | Unsafe git operations cause data loss when reviewing PRs | HIGH |
+| #63972 | Ctrl-O exits batch processing and cancels all | MEDIUM |
+| #63973 | Custom statusLine stops being invoked after subagent completes | MEDIUM |
+| #63975 | iOS: unsent prompt lost when swiping left | MEDIUM |
+| #63976 | Auto-compaction did not trigger at 100% context | UNKNOWN |
+
+#### 🔵 Feature Requests
+
+| Issue | Title |
+|-------|-------|
+| #63965 | Feature request: acknowledge /remote-control activation |
+| #63967 | Support patterns in .claudeignore alongside .gitignore |
+| #63974 | Add disabledSlashCommands setting |
+
+#### 🟡 Notable Issues from earlier batches
+
+| Issue | Title |
+|-------|-------|
+| #63133 | JSON parse error after tool execution (Python client regression) |
+| #63120 | MCP server tools silently discarded (regression from 2.1.152) |
+| #63128 | Thinking display + interrupt button failure on Windows |
+| #63131 | PTY handle leak on macOS |
+
+## Action Items
+
+Since the GitHub token lacks write permission, we cannot directly comment on issues. 
+Instead, documented in this file for tracking.
+
+All issues relate to the Claude Code CLI binary - source code not accessible for fixes.
