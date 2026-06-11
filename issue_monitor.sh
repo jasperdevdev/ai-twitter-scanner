@@ -9,14 +9,25 @@ LOG_FILE="/root/.openclaw/workspace/ai-twitter-scanner/issue_monitor.log"
 TRACKED_FILE="/root/.openclaw/workspace/ai-twitter-scanner/tracked_issues.jsonl"
 DUPE_FILE="/root/.openclaw/workspace/ai-twitter-scanner/duplicates.txt"
 
+# Save progress on exit (including SIGTERM)
+save_progress() {
+    if [ -n "$LAST_PROCESSED" ] && [ "$LAST_PROCESSED" -gt 0 ]; then
+        echo "$LAST_PROCESSED" > "$ISSUE_FILE"
+        log "Progress saved: last processed = $LAST_PROCESSED"
+    fi
+}
+trap save_progress EXIT
+
 log() {
     echo "$(date): $1" >> "$LOG_FILE"
 }
 
+# Limit to most recent 20 issues for efficiency
+MAX_ISSUES=20
 log "Checking for new issues..."
 
 # Get all open issues sorted by creation date (newest first)
-LATEST_ISSUES=$(gh api "repos/$REPO/issues?state=open&sort=created&direction=desc" --jq '.[].number' 2>/dev/null)
+LATEST_ISSUES=$(gh api "repos/$REPO/issues?state=open&sort=created&direction=desc&per_page=$MAX_ISSUES" --jq '.[].number' 2>/dev/null)
 
 if [ -z "$LATEST_ISSUES" ]; then
     log "No open issues found"
@@ -29,11 +40,13 @@ if [ -f "$ISSUE_FILE" ]; then
     LAST_PROCESSED=$(cat "$ISSUE_FILE")
 fi
 
-# Find all issues newer than last processed
+# Find all issues newer than last processed (limit to 10 per run to prevent timeout)
 NEW_ISSUES=""
+COUNT=0
 for issue_num in $LATEST_ISSUES; do
-    if [ "$issue_num" -gt "$LAST_PROCESSED" ]; then
+    if [ "$issue_num" -gt "$LAST_PROCESSED" ] && [ $COUNT -lt 10 ]; then
         NEW_ISSUES="$issue_num $NEW_ISSUES"
+        COUNT=$((COUNT + 1))
     fi
 done
 
@@ -126,9 +139,11 @@ for ISSUE_NUM in $NEW_ISSUES; do
     ISSUE_BODY=$(gh api repos/$REPO/issues/$ISSUE_NUM --jq '.body')
 
     # Skip spam issues
+    # Skip spam issues (quick check before API call for body)
     if is_spam "$ISSUE_TITLE"; then
         log "Skipped issue #$ISSUE_NUM - detected as spam"
         LAST_PROCESSED=$ISSUE_NUM
+        echo "$LAST_PROCESSED" > "$ISSUE_FILE"
         continue
     fi
 
@@ -137,6 +152,7 @@ for ISSUE_NUM in $NEW_ISSUES; do
         log "Skipped issue #$ISSUE_NUM - detected as duplicate of existing issue"
         echo "$ISSUE_NUM" >> "$DUPE_FILE"
         LAST_PROCESSED=$ISSUE_NUM
+        echo "$LAST_PROCESSED" > "$ISSUE_FILE"
         continue
     fi
 
