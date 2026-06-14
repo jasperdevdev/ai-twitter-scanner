@@ -40,11 +40,11 @@ if [ -f "$ISSUE_FILE" ]; then
     LAST_PROCESSED=$(cat "$ISSUE_FILE")
 fi
 
-# Find all issues newer than last processed (limit to 10 per run to prevent timeout)
+# Find all issues newer than last processed (limit to 5 per run to prevent timeout)
 NEW_ISSUES=""
 COUNT=0
 for issue_num in $LATEST_ISSUES; do
-    if [ "$issue_num" -gt "$LAST_PROCESSED" ] && [ $COUNT -lt 10 ]; then
+    if [ "$issue_num" -gt "$LAST_PROCESSED" ] && [ $COUNT -lt 5 ]; then
         NEW_ISSUES="$issue_num $NEW_ISSUES"
         COUNT=$((COUNT + 1))
     fi
@@ -133,10 +133,20 @@ is_duplicate() {
     return 1
 }
 
+# Batch fetch all new issues in one call (faster)
+batch_fetch_issues() {
+    local nums="$NEW_ISSUES"
+    for ISSUE_NUM in $nums; do
+        gh api "repos/$REPO/issues/$ISSUE_NUM" --jq '{title: .title, body: .body[0:500]}' 2>/dev/null
+    done
+}
+
 # Process each new issue
 for ISSUE_NUM in $NEW_ISSUES; do
-    ISSUE_TITLE=$(gh api repos/$REPO/issues/$ISSUE_NUM --jq '.title')
-    ISSUE_BODY=$(gh api repos/$REPO/issues/$ISSUE_NUM --jq '.body')
+    # Single API call to get both title and body (truncated body for speed)
+    ISSUE_DATA=$(gh api "repos/$REPO/issues/$ISSUE_NUM" --jq '{title: .title, body: .body[0:500]}' 2>/dev/null)
+    ISSUE_TITLE=$(echo "$ISSUE_DATA" | jq -r '.title')
+    ISSUE_BODY=$(echo "$ISSUE_DATA" | jq -r '.body')
 
     # Skip spam issues
     # Skip spam issues (quick check before API call for body)
