@@ -60,6 +60,23 @@ log "Found new issues: $NEW_ISSUES"
 # Spam detection
 is_spam() {
     local title="$1"
+    local body="$2"
+    
+    # Check for empty or very short titles (likely invalid GitHub issues)
+    local title_len=$(echo "$title" | wc -c)
+    if [ "$title_len" -lt 5 ]; then
+        return 0  # Treat empty/very-short titles as spam
+    fi
+    
+    # Check for thank you notes / non-issue messages
+    local lower_body
+    lower_body=$(echo "$body" | tr '[:upper:]' '[:lower:]' 2>/dev/null | tr -d '\0' 2>/dev/null) || true
+    if [ -n "$lower_body" ]; then
+        if echo "$lower_body" | grep -qiE 'not a bug|not a feature|thank you|thanks|gratitude|appreciate|no technical|positive experience|great job|well done'; then
+            return 0
+        fi
+    fi
+    
     local confusable_count=0
     for spam_char in "⋆" "☆" "🎀" "✚" "卍" "🍉" "🍓" "❀" "💗" "【" "】" "＋"; do
         count=$(echo "$title" | grep -Fo "$spam_char" 2>/dev/null | wc -l) || true
@@ -145,6 +162,9 @@ batch_fetch_issues() {
     done
 }
 
+# Track current batch titles for duplicate detection within batch
+declare -A BATCH_TITLES
+
 # Process each new issue
 for ISSUE_NUM in $NEW_ISSUES; do
     # Single API call to get both title and body (truncated body for speed)
@@ -152,15 +172,15 @@ for ISSUE_NUM in $NEW_ISSUES; do
     ISSUE_TITLE=$(echo "$ISSUE_DATA" | jq -r '.title')
     ISSUE_BODY=$(echo "$ISSUE_DATA" | jq -r '.body')
 
-    # Skip spam issues
-    if is_spam "$ISSUE_TITLE"; then
-        log "Skipped issue #$ISSUE_NUM - detected as spam"
+    # Skip spam issues (including thank you notes and non-issues)
+    if is_spam "$ISSUE_TITLE" "$ISSUE_BODY"; then
+        log "Skipped issue #$ISSUE_NUM - detected as spam/non-issue"
         LAST_PROCESSED=$ISSUE_NUM
         echo "$LAST_PROCESSED" > "$ISSUE_FILE"
         continue
     fi
 
-    # Check for duplicates
+    # Check for duplicates against tracked issues AND current batch
     if is_duplicate "$ISSUE_TITLE"; then
         log "Skipped issue #$ISSUE_NUM - detected as duplicate of existing issue"
         echo "$ISSUE_NUM" >> "$DUPE_FILE"
@@ -168,6 +188,23 @@ for ISSUE_NUM in $NEW_ISSUES; do
         echo "$LAST_PROCESSED" > "$ISSUE_FILE"
         continue
     fi
+    
+    # Also check against current batch titles (in-memory duplicate detection)
+    local normalized
+    normalized=$(normalize_title "$ISSUE_TITLE")
+    for batch_title in "${!BATCH_TITLES[@]}"; do
+        local batch_normalized
+        batch_normalized=$(normalize_title "$batch_title")
+        if [ "$normalized" = "$batch_normalized" ]; then
+            log "Skipped issue #$ISSUE_NUM - duplicate of issue in same batch"
+            echo "$ISSUE_NUM" >> "$DUPE_FILE"
+            LAST_PROCESSED=$ISSUE_NUM
+            echo "$LAST_PROCESSED" > "$ISSUE_FILE"
+            continue 2
+        fi
+    done
+    # Add this title to batch tracking
+    BATCH_TITLES["$ISSUE_TITLE"]="$ISSUE_NUM"
 
     log "Processing issue #$ISSUE_NUM: $ISSUE_TITLE"
 
@@ -176,7 +213,10 @@ for ISSUE_NUM in $NEW_ISSUES; do
     LOWER_TITLE=$(echo "$ISSUE_TITLE" | tr '[:upper:]' '[:lower:]')
     LOWER_BODY=$(echo "$ISSUE_BODY" | tr '[:upper:]' '[:lower:]')
 
-    if echo "$LOWER_TITLE" | grep -qiE '(\[bug\]|bug:|bug report|not working|fails|crash|error|doesn.?t|broken|conflict|incorrect|wrong)'; then
+    # Check for thank you notes / non-issues (defensive - should have been caught by spam filter)
+    if echo "$LOWER_BODY" | grep -qiE 'not a bug|not a feature|thank you|thanks|gratitude|appreciate|no technical'; then
+        CATEGORY="non-issue"
+    elif echo "$LOWER_TITLE" | grep -qiE '(\[bug\]|bug:|bug report|not working|fails|crash|error|doesn.?t|broken|conflict|incorrect|wrong)'; then
         CATEGORY="bug"
     elif echo "$LOWER_TITLE" | grep -qiE '(\[feature\]|feature request|add.*support|should.*support|would be nice|capability|request)'; then
         CATEGORY="feature"
