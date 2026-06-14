@@ -190,10 +190,8 @@ for ISSUE_NUM in $NEW_ISSUES; do
     fi
     
     # Also check against current batch titles (in-memory duplicate detection)
-    local normalized
     normalized=$(normalize_title "$ISSUE_TITLE")
     for batch_title in "${!BATCH_TITLES[@]}"; do
-        local batch_normalized
         batch_normalized=$(normalize_title "$batch_title")
         if [ "$normalized" = "$batch_normalized" ]; then
             log "Skipped issue #$ISSUE_NUM - duplicate of issue in same batch"
