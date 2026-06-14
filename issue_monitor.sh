@@ -85,13 +85,17 @@ is_spam() {
 normalize_title() {
     local title="$1"
     title=$(echo "$title" | tr '[:upper:]' '[:lower:]' 2>/dev/null) || echo "$title"
-    title=$(echo "$title" | sed -E 's/\[[0-9]+\] //g' 2>/dev/null) || true
-    title=$(echo "$title" | sed -E 's/^\[bug\]//g' 2>/dev/null) || true
-    title=$(echo "$title" | sed -E 's/^\[feature\]//g' 2>/dev/null) || true
-    title=$(echo "$title" | sed -E 's/^\[docs?\]//g' 2>/dev/null) || true
-    title=$(echo "$title" | sed -E 's/^\[regression\]//g' 2>/dev/null) || true
+    # Remove common tags at start of title (with optional whitespace)
+    title=$(echo "$title" | sed -E 's/^\[bug\]\s*//g' 2>/dev/null) || true
+    title=$(echo "$title" | sed -E 's/^\[feature\]\s*//g' 2>/dev/null) || true
+    title=$(echo "$title" | sed -E 's/^\[docs?\]\s*//g' 2>/dev/null) || true
+    title=$(echo "$title" | sed -E 's/^\[regression\]\s*//g' 2>/dev/null) || true
+    title=$(echo "$title" | sed -E 's/^\[MODEL\]\s*//g' 2>/dev/null) || true
+    # Remove version numbers (v1.2.3) but preserve other content
     title=$(echo "$title" | sed -E 's/v[0-9]+\.[0-9]+\.[0-9]+//g' 2>/dev/null) || true
-    title=$(echo "$title" | sed -E 's/[0-9]{4,}.*//g' 2>/dev/null) || true
+    # Remove trailing issue numbers like #12345 but preserve the rest
+    title=$(echo "$title" | sed -E 's/#[0-9]{4,}\. *//g' 2>/dev/null) || true
+    # Trim whitespace
     echo "$title" | xargs 2>/dev/null || echo "$title"
 }
 
@@ -149,7 +153,6 @@ for ISSUE_NUM in $NEW_ISSUES; do
     ISSUE_BODY=$(echo "$ISSUE_DATA" | jq -r '.body')
 
     # Skip spam issues
-    # Skip spam issues (quick check before API call for body)
     if is_spam "$ISSUE_TITLE"; then
         log "Skipped issue #$ISSUE_NUM - detected as spam"
         LAST_PROCESSED=$ISSUE_NUM
@@ -187,8 +190,9 @@ for ISSUE_NUM in $NEW_ISSUES; do
         CATEGORY="false-positive"
     fi
 
-    # Record issue to tracked file
+    # Record issue to tracked file (ensure file exists first)
     TIMESTAMP=$(date -u +%Y-%m-%dT%H:%MZ)
+    touch "$TRACKED_FILE" 2>/dev/null || true
     echo "{\"number\":$ISSUE_NUM,\"title\":$(echo "$ISSUE_TITLE" | jq -Rs .),\"category\":\"$CATEGORY\",\"tracked_at\":\"$TIMESTAMP\"}" >> "$TRACKED_FILE"
 
     log "Tracked issue #$ISSUE_NUM [$CATEGORY]: $ISSUE_TITLE"
