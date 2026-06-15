@@ -51,7 +51,9 @@ for issue_num in $LATEST_ISSUES; do
 done
 
 if [ -z "$NEW_ISSUES" ]; then
-    log "No new issues (last processed: $LAST_PROCESSED)"
+    # Read current value from file to ensure correct display
+    CURRENT_LAST=$(cat "$ISSUE_FILE" 2>/dev/null || echo "0")
+    log "No new issues (latest: $CURRENT_LAST)"
     exit 0
 fi
 
