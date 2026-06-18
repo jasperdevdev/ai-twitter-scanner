@@ -200,7 +200,7 @@ for ISSUE_NUM in $NEW_ISSUES; do
             echo "$ISSUE_NUM" >> "$DUPE_FILE"
             LAST_PROCESSED=$ISSUE_NUM
             echo "$LAST_PROCESSED" > "$ISSUE_FILE"
-            continue 2
+            continue
         fi
     done
     # Add this title to batch tracking
