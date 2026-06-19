@@ -91,7 +91,7 @@ is_spam() {
     local lower_title
     lower_title=$(echo "$title" | tr '[:upper:]' '[:lower:]' 2>/dev/null | tr -d '\0' 2>/dev/null) || true
     if [ -n "$lower_title" ]; then
-        case "$lower_title" in
+        case $lower_title in
             *infolinia*|*flynas*|*qatar*|*airways*|*polska*|*24h*|*call*|*center*|*customer*service*|*номер*|*контактный*|*телефон*)
                 return 0
                 ;;
@@ -193,6 +193,7 @@ for ISSUE_NUM in $NEW_ISSUES; do
     
     # Also check against current batch titles (in-memory duplicate detection)
     normalized=$(normalize_title "$ISSUE_TITLE")
+    is_dupe_in_batch=false
     for batch_title in "${!BATCH_TITLES[@]}"; do
         batch_normalized=$(normalize_title "$batch_title")
         if [ "$normalized" = "$batch_normalized" ]; then
@@ -200,11 +201,15 @@ for ISSUE_NUM in $NEW_ISSUES; do
             echo "$ISSUE_NUM" >> "$DUPE_FILE"
             LAST_PROCESSED=$ISSUE_NUM
             echo "$LAST_PROCESSED" > "$ISSUE_FILE"
-            continue
+            is_dupe_in_batch=true
+            break
         fi
     done
+    if [ "$is_dupe_in_batch" = true ]; then
+        continue
+    fi
     # Add this title to batch tracking
-    BATCH_TITLES["$ISSUE_TITLE"]="$ISSUE_NUM"
+    BATCH_TITLES["$ISSUE_TITLE"]=$ISSUE_NUM
 
     log "Processing issue #$ISSUE_NUM: $ISSUE_TITLE"
 
