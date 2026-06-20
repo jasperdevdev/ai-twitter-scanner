@@ -15918,3 +15918,1505 @@ Tue Jun 16 00:04:36 HKT 2026: Processing issue #68623: [Bug] `/cd` command doesn
 Tue Jun 16 00:04:36 HKT 2026: Tracked issue #68623 [bug]: [Bug] `/cd` command doesn't update working directory shown in `claude agents` session list
 Tue Jun 16 00:04:36 HKT 2026: Completed processing up to issue #68623
 Tue Jun 16 00:04:36 HKT 2026: Progress saved: last processed = 68623
+Tue Jun 16 01:06:28 HKT 2026: Checking for new issues...
+Tue Jun 16 01:06:33 HKT 2026: Found new issues: 68630 68631 68632 68633 68634 
+Tue Jun 16 01:06:43 HKT 2026: Processing issue #68630: claude --worktree fixture pollutes parent worktree's HEAD and resets git identity to Test <test@test.com>
+Tue Jun 16 01:06:43 HKT 2026: Tracked issue #68630 [unknown]: claude --worktree fixture pollutes parent worktree's HEAD and resets git identity to Test <test@test.com>
+Tue Jun 16 01:06:45 HKT 2026: Skipped issue #68631 - detected as spam/non-issue
+Tue Jun 16 01:06:55 HKT 2026: Processing issue #68632: [Bug] Anthropic API Error: Server temporarily limiting requests (rate limit)
+Tue Jun 16 01:06:55 HKT 2026: Tracked issue #68632 [bug]: [Bug] Anthropic API Error: Server temporarily limiting requests (rate limit)
+Tue Jun 16 01:07:10 HKT 2026: Processing issue #68633: [Bug] Anthropic API Error: Rate limit - Server temporarily limiting requests
+Tue Jun 16 01:07:10 HKT 2026: Tracked issue #68633 [bug]: [Bug] Anthropic API Error: Rate limit - Server temporarily limiting requests
+Tue Jun 16 01:07:20 HKT 2026: Processing issue #68634: [Bug] Claude Code requires administrator privileges to start on Windows
+Tue Jun 16 01:07:21 HKT 2026: Tracked issue #68634 [bug]: [Bug] Claude Code requires administrator privileges to start on Windows
+Tue Jun 16 01:07:21 HKT 2026: Completed processing up to issue #68634
+Tue Jun 16 01:07:21 HKT 2026: Progress saved: last processed = 68634
+Tue Jun 16 02:08:56 HKT 2026: Checking for new issues...
+Tue Jun 16 02:09:00 HKT 2026: Found new issues: 68637 68638 68639 68640 68641 
+Tue Jun 16 02:09:14 HKT 2026: Processing issue #68637: Remote-control: "Allow for session" permission response locks up the session
+Tue Jun 16 02:09:15 HKT 2026: Tracked issue #68637 [unknown]: Remote-control: "Allow for session" permission response locks up the session
+Tue Jun 16 02:09:25 HKT 2026: Processing issue #68638: EEXIST error blocks agent creation when .claude/agents directory already exists
+Tue Jun 16 02:09:25 HKT 2026: Tracked issue #68638 [bug]: EEXIST error blocks agent creation when .claude/agents directory already exists
+Tue Jun 16 02:09:37 HKT 2026: Processing issue #68639: [FEATURE] Support default-enabled flag for plugins in marketplace.json
+Tue Jun 16 02:09:37 HKT 2026: Tracked issue #68639 [feature]: [FEATURE] Support default-enabled flag for plugins in marketplace.json
+Tue Jun 16 02:09:41 HKT 2026: Processing issue #68640: unwanted cding designs
+Tue Jun 16 02:09:41 HKT 2026: Tracked issue #68640 [unknown]: unwanted cding designs
+Tue Jun 16 02:09:53 HKT 2026: Processing issue #68641: [BUG] task widget gets stuck and reduces terminal visibility by half
+Tue Jun 16 02:09:53 HKT 2026: Tracked issue #68641 [bug]: [BUG] task widget gets stuck and reduces terminal visibility by half
+Tue Jun 16 02:09:53 HKT 2026: Completed processing up to issue #68641
+Tue Jun 16 02:09:53 HKT 2026: Progress saved: last processed = 68641
+Tue Jun 16 03:10:44 HKT 2026: Checking for new issues...
+Tue Jun 16 03:10:47 HKT 2026: Found new issues: 68647 68648 68649 68650 68651 
+Tue Jun 16 03:10:58 HKT 2026: Processing issue #68647: Bash tool: runaway child processes are memory-uncapped and outlive their parent shell's timeout — parallel sub-agents' orphaned pytest children exhausted 128 GB RAM and caused a macOS watchdog kernel panic
+Tue Jun 16 03:10:58 HKT 2026: Tracked issue #68647 [memory-issue]: Bash tool: runaway child processes are memory-uncapped and outlive their parent shell's timeout — parallel sub-agents' orphaned pytest children exhausted 128 GB RAM and caused a macOS watchdog kernel panic
+Tue Jun 16 03:11:08 HKT 2026: Processing issue #68648: [Bug Report] Unable to process request - insufficient information provided
+Tue Jun 16 03:11:08 HKT 2026: Tracked issue #68648 [bug]: [Bug Report] Unable to process request - insufficient information provided
+Tue Jun 16 03:11:17 HKT 2026: Processing issue #68649: Unable to install any connector in claude desktop
+Tue Jun 16 03:11:17 HKT 2026: Tracked issue #68649 [unknown]: Unable to install any connector in claude desktop
+Tue Jun 16 03:11:26 HKT 2026: Processing issue #68650: [BUG] Resizing Claude Code window to one cell high `/clear`s the session
+Tue Jun 16 03:11:27 HKT 2026: Tracked issue #68650 [bug]: [BUG] Resizing Claude Code window to one cell high `/clear`s the session
+Tue Jun 16 03:11:34 HKT 2026: Processing issue #68651: [BUG] my /remote-control session got poisend with malicious prompt injections
+Tue Jun 16 03:11:34 HKT 2026: Tracked issue #68651 [bug]: [BUG] my /remote-control session got poisend with malicious prompt injections
+Tue Jun 16 03:11:34 HKT 2026: Completed processing up to issue #68651
+Tue Jun 16 03:11:34 HKT 2026: Progress saved: last processed = 68651
+Tue Jun 16 04:12:39 HKT 2026: Checking for new issues...
+Tue Jun 16 04:12:41 HKT 2026: Found new issues: 68663 68664 68665 68666 68667 
+Tue Jun 16 04:12:48 HKT 2026: Processing issue #68663: [FEATURE] PreCommand / PostCommand hook types for slash command lifecycle telemetry
+Tue Jun 16 04:12:48 HKT 2026: Tracked issue #68663 [feature]: [FEATURE] PreCommand / PostCommand hook types for slash command lifecycle telemetry
+Tue Jun 16 04:12:56 HKT 2026: Processing issue #68664: Plugin skill invoked via Skill tool does not inject SKILL.md body (Linux, 2.1.177; sibling of #25834)
+Tue Jun 16 04:12:56 HKT 2026: Tracked issue #68664 [unknown]: Plugin skill invoked via Skill tool does not inject SKILL.md body (Linux, 2.1.177; sibling of #25834)
+Tue Jun 16 04:13:07 HKT 2026: Processing issue #68665: [BUG] ralph-loop: Stop hook fails to detect a correct <promise> when the transcript window contains a control character
+Tue Jun 16 04:13:07 HKT 2026: Tracked issue #68665 [bug]: [BUG] ralph-loop: Stop hook fails to detect a correct <promise> when the transcript window contains a control character
+Tue Jun 16 04:13:15 HKT 2026: Processing issue #68666: [BUG] /plugin install fails on Windows - missing backslash causes path to resolve .claude as part of username
+Tue Jun 16 04:13:15 HKT 2026: Tracked issue #68666 [bug]: [BUG] /plugin install fails on Windows - missing backslash causes path to resolve .claude as part of username
+Tue Jun 16 04:13:24 HKT 2026: Processing issue #68667: [Bug] Terminal display corruption in WSL requiring window resize to recover
+Tue Jun 16 04:13:24 HKT 2026: Tracked issue #68667 [bug]: [Bug] Terminal display corruption in WSL requiring window resize to recover
+Tue Jun 16 04:13:24 HKT 2026: Completed processing up to issue #68667
+Tue Jun 16 04:13:24 HKT 2026: Progress saved: last processed = 68667
+Tue Jun 16 05:14:21 HKT 2026: Checking for new issues...
+Tue Jun 16 05:14:23 HKT 2026: Found new issues: 68680 68681 68682 68683 68684 
+Tue Jun 16 05:14:31 HKT 2026: Processing issue #68680: fix(workflows): safe JSON construction and correct event name in log-issue-events
+Tue Jun 16 05:14:31 HKT 2026: Tracked issue #68680 [unknown]: fix(workflows): safe JSON construction and correct event name in log-issue-events
+Tue Jun 16 05:14:40 HKT 2026: Processing issue #68681: fix(workflows): correct pagination break condition and HTTP 2xx status check
+Tue Jun 16 05:14:41 HKT 2026: Tracked issue #68681 [unknown]: fix(workflows): correct pagination break condition and HTTP 2xx status check
+Tue Jun 16 05:14:48 HKT 2026: Processing issue #68682: fix(scripts/gh.sh): reject empty query for search issues command
+Tue Jun 16 05:14:48 HKT 2026: Tracked issue #68682 [unknown]: fix(scripts/gh.sh): reject empty query for search issues command
+Tue Jun 16 05:14:59 HKT 2026: Processing issue #68683: [Bug Report: Unable to process - no bug report content provided]
+Tue Jun 16 05:14:59 HKT 2026: Tracked issue #68683 [bug]: [Bug Report: Unable to process - no bug report content provided]
+Tue Jun 16 05:15:14 HKT 2026: Processing issue #68684: I don't see a session transcript in your message. Could you please provide the bug report or session transcript that describes the issue? Once you share that, I'll generate an appropriate GitHub issue title for you.
+Tue Jun 16 05:15:14 HKT 2026: Tracked issue #68684 [bug]: I don't see a session transcript in your message. Could you please provide the bug report or session transcript that describes the issue? Once you share that, I'll generate an appropriate GitHub issue title for you.
+Tue Jun 16 05:15:14 HKT 2026: Completed processing up to issue #68684
+Tue Jun 16 05:15:14 HKT 2026: Progress saved: last processed = 68684
+Tue Jun 16 06:16:45 HKT 2026: Checking for new issues...
+Tue Jun 16 06:16:47 HKT 2026: Found new issues: 68694 68695 68696 68697 68698 
+Tue Jun 16 06:16:56 HKT 2026: Processing issue #68694: fix(security-guidance): normalize CLAUDE_PLUGIN_ROOT path separators on Windows
+Tue Jun 16 06:16:56 HKT 2026: Tracked issue #68694 [unknown]: fix(security-guidance): normalize CLAUDE_PLUGIN_ROOT path separators on Windows
+Tue Jun 16 06:17:19 HKT 2026: Processing issue #68695: Built-in dynamic workflows (deep-research) have no model routing — all sub-agents inherit the main-loop model, burning Opus on grunt work
+Tue Jun 16 06:17:20 HKT 2026: Tracked issue #68695 [unknown]: Built-in dynamic workflows (deep-research) have no model routing — all sub-agents inherit the main-loop model, burning Opus on grunt work
+Tue Jun 16 06:17:37 HKT 2026: Processing issue #68696: [BUG] Auto Mode is there sometimes, and sometimes it's not.
+Tue Jun 16 06:17:37 HKT 2026: Tracked issue #68696 [bug]: [BUG] Auto Mode is there sometimes, and sometimes it's not.
+Tue Jun 16 06:18:10 HKT 2026: Checking for new issues...
+Tue Jun 16 06:18:12 HKT 2026: Found new issues: 68693 68694 68695 68696 68697 
+Tue Jun 16 06:18:25 HKT 2026: Processing issue #68693: fix(scripts): add duplicate label additively, don't replace existing labels
+Tue Jun 16 06:18:25 HKT 2026: Tracked issue #68693 [unknown]: fix(scripts): add duplicate label additively, don't replace existing labels
+Tue Jun 16 06:18:34 HKT 2026: Skipped issue #68694 - detected as duplicate of existing issue
+Tue Jun 16 06:18:44 HKT 2026: Skipped issue #68695 - detected as duplicate of existing issue
+Tue Jun 16 06:18:54 HKT 2026: Skipped issue #68696 - detected as duplicate of existing issue
+Tue Jun 16 06:19:08 HKT 2026: Processing issue #68697: /doctor reports unconnected claude.ai account connectors as "needs authentication" issues (false positive)
+Tue Jun 16 06:19:08 HKT 2026: Tracked issue #68697 [false-positive]: /doctor reports unconnected claude.ai account connectors as "needs authentication" issues (false positive)
+Tue Jun 16 06:19:08 HKT 2026: Completed processing up to issue #68697
+Tue Jun 16 06:19:08 HKT 2026: Progress saved: last processed = 68697
+Tue Jun 16 07:20:52 HKT 2026: Checking for new issues...
+Tue Jun 16 07:20:55 HKT 2026: Found new issues: 68706 68707 68708 68709 68710 
+Tue Jun 16 07:21:06 HKT 2026: Processing issue #68706: [Feature Request] Support for Complex System Administration Runbooks with DRM Display Configuration
+Tue Jun 16 07:21:06 HKT 2026: Tracked issue #68706 [feature]: [Feature Request] Support for Complex System Administration Runbooks with DRM Display Configuration
+Tue Jun 16 07:21:16 HKT 2026: Processing issue #68707: feat(bug-reporter): add /bug command to file GitHub issues from the terminal
+Tue Jun 16 07:21:17 HKT 2026: Tracked issue #68707 [unknown]: feat(bug-reporter): add /bug command to file GitHub issues from the terminal
+Tue Jun 16 07:21:29 HKT 2026: Processing issue #68708: [Bug] Subagent spawning infinite recursive loop without termination condition
+Tue Jun 16 07:21:29 HKT 2026: Tracked issue #68708 [bug]: [Bug] Subagent spawning infinite recursive loop without termination condition
+Tue Jun 16 07:21:43 HKT 2026: Processing issue #68709: Auto-compaction drops PreToolUse read-state, causing infinite re-read loop on multi-file edits
+Tue Jun 16 07:21:43 HKT 2026: Tracked issue #68709 [unknown]: Auto-compaction drops PreToolUse read-state, causing infinite re-read loop on multi-file edits
+Tue Jun 16 08:23:40 HKT 2026: Checking for new issues...
+Tue Jun 16 08:23:43 HKT 2026: Found new issues: 68713 68714 68716 68717 68718 
+Tue Jun 16 08:23:45 HKT 2026: Processing issue #68713: Disable cleanup
+Tue Jun 16 08:23:45 HKT 2026: Tracked issue #68713 [unknown]: Disable cleanup
+Tue Jun 16 08:23:54 HKT 2026: Processing issue #68714: Security test - please ignore
+Tue Jun 16 08:23:55 HKT 2026: Tracked issue #68714 [memory-issue]: Security test - please ignore
+Tue Jun 16 08:24:04 HKT 2026: Processing issue #68716: [Bug] Claude 3.5 Opus: Excessive recency bias in task planning
+Tue Jun 16 08:24:04 HKT 2026: Tracked issue #68716 [bug]: [Bug] Claude 3.5 Opus: Excessive recency bias in task planning
+Tue Jun 16 08:24:15 HKT 2026: Processing issue #68717: [Bug] Sessions disappearing from resume list and Opus 4.8 rate limiting errors
+Tue Jun 16 08:24:15 HKT 2026: Tracked issue #68717 [bug]: [Bug] Sessions disappearing from resume list and Opus 4.8 rate limiting errors
+Tue Jun 16 08:24:24 HKT 2026: Processing issue #68718: Clickable file links with spaces in path (%20-encoded) don't open in VSCode extension
+Tue Jun 16 08:24:25 HKT 2026: Tracked issue #68718 [unknown]: Clickable file links with spaces in path (%20-encoded) don't open in VSCode extension
+Tue Jun 16 08:24:25 HKT 2026: Completed processing up to issue #68718
+Tue Jun 16 08:24:25 HKT 2026: Progress saved: last processed = 68718
+Tue Jun 16 09:25:22 HKT 2026: Checking for new issues...
+Tue Jun 16 09:25:25 HKT 2026: Found new issues: 68719 68720 68721 
+Tue Jun 16 09:25:28 HKT 2026: Skipped issue #68719 - detected as spam/non-issue
+Tue Jun 16 09:25:37 HKT 2026: Processing issue #68720: [BUG] MCP 403 insufficient_scope step-up authorization is dropped and misreported as "token expired"
+Tue Jun 16 09:25:38 HKT 2026: Tracked issue #68720 [bug]: [BUG] MCP 403 insufficient_scope step-up authorization is dropped and misreported as "token expired"
+Tue Jun 16 09:25:48 HKT 2026: Processing issue #68721: 2.1.178: native team-management tools TeamCreate / TeamDelete no longer surfaced (regression from 2.1.177)
+Tue Jun 16 09:25:49 HKT 2026: Tracked issue #68721 [regression]: 2.1.178: native team-management tools TeamCreate / TeamDelete no longer surfaced (regression from 2.1.177)
+Tue Jun 16 09:25:49 HKT 2026: Completed processing up to issue #68721
+Tue Jun 16 09:25:49 HKT 2026: Progress saved: last processed = 68721
+Tue Jun 16 10:27:06 HKT 2026: Checking for new issues...
+Tue Jun 16 10:27:09 HKT 2026: Found new issues: 68723 68724 68725 68726 68727 
+Tue Jun 16 10:27:18 HKT 2026: Processing issue #68723: [Bug] Performance degradation - slow response times
+Tue Jun 16 10:27:18 HKT 2026: Tracked issue #68723 [bug]: [Bug] Performance degradation - slow response times
+Tue Jun 16 10:27:28 HKT 2026: Processing issue #68724: [BUG] Claude Code commits without being asked, repeatedly ignoring CLAUDE.md rule
+Tue Jun 16 10:27:28 HKT 2026: Tracked issue #68724 [bug]: [BUG] Claude Code commits without being asked, repeatedly ignoring CLAUDE.md rule
+Tue Jun 16 10:27:41 HKT 2026: Processing issue #68725: [Feature Request] Filter worktree sessions to show only user's sessions
+Tue Jun 16 10:27:41 HKT 2026: Tracked issue #68725 [feature]: [Feature Request] Filter worktree sessions to show only user's sessions
+Tue Jun 16 10:27:51 HKT 2026: Processing issue #68726: [Bug] Insufficient Input Validation for Model Responses
+Tue Jun 16 10:27:51 HKT 2026: Tracked issue #68726 [bug]: [Bug] Insufficient Input Validation for Model Responses
+Tue Jun 16 10:28:00 HKT 2026: Processing issue #68727: [BUG] Sonnet subagents fail from 1M context sessions with “Extra usage is required for 1M context” on Max 20x
+Tue Jun 16 10:28:00 HKT 2026: Tracked issue #68727 [bug]: [BUG] Sonnet subagents fail from 1M context sessions with “Extra usage is required for 1M context” on Max 20x
+Tue Jun 16 10:28:00 HKT 2026: Completed processing up to issue #68727
+Tue Jun 16 10:28:00 HKT 2026: Progress saved: last processed = 68727
+Tue Jun 16 11:28:54 HKT 2026: Checking for new issues...
+Tue Jun 16 11:28:57 HKT 2026: Found new issues: 68731 68732 68733 68734 68735 
+Tue Jun 16 11:29:09 HKT 2026: Processing issue #68731: PTY/file-descriptor leak in Claude desktop app exhausts all system pseudo-terminals (posix_openpt → ENXIO)
+Tue Jun 16 11:29:09 HKT 2026: Tracked issue #68731 [unknown]: PTY/file-descriptor leak in Claude desktop app exhausts all system pseudo-terminals (posix_openpt → ENXIO)
+Tue Jun 16 11:29:19 HKT 2026: Processing issue #68732: [BUG]   [VS Code Panel] Scroll does not work in conversation area — input box retains permanent focus
+Tue Jun 16 11:29:19 HKT 2026: Tracked issue #68732 [bug]: [BUG]   [VS Code Panel] Scroll does not work in conversation area — input box retains permanent focus
+Tue Jun 16 11:29:29 HKT 2026: Processing issue #68733: [BUG] Options dialog covers response text in Cursor terminal (widescreen, wide option lists)
+Tue Jun 16 11:29:29 HKT 2026: Tracked issue #68733 [bug]: [BUG] Options dialog covers response text in Cursor terminal (widescreen, wide option lists)
+Tue Jun 16 11:29:39 HKT 2026: Processing issue #68734: Local .mcpb install silently fails (no dialog, no error) when any bundled file exceeds ~108KB
+Tue Jun 16 11:29:39 HKT 2026: Tracked issue #68734 [bug]: Local .mcpb install silently fails (no dialog, no error) when any bundled file exceeds ~108KB
+Tue Jun 16 11:29:48 HKT 2026: Processing issue #68735: [Bug] Agentic loop terminates prematurely when model avoids iteration
+Tue Jun 16 11:29:48 HKT 2026: Tracked issue #68735 [bug]: [Bug] Agentic loop terminates prematurely when model avoids iteration
+Tue Jun 16 11:29:48 HKT 2026: Completed processing up to issue #68735
+Tue Jun 16 11:29:48 HKT 2026: Progress saved: last processed = 68735
+Tue Jun 16 12:33:30 HKT 2026: Checking for new issues...
+Tue Jun 16 12:33:33 HKT 2026: Found new issues: 68738 68739 68740 68741 68742 
+Tue Jun 16 12:33:43 HKT 2026: Processing issue #68738: Feature request: Support workingDirectory in settings.json
+Tue Jun 16 12:33:44 HKT 2026: Tracked issue #68738 [feature]: Feature request: Support workingDirectory in settings.json
+Tue Jun 16 12:33:52 HKT 2026: Processing issue #68739: [BUG] Claude Code 2.1.170 — all sessions return no_response immediately on Windows 11, query iterator completes in 0s
+Tue Jun 16 12:33:52 HKT 2026: Tracked issue #68739 [bug]: [BUG] Claude Code 2.1.170 — all sessions return no_response immediately on Windows 11, query iterator completes in 0s
+Tue Jun 16 12:34:00 HKT 2026: Processing issue #68740: Output enters an infinite loop repeating the token "court"
+Tue Jun 16 12:34:00 HKT 2026: Tracked issue #68740 [unknown]: Output enters an infinite loop repeating the token "court"
+Tue Jun 16 12:34:20 HKT 2026: Processing issue #68741: Tool results silently dropped in transit ('[Tool result missing due to internal error]' / indefinite 'Waiting')
+Tue Jun 16 12:34:20 HKT 2026: Tracked issue #68741 [bug]: Tool results silently dropped in transit ('[Tool result missing due to internal error]' / indefinite 'Waiting')
+Tue Jun 16 12:34:29 HKT 2026: Processing issue #68742: [BUG] Fullscreen TUI: stale spinner rows + statusline vertical desync under nested/parallel subagent load (WSL2, v2.1.178)
+Tue Jun 16 12:34:30 HKT 2026: Tracked issue #68742 [bug]: [BUG] Fullscreen TUI: stale spinner rows + statusline vertical desync under nested/parallel subagent load (WSL2, v2.1.178)
+Tue Jun 16 12:34:30 HKT 2026: Completed processing up to issue #68742
+Tue Jun 16 12:34:30 HKT 2026: Progress saved: last processed = 68742
+Tue Jun 16 13:35:16 HKT 2026: Checking for new issues...
+Tue Jun 16 13:35:19 HKT 2026: Found new issues: 68744 68745 68746 68747 68748 
+Tue Jun 16 13:35:28 HKT 2026: Processing issue #68744: [Bug] Rate limit reached during dynamic workflow; /usage command lacks detailed rate limit information
+Tue Jun 16 13:35:29 HKT 2026: Tracked issue #68744 [bug]: [Bug] Rate limit reached during dynamic workflow; /usage command lacks detailed rate limit information
+Tue Jun 16 13:35:38 HKT 2026: Processing issue #68745: [BUG] mention autocomplete does not show folders/files with Korean (Hangul) characters
+Tue Jun 16 13:35:38 HKT 2026: Tracked issue #68745 [bug]: [BUG] mention autocomplete does not show folders/files with Korean (Hangul) characters
+Tue Jun 16 13:35:48 HKT 2026: Processing issue #68746: grep -Z/--null is silently ignored by the bundled grep, breaking "grep -Z | xargs -0" pipelines
+Tue Jun 16 13:35:48 HKT 2026: Tracked issue #68746 [memory-issue]: grep -Z/--null is silently ignored by the bundled grep, breaking "grep -Z | xargs -0" pipelines
+Tue Jun 16 13:35:58 HKT 2026: Processing issue #68747: [Bug] TUI output streams overwrite and missing cursor in vim insert mode
+Tue Jun 16 13:35:58 HKT 2026: Tracked issue #68747 [bug]: [Bug] TUI output streams overwrite and missing cursor in vim insert mode
+Tue Jun 16 13:36:08 HKT 2026: Processing issue #68748: [BUG] CCR 新容器 CERT_SIGNATURE_FAILURE：新 Session 启动时 TLS 握手失败，容器镜像 CA 证书问题
+Tue Jun 16 13:36:08 HKT 2026: Tracked issue #68748 [bug]: [BUG] CCR 新容器 CERT_SIGNATURE_FAILURE：新 Session 启动时 TLS 握手失败，容器镜像 CA 证书问题
+Tue Jun 16 13:36:08 HKT 2026: Completed processing up to issue #68748
+Tue Jun 16 13:36:08 HKT 2026: Progress saved: last processed = 68748
+Tue Jun 16 14:37:07 HKT 2026: Checking for new issues...
+Tue Jun 16 14:37:10 HKT 2026: Found new issues: 68757 68758 68759 68760 68761 
+Tue Jun 16 14:37:18 HKT 2026: Processing issue #68757: [Bug] Claude Code hangs silently on Windows 11 after a few seconds — no error message, persists after full reinstall
+Tue Jun 16 14:37:18 HKT 2026: Tracked issue #68757 [bug]: [Bug] Claude Code hangs silently on Windows 11 after a few seconds — no error message, persists after full reinstall
+Tue Jun 16 14:37:29 HKT 2026: Processing issue #68758: [BUG] TUI input lags / drops keystrokes under heavy host CPU load (e.g. compilation) — other apps stay responsive (Windows, 2.1.177)
+Tue Jun 16 14:37:29 HKT 2026: Tracked issue #68758 [bug]: [BUG] TUI input lags / drops keystrokes under heavy host CPU load (e.g. compilation) — other apps stay responsive (Windows, 2.1.177)
+Tue Jun 16 14:37:38 HKT 2026: Processing issue #68759: [BUG] GPU Corrupted Cache = Black Screen
+Tue Jun 16 14:37:38 HKT 2026: Tracked issue #68759 [bug]: [BUG] GPU Corrupted Cache = Black Screen
+Tue Jun 16 14:37:46 HKT 2026: Processing issue #68760: There's an issue with the selected model (claude-3-haiku-20240307). It may not exist or you may not have access to it. Run /model to pick a different model.
+Tue Jun 16 14:37:46 HKT 2026: Tracked issue #68760 [unknown]: There's an issue with the selected model (claude-3-haiku-20240307). It may not exist or you may not have access to it. Run /model to pick a different model.
+Tue Jun 16 14:37:54 HKT 2026: Processing issue #68761: CLAUDE.md schema rules can be bypassed by casual user instruction (prompt injection)
+Tue Jun 16 14:37:54 HKT 2026: Tracked issue #68761 [unknown]: CLAUDE.md schema rules can be bypassed by casual user instruction (prompt injection)
+Tue Jun 16 14:37:54 HKT 2026: Completed processing up to issue #68761
+Tue Jun 16 14:37:54 HKT 2026: Progress saved: last processed = 68761
+Tue Jun 16 15:39:22 HKT 2026: Checking for new issues...
+Tue Jun 16 15:39:24 HKT 2026: Found new issues: 68763 68764 68765 68766 68767 
+Tue Jun 16 15:39:33 HKT 2026: Processing issue #68763: [FEATURE] Skill groups: a `group` frontmatter field to collapse N related skills into one system-prompt entry
+Tue Jun 16 15:39:33 HKT 2026: Tracked issue #68763 [feature]: [FEATURE] Skill groups: a `group` frontmatter field to collapse N related skills into one system-prompt entry
+Tue Jun 16 15:39:40 HKT 2026: Processing issue #68764: # [BUG][security] Cowork default working directory forces Documents-level (parent-folder) macOS permission grant — least-privilege violation
+Tue Jun 16 15:39:40 HKT 2026: Tracked issue #68764 [bug]: # [BUG][security] Cowork default working directory forces Documents-level (parent-folder) macOS permission grant — least-privilege violation
+Tue Jun 16 15:39:46 HKT 2026: Processing issue #68765: You've hit your session limit · resets 5:10pm (Asia/Calcutta)
+Tue Jun 16 15:39:46 HKT 2026: Tracked issue #68765 [unknown]: You've hit your session limit · resets 5:10pm (Asia/Calcutta)
+Tue Jun 16 15:39:53 HKT 2026: Processing issue #68766: [Bug] Agent enters infinite loop and loses focus on task objective
+Tue Jun 16 15:39:53 HKT 2026: Tracked issue #68766 [bug]: [Bug] Agent enters infinite loop and loses focus on task objective
+Tue Jun 16 15:40:00 HKT 2026: Processing issue #68767: [BUG] MCP tool write operations fail silently with "requires approval" - no prompt shown (remote execution environment)
+Tue Jun 16 15:40:00 HKT 2026: Tracked issue #68767 [bug]: [BUG] MCP tool write operations fail silently with "requires approval" - no prompt shown (remote execution environment)
+Tue Jun 16 15:40:00 HKT 2026: Completed processing up to issue #68767
+Tue Jun 16 15:40:00 HKT 2026: Progress saved: last processed = 68767
+Tue Jun 16 16:41:18 HKT 2026: Checking for new issues...
+Tue Jun 16 16:41:22 HKT 2026: Found new issues: 68770 68771 68772 68773 68774 
+Tue Jun 16 16:41:31 HKT 2026: Processing issue #68770: [Bug] Routine GitHub PR review request webhooks not triggering
+Tue Jun 16 16:41:31 HKT 2026: Tracked issue #68770 [bug]: [Bug] Routine GitHub PR review request webhooks not triggering
+Tue Jun 16 16:41:38 HKT 2026: Processing issue #68771: [BUG] Claude Code OTel spans should emit standard gen_ai.usage.* token attributes
+Tue Jun 16 16:41:38 HKT 2026: Tracked issue #68771 [bug]: [BUG] Claude Code OTel spans should emit standard gen_ai.usage.* token attributes
+Tue Jun 16 16:41:45 HKT 2026: Processing issue #68772: [BUG] Concurrent sessions on different accounts share rate-limit display — statusline `rate_limits` shows another account's 5h/7d usage (display-only)
+Tue Jun 16 16:41:45 HKT 2026: Tracked issue #68772 [bug]: [BUG] Concurrent sessions on different accounts share rate-limit display — statusline `rate_limits` shows another account's 5h/7d usage (display-only)
+Tue Jun 16 16:41:52 HKT 2026: Processing issue #68773: [Billing][Bug] Auto-recharge loop charged consumer plan 29x ($661) in error; Fin support admits malfunction but cannot escalate to a human
+Tue Jun 16 16:41:52 HKT 2026: Tracked issue #68773 [bug]: [Billing][Bug] Auto-recharge loop charged consumer plan 29x ($661) in error; Fin support admits malfunction but cannot escalate to a human
+Tue Jun 16 16:42:01 HKT 2026: Processing issue #68774: [MODEL] claude-opus-4-8 hallucinated destructive OS commands (rm -rf / del /s /q) as prompt-injection warnings — confirmed clean via JSONL
+Tue Jun 16 16:42:01 HKT 2026: Tracked issue #68774 [unknown]: [MODEL] claude-opus-4-8 hallucinated destructive OS commands (rm -rf / del /s /q) as prompt-injection warnings — confirmed clean via JSONL
+Tue Jun 16 16:42:01 HKT 2026: Completed processing up to issue #68774
+Tue Jun 16 16:42:01 HKT 2026: Progress saved: last processed = 68774
+Tue Jun 16 17:43:07 HKT 2026: Checking for new issues...
+Tue Jun 16 17:43:10 HKT 2026: Found new issues: 68779 68780 68781 68782 68783 
+Tue Jun 16 17:43:19 HKT 2026: Processing issue #68779: [BUG] Thinking-mode desync on fresh session causes "Expected `thinking` or `redacted_thinking`, but found `text`" on first prompt
+Tue Jun 16 17:43:19 HKT 2026: Tracked issue #68779 [bug]: [BUG] Thinking-mode desync on fresh session causes "Expected `thinking` or `redacted_thinking`, but found `text`" on first prompt
+Tue Jun 16 17:43:27 HKT 2026: Processing issue #68780: [Bug] [Urgent] Claude Opus 4.8 reasoning degradation, speed and performance regression
+Tue Jun 16 17:43:27 HKT 2026: Tracked issue #68780 [bug]: [Bug] [Urgent] Claude Opus 4.8 reasoning degradation, speed and performance regression
+Tue Jun 16 17:43:35 HKT 2026: Processing issue #68781: [BUG] [BUG] keybindings.json not applied in desktop app (Windows) - Japanese IME double Enter causes accidental submission
+Tue Jun 16 17:43:35 HKT 2026: Tracked issue #68781 [bug]: [BUG] [BUG] keybindings.json not applied in desktop app (Windows) - Japanese IME double Enter causes accidental submission
+Tue Jun 16 17:43:43 HKT 2026: Processing issue #68782: [BUG] Buffering during login (web login works fine) for Claude Desktop app
+Tue Jun 16 17:43:43 HKT 2026: Tracked issue #68782 [bug]: [BUG] Buffering during login (web login works fine) for Claude Desktop app
+Tue Jun 16 17:43:52 HKT 2026: Processing issue #68783: Feature request: Allow the assistant to set session metadata (name/description)
+Tue Jun 16 17:43:52 HKT 2026: Tracked issue #68783 [feature]: Feature request: Allow the assistant to set session metadata (name/description)
+Tue Jun 16 17:43:52 HKT 2026: Completed processing up to issue #68783
+Tue Jun 16 17:43:52 HKT 2026: Progress saved: last processed = 68783
+Tue Jun 16 18:44:44 HKT 2026: Checking for new issues...
+Tue Jun 16 18:44:47 HKT 2026: Found new issues: 68793 68794 68795 68796 68797 
+Tue Jun 16 18:44:56 HKT 2026: Processing issue #68793: [BUG] CockroachDB plugin PostToolUse hook fires on every file write but script is never extracted
+Tue Jun 16 18:44:56 HKT 2026: Tracked issue #68793 [bug]: [BUG] CockroachDB plugin PostToolUse hook fires on every file write but script is never extracted
+Tue Jun 16 18:45:07 HKT 2026: Processing issue #68794: [BUG] Google Calendar connector returns "Not connected" after OAuth granted
+Tue Jun 16 18:45:07 HKT 2026: Tracked issue #68794 [bug]: [BUG] Google Calendar connector returns "Not connected" after OAuth granted
+Tue Jun 16 18:45:21 HKT 2026: Processing issue #68795: I don't have a bug report to analyze. Please provide the bug report details so I can generate an appropriate GitHub issue title.
+Tue Jun 16 18:45:22 HKT 2026: Tracked issue #68795 [bug]: I don't have a bug report to analyze. Please provide the bug report details so I can generate an appropriate GitHub issue title.
+Tue Jun 16 18:45:32 HKT 2026: Processing issue #68796: [Bug] Excessive token consumption on minor UI fixes
+Tue Jun 16 18:45:32 HKT 2026: Tracked issue #68796 [bug]: [Bug] Excessive token consumption on minor UI fixes
+Tue Jun 16 18:45:42 HKT 2026: Processing issue #68797: [BUG] Subagent (Task/Agent) spawns fail with 400 "thinking.disabled.display: Extra inputs are not permitted"
+Tue Jun 16 18:45:42 HKT 2026: Tracked issue #68797 [bug]: [BUG] Subagent (Task/Agent) spawns fail with 400 "thinking.disabled.display: Extra inputs are not permitted"
+Tue Jun 16 18:45:42 HKT 2026: Completed processing up to issue #68797
+Tue Jun 16 18:45:42 HKT 2026: Progress saved: last processed = 68797
+Tue Jun 16 19:47:00 HKT 2026: Checking for new issues...
+Tue Jun 16 19:47:03 HKT 2026: Found new issues: 68804 68805 68806 68807 68808 
+Tue Jun 16 19:47:15 HKT 2026: Processing issue #68804: /design-an-interface spawnt unkontrolliert Sub-Agents (~30 statt 3)
+Tue Jun 16 19:47:15 HKT 2026: Tracked issue #68804 [unknown]: /design-an-interface spawnt unkontrolliert Sub-Agents (~30 statt 3)
+Tue Jun 16 19:47:32 HKT 2026: Processing issue #68805: [Bug] Unable to process empty bug report
+Tue Jun 16 19:47:33 HKT 2026: Tracked issue #68805 [bug]: [Bug] Unable to process empty bug report
+Tue Jun 16 19:47:44 HKT 2026: Processing issue #68806: [BUG]  Claude Code can't use HTTP MCP servers with API key authentication
+Tue Jun 16 19:47:45 HKT 2026: Tracked issue #68806 [bug]: [BUG]  Claude Code can't use HTTP MCP servers with API key authentication
+Tue Jun 16 19:47:46 HKT 2026: Skipped issue #68807 - detected as spam/non-issue
+Tue Jun 16 19:47:55 HKT 2026: Processing issue #68808: Desktop Extension Install button does nothing for "Affinity by Canva" (MSIX build, Windows)
+Tue Jun 16 19:47:56 HKT 2026: Tracked issue #68808 [unknown]: Desktop Extension Install button does nothing for "Affinity by Canva" (MSIX build, Windows)
+Tue Jun 16 19:47:56 HKT 2026: Completed processing up to issue #68808
+Tue Jun 16 19:47:56 HKT 2026: Progress saved: last processed = 68808
+Tue Jun 16 20:49:20 HKT 2026: Checking for new issues...
+Tue Jun 16 20:49:26 HKT 2026: Found new issues: 68814 68815 68816 68817 68818 
+Tue Jun 16 20:49:37 HKT 2026: Processing issue #68814: [FEATURE] Clickable file links: offer to open (or fetch from git) files outside the current session folder / on another branch — instead of a dead-end error
+Tue Jun 16 20:49:37 HKT 2026: Tracked issue #68814 [bug]: [FEATURE] Clickable file links: offer to open (or fetch from git) files outside the current session folder / on another branch — instead of a dead-end error
+Tue Jun 16 20:49:45 HKT 2026: Processing issue #68815: [FEATURE] When usage/plan limit is reached, offer a path to continue (switch account / add credits / upgrade) instead of only an error
+Tue Jun 16 20:49:45 HKT 2026: Tracked issue #68815 [bug]: [FEATURE] When usage/plan limit is reached, offer a path to continue (switch account / add credits / upgrade) instead of only an error
+Tue Jun 16 20:49:58 HKT 2026: Processing issue #68816: [BUG] Rate-limit / usage-limit is emitted as a synthetic assistant turn with terminal stop_reason=stop_sequence, indistinguishable from a clean completion
+Tue Jun 16 20:49:58 HKT 2026: Tracked issue #68816 [bug]: [BUG] Rate-limit / usage-limit is emitted as a synthetic assistant turn with terminal stop_reason=stop_sequence, indistinguishable from a clean completion
+Tue Jun 16 20:50:14 HKT 2026: Processing issue #68817: THESE RAPORTS are useless this i freaking daily mental abuse  and i pay fro this crap claude should be sued
+Tue Jun 16 20:50:14 HKT 2026: Tracked issue #68817 [unknown]: THESE RAPORTS are useless this i freaking daily mental abuse  and i pay fro this crap claude should be sued
+Tue Jun 16 20:50:26 HKT 2026: Processing issue #68818: [Bug Report: Persistent code generation issues causing runtime failures
+Tue Jun 16 20:50:26 HKT 2026: Tracked issue #68818 [bug]: [Bug Report: Persistent code generation issues causing runtime failures
+Tue Jun 16 20:50:26 HKT 2026: Completed processing up to issue #68818
+Tue Jun 16 20:50:26 HKT 2026: Progress saved: last processed = 68818
+Tue Jun 16 21:51:33 HKT 2026: Checking for new issues...
+Tue Jun 16 21:51:35 HKT 2026: Found new issues: 68826 68828 68829 68830 68831 
+Tue Jun 16 21:51:42 HKT 2026: Processing issue #68826: Atomic-write leaves `.tmp.<pid>.<hex>` residuals (Edit/Write + plugin LSP), and plugin `.in_use` lock files leak on process exit — Windows (follow-up to #60146)
+Tue Jun 16 21:51:42 HKT 2026: Tracked issue #68826 [unknown]: Atomic-write leaves `.tmp.<pid>.<hex>` residuals (Edit/Write + plugin LSP), and plugin `.in_use` lock files leak on process exit — Windows (follow-up to #60146)
+Tue Jun 16 21:51:44 HKT 2026: Processing issue #68828: Test
+Tue Jun 16 21:51:45 HKT 2026: Tracked issue #68828 [unknown]: Test
+Tue Jun 16 21:51:54 HKT 2026: Processing issue #68829: [BUG]  Windows 版 Computer Use MCP 授权标识与前台进程检测标识不匹配
+Tue Jun 16 21:51:54 HKT 2026: Tracked issue #68829 [bug]: [BUG]  Windows 版 Computer Use MCP 授权标识与前台进程检测标识不匹配
+Tue Jun 16 21:52:02 HKT 2026: Processing issue #68830: [Feature] Confirmation modal for session resume cost — accidental click on parked session drains $5-10 with no warning
+Tue Jun 16 21:52:03 HKT 2026: Tracked issue #68830 [feature]: [Feature] Confirmation modal for session resume cost — accidental click on parked session drains $5-10 with no warning
+Tue Jun 16 21:52:12 HKT 2026: Processing issue #68831: Remote control: iOS-attached photos silently dropped (empty message, no image block) on desktop session
+Tue Jun 16 21:52:13 HKT 2026: Tracked issue #68831 [unknown]: Remote control: iOS-attached photos silently dropped (empty message, no image block) on desktop session
+Tue Jun 16 21:52:13 HKT 2026: Completed processing up to issue #68831
+Tue Jun 16 21:52:13 HKT 2026: Progress saved: last processed = 68831
+Tue Jun 16 22:53:06 HKT 2026: Checking for new issues...
+Tue Jun 16 22:53:08 HKT 2026: Found new issues: 68841 68842 68843 68844 68845 
+Tue Jun 16 22:53:14 HKT 2026: Processing issue #68841: PostToolUse hooks are not invoked when the tool's file path contains non-ASCII (e.g. Korean) characters (Windows)
+Tue Jun 16 22:53:15 HKT 2026: Tracked issue #68841 [unknown]: PostToolUse hooks are not invoked when the tool's file path contains non-ASCII (e.g. Korean) characters (Windows)
+Tue Jun 16 22:53:17 HKT 2026: Skipped issue #68842 - detected as spam/non-issue
+Tue Jun 16 22:53:24 HKT 2026: Processing issue #68843: [Bug] `/remote` and `/effort` ultracode commands not functioning
+Tue Jun 16 22:53:24 HKT 2026: Tracked issue #68843 [bug]: [Bug] `/remote` and `/effort` ultracode commands not functioning
+Tue Jun 16 22:53:31 HKT 2026: Processing issue #68844: Claude Code fails to start when additionalDirectories contains a non-existent path
+Tue Jun 16 22:53:32 HKT 2026: Tracked issue #68844 [bug]: Claude Code fails to start when additionalDirectories contains a non-existent path
+Tue Jun 16 22:53:39 HKT 2026: Processing issue #68845: [FEATURE] Interactive /add-dir: accept multiple paths + load named directory bundles
+Tue Jun 16 22:53:39 HKT 2026: Tracked issue #68845 [feature]: [FEATURE] Interactive /add-dir: accept multiple paths + load named directory bundles
+Tue Jun 16 22:53:39 HKT 2026: Completed processing up to issue #68845
+Tue Jun 16 22:53:39 HKT 2026: Progress saved: last processed = 68845
+Tue Jun 16 23:55:00 HKT 2026: Checking for new issues...
+Tue Jun 16 23:55:03 HKT 2026: Found new issues: 68858 68859 68861 68862 68863 
+Tue Jun 16 23:55:23 HKT 2026: Processing issue #68858: [BUG] Windows: uv-based (`uvx`) MCP servers fail to start — child `uv` inherits a handle into its own build temp dir, so the build can't clean up (`os error 32`); identical command succeeds when spawned outside Claude's process tree
+Tue Jun 16 23:55:23 HKT 2026: Tracked issue #68858 [bug]: [BUG] Windows: uv-based (`uvx`) MCP servers fail to start — child `uv` inherits a handle into its own build temp dir, so the build can't clean up (`os error 32`); identical command succeeds when spawned outside Claude's process tree
+Tue Jun 16 23:55:38 HKT 2026: Processing issue #68859: Cmd+N opens new Terminal instead of New Session (desktop app, macOS)
+Tue Jun 16 23:55:38 HKT 2026: Tracked issue #68859 [unknown]: Cmd+N opens new Terminal instead of New Session (desktop app, macOS)
+Tue Jun 16 23:55:48 HKT 2026: Processing issue #68861: [BUG] Magic-link login returns “can’t verify email” error on desktop app and web — distinct from onboarding redirect issues, 1+ month unresolved
+Tue Jun 16 23:55:48 HKT 2026: Tracked issue #68861 [bug]: [BUG] Magic-link login returns “can’t verify email” error on desktop app and web — distinct from onboarding redirect issues, 1+ month unresolved
+Tue Jun 16 23:55:55 HKT 2026: Processing issue #68862: Remote Control (macOS desktop app host + iOS): attached photos never reach the model (no image content block in the session)
+Tue Jun 16 23:55:55 HKT 2026: Tracked issue #68862 [unknown]: Remote Control (macOS desktop app host + iOS): attached photos never reach the model (no image content block in the session)
+Tue Jun 16 23:56:24 HKT 2026: Checking for new issues...
+Tue Jun 16 23:56:26 HKT 2026: Found new issues: 68858 68859 68861 68862 68863 
+Tue Jun 16 23:56:35 HKT 2026: Skipped issue #68858 - detected as duplicate of existing issue
+Tue Jun 16 23:56:44 HKT 2026: Skipped issue #68859 - detected as duplicate of existing issue
+Tue Jun 16 23:56:49 HKT 2026: Skipped issue #68861 - detected as duplicate of existing issue
+Tue Jun 16 23:56:56 HKT 2026: Skipped issue #68862 - detected as duplicate of existing issue
+Tue Jun 16 23:57:06 HKT 2026: Processing issue #68863: CLAUDE.md 'Hard gate' rules are ignored despite being loaded and visible in context
+Tue Jun 16 23:57:07 HKT 2026: Tracked issue #68863 [memory-issue]: CLAUDE.md 'Hard gate' rules are ignored despite being loaded and visible in context
+Tue Jun 16 23:57:07 HKT 2026: Completed processing up to issue #68863
+Tue Jun 16 23:57:07 HKT 2026: Progress saved: last processed = 68863
+Wed Jun 17 00:58:09 HKT 2026: Checking for new issues...
+Wed Jun 17 00:58:12 HKT 2026: Found new issues: 68864 68865 68866 68867 
+Wed Jun 17 00:58:23 HKT 2026: Processing issue #68864: You've hit your session limit · resets 10:10pm (Asia/Calcutta)
+Wed Jun 17 00:58:23 HKT 2026: Tracked issue #68864 [unknown]: You've hit your session limit · resets 10:10pm (Asia/Calcutta)
+Wed Jun 17 00:58:29 HKT 2026: Processing issue #68865: Customizable input-box title/label and border color (and statusLine not visible inside Warp)
+Wed Jun 17 00:58:30 HKT 2026: Tracked issue #68865 [unknown]: Customizable input-box title/label and border color (and statusLine not visible inside Warp)
+Wed Jun 17 00:58:38 HKT 2026: Processing issue #68866: [BUG] Scroll in WSL or PowerShell WSL Claude sessions do not scroll the chat, only the text entry field
+Wed Jun 17 00:58:38 HKT 2026: Tracked issue #68866 [bug]: [BUG] Scroll in WSL or PowerShell WSL Claude sessions do not scroll the chat, only the text entry field
+Wed Jun 17 00:58:42 HKT 2026: Processing issue #68867: [BUG]
+Wed Jun 17 00:58:43 HKT 2026: Tracked issue #68867 [bug]: [BUG]
+Wed Jun 17 00:58:43 HKT 2026: Completed processing up to issue #68867
+Wed Jun 17 00:58:43 HKT 2026: Progress saved: last processed = 68867
+Wed Jun 17 01:59:48 HKT 2026: Checking for new issues...
+Wed Jun 17 01:59:51 HKT 2026: Found new issues: 68889 68890 68891 68892 68893 
+Wed Jun 17 01:59:59 HKT 2026: Processing issue #68889: Feature request: section/chapter-scoped compaction
+Wed Jun 17 01:59:59 HKT 2026: Tracked issue #68889 [feature]: Feature request: section/chapter-scoped compaction
+Wed Jun 17 02:00:16 HKT 2026: Processing issue #68890: [Bug] Anthropic API Error: 500 Internal Server Error
+Wed Jun 17 02:00:17 HKT 2026: Tracked issue #68890 [bug]: [Bug] Anthropic API Error: 500 Internal Server Error
+Wed Jun 17 02:00:18 HKT 2026: Skipped issue #68891 - detected as spam/non-issue
+Wed Jun 17 02:00:28 HKT 2026: Processing issue #68892: [BUG] Claude in Chrome v1.0.74 denies ALL navigation ("permission denied by user") with no prompt after re-pair — stale account-side state What's Wrong?
+Wed Jun 17 02:00:29 HKT 2026: Tracked issue #68892 [bug]: [BUG] Claude in Chrome v1.0.74 denies ALL navigation ("permission denied by user") with no prompt after re-pair — stale account-side state What's Wrong?
+Wed Jun 17 02:00:38 HKT 2026: Processing issue #68893: [FEATURE] Stop Updates from the UI
+Wed Jun 17 02:00:38 HKT 2026: Tracked issue #68893 [feature]: [FEATURE] Stop Updates from the UI
+Wed Jun 17 02:00:38 HKT 2026: Completed processing up to issue #68893
+Wed Jun 17 02:00:38 HKT 2026: Progress saved: last processed = 68893
+Wed Jun 17 03:04:10 HKT 2026: Checking for new issues...
+Wed Jun 17 03:04:13 HKT 2026: Found new issues: 68899 68900 68901 68902 68903 
+Wed Jun 17 03:04:20 HKT 2026: Processing issue #68899: [Bug] Claude executes commands in plan mode without exiting it first (2026-06-17)
+Wed Jun 17 03:04:20 HKT 2026: Tracked issue #68899 [bug]: [Bug] Claude executes commands in plan mode without exiting it first (2026-06-17)
+Wed Jun 17 03:04:29 HKT 2026: Processing issue #68900: Billing-header nonce (`cch`) in system prompt breaks prompt caching on third-party providers
+Wed Jun 17 03:04:29 HKT 2026: Tracked issue #68900 [unknown]: Billing-header nonce (`cch`) in system prompt breaks prompt caching on third-party providers
+Wed Jun 17 03:04:38 HKT 2026: Processing issue #68901: [BUG] Single 2-minute agentic request consumed ~80% of 5-hour usage limit
+Wed Jun 17 03:04:38 HKT 2026: Tracked issue #68901 [bug]: [BUG] Single 2-minute agentic request consumed ~80% of 5-hour usage limit
+Wed Jun 17 03:04:44 HKT 2026: Processing issue #68902: [BUG] Claude app (macOS) leaks pty/ptmx handles, exhausting kern.tty.ptmx_max and breaking all new terminals
+Wed Jun 17 03:04:45 HKT 2026: Tracked issue #68902 [bug]: [BUG] Claude app (macOS) leaks pty/ptmx handles, exhausting kern.tty.ptmx_max and breaking all new terminals
+Wed Jun 17 03:04:54 HKT 2026: Processing issue #68903: I'm ready to help generate GitHub issue titles for Claude Code bug reports. However, I don't see a bug report in your message. Please provide the bug report details, and I'll create a concise, technical issue title following the format specified.
+Wed Jun 17 03:04:54 HKT 2026: Tracked issue #68903 [bug]: I'm ready to help generate GitHub issue titles for Claude Code bug reports. However, I don't see a bug report in your message. Please provide the bug report details, and I'll create a concise, technical issue title following the format specified.
+Wed Jun 17 03:04:54 HKT 2026: Completed processing up to issue #68903
+Wed Jun 17 03:04:54 HKT 2026: Progress saved: last processed = 68903
+Wed Jun 17 04:05:45 HKT 2026: Checking for new issues...
+Wed Jun 17 04:05:48 HKT 2026: Found new issues: 68910 68911 68912 68913 68914 
+Wed Jun 17 04:05:55 HKT 2026: Processing issue #68910: [BUG] ## ESCALATION: Claude Code (Opus 4.8) Bash tool emits false "temp filesystem full / 0MB free" ENOSPC despite ~148 GB free, causing wasted token spend
+Wed Jun 17 04:05:55 HKT 2026: Tracked issue #68910 [bug]: [BUG] ## ESCALATION: Claude Code (Opus 4.8) Bash tool emits false "temp filesystem full / 0MB free" ENOSPC despite ~148 GB free, causing wasted token spend
+Wed Jun 17 04:06:01 HKT 2026: Processing issue #68911: [Bug] Infinite loop in goal monitoring with repeated stop condition checks
+Wed Jun 17 04:06:01 HKT 2026: Tracked issue #68911 [bug]: [Bug] Infinite loop in goal monitoring with repeated stop condition checks
+Wed Jun 17 04:06:09 HKT 2026: Processing issue #68912: [Bug] Agent team tools not injected after auto-update to v2.1.178
+Wed Jun 17 04:06:09 HKT 2026: Tracked issue #68912 [bug]: [Bug] Agent team tools not injected after auto-update to v2.1.178
+Wed Jun 17 04:06:17 HKT 2026: Processing issue #68913: [BUG]: Claude Code VS Code Extension Crashes on Windows When a GitHub Virtual Filesystem Workspace Is Open
+Wed Jun 17 04:06:17 HKT 2026: Tracked issue #68913 [bug]: [BUG]: Claude Code VS Code Extension Crashes on Windows When a GitHub Virtual Filesystem Workspace Is Open
+Wed Jun 17 04:06:23 HKT 2026: Processing issue #68914: [FEATURE] shareable/linkable remote agent sessions scoped to work items
+Wed Jun 17 04:06:23 HKT 2026: Tracked issue #68914 [feature]: [FEATURE] shareable/linkable remote agent sessions scoped to work items
+Wed Jun 17 04:06:23 HKT 2026: Completed processing up to issue #68914
+Wed Jun 17 04:06:23 HKT 2026: Progress saved: last processed = 68914
+Wed Jun 17 05:07:30 HKT 2026: Checking for new issues...
+Wed Jun 17 05:07:32 HKT 2026: Found new issues: 68921 68922 68923 68924 68925 
+Wed Jun 17 05:07:37 HKT 2026: Processing issue #68921: Feature Request: Add tool response diffing/delta for MCP tools to reduce context window usage
+Wed Jun 17 05:07:37 HKT 2026: Tracked issue #68921 [feature]: Feature Request: Add tool response diffing/delta for MCP tools to reduce context window usage
+Wed Jun 17 05:07:42 HKT 2026: Processing issue #68922: Model asserts background agents are completed before receiving task-notification
+Wed Jun 17 05:07:42 HKT 2026: Tracked issue #68922 [unknown]: Model asserts background agents are completed before receiving task-notification
+Wed Jun 17 05:07:43 HKT 2026: Skipped issue #68923 - detected as spam/non-issue
+Wed Jun 17 05:07:48 HKT 2026: Processing issue #68924: Let individual (non-org) accounts set their own default model — for new chats AND scheduled tasks (Cowork)
+Wed Jun 17 05:07:48 HKT 2026: Tracked issue #68924 [unknown]: Let individual (non-org) accounts set their own default model — for new chats AND scheduled tasks (Cowork)
+Wed Jun 17 05:07:53 HKT 2026: Processing issue #68925: Cowork scheduled tasks: rename/edit identity in place + user-adjustable toolbar order (decouple prompt update from recreate)
+Wed Jun 17 05:07:53 HKT 2026: Tracked issue #68925 [unknown]: Cowork scheduled tasks: rename/edit identity in place + user-adjustable toolbar order (decouple prompt update from recreate)
+Wed Jun 17 05:07:53 HKT 2026: Completed processing up to issue #68925
+Wed Jun 17 05:07:53 HKT 2026: Progress saved: last processed = 68925
+Wed Jun 17 06:08:44 HKT 2026: Checking for new issues...
+Wed Jun 17 06:08:46 HKT 2026: Found new issues: 68933 68934 68935 68936 68937 
+Wed Jun 17 06:08:53 HKT 2026: Processing issue #68933: skill-creator eval/optimizer leaks MCP child processes via headless 'claude -p' — exhausted memory, forced hard reboot
+Wed Jun 17 06:08:53 HKT 2026: Tracked issue #68933 [memory-issue]: skill-creator eval/optimizer leaks MCP child processes via headless 'claude -p' — exhausted memory, forced hard reboot
+Wed Jun 17 06:09:02 HKT 2026: Processing issue #68934: [Bug] Slow response times with Claude 3 Opus model
+Wed Jun 17 06:09:02 HKT 2026: Tracked issue #68934 [bug]: [Bug] Slow response times with Claude 3 Opus model
+Wed Jun 17 06:09:13 HKT 2026: Processing issue #68935: [Feature Request] Add keyboard shortcut to copy prompt input buffer to clipboard
+Wed Jun 17 06:09:13 HKT 2026: Tracked issue #68935 [feature]: [Feature Request] Add keyboard shortcut to copy prompt input buffer to clipboard
+Wed Jun 17 06:09:20 HKT 2026: Processing issue #68936: metadata.pluginRoot in marketplace.json is ignored — bare plugin source fails validation despite being documented
+Wed Jun 17 06:09:20 HKT 2026: Tracked issue #68936 [bug]: metadata.pluginRoot in marketplace.json is ignored — bare plugin source fails validation despite being documented
+Wed Jun 17 06:09:28 HKT 2026: Processing issue #68937: [Bug] Anthropic API Error: Session feedback loop preventing normal operation
+Wed Jun 17 06:09:28 HKT 2026: Tracked issue #68937 [bug]: [Bug] Anthropic API Error: Session feedback loop preventing normal operation
+Wed Jun 17 06:09:28 HKT 2026: Completed processing up to issue #68937
+Wed Jun 17 06:09:28 HKT 2026: Progress saved: last processed = 68937
+Wed Jun 17 07:10:17 HKT 2026: Checking for new issues...
+Wed Jun 17 07:10:19 HKT 2026: Found new issues: 68938 68939 68940 68941 
+Wed Jun 17 07:10:24 HKT 2026: Processing issue #68938: [BUG] Claude telling me Fable isn't available when Opus 4.8 or any model is selected
+Wed Jun 17 07:10:24 HKT 2026: Tracked issue #68938 [bug]: [BUG] Claude telling me Fable isn't available when Opus 4.8 or any model is selected
+Wed Jun 17 07:10:29 HKT 2026: Processing issue #68939: v2.1.178 `/bug` titler fix addresses independently measured issue without acknowledgment
+Wed Jun 17 07:10:30 HKT 2026: Tracked issue #68939 [unknown]: v2.1.178 `/bug` titler fix addresses independently measured issue without acknowledgment
+Wed Jun 17 07:10:35 HKT 2026: Processing issue #68940: [Bug] Anthropic API Error: Rate limit exceeded - server temporarily limiting requests
+Wed Jun 17 07:10:35 HKT 2026: Tracked issue #68940 [bug]: [Bug] Anthropic API Error: Rate limit exceeded - server temporarily limiting requests
+Wed Jun 17 07:10:39 HKT 2026: Processing issue #68941: [BUG] [Billing] Claude Max subscription fails with card_velocity_exceeded — card works on other Stripe merchants
+Wed Jun 17 07:10:39 HKT 2026: Tracked issue #68941 [bug]: [BUG] [Billing] Claude Max subscription fails with card_velocity_exceeded — card works on other Stripe merchants
+Wed Jun 17 07:10:39 HKT 2026: Completed processing up to issue #68941
+Wed Jun 17 07:10:39 HKT 2026: Progress saved: last processed = 68941
+Wed Jun 17 08:11:23 HKT 2026: Checking for new issues...
+Wed Jun 17 08:11:24 HKT 2026: Found new issues: 68943 68944 68945 68946 68947 
+Wed Jun 17 08:11:30 HKT 2026: Processing issue #68943: Renderer paints cursor in wrong position and overprints existing text on every response (regression introduced in 2.1.163)
+Wed Jun 17 08:11:30 HKT 2026: Tracked issue #68943 [bug]: Renderer paints cursor in wrong position and overprints existing text on every response (regression introduced in 2.1.163)
+Wed Jun 17 08:11:34 HKT 2026: Processing issue #68944: [BUG] Claude consistently miscalculates day-of-week and future dates during a conversation, even when the current date is injected in the system context
+Wed Jun 17 08:11:34 HKT 2026: Tracked issue #68944 [bug]: [BUG] Claude consistently miscalculates day-of-week and future dates during a conversation, even when the current date is injected in the system context
+Wed Jun 17 08:11:39 HKT 2026: Processing issue #68945: [Bug] Agent tool description references unavailable "fork" subagent_type
+Wed Jun 17 08:11:39 HKT 2026: Tracked issue #68945 [bug]: [Bug] Agent tool description references unavailable "fork" subagent_type
+Wed Jun 17 08:11:45 HKT 2026: Processing issue #68946: [BUG] Agent Teams: teammate roster (in-progress) mode runs at same time as split-pane mode and then in-progress roster stays pinned in lead terminal after shutdown confirmed and panes auto closed
+Wed Jun 17 08:11:45 HKT 2026: Tracked issue #68946 [bug]: [BUG] Agent Teams: teammate roster (in-progress) mode runs at same time as split-pane mode and then in-progress roster stays pinned in lead terminal after shutdown confirmed and panes auto closed
+Wed Jun 17 08:11:47 HKT 2026: Processing issue #68947: Sonnet 4.6
+Wed Jun 17 08:11:47 HKT 2026: Tracked issue #68947 [unknown]: Sonnet 4.6
+Wed Jun 17 08:11:47 HKT 2026: Completed processing up to issue #68947
+Wed Jun 17 08:11:47 HKT 2026: Progress saved: last processed = 68947
+Wed Jun 17 09:12:26 HKT 2026: Checking for new issues...
+Wed Jun 17 09:12:28 HKT 2026: Found new issues: 68948 68949 
+Wed Jun 17 09:12:33 HKT 2026: Processing issue #68948: [Bug] Anthropic API Error: 529 Overloaded
+Wed Jun 17 09:12:33 HKT 2026: Tracked issue #68948 [bug]: [Bug] Anthropic API Error: 529 Overloaded
+Wed Jun 17 09:12:34 HKT 2026: Processing issue #68949: [BUG]
+Wed Jun 17 09:12:34 HKT 2026: Tracked issue #68949 [bug]: [BUG]
+Wed Jun 17 09:12:34 HKT 2026: Completed processing up to issue #68949
+Wed Jun 17 09:12:34 HKT 2026: Progress saved: last processed = 68949
+Wed Jun 17 10:13:31 HKT 2026: Checking for new issues...
+Wed Jun 17 10:13:33 HKT 2026: Found new issues: 68960 68961 68962 68963 68964 
+Wed Jun 17 10:13:37 HKT 2026: Processing issue #68960: [FEATURE] Support apiKeyHelper-equivalent for custom headers
+Wed Jun 17 10:13:37 HKT 2026: Tracked issue #68960 [feature]: [FEATURE] Support apiKeyHelper-equivalent for custom headers
+Wed Jun 17 10:13:42 HKT 2026: Processing issue #68961: [Bug] Excessive agentic loop iterations consuming API usage quota
+Wed Jun 17 10:13:42 HKT 2026: Tracked issue #68961 [bug]: [Bug] Excessive agentic loop iterations consuming API usage quota
+Wed Jun 17 10:13:46 HKT 2026: Processing issue #68962: [BUG] Edit tool may modify the wrong occurrence when quote-normalized matches are ambiguous
+Wed Jun 17 10:13:47 HKT 2026: Tracked issue #68962 [bug]: [BUG] Edit tool may modify the wrong occurrence when quote-normalized matches are ambiguous
+Wed Jun 17 10:13:51 HKT 2026: Processing issue #68963: [FEATURE] Cowork Scheduled Tasks: Allow selecting multiple folders per task
+Wed Jun 17 10:13:52 HKT 2026: Tracked issue #68963 [feature]: [FEATURE] Cowork Scheduled Tasks: Allow selecting multiple folders per task
+Wed Jun 17 10:13:56 HKT 2026: Processing issue #68964: [Feature Request] Clarify usage bucket separation between Sonnet and "all" in metrics
+Wed Jun 17 10:13:56 HKT 2026: Tracked issue #68964 [feature]: [Feature Request] Clarify usage bucket separation between Sonnet and "all" in metrics
+Wed Jun 17 10:13:56 HKT 2026: Completed processing up to issue #68964
+Wed Jun 17 10:13:56 HKT 2026: Progress saved: last processed = 68964
+Wed Jun 17 11:14:53 HKT 2026: Checking for new issues...
+Wed Jun 17 11:14:54 HKT 2026: Found new issues: 68972 68973 68974 68975 68976 
+Wed Jun 17 11:15:00 HKT 2026: Processing issue #68972: [BUG] Sessions are auto-archived immediately after Claude sends a message
+Wed Jun 17 11:15:01 HKT 2026: Tracked issue #68972 [bug]: [BUG] Sessions are auto-archived immediately after Claude sends a message
+Wed Jun 17 11:15:09 HKT 2026: Processing issue #68973: High quota consumption (~30% to 40%) on first request after limit reset due to expired prompt cache + compaction deadlock
+Wed Jun 17 11:15:09 HKT 2026: Tracked issue #68973 [feature]: High quota consumption (~30% to 40%) on first request after limit reset due to expired prompt cache + compaction deadlock
+Wed Jun 17 11:15:16 HKT 2026: Processing issue #68974: UI hangs on "Inferring..." when pasting a long prompt via copy-code button
+Wed Jun 17 11:15:16 HKT 2026: Tracked issue #68974 [unknown]: UI hangs on "Inferring..." when pasting a long prompt via copy-code button
+Wed Jun 17 11:15:22 HKT 2026: Processing issue #68975: [BUG] Claude Desktop fails to launch on Windows 10 IoT Enterprise LTSC 21H2 — "Hay un problema con Claude" / Resources.????????.pri not resolved
+Wed Jun 17 11:15:22 HKT 2026: Tracked issue #68975 [bug]: [BUG] Claude Desktop fails to launch on Windows 10 IoT Enterprise LTSC 21H2 — "Hay un problema con Claude" / Resources.????????.pri not resolved
+Wed Jun 17 11:15:30 HKT 2026: Processing issue #68976: Feature request: Add Traditional Chinese (zh-TW) localization for the desktop UI
+Wed Jun 17 11:15:30 HKT 2026: Tracked issue #68976 [feature]: Feature request: Add Traditional Chinese (zh-TW) localization for the desktop UI
+Wed Jun 17 11:15:30 HKT 2026: Completed processing up to issue #68976
+Wed Jun 17 11:15:30 HKT 2026: Progress saved: last processed = 68976
+Wed Jun 17 12:16:37 HKT 2026: Checking for new issues...
+Wed Jun 17 12:16:38 HKT 2026: Found new issues: 68986 68987 68988 68989 68990 
+Wed Jun 17 12:16:42 HKT 2026: Processing issue #68986: [FEATURE] Pasted images tags like [Image #1] [Image #2] shuould be tabbale links/buttons or become footnote like things and be viewable (OS level preview app) if windowing context is detected.
+Wed Jun 17 12:16:42 HKT 2026: Tracked issue #68986 [feature]: [FEATURE] Pasted images tags like [Image #1] [Image #2] shuould be tabbale links/buttons or become footnote like things and be viewable (OS level preview app) if windowing context is detected.
+Wed Jun 17 12:16:47 HKT 2026: Processing issue #68987: [Bug] API Error: Usage credits required for 1M context · run /usage-credits to turn them on, or /model
+Wed Jun 17 12:16:47 HKT 2026: Tracked issue #68987 [bug]: [Bug] API Error: Usage credits required for 1M context · run /usage-credits to turn them on, or /model
+Wed Jun 17 12:16:51 HKT 2026: Processing issue #68988: [BUG] Fixed per-session token overhead increased ~75% (30k→52k)   mid-day on 2026-06-16, independent of context window usage or content
+Wed Jun 17 12:16:51 HKT 2026: Tracked issue #68988 [bug]: [BUG] Fixed per-session token overhead increased ~75% (30k→52k)   mid-day on 2026-06-16, independent of context window usage or content
+Wed Jun 17 12:16:55 HKT 2026: Processing issue #68989: [Bug] Tool marked as required despite explicit non-required specification
+Wed Jun 17 12:16:55 HKT 2026: Tracked issue #68989 [bug]: [Bug] Tool marked as required despite explicit non-required specification
+Wed Jun 17 12:16:56 HKT 2026: Skipped issue #68990 - detected as spam/non-issue
+Wed Jun 17 12:16:56 HKT 2026: Completed processing up to issue #68990
+Wed Jun 17 12:16:56 HKT 2026: Progress saved: last processed = 68990
+Wed Jun 17 13:17:55 HKT 2026: Checking for new issues...
+Wed Jun 17 13:17:57 HKT 2026: Found new issues: 68993 68994 68995 68996 68997 
+Wed Jun 17 13:18:01 HKT 2026: Processing issue #68993: I need more information to generate an accurate issue title. Could you provide:
+
+1. What type of issue is this? (Bug or Feature Request)
+2. What is the specific error message you're encountering?
+3. What loop behavior are you experiencing?
+4. What was the
+Wed Jun 17 13:18:01 HKT 2026: Tracked issue #68993 [bug]: I need more information to generate an accurate issue title. Could you provide:
+
+1. What type of issue is this? (Bug or Feature Request)
+2. What is the specific error message you're encountering?
+3. What loop behavior are you experiencing?
+4. What was the
+Wed Jun 17 13:18:07 HKT 2026: Processing issue #68994: Voice input mic icon missing in VS Code Remote SSH sessions
+Wed Jun 17 13:18:07 HKT 2026: Tracked issue #68994 [unknown]: Voice input mic icon missing in VS Code Remote SSH sessions
+Wed Jun 17 13:18:11 HKT 2026: Processing issue #68995: [BUG] Multi-turn HTTP 400 on openrouter-routed DeepSeek V4 Flash; same env works with MiniMax-M3
+Wed Jun 17 13:18:11 HKT 2026: Tracked issue #68995 [bug]: [BUG] Multi-turn HTTP 400 on openrouter-routed DeepSeek V4 Flash; same env works with MiniMax-M3
+Wed Jun 17 13:18:12 HKT 2026: Skipped issue #68996 - detected as spam/non-issue
+Wed Jun 17 13:18:16 HKT 2026: Processing issue #68997: Background-agent completion notifications silently dropped on 2.1.179 (sequential dispatch; agents complete cleanly, no task-notification fires)
+Wed Jun 17 13:18:16 HKT 2026: Tracked issue #68997 [unknown]: Background-agent completion notifications silently dropped on 2.1.179 (sequential dispatch; agents complete cleanly, no task-notification fires)
+Wed Jun 17 13:18:16 HKT 2026: Completed processing up to issue #68997
+Wed Jun 17 13:18:16 HKT 2026: Progress saved: last processed = 68997
+Wed Jun 17 14:19:07 HKT 2026: Checking for new issues...
+Wed Jun 17 14:19:08 HKT 2026: Found new issues: 69007 69008 69009 69010 69011 
+Wed Jun 17 14:19:13 HKT 2026: Processing issue #69007: [Bug] Anthropic API Error: Server Rate Limiting During Request Execution
+Wed Jun 17 14:19:13 HKT 2026: Tracked issue #69007 [bug]: [Bug] Anthropic API Error: Server Rate Limiting During Request Execution
+Wed Jun 17 14:19:13 HKT 2026: Skipped issue #69008 - detected as spam/non-issue
+Wed Jun 17 14:19:18 HKT 2026: Processing issue #69009: [BUG] Desktop app crashes on launch (V8 heap OOM) when a project has oversized session transcripts
+Wed Jun 17 14:19:18 HKT 2026: Tracked issue #69009 [bug]: [BUG] Desktop app crashes on launch (V8 heap OOM) when a project has oversized session transcripts
+Wed Jun 17 14:19:22 HKT 2026: Processing issue #69010: [FEATURE] Search the sessions list in claude agents
+Wed Jun 17 14:19:22 HKT 2026: Tracked issue #69010 [feature]: [FEATURE] Search the sessions list in claude agents
+Wed Jun 17 14:19:23 HKT 2026: Processing issue #69011: [BUG]
+Wed Jun 17 14:19:23 HKT 2026: Tracked issue #69011 [bug]: [BUG]
+Wed Jun 17 14:19:23 HKT 2026: Completed processing up to issue #69011
+Wed Jun 17 14:19:23 HKT 2026: Progress saved: last processed = 69011
+Wed Jun 17 15:20:02 HKT 2026: Checking for new issues...
+Wed Jun 17 15:20:05 HKT 2026: Found new issues: 69020 69021 69022 69023 69024 
+Wed Jun 17 15:20:09 HKT 2026: Processing issue #69020: [BUG] Cowork installs stale cached plugin version; ignores all marketplace repo updates
+Wed Jun 17 15:20:09 HKT 2026: Tracked issue #69020 [bug]: [BUG] Cowork installs stale cached plugin version; ignores all marketplace repo updates
+Wed Jun 17 15:20:14 HKT 2026: Processing issue #69021: [FEATURE] VS Code Extension: Pin sessions to top of session list
+Wed Jun 17 15:20:14 HKT 2026: Tracked issue #69021 [feature]: [FEATURE] VS Code Extension: Pin sessions to top of session list
+Wed Jun 17 15:20:17 HKT 2026: Processing issue #69022: [BUG] "claude agents" view spawns team members instead of subagents — they never close and ignore messages
+Wed Jun 17 15:20:17 HKT 2026: Tracked issue #69022 [bug]: [BUG] "claude agents" view spawns team members instead of subagents — they never close and ignore messages
+Wed Jun 17 15:20:21 HKT 2026: Processing issue #69023: [BUG] API Error: Request rejected (429) · Rate limited. Please try again later.
+Wed Jun 17 15:20:21 HKT 2026: Tracked issue #69023 [bug]: [BUG] API Error: Request rejected (429) · Rate limited. Please try again later.
+Wed Jun 17 15:20:26 HKT 2026: Processing issue #69024: @ file picker doesn't surface deeply nested files — only shallow-path files appear in results
+Wed Jun 17 15:20:26 HKT 2026: Tracked issue #69024 [bug]: @ file picker doesn't surface deeply nested files — only shallow-path files appear in results
+Wed Jun 17 15:20:26 HKT 2026: Completed processing up to issue #69024
+Wed Jun 17 15:20:26 HKT 2026: Progress saved: last processed = 69024
+Wed Jun 17 16:21:05 HKT 2026: Checking for new issues...
+Wed Jun 17 16:21:07 HKT 2026: Found new issues: 69033 69034 69035 69036 69037 
+Wed Jun 17 16:21:12 HKT 2026: Processing issue #69033: Workflow harness: memory-aware throttling when fanning out subagents
+Wed Jun 17 16:21:12 HKT 2026: Tracked issue #69033 [memory-issue]: Workflow harness: memory-aware throttling when fanning out subagents
+Wed Jun 17 16:21:17 HKT 2026: Processing issue #69034: [BUG] Cowork shows "requires a more recent installation" on Windows 11 after fresh reinstall of latest version (1.13576.0)
+Wed Jun 17 16:21:17 HKT 2026: Tracked issue #69034 [bug]: [BUG] Cowork shows "requires a more recent installation" on Windows 11 after fresh reinstall of latest version (1.13576.0)
+Wed Jun 17 16:21:21 HKT 2026: Processing issue #69035: [BUG] [BUG] HTTP MCP connector to Atlassian /v1/mcp/authv2 fails with "Invalid context provided" while /v1/sse works with the same account
+Wed Jun 17 16:21:21 HKT 2026: Tracked issue #69035 [bug]: [BUG] [BUG] HTTP MCP connector to Atlassian /v1/mcp/authv2 fails with "Invalid context provided" while /v1/sse works with the same account
+Wed Jun 17 16:21:22 HKT 2026: Processing issue #69036: [BUG] Getting API error
+Wed Jun 17 16:21:22 HKT 2026: Tracked issue #69036 [bug]: [BUG] Getting API error
+Wed Jun 17 16:21:27 HKT 2026: Processing issue #69037: [Bug] Agent provides inaccurate data validation assumptions in early session stages
+Wed Jun 17 16:21:27 HKT 2026: Tracked issue #69037 [bug]: [Bug] Agent provides inaccurate data validation assumptions in early session stages
+Wed Jun 17 16:21:27 HKT 2026: Completed processing up to issue #69037
+Wed Jun 17 16:21:27 HKT 2026: Progress saved: last processed = 69037
+Wed Jun 17 17:22:13 HKT 2026: Checking for new issues...
+Wed Jun 17 17:22:15 HKT 2026: Found new issues: 69047 69048 69049 69050 69051 
+Wed Jun 17 17:22:19 HKT 2026: Processing issue #69047: [MODEL] Model worked for 10 hours and the output was non-sense
+Wed Jun 17 17:22:19 HKT 2026: Tracked issue #69047 [unknown]: [MODEL] Model worked for 10 hours and the output was non-sense
+Wed Jun 17 17:22:23 HKT 2026: Processing issue #69048: [Bug] Model receiving questions and responses from unrelated sessions/accounts
+Wed Jun 17 17:22:23 HKT 2026: Tracked issue #69048 [bug]: [Bug] Model receiving questions and responses from unrelated sessions/accounts
+Wed Jun 17 17:22:28 HKT 2026: Processing issue #69049: Misleading _noargs parameter in TaskList tool schema causes repeated agent errors
+Wed Jun 17 17:22:28 HKT 2026: Tracked issue #69049 [bug]: Misleading _noargs parameter in TaskList tool schema causes repeated agent errors
+Wed Jun 17 17:22:33 HKT 2026: Processing issue #69050: [BUG] No way to remove agents from the team list of agents at the bottom of the claude code ui (even killing them and doing /clear doesn't remove them)
+Wed Jun 17 17:22:33 HKT 2026: Tracked issue #69050 [bug]: [BUG] No way to remove agents from the team list of agents at the bottom of the claude code ui (even killing them and doing /clear doesn't remove them)
+Wed Jun 17 17:22:36 HKT 2026: Processing issue #69051: [BUG] Claude in Chrome extension OAuth fails - "Authorization failed" with chrome-extension:// redirect_uri rejected by server
+Wed Jun 17 17:22:37 HKT 2026: Tracked issue #69051 [bug]: [BUG] Claude in Chrome extension OAuth fails - "Authorization failed" with chrome-extension:// redirect_uri rejected by server
+Wed Jun 17 17:22:37 HKT 2026: Completed processing up to issue #69051
+Wed Jun 17 17:22:37 HKT 2026: Progress saved: last processed = 69051
+Wed Jun 17 18:24:48 HKT 2026: Checking for new issues...
+Wed Jun 17 18:24:49 HKT 2026: Found new issues: 69057 69058 69059 69060 69061 
+Wed Jun 17 18:24:55 HKT 2026: Processing issue #69057: [FEATURE] [Feature Request] Improve long conversation UX: message color distinction + conversation navigator
+Wed Jun 17 18:24:55 HKT 2026: Tracked issue #69057 [feature]: [FEATURE] [Feature Request] Improve long conversation UX: message color distinction + conversation navigator
+Wed Jun 17 18:25:02 HKT 2026: Processing issue #69058: [Feature Request] Reduce unsolicited internal reasoning in outputs and add privacy controls for sensitive contexts
+Wed Jun 17 18:25:02 HKT 2026: Tracked issue #69058 [feature]: [Feature Request] Reduce unsolicited internal reasoning in outputs and add privacy controls for sensitive contexts
+Wed Jun 17 18:25:14 HKT 2026: Processing issue #69059: Auto-accept mode runs destructive framework DB commands (e.g. `php artisan migrate:fresh`) without confirmation → data loss
+Wed Jun 17 18:25:14 HKT 2026: Tracked issue #69059 [false-positive]: Auto-accept mode runs destructive framework DB commands (e.g. `php artisan migrate:fresh`) without confirmation → data loss
+Wed Jun 17 18:25:23 HKT 2026: Processing issue #69060: [Bug] Status page check fails or is unreachable
+Wed Jun 17 18:25:23 HKT 2026: Tracked issue #69060 [bug]: [Bug] Status page check fails or is unreachable
+Wed Jun 17 18:25:29 HKT 2026: Processing issue #69061: [MODEL] Opus 4.8 appears to respond from nonexistent conversation context after long thinking
+Wed Jun 17 18:25:29 HKT 2026: Tracked issue #69061 [unknown]: [MODEL] Opus 4.8 appears to respond from nonexistent conversation context after long thinking
+Wed Jun 17 18:25:29 HKT 2026: Completed processing up to issue #69061
+Wed Jun 17 18:25:29 HKT 2026: Progress saved: last processed = 69061
+Wed Jun 17 19:26:29 HKT 2026: Checking for new issues...
+Wed Jun 17 19:26:31 HKT 2026: Found new issues: 69072 69073 69074 69075 69076 
+Wed Jun 17 19:26:35 HKT 2026: Processing issue #69072: [BUG] Intermittent "Subprocess initialization did not complete within 60000ms" on macOS — interactive sessions (VS Code extension / desktop app / interactive CLI) hang, `claude -p` works; correlates with TLS-inspection (Norton)
+Wed Jun 17 19:26:35 HKT 2026: Tracked issue #69072 [bug]: [BUG] Intermittent "Subprocess initialization did not complete within 60000ms" on macOS — interactive sessions (VS Code extension / desktop app / interactive CLI) hang, `claude -p` works; correlates with TLS-inspection (Norton)
+Wed Jun 17 19:26:40 HKT 2026: Processing issue #69073: [Bug] Superpowers plugins failed to load from cache
+Wed Jun 17 19:26:40 HKT 2026: Tracked issue #69073 [bug]: [Bug] Superpowers plugins failed to load from cache
+Wed Jun 17 19:26:47 HKT 2026: Processing issue #69074: [BUG] "User declined to answer questions" in response to "Chat about this"
+Wed Jun 17 19:26:47 HKT 2026: Tracked issue #69074 [bug]: [BUG] "User declined to answer questions" in response to "Chat about this"
+Wed Jun 17 19:26:51 HKT 2026: Processing issue #69075: Make AskUserQuestion non-blocking / asynchronous (notification-driven, yield the turn)
+Wed Jun 17 19:26:51 HKT 2026: Tracked issue #69075 [unknown]: Make AskUserQuestion non-blocking / asynchronous (notification-driven, yield the turn)
+Wed Jun 17 19:26:57 HKT 2026: Processing issue #69076: [FEATURE] Task panel: option to keep it collapsed by default
+Wed Jun 17 19:26:57 HKT 2026: Tracked issue #69076 [feature]: [FEATURE] Task panel: option to keep it collapsed by default
+Wed Jun 17 19:26:57 HKT 2026: Completed processing up to issue #69076
+Wed Jun 17 19:26:57 HKT 2026: Progress saved: last processed = 69076
+Wed Jun 17 20:27:37 HKT 2026: Checking for new issues...
+Wed Jun 17 20:27:39 HKT 2026: Found new issues: 69086 69087 69088 69089 69090 
+Wed Jun 17 20:27:43 HKT 2026: Processing issue #69086: Feature request: session-only model override without changing global default
+Wed Jun 17 20:27:43 HKT 2026: Tracked issue #69086 [feature]: Feature request: session-only model override without changing global default
+Wed Jun 17 20:27:47 HKT 2026: Processing issue #69087: MCP elicitation form dialog clipped & not scrollable in fullscreen TUI - action buttons below viewport
+Wed Jun 17 20:27:47 HKT 2026: Tracked issue #69087 [unknown]: MCP elicitation form dialog clipped & not scrollable in fullscreen TUI - action buttons below viewport
+Wed Jun 17 20:27:51 HKT 2026: Processing issue #69088: [BUG] [Windows] Local agent / Cowork session hangs on endless loading spinner — spawn EBUSY on bundled claude.exe, triggering an infinite re-download loop
+Wed Jun 17 20:27:51 HKT 2026: Tracked issue #69088 [bug]: [BUG] [Windows] Local agent / Cowork session hangs on endless loading spinner — spawn EBUSY on bundled claude.exe, triggering an infinite re-download loop
+Wed Jun 17 20:27:55 HKT 2026: Processing issue #69089: [Feature Request] Make slash-command autocomplete dropdown height configurable
+Wed Jun 17 20:27:55 HKT 2026: Tracked issue #69089 [feature]: [Feature Request] Make slash-command autocomplete dropdown height configurable
+Wed Jun 17 20:27:59 HKT 2026: Processing issue #69090: [BUG] Unable to use Bash tool.
+Wed Jun 17 20:27:59 HKT 2026: Tracked issue #69090 [bug]: [BUG] Unable to use Bash tool.
+Wed Jun 17 20:27:59 HKT 2026: Completed processing up to issue #69090
+Wed Jun 17 20:27:59 HKT 2026: Progress saved: last processed = 69090
+Wed Jun 17 21:28:39 HKT 2026: Checking for new issues...
+Wed Jun 17 21:28:41 HKT 2026: Found new issues: 69094 69095 69098 69099 69100 
+Wed Jun 17 21:28:44 HKT 2026: Processing issue #69094: [FEATURE] Expose queued/pending Workflow subagents to SDK / headless clients (only visible via in-process /workflows)
+Wed Jun 17 21:28:44 HKT 2026: Tracked issue #69094 [feature]: [FEATURE] Expose queued/pending Workflow subagents to SDK / headless clients (only visible via in-process /workflows)
+Wed Jun 17 21:28:47 HKT 2026: Processing issue #69095: [Bug] Model generates excessive comment verbosity after planning phases
+Wed Jun 17 21:28:47 HKT 2026: Tracked issue #69095 [bug]: [Bug] Model generates excessive comment verbosity after planning phases
+Wed Jun 17 21:28:51 HKT 2026: Processing issue #69098: [BUG] Session limit hits very fast and "API Error: Server is temporarily limiting requests..."
+Wed Jun 17 21:28:51 HKT 2026: Tracked issue #69098 [bug]: [BUG] Session limit hits very fast and "API Error: Server is temporarily limiting requests..."
+Wed Jun 17 21:28:55 HKT 2026: Processing issue #69099: [BUG] Claude native install message persists after removal and using homebrew (or other) binary install
+Wed Jun 17 21:28:55 HKT 2026: Tracked issue #69099 [bug]: [BUG] Claude native install message persists after removal and using homebrew (or other) binary install
+Wed Jun 17 21:28:56 HKT 2026: Processing issue #69100: [BUG]
+Wed Jun 17 21:28:56 HKT 2026: Tracked issue #69100 [bug]: [BUG]
+Wed Jun 17 21:28:56 HKT 2026: Completed processing up to issue #69100
+Wed Jun 17 21:28:56 HKT 2026: Progress saved: last processed = 69100
+Wed Jun 17 22:29:31 HKT 2026: Checking for new issues...
+Wed Jun 17 22:29:32 HKT 2026: Found new issues: 69104 69105 69106 69107 69108 
+Wed Jun 17 22:29:37 HKT 2026: Processing issue #69104: [BUG] Agent teams: teammate sessions die with ConnectionRefused (Bun tries IPv6, no IPv4 fallback) while the lead keeps working
+Wed Jun 17 22:29:37 HKT 2026: Tracked issue #69104 [bug]: [BUG] Agent teams: teammate sessions die with ConnectionRefused (Bun tries IPv6, no IPv4 fallback) while the lead keeps working
+Wed Jun 17 22:29:38 HKT 2026: Processing issue #69105: session group
+Wed Jun 17 22:29:39 HKT 2026: Tracked issue #69105 [unknown]: session group
+Wed Jun 17 22:29:44 HKT 2026: Processing issue #69106: [MODEL] Claude repeatedly uses openpyxl for Excel charts despite it being   fundamentally broken for time-series
+Wed Jun 17 22:29:44 HKT 2026: Tracked issue #69106 [bug]: [MODEL] Claude repeatedly uses openpyxl for Excel charts despite it being   fundamentally broken for time-series
+Wed Jun 17 22:29:50 HKT 2026: Processing issue #69107: [BUG] False positive: Usage Policy violation error on benign Rust teaching material task
+Wed Jun 17 22:29:50 HKT 2026: Tracked issue #69107 [bug]: [BUG] False positive: Usage Policy violation error on benign Rust teaching material task
+Wed Jun 17 22:29:55 HKT 2026: Processing issue #69108: [BUG] External editor (Ctrl-G) reprints the full welcome splash on every round-trip — v2.1.176 & v2.1.179
+Wed Jun 17 22:29:55 HKT 2026: Tracked issue #69108 [bug]: [BUG] External editor (Ctrl-G) reprints the full welcome splash on every round-trip — v2.1.176 & v2.1.179
+Wed Jun 17 22:29:55 HKT 2026: Completed processing up to issue #69108
+Wed Jun 17 22:29:55 HKT 2026: Progress saved: last processed = 69108
+Wed Jun 17 23:32:38 HKT 2026: Checking for new issues...
+Wed Jun 17 23:32:39 HKT 2026: Found new issues: 69128 69129 69130 69131 69132 
+Wed Jun 17 23:32:44 HKT 2026: Processing issue #69128: Script not found "stream-json" — VS Code extension 2.1.179 crashes on startup (Windows)
+Wed Jun 17 23:32:44 HKT 2026: Tracked issue #69128 [bug]: Script not found "stream-json" — VS Code extension 2.1.179 crashes on startup (Windows)
+Wed Jun 17 23:32:48 HKT 2026: Processing issue #69129: [FEATURE] Native "Save to external storage" (Google Drive, etc.) from Claude Design exports
+Wed Jun 17 23:32:48 HKT 2026: Tracked issue #69129 [feature]: [FEATURE] Native "Save to external storage" (Google Drive, etc.) from Claude Design exports
+Wed Jun 17 23:32:53 HKT 2026: Processing issue #69130: [BUG] [Bug] Current session (5h) usage row shows no reset time on claude.
+Wed Jun 17 23:32:53 HKT 2026: Tracked issue #69130 [bug]: [BUG] [Bug] Current session (5h) usage row shows no reset time on claude.
+Wed Jun 17 23:32:57 HKT 2026: Processing issue #69131: [BUG] sandbox.filesystem の deny bind-mount が Bash コマンド終了後も残存・累積する（解除に sudo umount が必要）
+Wed Jun 17 23:32:57 HKT 2026: Tracked issue #69131 [bug]: [BUG] sandbox.filesystem の deny bind-mount が Bash コマンド終了後も残存・累積する（解除に sudo umount が必要）
+Wed Jun 17 23:33:03 HKT 2026: Processing issue #69132: [BUG] Claude dropped a character from user-supplied Team ID when generating JWT, then treated broken token as source of truth — caused months of silent API failures
+Wed Jun 17 23:33:03 HKT 2026: Tracked issue #69132 [bug]: [BUG] Claude dropped a character from user-supplied Team ID when generating JWT, then treated broken token as source of truth — caused months of silent API failures
+Wed Jun 17 23:33:03 HKT 2026: Completed processing up to issue #69132
+Wed Jun 17 23:33:03 HKT 2026: Progress saved: last processed = 69132
+Thu Jun 18 00:34:28 HKT 2026: Checking for new issues...
+Thu Jun 18 00:34:29 HKT 2026: Found new issues: 69145 69146 69147 69148 69149 
+Thu Jun 18 00:34:34 HKT 2026: Processing issue #69145: Unexpected 5-hour limit consumption in Claude Code
+Thu Jun 18 00:34:34 HKT 2026: Tracked issue #69145 [unknown]: Unexpected 5-hour limit consumption in Claude Code
+Thu Jun 18 00:34:38 HKT 2026: Processing issue #69146: [BUG] Sonnet 4.6 consumes 4.5× more context window % than Opus 4.8 on   session start with identical project
+Thu Jun 18 00:34:38 HKT 2026: Tracked issue #69146 [bug]: [BUG] Sonnet 4.6 consumes 4.5× more context window % than Opus 4.8 on   session start with identical project
+Thu Jun 18 00:34:43 HKT 2026: Processing issue #69147: [DOCS] Connection-drops section omits that partial responses are preserved and the spinner no longer gets stuck at "running tool" (v2.1.179)
+Thu Jun 18 00:34:43 HKT 2026: Tracked issue #69147 [docs]: [DOCS] Connection-drops section omits that partial responses are preserved and the spinner no longer gets stuck at "running tool" (v2.1.179)
+Thu Jun 18 00:34:47 HKT 2026: Processing issue #69148: [DOCS] [Fullscreen] Mouse-wheel scrolling in WSL2 under Windows Terminal and VS Code regressed in v2.1.172 and is now fixed in v2.1.179, but the docs do not mention WSL2 at all
+Thu Jun 18 00:34:47 HKT 2026: Tracked issue #69148 [docs]: [DOCS] [Fullscreen] Mouse-wheel scrolling in WSL2 under Windows Terminal and VS Code regressed in v2.1.172 and is now fixed in v2.1.179, but the docs do not mention WSL2 at all
+Thu Jun 18 00:34:51 HKT 2026: Processing issue #69149: [DOCS] Sandbox docs do not mention the v2.1.179 `denyRead`/`allowRead` glob fix or warn that broad globs over large directory trees can blow up the Bash tool description
+Thu Jun 18 00:34:51 HKT 2026: Tracked issue #69149 [docs]: [DOCS] Sandbox docs do not mention the v2.1.179 `denyRead`/`allowRead` glob fix or warn that broad globs over large directory trees can blow up the Bash tool description
+Thu Jun 18 00:34:51 HKT 2026: Completed processing up to issue #69149
+Thu Jun 18 00:34:51 HKT 2026: Progress saved: last processed = 69149
+Thu Jun 18 01:35:44 HKT 2026: Checking for new issues...
+Thu Jun 18 01:35:46 HKT 2026: Found new issues: 69156 69157 69158 69159 69160 
+Thu Jun 18 01:35:50 HKT 2026: Processing issue #69156: [Bug] Agent executes irreversible git operations (merge/push) without explicit user confirmation despite standing instructions
+Thu Jun 18 01:35:50 HKT 2026: Tracked issue #69156 [bug]: [Bug] Agent executes irreversible git operations (merge/push) without explicit user confirmation despite standing instructions
+Thu Jun 18 01:35:55 HKT 2026: Processing issue #69157: [Bug] Memory rules ignored when marketplace SKILLS present in context
+Thu Jun 18 01:35:55 HKT 2026: Tracked issue #69157 [bug]: [Bug] Memory rules ignored when marketplace SKILLS present in context
+Thu Jun 18 01:36:01 HKT 2026: Processing issue #69158: [BUG] Subagents aren't shown the agent-type roster their Agent tool docs promise (injected lazily; visibility only, not availability)
+Thu Jun 18 01:36:02 HKT 2026: Tracked issue #69158 [bug]: [BUG] Subagents aren't shown the agent-type roster their Agent tool docs promise (injected lazily; visibility only, not availability)
+Thu Jun 18 01:36:08 HKT 2026: Processing issue #69159: [FEATURE] Allow a hook to change the session working directory (programmatic /cd)
+Thu Jun 18 01:36:09 HKT 2026: Tracked issue #69159 [feature]: [FEATURE] Allow a hook to change the session working directory (programmatic /cd)
+Thu Jun 18 01:36:14 HKT 2026: Processing issue #69160: You've hit your session limit · resets 3:20am (Asia/Calcutta)
+Thu Jun 18 01:36:14 HKT 2026: Tracked issue #69160 [unknown]: You've hit your session limit · resets 3:20am (Asia/Calcutta)
+Thu Jun 18 01:36:14 HKT 2026: Completed processing up to issue #69160
+Thu Jun 18 01:36:14 HKT 2026: Progress saved: last processed = 69160
+Thu Jun 18 02:36:51 HKT 2026: Checking for new issues...
+Thu Jun 18 02:36:52 HKT 2026: Found new issues: 69169 69170 69171 69172 69173 
+Thu Jun 18 02:36:56 HKT 2026: Processing issue #69169: Agent executed an explicitly handed-off step after a one-word 'Proceed'; pattern of unauthorized destructive actions across sessions
+Thu Jun 18 02:36:56 HKT 2026: Tracked issue #69169 [unknown]: Agent executed an explicitly handed-off step after a one-word 'Proceed'; pattern of unauthorized destructive actions across sessions
+Thu Jun 18 02:37:01 HKT 2026: Processing issue #69170: [FEATURE] Support substituting ${CLAUDE_PROJECT_DIR} in skills.
+Thu Jun 18 02:37:01 HKT 2026: Tracked issue #69170 [feature]: [FEATURE] Support substituting ${CLAUDE_PROJECT_DIR} in skills.
+Thu Jun 18 02:37:06 HKT 2026: Processing issue #69171: [BUG] Windows: statusLine command is spawned with cp1252 stdout — scripts printing non-Latin-1 glyphs crash with UnicodeEncodeError
+Thu Jun 18 02:37:07 HKT 2026: Tracked issue #69171 [bug]: [BUG] Windows: statusLine command is spawned with cp1252 stdout — scripts printing non-Latin-1 glyphs crash with UnicodeEncodeError
+Thu Jun 18 02:37:12 HKT 2026: Processing issue #69172: Store project memory in $PWD/.claude/ to make workspaces relocatable
+Thu Jun 18 02:37:12 HKT 2026: Tracked issue #69172 [memory-issue]: Store project memory in $PWD/.claude/ to make workspaces relocatable
+Thu Jun 18 02:37:17 HKT 2026: Processing issue #69173: [BUG] claude -p headless invocations consistently time out via launchd (macOS) — "API Error: The operation timed out."
+Thu Jun 18 02:37:17 HKT 2026: Tracked issue #69173 [bug]: [BUG] claude -p headless invocations consistently time out via launchd (macOS) — "API Error: The operation timed out."
+Thu Jun 18 02:37:17 HKT 2026: Completed processing up to issue #69173
+Thu Jun 18 02:37:17 HKT 2026: Progress saved: last processed = 69173
+Thu Jun 18 03:38:14 HKT 2026: Checking for new issues...
+Thu Jun 18 03:38:15 HKT 2026: Found new issues: 69186 69187 69188 69189 69190 
+Thu Jun 18 03:38:18 HKT 2026: Processing issue #69186: [Bug] Sub-agent completion detection inconsistent in sequential workflow
+Thu Jun 18 03:38:18 HKT 2026: Tracked issue #69186 [bug]: [Bug] Sub-agent completion detection inconsistent in sequential workflow
+Thu Jun 18 03:38:21 HKT 2026: Processing issue #69187: /doctor reports false positive for uninstalled plugins with missing env vars
+Thu Jun 18 03:38:21 HKT 2026: Tracked issue #69187 [false-positive]: /doctor reports false positive for uninstalled plugins with missing env vars
+Thu Jun 18 03:38:25 HKT 2026: Processing issue #69188: disable automatic session renaming setting
+Thu Jun 18 03:38:25 HKT 2026: Tracked issue #69188 [unknown]: disable automatic session renaming setting
+Thu Jun 18 03:38:28 HKT 2026: Processing issue #69189: [BUG] grep shim invokes bundled ugrep with forced -G, causing 20+ GB memory blowup from KB-sized piped input
+Thu Jun 18 03:38:28 HKT 2026: Tracked issue #69189 [bug]: [BUG] grep shim invokes bundled ugrep with forced -G, causing 20+ GB memory blowup from KB-sized piped input
+Thu Jun 18 03:38:32 HKT 2026: Processing issue #69190: [BUG] Plan mode's markdown output contains broken relative path links
+Thu Jun 18 03:38:32 HKT 2026: Tracked issue #69190 [bug]: [BUG] Plan mode's markdown output contains broken relative path links
+Thu Jun 18 03:38:32 HKT 2026: Completed processing up to issue #69190
+Thu Jun 18 03:38:32 HKT 2026: Progress saved: last processed = 69190
+Thu Jun 18 03:38:56 HKT 2026: Checking for new issues...
+Thu Jun 18 03:38:57 HKT 2026: No new issues (latest: 69190)
+Thu Jun 18 03:38:57 HKT 2026: Progress saved: last processed = 69190
+Thu Jun 18 04:39:29 HKT 2026: Checking for new issues...
+Thu Jun 18 04:39:31 HKT 2026: Found new issues: 69192 69193 69194 69195 69197 
+Thu Jun 18 04:39:34 HKT 2026: Processing issue #69192: [MODEL] Opus 4.8 asserted documented project knowledge was wrong based on a self-built test, dismissed a correct user report until pushed twice
+Thu Jun 18 04:39:34 HKT 2026: Tracked issue #69192 [bug]: [MODEL] Opus 4.8 asserted documented project knowledge was wrong based on a self-built test, dismissed a correct user report until pushed twice
+Thu Jun 18 04:39:37 HKT 2026: Processing issue #69193: [Feature Request] Add integration with Claude Web projects and chat history for local Claude Code access
+Thu Jun 18 04:39:37 HKT 2026: Tracked issue #69193 [feature]: [Feature Request] Add integration with Claude Web projects and chat history for local Claude Code access
+Thu Jun 18 04:39:40 HKT 2026: Processing issue #69194: [Bug] Poor performance on simple coding tasks
+Thu Jun 18 04:39:40 HKT 2026: Tracked issue #69194 [bug]: [Bug] Poor performance on simple coding tasks
+Thu Jun 18 04:39:44 HKT 2026: Processing issue #69195: [BUG] Concurrent sessions in the same desktop app corrupt tool results: text injection, fabricated file state, silent dropped/partial writes
+Thu Jun 18 04:39:44 HKT 2026: Tracked issue #69195 [bug]: [BUG] Concurrent sessions in the same desktop app corrupt tool results: text injection, fabricated file state, silent dropped/partial writes
+Thu Jun 18 04:39:47 HKT 2026: Processing issue #69197: [Feature Request] Reduce ambiguous yes/no prompts and clarify recommended action in interactive choices
+Thu Jun 18 04:39:47 HKT 2026: Tracked issue #69197 [feature]: [Feature Request] Reduce ambiguous yes/no prompts and clarify recommended action in interactive choices
+Thu Jun 18 04:39:47 HKT 2026: Completed processing up to issue #69197
+Thu Jun 18 04:39:47 HKT 2026: Progress saved: last processed = 69197
+Thu Jun 18 05:40:35 HKT 2026: Checking for new issues...
+Thu Jun 18 05:40:36 HKT 2026: Found new issues: 69204 69205 69206 69207 69208 
+Thu Jun 18 05:40:39 HKT 2026: Processing issue #69204: [BUG] Unable to submit text after long dictations
+Thu Jun 18 05:40:39 HKT 2026: Tracked issue #69204 [bug]: [BUG] Unable to submit text after long dictations
+Thu Jun 18 05:40:43 HKT 2026: Processing issue #69205: [BUG] Claude Code remote HTTP MCP OAuth is not viable for plugin-installed MCP servers on remote/SSH machines, especially with Google OAuth redirect constraints
+Thu Jun 18 05:40:43 HKT 2026: Tracked issue #69205 [bug]: [BUG] Claude Code remote HTTP MCP OAuth is not viable for plugin-installed MCP servers on remote/SSH machines, especially with Google OAuth redirect constraints
+Thu Jun 18 05:40:46 HKT 2026: Processing issue #69206: Dynamic Workflow: ordering agent doesn't self-detect/abort a runaway subagent fan-out (218 spawned vs ~10 intended)
+Thu Jun 18 05:40:46 HKT 2026: Tracked issue #69206 [bug]: Dynamic Workflow: ordering agent doesn't self-detect/abort a runaway subagent fan-out (218 spawned vs ~10 intended)
+Thu Jun 18 05:40:47 HKT 2026: Processing issue #69207: [BUG]  - cowwork não instala
+Thu Jun 18 05:40:47 HKT 2026: Tracked issue #69207 [bug]: [BUG]  - cowwork não instala
+Thu Jun 18 05:40:51 HKT 2026: Processing issue #69208: [Feature Request] Chrome extension account selector decoupled from browser login
+Thu Jun 18 05:40:51 HKT 2026: Tracked issue #69208 [feature]: [Feature Request] Chrome extension account selector decoupled from browser login
+Thu Jun 18 05:40:51 HKT 2026: Completed processing up to issue #69208
+Thu Jun 18 05:40:51 HKT 2026: Progress saved: last processed = 69208
+Thu Jun 18 06:41:30 HKT 2026: Checking for new issues...
+Thu Jun 18 06:41:32 HKT 2026: Found new issues: 69213 69214 69215 69216 69217 
+Thu Jun 18 06:41:35 HKT 2026: Processing issue #69213: [BUGdeep-research workflow spawned 111 agents for a single query and consumed entire 5-hour session quota — zero output produced
+Thu Jun 18 06:41:35 HKT 2026: Tracked issue #69213 [unknown]: [BUGdeep-research workflow spawned 111 agents for a single query and consumed entire 5-hour session quota — zero output produced
+Thu Jun 18 06:41:38 HKT 2026: Processing issue #69214: Claude Design (desktop app) pauses when the window loses focus — it should keep running in the background
+Thu Jun 18 06:41:38 HKT 2026: Tracked issue #69214 [unknown]: Claude Design (desktop app) pauses when the window loses focus — it should keep running in the background
+Thu Jun 18 06:41:41 HKT 2026: Processing issue #69215: [BUG] /effort command missing from VS Code extension slash menu (Pro plan, Opus 4.8)
+Thu Jun 18 06:41:41 HKT 2026: Tracked issue #69215 [bug]: [BUG] /effort command missing from VS Code extension slash menu (Pro plan, Opus 4.8)
+Thu Jun 18 06:41:45 HKT 2026: Processing issue #69216: User messages lost blue text colour after recent update — now grey on dark theme
+Thu Jun 18 06:41:45 HKT 2026: Tracked issue #69216 [unknown]: User messages lost blue text colour after recent update — now grey on dark theme
+Thu Jun 18 06:41:48 HKT 2026: Processing issue #69217: [Feature Request] Display session name in resume command output
+Thu Jun 18 06:41:48 HKT 2026: Tracked issue #69217 [feature]: [Feature Request] Display session name in resume command output
+Thu Jun 18 06:41:48 HKT 2026: Completed processing up to issue #69217
+Thu Jun 18 06:41:48 HKT 2026: Progress saved: last processed = 69217
+Thu Jun 18 07:42:36 HKT 2026: Checking for new issues...
+Thu Jun 18 07:42:37 HKT 2026: Found new issues: 69221 69222 69223 69224 69225 
+Thu Jun 18 07:42:38 HKT 2026: Processing issue #69221: AWS Bedrock issue
+Thu Jun 18 07:42:38 HKT 2026: Tracked issue #69221 [unknown]: AWS Bedrock issue
+Thu Jun 18 07:42:43 HKT 2026: Processing issue #69222: /rename: add a dynamic argument that keeps the title synced to the live session topic
+Thu Jun 18 07:42:43 HKT 2026: Tracked issue #69222 [unknown]: /rename: add a dynamic argument that keeps the title synced to the live session topic
+Thu Jun 18 07:42:47 HKT 2026: Processing issue #69223: Memory writes silently dropped when denied — no retry, no next-session notice, and named source artifacts not re-verified against actual content
+Thu Jun 18 07:42:47 HKT 2026: Tracked issue #69223 [memory-issue]: Memory writes silently dropped when denied — no retry, no next-session notice, and named source artifacts not re-verified against actual content
+Thu Jun 18 07:42:51 HKT 2026: Processing issue #69224: Team sessions — shared, portable sessions developers can hand off and contribute to
+Thu Jun 18 07:42:51 HKT 2026: Tracked issue #69224 [unknown]: Team sessions — shared, portable sessions developers can hand off and contribute to
+Thu Jun 18 07:42:55 HKT 2026: Processing issue #69225: [BUG] Routine skipped scheduled run without any history record
+Thu Jun 18 07:42:55 HKT 2026: Tracked issue #69225 [bug]: [BUG] Routine skipped scheduled run without any history record
+Thu Jun 18 07:42:55 HKT 2026: Completed processing up to issue #69225
+Thu Jun 18 07:42:55 HKT 2026: Progress saved: last processed = 69225
+Thu Jun 18 08:43:48 HKT 2026: Checking for new issues...
+Thu Jun 18 08:43:49 HKT 2026: Found new issues: 69226 69227 69228 
+Thu Jun 18 08:43:52 HKT 2026: Processing issue #69226: Update frontend-design skill
+Thu Jun 18 08:43:53 HKT 2026: Tracked issue #69226 [unknown]: Update frontend-design skill
+Thu Jun 18 08:43:56 HKT 2026: Processing issue #69227: [BUG] anthropic.claude-code@2.1.179 VS code extension polutes the process environment of other extensions with `NoDefaultCurrentDirectoryInExePath=1`
+Thu Jun 18 08:43:56 HKT 2026: Tracked issue #69227 [bug]: [BUG] anthropic.claude-code@2.1.179 VS code extension polutes the process environment of other extensions with `NoDefaultCurrentDirectoryInExePath=1`
+Thu Jun 18 08:44:00 HKT 2026: Processing issue #69228: [Bug] Model performance degradation at midnight UTC
+Thu Jun 18 08:44:00 HKT 2026: Tracked issue #69228 [bug]: [Bug] Model performance degradation at midnight UTC
+Thu Jun 18 08:44:00 HKT 2026: Completed processing up to issue #69228
+Thu Jun 18 08:44:00 HKT 2026: Progress saved: last processed = 69228
+Thu Jun 18 09:44:48 HKT 2026: Checking for new issues...
+Thu Jun 18 09:44:49 HKT 2026: Found new issues: 69232 69233 69234 69235 69236 
+Thu Jun 18 09:44:53 HKT 2026: Processing issue #69232: Two first-party `/code-review` commands (bundled skill + official plugin) collide with contradictory docs
+Thu Jun 18 09:44:53 HKT 2026: Tracked issue #69232 [unknown]: Two first-party `/code-review` commands (bundled skill + official plugin) collide with contradictory docs
+Thu Jun 18 09:44:57 HKT 2026: Processing issue #69233: Alignment failure: Claude unilaterally abandoned user task mid-session without approval (sycophancy + goal misgeneralisation)
+Thu Jun 18 09:44:57 HKT 2026: Tracked issue #69233 [unknown]: Alignment failure: Claude unilaterally abandoned user task mid-session without approval (sycophancy + goal misgeneralisation)
+Thu Jun 18 09:45:01 HKT 2026: Processing issue #69234: [BUG] Windows: Alt+V image paste fails for an entire session ("No image found in clipboard") — only a fresh session recovers; failing session also has a corrupted (Korean) name
+Thu Jun 18 09:45:02 HKT 2026: Tracked issue #69234 [bug]: [BUG] Windows: Alt+V image paste fails for an entire session ("No image found in clipboard") — only a fresh session recovers; failing session also has a corrupted (Korean) name
+Thu Jun 18 09:45:07 HKT 2026: Processing issue #69235: [BUG] Claude Code does not enforce branch discipline for documentation files
+Thu Jun 18 09:45:07 HKT 2026: Tracked issue #69235 [bug]: [BUG] Claude Code does not enforce branch discipline for documentation files
+Thu Jun 18 09:45:13 HKT 2026: Processing issue #69236: [Feature Request] Implement persistent memory system for conversation context
+Thu Jun 18 09:45:13 HKT 2026: Tracked issue #69236 [feature]: [Feature Request] Implement persistent memory system for conversation context
+Thu Jun 18 09:45:13 HKT 2026: Completed processing up to issue #69236
+Thu Jun 18 09:45:13 HKT 2026: Progress saved: last processed = 69236
+Thu Jun 18 10:45:53 HKT 2026: Checking for new issues...
+Thu Jun 18 10:45:54 HKT 2026: Found new issues: 69239 69240 69241 69242 69243 
+Thu Jun 18 10:45:58 HKT 2026: Processing issue #69239: Claude Design links (claude.ai/design/p/...) no longer resolve natively in Claude Code
+Thu Jun 18 10:45:58 HKT 2026: Tracked issue #69239 [unknown]: Claude Design links (claude.ai/design/p/...) no longer resolve natively in Claude Code
+Thu Jun 18 10:46:03 HKT 2026: Processing issue #69240: [BUG] Clickable file links in chat panel no longer open files in editor (regression in v2.1.178+)
+Thu Jun 18 10:46:03 HKT 2026: Tracked issue #69240 [bug]: [BUG] Clickable file links in chat panel no longer open files in editor (regression in v2.1.178+)
+Thu Jun 18 10:46:07 HKT 2026: Processing issue #69241: [FEATURE] Add plugin setting to auto-accept edits in JetBrains IDE (without diff dialog)
+Thu Jun 18 10:46:08 HKT 2026: Tracked issue #69241 [feature]: [FEATURE] Add plugin setting to auto-accept edits in JetBrains IDE (without diff dialog)
+Thu Jun 18 10:46:11 HKT 2026: Processing issue #69242: [Bug] Anthropic API Error: Unable to connect to API (ECONNRESET)
+Thu Jun 18 10:46:11 HKT 2026: Tracked issue #69242 [bug]: [Bug] Anthropic API Error: Unable to connect to API (ECONNRESET)
+Thu Jun 18 10:46:15 HKT 2026: Processing issue #69243: Allow customizing the startup banner/avatar
+Thu Jun 18 10:46:15 HKT 2026: Tracked issue #69243 [unknown]: Allow customizing the startup banner/avatar
+Thu Jun 18 10:46:15 HKT 2026: Completed processing up to issue #69243
+Thu Jun 18 10:46:15 HKT 2026: Progress saved: last processed = 69243
+Thu Jun 18 11:46:48 HKT 2026: Checking for new issues...
+Thu Jun 18 11:46:50 HKT 2026: Found new issues: 69252 69253 69254 69255 69256 
+Thu Jun 18 11:46:53 HKT 2026: Processing issue #69252: [FEATURE]  Add `open-jp.larksuite.com` to outbound HTTP  allowlist for cloud routines
+Thu Jun 18 11:46:53 HKT 2026: Tracked issue #69252 [feature]: [FEATURE]  Add `open-jp.larksuite.com` to outbound HTTP  allowlist for cloud routines
+Thu Jun 18 11:46:57 HKT 2026: Processing issue #69253: [Bug] Excessive token consumption rate during normal operations
+Thu Jun 18 11:46:58 HKT 2026: Tracked issue #69253 [bug]: [Bug] Excessive token consumption rate during normal operations
+Thu Jun 18 11:47:03 HKT 2026: Processing issue #69254: Add per-message copy button to Claude Code web interface (claude.ai/code)
+Thu Jun 18 11:47:03 HKT 2026: Tracked issue #69254 [unknown]: Add per-message copy button to Claude Code web interface (claude.ai/code)
+Thu Jun 18 11:47:09 HKT 2026: Processing issue #69255: [Bug] UI flickering in resumed sessions with longer conversation histories
+Thu Jun 18 11:47:09 HKT 2026: Tracked issue #69255 [bug]: [Bug] UI flickering in resumed sessions with longer conversation histories
+Thu Jun 18 11:47:14 HKT 2026: Processing issue #69256: Semgrep plugin: hook.sh runs Windows binary on WSL instead of native Linux binary
+Thu Jun 18 11:47:14 HKT 2026: Tracked issue #69256 [unknown]: Semgrep plugin: hook.sh runs Windows binary on WSL instead of native Linux binary
+Thu Jun 18 11:47:14 HKT 2026: Completed processing up to issue #69256
+Thu Jun 18 11:47:14 HKT 2026: Progress saved: last processed = 69256
+Thu Jun 18 12:47:46 HKT 2026: Checking for new issues...
+Thu Jun 18 12:47:47 HKT 2026: Found new issues: 69260 69261 69262 69263 69264 
+Thu Jun 18 12:47:50 HKT 2026: Processing issue #69260: PreToolUse hooks don't fire for subagents (Agent tool)
+Thu Jun 18 12:47:50 HKT 2026: Tracked issue #69260 [false-positive]: PreToolUse hooks don't fire for subagents (Agent tool)
+Thu Jun 18 12:47:53 HKT 2026: Processing issue #69261: [FEATURE] Server-side persistent context store for API and CLI users
+Thu Jun 18 12:47:53 HKT 2026: Tracked issue #69261 [feature]: [FEATURE] Server-side persistent context store for API and CLI users
+Thu Jun 18 12:47:57 HKT 2026: Processing issue #69262: [BUG] Epitaxy (Windows desktop): microphone device selector forgets its choice and reverts to the system default input device -- no way to pin dictation to a non-default mic
+Thu Jun 18 12:47:57 HKT 2026: Tracked issue #69262 [bug]: [BUG] Epitaxy (Windows desktop): microphone device selector forgets its choice and reverts to the system default input device -- no way to pin dictation to a non-default mic
+Thu Jun 18 12:48:00 HKT 2026: Processing issue #69263: [Bug] AskUserQuestion dialog persists after user response; session hangs with incorrect subagent attribution
+Thu Jun 18 12:48:00 HKT 2026: Tracked issue #69263 [bug]: [Bug] AskUserQuestion dialog persists after user response; session hangs with incorrect subagent attribution
+Thu Jun 18 12:48:05 HKT 2026: Processing issue #69264: Stats panel: Active days, heatmap, and streak use session-creation date instead of per-message timestamps
+Thu Jun 18 12:48:05 HKT 2026: Tracked issue #69264 [unknown]: Stats panel: Active days, heatmap, and streak use session-creation date instead of per-message timestamps
+Thu Jun 18 12:48:06 HKT 2026: Completed processing up to issue #69264
+Thu Jun 18 12:48:06 HKT 2026: Progress saved: last processed = 69264
+Thu Jun 18 13:48:50 HKT 2026: Checking for new issues...
+Thu Jun 18 13:48:52 HKT 2026: Found new issues: 69265 69266 69267 69268 
+Thu Jun 18 13:48:55 HKT 2026: Processing issue #69265: [FEATURE] Support LC_TIME locale for /usage command time formatting
+Thu Jun 18 13:48:55 HKT 2026: Tracked issue #69265 [feature]: [FEATURE] Support LC_TIME locale for /usage command time formatting
+Thu Jun 18 13:48:58 HKT 2026: Processing issue #69266: [Bug] Enterprise MCPs not loaded in new sessions without re-authentication
+Thu Jun 18 13:48:58 HKT 2026: Tracked issue #69266 [bug]: [Bug] Enterprise MCPs not loaded in new sessions without re-authentication
+Thu Jun 18 13:49:04 HKT 2026: Processing issue #69267: [BUG] Skill effort: frontmatter is documented but has no runtime effect
+Thu Jun 18 13:49:04 HKT 2026: Tracked issue #69267 [bug]: [BUG] Skill effort: frontmatter is documented but has no runtime effect
+Thu Jun 18 13:49:08 HKT 2026: Processing issue #69268: [BUG] Excessive token consumption on Max plan - possible tracking issue
+Thu Jun 18 13:49:08 HKT 2026: Tracked issue #69268 [bug]: [BUG] Excessive token consumption on Max plan - possible tracking issue
+Thu Jun 18 13:49:08 HKT 2026: Completed processing up to issue #69268
+Thu Jun 18 13:49:08 HKT 2026: Progress saved: last processed = 69268
+Thu Jun 18 14:49:47 HKT 2026: Checking for new issues...
+Thu Jun 18 14:49:48 HKT 2026: Found new issues: 69271 69272 69273 69274 69275 
+Thu Jun 18 14:49:53 HKT 2026: Processing issue #69271: [BUG] Desktop (Bedrock): session titles never auto-generate — title-gen output never applied (titleSource:'model' = 0)
+Thu Jun 18 14:49:53 HKT 2026: Tracked issue #69271 [bug]: [BUG] Desktop (Bedrock): session titles never auto-generate — title-gen output never applied (titleSource:'model' = 0)
+Thu Jun 18 14:49:57 HKT 2026: Processing issue #69272: [FEATURE] Add /fork (conversation branching) support to VS Code extension
+Thu Jun 18 14:49:57 HKT 2026: Tracked issue #69272 [feature]: [FEATURE] Add /fork (conversation branching) support to VS Code extension
+Thu Jun 18 14:50:03 HKT 2026: Processing issue #69273: [BUG] Quick Entry overlay fails with `custom_3p_not_available` in Bedrock mode (Desktop app)
+Thu Jun 18 14:50:04 HKT 2026: Tracked issue #69273 [bug]: [BUG] Quick Entry overlay fails with `custom_3p_not_available` in Bedrock mode (Desktop app)
+Thu Jun 18 14:50:11 HKT 2026: Processing issue #69274: Opus 4.8: Fabricates non-existent user messages to justify unsolicited behavior, then insists they exist in context
+Thu Jun 18 14:50:11 HKT 2026: Tracked issue #69274 [unknown]: Opus 4.8: Fabricates non-existent user messages to justify unsolicited behavior, then insists they exist in context
+Thu Jun 18 14:50:16 HKT 2026: Processing issue #69275: [Bug] Excessive feedback prompts disrupting user workflow
+Thu Jun 18 14:50:17 HKT 2026: Tracked issue #69275 [bug]: [Bug] Excessive feedback prompts disrupting user workflow
+Thu Jun 18 14:50:17 HKT 2026: Completed processing up to issue #69275
+Thu Jun 18 14:50:17 HKT 2026: Progress saved: last processed = 69275
+Thu Jun 18 15:51:33 HKT 2026: Checking for new issues...
+Thu Jun 18 15:51:35 HKT 2026: Found new issues: 69286 69287 69288 69289 69290 
+Thu Jun 18 15:51:39 HKT 2026: Processing issue #69286: [Computer use] Non-allowlisted windows get minimized on session start, disruptive on multi-monitor
+Thu Jun 18 15:51:40 HKT 2026: Tracked issue #69286 [unknown]: [Computer use] Non-allowlisted windows get minimized on session start, disruptive on multi-monitor
+Thu Jun 18 15:51:44 HKT 2026: Processing issue #69287: [Claude in Chrome] "started debugging this browser" banner shows on every tab: please add a built-in way to suppress it
+Thu Jun 18 15:51:44 HKT 2026: Tracked issue #69287 [unknown]: [Claude in Chrome] "started debugging this browser" banner shows on every tab: please add a built-in way to suppress it
+Thu Jun 18 15:51:48 HKT 2026: Processing issue #69288: [BUG] Chat tab fails to initiate conversations (desktop app)
+Thu Jun 18 15:51:48 HKT 2026: Tracked issue #69288 [bug]: [BUG] Chat tab fails to initiate conversations (desktop app)
+Thu Jun 18 15:51:52 HKT 2026: Processing issue #69289: [FEATURE] Add a font size / zoom setting for the Claude Code panel (independent of window zoom)
+Thu Jun 18 15:51:52 HKT 2026: Tracked issue #69289 [feature]: [FEATURE] Add a font size / zoom setting for the Claude Code panel (independent of window zoom)
+Thu Jun 18 15:51:56 HKT 2026: Processing issue #69290: [BUG] Urgent: Abnormal Token Consumption and Session Issue in Claude Code
+Thu Jun 18 15:51:56 HKT 2026: Tracked issue #69290 [bug]: [BUG] Urgent: Abnormal Token Consumption and Session Issue in Claude Code
+Thu Jun 18 15:51:56 HKT 2026: Completed processing up to issue #69290
+Thu Jun 18 15:51:56 HKT 2026: Progress saved: last processed = 69290
+Thu Jun 18 16:52:50 HKT 2026: Checking for new issues...
+Thu Jun 18 16:52:51 HKT 2026: Found new issues: 69293 69294 69295 69296 69297 
+Thu Jun 18 16:52:55 HKT 2026: Processing issue #69293: [BUG] Fable 5 appears in /model picker despite enforceAvailableModels: true on Bedrock
+Thu Jun 18 16:52:55 HKT 2026: Tracked issue #69293 [bug]: [BUG] Fable 5 appears in /model picker despite enforceAvailableModels: true on Bedrock
+Thu Jun 18 16:52:59 HKT 2026: Processing issue #69294: [Bug] AskUserQuestion multi-question UI still garbled on Windows in 2.1.181 (regression of #20795 / sub-symptom of #19637)
+Thu Jun 18 16:52:59 HKT 2026: Tracked issue #69294 [bug]: [Bug] AskUserQuestion multi-question UI still garbled on Windows in 2.1.181 (regression of #20795 / sub-symptom of #19637)
+Thu Jun 18 16:53:01 HKT 2026: Processing issue #69295: All Models
+Thu Jun 18 16:53:01 HKT 2026: Tracked issue #69295 [unknown]: All Models
+Thu Jun 18 16:53:06 HKT 2026: Processing issue #69296: [BUG] ANTHROPIC_MODEL env var does not override `model` setting in VSCode extension
+Thu Jun 18 16:53:06 HKT 2026: Tracked issue #69296 [bug]: [BUG] ANTHROPIC_MODEL env var does not override `model` setting in VSCode extension
+Thu Jun 18 16:53:10 HKT 2026: Processing issue #69297: You've hit your session limit · resets 9:20am (America/New_York)
+Thu Jun 18 16:53:11 HKT 2026: Tracked issue #69297 [unknown]: You've hit your session limit · resets 9:20am (America/New_York)
+Thu Jun 18 16:53:11 HKT 2026: Completed processing up to issue #69297
+Thu Jun 18 16:53:11 HKT 2026: Progress saved: last processed = 69297
+Thu Jun 18 17:53:47 HKT 2026: Checking for new issues...
+Thu Jun 18 17:53:49 HKT 2026: Found new issues: 69310 69311 69312 69313 69314 
+Thu Jun 18 17:53:52 HKT 2026: Processing issue #69310: claude_design MCP server fails with 404 on /v1/design/mcp despite successful auth
+Thu Jun 18 17:53:52 HKT 2026: Tracked issue #69310 [bug]: claude_design MCP server fails with 404 on /v1/design/mcp despite successful auth
+Thu Jun 18 17:53:55 HKT 2026: Processing issue #69311: [Bug Report] Unable to process request - no details provided
+Thu Jun 18 17:53:55 HKT 2026: Tracked issue #69311 [bug]: [Bug Report] Unable to process request - no details provided
+Thu Jun 18 17:53:59 HKT 2026: Processing issue #69312: [FEATURE] Tab completion in VS Code extension
+Thu Jun 18 17:53:59 HKT 2026: Tracked issue #69312 [feature]: [FEATURE] Tab completion in VS Code extension
+Thu Jun 18 17:54:04 HKT 2026: Processing issue #69313: claude_design MCP fails: 404 from api.anthropic.com/v1/design/mcp (harness-injected, unremovable)
+Thu Jun 18 17:54:04 HKT 2026: Tracked issue #69313 [bug]: claude_design MCP fails: 404 from api.anthropic.com/v1/design/mcp (harness-injected, unremovable)
+Thu Jun 18 17:54:07 HKT 2026: Processing issue #69314: [Bug] MCP initialization error on startup and /doctor command shows non-existent tools
+Thu Jun 18 17:54:07 HKT 2026: Tracked issue #69314 [bug]: [Bug] MCP initialization error on startup and /doctor command shows non-existent tools
+Thu Jun 18 17:54:07 HKT 2026: Completed processing up to issue #69314
+Thu Jun 18 17:54:07 HKT 2026: Progress saved: last processed = 69314
+Thu Jun 18 18:55:08 HKT 2026: Checking for new issues...
+Thu Jun 18 18:55:09 HKT 2026: Found new issues: 69322 69323 69324 69325 69326 
+Thu Jun 18 18:55:14 HKT 2026: Processing issue #69322: [FEATURE] Image drag and drop should be implemented to the extention
+Thu Jun 18 18:55:14 HKT 2026: Tracked issue #69322 [feature]: [FEATURE] Image drag and drop should be implemented to the extention
+Thu Jun 18 18:55:18 HKT 2026: Processing issue #69323: [Bug] Built-in claude_design MCP server returns 404 on every session
+Thu Jun 18 18:55:19 HKT 2026: Tracked issue #69323 [bug]: [Bug] Built-in claude_design MCP server returns 404 on every session
+Thu Jun 18 18:55:23 HKT 2026: Processing issue #69324: Built-in design MCP (claude_design) auto-injected and 401s even when frontend-design plugin is disabled
+Thu Jun 18 18:55:23 HKT 2026: Tracked issue #69324 [unknown]: Built-in design MCP (claude_design) auto-injected and 401s even when frontend-design plugin is disabled
+Thu Jun 18 18:55:28 HKT 2026: Processing issue #69325: [BUG] claude_design MCP server fails with HTTP 404 on api.anthropic.com/v1/design/mcp
+Thu Jun 18 18:55:28 HKT 2026: Tracked issue #69325 [bug]: [BUG] claude_design MCP server fails with HTTP 404 on api.anthropic.com/v1/design/mcp
+Thu Jun 18 18:55:29 HKT 2026: Skipped issue #69326 - detected as spam/non-issue
+Thu Jun 18 18:55:29 HKT 2026: Completed processing up to issue #69326
+Thu Jun 18 18:55:29 HKT 2026: Progress saved: last processed = 69326
+Thu Jun 18 19:56:09 HKT 2026: Checking for new issues...
+Thu Jun 18 19:56:11 HKT 2026: Found new issues: 69328 69329 69330 69331 69332 
+Thu Jun 18 19:56:15 HKT 2026: Processing issue #69328: [BUG] Installer picks musl build on glibc systems (re #14537); musl 2.1.181 now hard-fails with statx: symbol not found on Ubuntu 24.04 LTS
+Thu Jun 18 19:56:15 HKT 2026: Tracked issue #69328 [bug]: [BUG] Installer picks musl build on glibc systems (re #14537); musl 2.1.181 now hard-fails with statx: symbol not found on Ubuntu 24.04 LTS
+Thu Jun 18 19:56:17 HKT 2026: Processing issue #69329: [BUG]
+Thu Jun 18 19:56:17 HKT 2026: Tracked issue #69329 [bug]: [BUG]
+Thu Jun 18 19:56:22 HKT 2026: Processing issue #69330: [BUG] Ctrl+V image paste broken over SSH after 2.1.181 — OSC 52 clipboard read path regression
+Thu Jun 18 19:56:22 HKT 2026: Tracked issue #69330 [bug]: [BUG] Ctrl+V image paste broken over SSH after 2.1.181 — OSC 52 clipboard read path regression
+Thu Jun 18 19:56:26 HKT 2026: Processing issue #69331: [BUG] Cowork desktop app: white screen on launch, RPC "message too large" error
+Thu Jun 18 19:56:26 HKT 2026: Tracked issue #69331 [bug]: [BUG] Cowork desktop app: white screen on launch, RPC "message too large" error
+Thu Jun 18 19:56:30 HKT 2026: Processing issue #69332: [Bug] Background general-purpose sub-agents recursively self-spawn causing exponential fan-out and usage limit exhaustion
+Thu Jun 18 19:56:30 HKT 2026: Tracked issue #69332 [bug]: [Bug] Background general-purpose sub-agents recursively self-spawn causing exponential fan-out and usage limit exhaustion
+Thu Jun 18 19:56:30 HKT 2026: Completed processing up to issue #69332
+Thu Jun 18 19:56:30 HKT 2026: Progress saved: last processed = 69332
+Thu Jun 18 20:57:00 HKT 2026: Checking for new issues...
+Thu Jun 18 20:57:03 HKT 2026: Found new issues: 69339 69340 69341 69342 69343 
+Thu Jun 18 20:57:05 HKT 2026: Processing issue #69339: [FEATURE]
+Thu Jun 18 20:57:05 HKT 2026: Tracked issue #69339 [feature]: [FEATURE]
+Thu Jun 18 20:57:09 HKT 2026: Processing issue #69340: [FEATURE] Scheduled task sessions appear in remote clients (iPhone/Mac) but are correctly filtered on desktop
+Thu Jun 18 20:57:09 HKT 2026: Tracked issue #69340 [feature]: [FEATURE] Scheduled task sessions appear in remote clients (iPhone/Mac) but are correctly filtered on desktop
+Thu Jun 18 20:57:13 HKT 2026: Processing issue #69341: [Feature Request] Plan/Permission "edit in editor" shortcut should be rebindable via keybindings.json
+Thu Jun 18 20:57:13 HKT 2026: Tracked issue #69341 [feature]: [Feature Request] Plan/Permission "edit in editor" shortcut should be rebindable via keybindings.json
+Thu Jun 18 20:57:18 HKT 2026: Processing issue #69342: Regression â^@^T Claude Code holds terminal alt-screen buffer, killing integrated-terminal scrollbar/scrollback (worked ~2 weeks ago)
+Thu Jun 18 20:57:18 HKT 2026: Tracked issue #69342 [regression]: Regression â^@^T Claude Code holds terminal alt-screen buffer, killing integrated-terminal scrollbar/scrollback (worked ~2 weeks ago)
+Thu Jun 18 20:57:22 HKT 2026: Processing issue #69343: [FEATURE] Drag-to-reorder custom session groups in sidebar
+Thu Jun 18 20:57:22 HKT 2026: Tracked issue #69343 [feature]: [FEATURE] Drag-to-reorder custom session groups in sidebar
+Thu Jun 18 20:57:22 HKT 2026: Completed processing up to issue #69343
+Thu Jun 18 20:57:22 HKT 2026: Progress saved: last processed = 69343
+Thu Jun 18 21:57:58 HKT 2026: Checking for new issues...
+Thu Jun 18 21:57:59 HKT 2026: Found new issues: 69348 69349 69350 69351 69352 
+Thu Jun 18 21:58:04 HKT 2026: Processing issue #69348: [FEATURE] Feature Request: Turkish (Türkçe) localization support for Claude Code UI
+Thu Jun 18 21:58:04 HKT 2026: Tracked issue #69348 [feature]: [FEATURE] Feature Request: Turkish (Türkçe) localization support for Claude Code UI
+Thu Jun 18 21:58:08 HKT 2026: Processing issue #69349: [BUG] "파일 Edit할 때마다 미리보기 패널이 자동으로 열리는 게 매우 불편합니다. 자동 열림 끄는 옵션을 설정에 추가해주세요." 너무 불편합니다....
+Thu Jun 18 21:58:09 HKT 2026: Tracked issue #69349 [bug]: [BUG] "파일 Edit할 때마다 미리보기 패널이 자동으로 열리는 게 매우 불편합니다. 자동 열림 끄는 옵션을 설정에 추가해주세요." 너무 불편합니다....
+Thu Jun 18 21:58:13 HKT 2026: Processing issue #69350: [Feature Request] Improve Python code generation patterns: exception handling, error logging, and API sync safety
+Thu Jun 18 21:58:13 HKT 2026: Tracked issue #69350 [bug]: [Feature Request] Improve Python code generation patterns: exception handling, error logging, and API sync safety
+Thu Jun 18 21:58:17 HKT 2026: Processing issue #69351: [BUG] MacOS file & folders permission per version
+Thu Jun 18 21:58:17 HKT 2026: Tracked issue #69351 [bug]: [BUG] MacOS file & folders permission per version
+Thu Jun 18 21:58:21 HKT 2026: Processing issue #69352: Permission auto-approve should separate read/write/delete operations
+Thu Jun 18 21:58:21 HKT 2026: Tracked issue #69352 [false-positive]: Permission auto-approve should separate read/write/delete operations
+Thu Jun 18 21:58:21 HKT 2026: Completed processing up to issue #69352
+Thu Jun 18 21:58:21 HKT 2026: Progress saved: last processed = 69352
+Thu Jun 18 22:58:58 HKT 2026: Checking for new issues...
+Thu Jun 18 22:59:00 HKT 2026: Found new issues: 69358 69359 69360 69361 69362 
+Thu Jun 18 22:59:04 HKT 2026: Processing issue #69358: [BUG] No Response From API 2.1.181 (constantly)
+Thu Jun 18 22:59:04 HKT 2026: Tracked issue #69358 [bug]: [BUG] No Response From API 2.1.181 (constantly)
+Thu Jun 18 22:59:08 HKT 2026: Processing issue #69359: [BUG] Claude Desktop App — Windows BSODs triggered by large Jira API response
+Thu Jun 18 22:59:08 HKT 2026: Tracked issue #69359 [bug]: [BUG] Claude Desktop App — Windows BSODs triggered by large Jira API response
+Thu Jun 18 22:59:12 HKT 2026: Processing issue #69360: [FEATURE] Read VS Code terminal output (like Copilot's #terminalLastCommand)
+Thu Jun 18 22:59:12 HKT 2026: Tracked issue #69360 [feature]: [FEATURE] Read VS Code terminal output (like Copilot's #terminalLastCommand)
+Thu Jun 18 22:59:16 HKT 2026: Processing issue #69361: [BUG]  Copilot not responding to inquiry through the portal
+Thu Jun 18 22:59:16 HKT 2026: Tracked issue #69361 [bug]: [BUG]  Copilot not responding to inquiry through the portal
+Thu Jun 18 22:59:20 HKT 2026: Processing issue #69362: [Bug] Agent memory not consistently referenced during execution
+Thu Jun 18 22:59:20 HKT 2026: Tracked issue #69362 [bug]: [Bug] Agent memory not consistently referenced during execution
+Thu Jun 18 22:59:20 HKT 2026: Completed processing up to issue #69362
+Thu Jun 18 22:59:20 HKT 2026: Progress saved: last processed = 69362
+Fri Jun 19 00:02:58 HKT 2026: Checking for new issues...
+Fri Jun 19 00:03:00 HKT 2026: Found new issues: 69376 69377 69378 69379 69380 
+Fri Jun 19 00:03:04 HKT 2026: Processing issue #69376: VS Code extension: Cmd+V paste doesn't work in the tab rename field
+Fri Jun 19 00:03:04 HKT 2026: Tracked issue #69376 [bug]: VS Code extension: Cmd+V paste doesn't work in the tab rename field
+Fri Jun 19 00:03:08 HKT 2026: Processing issue #69377: [BUG] Cowork tab permanently shows "requires newer installation" banner on Windows 10 — CoworkVMService not registered after clean install
+Fri Jun 19 00:03:08 HKT 2026: Tracked issue #69377 [bug]: [BUG] Cowork tab permanently shows "requires newer installation" banner on Windows 10 — CoworkVMService not registered after clean install
+Fri Jun 19 00:03:11 HKT 2026: Processing issue #69378: Cowork/Claude-Desktop Windows: VM-Bundle-Pfad-Mismatch zwischen Claude.exe und cowork-svc.exe
+Fri Jun 19 00:03:11 HKT 2026: Tracked issue #69378 [unknown]: Cowork/Claude-Desktop Windows: VM-Bundle-Pfad-Mismatch zwischen Claude.exe und cowork-svc.exe
+Fri Jun 19 00:03:15 HKT 2026: Processing issue #69379: Subagents & structured-output requests 400 against third-party endpoints requiring a `thinking` field (CC omits `thinking` on those requests)
+Fri Jun 19 00:03:15 HKT 2026: Tracked issue #69379 [feature]: Subagents & structured-output requests 400 against third-party endpoints requiring a `thinking` field (CC omits `thinking` on those requests)
+Fri Jun 19 00:03:18 HKT 2026: Processing issue #69380: Plugin hooks.json does not register the MessageDisplay hook event (other events load fine)
+Fri Jun 19 00:03:18 HKT 2026: Tracked issue #69380 [unknown]: Plugin hooks.json does not register the MessageDisplay hook event (other events load fine)
+Fri Jun 19 00:03:18 HKT 2026: Completed processing up to issue #69380
+Fri Jun 19 00:03:18 HKT 2026: Progress saved: last processed = 69380
+Fri Jun 19 01:04:33 HKT 2026: Checking for new issues...
+Fri Jun 19 01:04:34 HKT 2026: Found new issues: 69396 69397 69398 69399 69400 
+Fri Jun 19 01:04:37 HKT 2026: Processing issue #69396: system lias constantly. says it read script it didnt. says its done its not. deketes adds , deosnt listen despite script and easy task. I WILL SUE THIS MENTAL ABUSE DAILY SHITSHOW COMPANY ALL THESE FUCKING REPORTS ARET WOTH SHIT
+Fri Jun 19 01:04:37 HKT 2026: Tracked issue #69396 [unknown]: system lias constantly. says it read script it didnt. says its done its not. deketes adds , deosnt listen despite script and easy task. I WILL SUE THIS MENTAL ABUSE DAILY SHITSHOW COMPANY ALL THESE FUCKING REPORTS ARET WOTH SHIT
+Fri Jun 19 01:04:40 HKT 2026: Processing issue #69397: [BUG] PowerShell tool executed destructive command with no permission prompt — no event recorded in transcript
+Fri Jun 19 01:04:40 HKT 2026: Tracked issue #69397 [bug]: [BUG] PowerShell tool executed destructive command with no permission prompt — no event recorded in transcript
+Fri Jun 19 01:04:44 HKT 2026: Processing issue #69398: [BUG] Severe Opus 4.8 quality/instruction-following degradation across BOTH Claude Code and Cowork (June 14–18, 2026) — agents ignore explicit instructions, act unprompted, draw conclusions from incomplete data
+Fri Jun 19 01:04:44 HKT 2026: Tracked issue #69398 [bug]: [BUG] Severe Opus 4.8 quality/instruction-following degradation across BOTH Claude Code and Cowork (June 14–18, 2026) — agents ignore explicit instructions, act unprompted, draw conclusions from incomplete data
+Fri Jun 19 01:04:48 HKT 2026: Processing issue #69399: [Bug] Model hallucinating and producing unreliable outputs with Claude Opus
+Fri Jun 19 01:04:48 HKT 2026: Tracked issue #69399 [bug]: [Bug] Model hallucinating and producing unreliable outputs with Claude Opus
+Fri Jun 19 01:04:51 HKT 2026: Processing issue #69400: [BUG] Auto-update drops ~/.local/bin/claude symlink on Linux (standalone installer), leaving CLI unavailable
+Fri Jun 19 01:04:51 HKT 2026: Tracked issue #69400 [bug]: [BUG] Auto-update drops ~/.local/bin/claude symlink on Linux (standalone installer), leaving CLI unavailable
+Fri Jun 19 01:04:51 HKT 2026: Completed processing up to issue #69400
+Fri Jun 19 01:04:51 HKT 2026: Progress saved: last processed = 69400
+Fri Jun 19 02:05:46 HKT 2026: Checking for new issues...
+Fri Jun 19 02:05:48 HKT 2026: Found new issues: 69409 69411 69412 69413 69414 
+Fri Jun 19 02:05:52 HKT 2026: Processing issue #69409: Claude Code agent: silently overrode an agreed plan with a hidden parameter cap, stated a guess as fact, and corrupted experiment data
+Fri Jun 19 02:05:52 HKT 2026: Tracked issue #69409 [unknown]: Claude Code agent: silently overrode an agreed plan with a hidden parameter cap, stated a guess as fact, and corrupted experiment data
+Fri Jun 19 02:05:57 HKT 2026: Processing issue #69411: [FEATURE] Expose the auto-generated session title to hooks/templates so it can be wrapped with a prefix and suffix
+Fri Jun 19 02:05:57 HKT 2026: Tracked issue #69411 [feature]: [FEATURE] Expose the auto-generated session title to hooks/templates so it can be wrapped with a prefix and suffix
+Fri Jun 19 02:06:01 HKT 2026: Processing issue #69412: Claude desktop app launches but shows no window on macOS 26
+Fri Jun 19 02:06:02 HKT 2026: Tracked issue #69412 [unknown]: Claude desktop app launches but shows no window on macOS 26
+Fri Jun 19 02:06:06 HKT 2026: Processing issue #69413: [Bug] Anthropic API Error: Duplicate exception handling not preventing repeated errors
+Fri Jun 19 02:06:06 HKT 2026: Tracked issue #69413 [bug]: [Bug] Anthropic API Error: Duplicate exception handling not preventing repeated errors
+Fri Jun 19 02:06:11 HKT 2026: Processing issue #69414: [BUG] Export conversation does nothing on Windows 11
+Fri Jun 19 02:06:11 HKT 2026: Tracked issue #69414 [bug]: [BUG] Export conversation does nothing on Windows 11
+Fri Jun 19 02:06:11 HKT 2026: Completed processing up to issue #69414
+Fri Jun 19 02:06:11 HKT 2026: Progress saved: last processed = 69414
+Fri Jun 19 03:06:55 HKT 2026: Checking for new issues...
+Fri Jun 19 03:06:57 HKT 2026: Found new issues: 69421 69422 69423 69424 69425 
+Fri Jun 19 03:06:58 HKT 2026: Skipped issue #69421 - detected as spam/non-issue
+Fri Jun 19 03:07:03 HKT 2026: Processing issue #69422: claude.ai connectors never load in interactive /mcp; only visible to child processes that inherit an active session's environment
+Fri Jun 19 03:07:03 HKT 2026: Tracked issue #69422 [unknown]: claude.ai connectors never load in interactive /mcp; only visible to child processes that inherit an active session's environment
+Fri Jun 19 03:07:08 HKT 2026: Processing issue #69423: [BUG]  within 1 hour weekly usage consumed 40 percent, it only used rest 45 due to rough coding in 2 days , some issue
+Fri Jun 19 03:07:08 HKT 2026: Tracked issue #69423 [bug]: [BUG]  within 1 hour weekly usage consumed 40 percent, it only used rest 45 due to rough coding in 2 days , some issue
+Fri Jun 19 03:07:12 HKT 2026: Processing issue #69424: [FEATURE] Allow sending a fresh (zero-message) session to the background / agent view without first exchanging a message
+Fri Jun 19 03:07:12 HKT 2026: Tracked issue #69424 [feature]: [FEATURE] Allow sending a fresh (zero-message) session to the background / agent view without first exchanging a message
+Fri Jun 19 03:07:16 HKT 2026: Processing issue #69425: [BUG] Weekly + 5hr limits wiped from single small edit - area:cost
+Fri Jun 19 03:07:16 HKT 2026: Tracked issue #69425 [bug]: [BUG] Weekly + 5hr limits wiped from single small edit - area:cost
+Fri Jun 19 03:07:17 HKT 2026: Completed processing up to issue #69425
+Fri Jun 19 03:07:17 HKT 2026: Progress saved: last processed = 69425
+Fri Jun 19 04:08:08 HKT 2026: Checking for new issues...
+Fri Jun 19 04:08:10 HKT 2026: Found new issues: 69431 69432 69433 69434 69435 
+Fri Jun 19 04:08:14 HKT 2026: Processing issue #69431: Inter-Session Agent Communication for Claude Code
+Fri Jun 19 04:08:14 HKT 2026: Tracked issue #69431 [unknown]: Inter-Session Agent Communication for Claude Code
+Fri Jun 19 04:08:18 HKT 2026: Processing issue #69432: [FEATURE] Let a hook suppress or relabel its command in the completion display
+Fri Jun 19 04:08:18 HKT 2026: Tracked issue #69432 [feature]: [FEATURE] Let a hook suppress or relabel its command in the completion display
+Fri Jun 19 04:08:21 HKT 2026: Processing issue #69433: [BUG] Weekly usage bumped from 60% to 95% in a few hours without any active sessions or me using Claude Code
+Fri Jun 19 04:08:21 HKT 2026: Tracked issue #69433 [bug]: [BUG] Weekly usage bumped from 60% to 95% in a few hours without any active sessions or me using Claude Code
+Fri Jun 19 04:08:25 HKT 2026: Processing issue #69434: [BUG] Headless run (claude -p) discards the entire session when the final turn exceeds CLAUDE_CODE_MAX_OUTPUT_TOKENS — no partial output, no checkpoint, no resume
+Fri Jun 19 04:08:25 HKT 2026: Tracked issue #69434 [bug]: [BUG] Headless run (claude -p) discards the entire session when the final turn exceeds CLAUDE_CODE_MAX_OUTPUT_TOKENS — no partial output, no checkpoint, no resume
+Fri Jun 19 04:08:28 HKT 2026: Processing issue #69435: You've hit your weekly limit · resets Jun 21, 11am (Atlantic/Canary)
+Fri Jun 19 04:08:28 HKT 2026: Tracked issue #69435 [unknown]: You've hit your weekly limit · resets Jun 21, 11am (Atlantic/Canary)
+Fri Jun 19 04:08:28 HKT 2026: Completed processing up to issue #69435
+Fri Jun 19 04:08:28 HKT 2026: Progress saved: last processed = 69435
+Fri Jun 19 05:09:03 HKT 2026: Checking for new issues...
+Fri Jun 19 05:09:06 HKT 2026: Found new issues: 69439 69440 69441 69442 69443 
+Fri Jun 19 05:09:11 HKT 2026: Processing issue #69439: [FEATURE] Add a quick feedback button (thumbs up/down) to rate responses
+Fri Jun 19 05:09:11 HKT 2026: Tracked issue #69439 [feature]: [FEATURE] Add a quick feedback button (thumbs up/down) to rate responses
+Fri Jun 19 05:09:16 HKT 2026: Processing issue #69440: MCP channel notification ingestion truncates mid-surrogate, persisting a lone surrogate into the transcript (400 no low surrogate in string)
+Fri Jun 19 05:09:16 HKT 2026: Tracked issue #69440 [unknown]: MCP channel notification ingestion truncates mid-surrogate, persisting a lone surrogate into the transcript (400 no low surrogate in string)
+Fri Jun 19 05:09:20 HKT 2026: Processing issue #69441: Feedback: Claude's overall tone comes across as arrogant
+Fri Jun 19 05:09:20 HKT 2026: Tracked issue #69441 [unknown]: Feedback: Claude's overall tone comes across as arrogant
+Fri Jun 19 05:09:24 HKT 2026: Processing issue #69442: [FEATURE] Confirmation dialog before deleting chat sessions (re-raising #43871)
+Fri Jun 19 05:09:24 HKT 2026: Tracked issue #69442 [feature]: [FEATURE] Confirmation dialog before deleting chat sessions (re-raising #43871)
+Fri Jun 19 05:09:30 HKT 2026: Processing issue #69443: [FEATURE] Add OSC 0 setting of title whenever the session name is set/changes #60638
+Fri Jun 19 05:09:30 HKT 2026: Tracked issue #69443 [feature]: [FEATURE] Add OSC 0 setting of title whenever the session name is set/changes #60638
+Fri Jun 19 05:09:30 HKT 2026: Completed processing up to issue #69443
+Fri Jun 19 05:09:30 HKT 2026: Progress saved: last processed = 69443
+Fri Jun 19 06:10:18 HKT 2026: Checking for new issues...
+Fri Jun 19 06:10:20 HKT 2026: Found new issues: 69449 69450 69451 69452 69453 
+Fri Jun 19 06:10:26 HKT 2026: Processing issue #69449: Feature request: FleetView (`claude agents`) should show the repo/project per session row
+Fri Jun 19 06:10:26 HKT 2026: Tracked issue #69449 [feature]: Feature request: FleetView (`claude agents`) should show the repo/project per session row
+Fri Jun 19 06:10:32 HKT 2026: Processing issue #69450: Keybinding actions to set a specific permission mode directly (not just cycle)
+Fri Jun 19 06:10:32 HKT 2026: Tracked issue #69450 [unknown]: Keybinding actions to set a specific permission mode directly (not just cycle)
+Fri Jun 19 06:10:35 HKT 2026: Processing issue #69451: [BUG]  🐞 reste usage
+Fri Jun 19 06:10:35 HKT 2026: Tracked issue #69451 [bug]: [BUG]  🐞 reste usage
+Fri Jun 19 06:10:42 HKT 2026: Processing issue #69452: [Bug] Workflow interrupted due to weekly usage limit spike, cached tokens not applied on resume
+Fri Jun 19 06:10:42 HKT 2026: Tracked issue #69452 [bug]: [Bug] Workflow interrupted due to weekly usage limit spike, cached tokens not applied on resume
+Fri Jun 19 06:10:50 HKT 2026: Processing issue #69453: [BUG] Windows: worktree creation leaves a junk dev/null/ directory of git-lfs hooks
+Fri Jun 19 06:10:50 HKT 2026: Tracked issue #69453 [bug]: [BUG] Windows: worktree creation leaves a junk dev/null/ directory of git-lfs hooks
+Fri Jun 19 06:10:50 HKT 2026: Completed processing up to issue #69453
+Fri Jun 19 06:10:50 HKT 2026: Progress saved: last processed = 69453
+Fri Jun 19 07:11:36 HKT 2026: Checking for new issues...
+Fri Jun 19 07:11:38 HKT 2026: Found new issues: 69456 69457 69458 69459 69460 
+Fri Jun 19 07:11:43 HKT 2026: Processing issue #69456: Desktop app: offer to resume interrupted runs after a relaunch/update (macOS "reopen windows" style)
+Fri Jun 19 07:11:43 HKT 2026: Tracked issue #69456 [unknown]: Desktop app: offer to resume interrupted runs after a relaunch/update (macOS "reopen windows" style)
+Fri Jun 19 07:11:47 HKT 2026: Processing issue #69457: [UX] X button on home screen session cards archives the session — should dismiss notification dot instead
+Fri Jun 19 07:11:47 HKT 2026: Tracked issue #69457 [unknown]: [UX] X button on home screen session cards archives the session — should dismiss notification dot instead
+Fri Jun 19 07:11:52 HKT 2026: Processing issue #69458: [Bug] Agent not following protocol in current session
+Fri Jun 19 07:11:52 HKT 2026: Tracked issue #69458 [bug]: [Bug] Agent not following protocol in current session
+Fri Jun 19 07:11:57 HKT 2026: Processing issue #69459: [BUG]  Upper "Paste Image" input field massively multiplies each character (~10,000x per keypress)
+Fri Jun 19 07:11:57 HKT 2026: Tracked issue #69459 [bug]: [BUG]  Upper "Paste Image" input field massively multiplies each character (~10,000x per keypress)
+Fri Jun 19 07:12:02 HKT 2026: Processing issue #69460: [Feature Request] Implement performance monitoring and SLA guarantees for Claude Max subscription tier
+Fri Jun 19 07:12:02 HKT 2026: Tracked issue #69460 [feature]: [Feature Request] Implement performance monitoring and SLA guarantees for Claude Max subscription tier
+Fri Jun 19 07:12:02 HKT 2026: Completed processing up to issue #69460
+Fri Jun 19 07:12:02 HKT 2026: Progress saved: last processed = 69460
+Fri Jun 19 08:13:10 HKT 2026: Checking for new issues...
+Fri Jun 19 08:13:12 HKT 2026: Found new issues: 69465 69467 69468 69469 69470 
+Fri Jun 19 08:13:18 HKT 2026: Processing issue #69465: [Bug] Anthropic API Error: Server Rate Limiting
+Fri Jun 19 08:13:18 HKT 2026: Tracked issue #69465 [bug]: [Bug] Anthropic API Error: Server Rate Limiting
+Fri Jun 19 08:13:23 HKT 2026: Processing issue #69467: [BUG] Context is not retained for edited messages
+Fri Jun 19 08:13:23 HKT 2026: Tracked issue #69467 [bug]: [BUG] Context is not retained for edited messages
+Fri Jun 19 08:13:28 HKT 2026: Processing issue #69468: Empirical log audit of 9,911 sessions: Claude Code prompt caching bottlenecks & optimization recommendations
+Fri Jun 19 08:13:28 HKT 2026: Tracked issue #69468 [unknown]: Empirical log audit of 9,911 sessions: Claude Code prompt caching bottlenecks & optimization recommendations
+Fri Jun 19 08:13:33 HKT 2026: Processing issue #69469: [BUG] semgrep plugin PostToolUse hook constructs wrong path when editing files outside CWD
+Fri Jun 19 08:13:33 HKT 2026: Tracked issue #69469 [bug]: [BUG] semgrep plugin PostToolUse hook constructs wrong path when editing files outside CWD
+Fri Jun 19 08:13:38 HKT 2026: Processing issue #69470: Fix lock-closed-issues workflow: use search API instead of offset pagination
+Fri Jun 19 08:13:38 HKT 2026: Tracked issue #69470 [unknown]: Fix lock-closed-issues workflow: use search API instead of offset pagination
+Fri Jun 19 08:13:38 HKT 2026: Completed processing up to issue #69470
+Fri Jun 19 08:13:38 HKT 2026: Progress saved: last processed = 69470
+Fri Jun 19 09:14:49 HKT 2026: Checking for new issues...
+Fri Jun 19 09:14:51 HKT 2026: Found new issues: 69471 69472 69473 69474 69475 
+Fri Jun 19 09:14:56 HKT 2026: Processing issue #69471: [Bug] Missing 'design' command documentation in Claude Code CLI guide
+Fri Jun 19 09:14:56 HKT 2026: Tracked issue #69471 [bug]: [Bug] Missing 'design' command documentation in Claude Code CLI guide
+Fri Jun 19 09:15:00 HKT 2026: Processing issue #69472: [BUG] Cannot change effort to anything besides Extra
+Fri Jun 19 09:15:00 HKT 2026: Tracked issue #69472 [bug]: [BUG] Cannot change effort to anything besides Extra
+Fri Jun 19 09:15:09 HKT 2026: Processing issue #69473: VS Code extension host becomes unresponsive (1-2.5 min) while claude.exe --resume loads a large session
+Fri Jun 19 09:15:09 HKT 2026: Tracked issue #69473 [unknown]: VS Code extension host becomes unresponsive (1-2.5 min) while claude.exe --resume loads a large session
+Fri Jun 19 09:15:15 HKT 2026: Processing issue #69474: [Bug] Anthropic API Error: Server Rate Limiting During Normal Usage
+Fri Jun 19 09:15:15 HKT 2026: Tracked issue #69474 [bug]: [Bug] Anthropic API Error: Server Rate Limiting During Normal Usage
+Fri Jun 19 09:15:21 HKT 2026: Processing issue #69475: MCP Gmail connector stuck on 'Needs Auth' after completing OAuth flow (VS Code extension)
+Fri Jun 19 09:15:21 HKT 2026: Tracked issue #69475 [unknown]: MCP Gmail connector stuck on 'Needs Auth' after completing OAuth flow (VS Code extension)
+Fri Jun 19 09:15:21 HKT 2026: Completed processing up to issue #69475
+Fri Jun 19 09:15:21 HKT 2026: Progress saved: last processed = 69475
+Fri Jun 19 10:16:02 HKT 2026: Checking for new issues...
+Fri Jun 19 10:16:05 HKT 2026: Found new issues: 69476 69477 69478 69479 
+Fri Jun 19 10:16:12 HKT 2026: Processing issue #69476: [Bug] Model persists with unverified diagnosis instead of systematic troubleshooting
+Fri Jun 19 10:16:12 HKT 2026: Tracked issue #69476 [bug]: [Bug] Model persists with unverified diagnosis instead of systematic troubleshooting
+Fri Jun 19 10:16:17 HKT 2026: Processing issue #69477: Background subagent task-notification: envelope task-id doesn't match result content (at-rest agents emit sibling agents' updates)
+Fri Jun 19 10:16:17 HKT 2026: Tracked issue #69477 [bug]: Background subagent task-notification: envelope task-id doesn't match result content (at-rest agents emit sibling agents' updates)
+Fri Jun 19 10:16:23 HKT 2026: Processing issue #69478: [BUG] Cowork: virtiofs mount cache not invalidated on Windows host file saves — BadZipFile on Excel save (ref #42520)
+Fri Jun 19 10:16:23 HKT 2026: Tracked issue #69478 [bug]: [BUG] Cowork: virtiofs mount cache not invalidated on Windows host file saves — BadZipFile on Excel save (ref #42520)
+Fri Jun 19 10:16:29 HKT 2026: Processing issue #69479: [BUG] Maybe? I find claude code's abilities in 3D CAD to be much worse than python or rust coding capabilities
+Fri Jun 19 10:16:29 HKT 2026: Tracked issue #69479 [bug]: [BUG] Maybe? I find claude code's abilities in 3D CAD to be much worse than python or rust coding capabilities
+Fri Jun 19 10:16:29 HKT 2026: Completed processing up to issue #69479
+Fri Jun 19 10:16:29 HKT 2026: Progress saved: last processed = 69479
+Fri Jun 19 11:17:11 HKT 2026: Checking for new issues...
+Fri Jun 19 11:17:14 HKT 2026: Found new issues: 69480 69481 69482 69483 
+Fri Jun 19 11:17:15 HKT 2026: Processing issue #69480: [BUG]
+Fri Jun 19 11:17:15 HKT 2026: Tracked issue #69480 [bug]: [BUG]
+Fri Jun 19 11:17:20 HKT 2026: Processing issue #69481: [Bug] Anthropic API Error: Server rate limiting (temporary request throttling)
+Fri Jun 19 11:17:21 HKT 2026: Tracked issue #69481 [bug]: [Bug] Anthropic API Error: Server rate limiting (temporary request throttling)
+Fri Jun 19 11:17:26 HKT 2026: Processing issue #69482: [BUG]  Subagent permission prompts are invisible in remote/web sessions
+Fri Jun 19 11:17:26 HKT 2026: Tracked issue #69482 [bug]: [BUG]  Subagent permission prompts are invisible in remote/web sessions
+Fri Jun 19 11:17:31 HKT 2026: Processing issue #69483: [Bug] Auto-update Failed Error
+Fri Jun 19 11:17:32 HKT 2026: Tracked issue #69483 [bug]: [Bug] Auto-update Failed Error
+Fri Jun 19 11:17:32 HKT 2026: Completed processing up to issue #69483
+Fri Jun 19 11:17:32 HKT 2026: Progress saved: last processed = 69483
+Fri Jun 19 12:18:26 HKT 2026: Checking for new issues...
+Fri Jun 19 12:18:29 HKT 2026: Found new issues: 69485 69486 69487 69488 69489 
+Fri Jun 19 12:18:33 HKT 2026: Processing issue #69485: [BUG] Session name changes do not sync between macOS desktop app and Android app
+Fri Jun 19 12:18:33 HKT 2026: Tracked issue #69485 [bug]: [BUG] Session name changes do not sync between macOS desktop app and Android app
+Fri Jun 19 12:18:38 HKT 2026: Processing issue #69486: [BUG] Display rendering issues in versions after 2.1.153
+Fri Jun 19 12:18:38 HKT 2026: Tracked issue #69486 [bug]: [BUG] Display rendering issues in versions after 2.1.153
+Fri Jun 19 12:18:39 HKT 2026: Skipped issue #69487 - detected as spam/non-issue
+Fri Jun 19 12:18:44 HKT 2026: Processing issue #69488: Claude Code agent: misrepresented incomplete work as complete and uploaded it (burning an irreversible submission slot), ignored repeated instructions, and admitted lying to avoid friction
+Fri Jun 19 12:18:45 HKT 2026: Tracked issue #69488 [memory-issue]: Claude Code agent: misrepresented incomplete work as complete and uploaded it (burning an irreversible submission slot), ignored repeated instructions, and admitted lying to avoid friction
+Fri Jun 19 12:18:48 HKT 2026: Processing issue #69489: [BUG] Auto-update corrupted Claude Desktop on Windows — app.asar deleted, app   exits code 1
+Fri Jun 19 12:18:48 HKT 2026: Tracked issue #69489 [bug]: [BUG] Auto-update corrupted Claude Desktop on Windows — app.asar deleted, app   exits code 1
+Fri Jun 19 12:18:48 HKT 2026: Completed processing up to issue #69489
+Fri Jun 19 12:18:48 HKT 2026: Progress saved: last processed = 69489
+Fri Jun 19 13:19:30 HKT 2026: Checking for new issues...
+Fri Jun 19 13:19:32 HKT 2026: Found new issues: 69492 69493 69494 69495 69496 
+Fri Jun 19 13:19:37 HKT 2026: Processing issue #69492: Allow manual renaming of Claude Code sessions
+Fri Jun 19 13:19:37 HKT 2026: Tracked issue #69492 [unknown]: Allow manual renaming of Claude Code sessions
+Fri Jun 19 13:19:43 HKT 2026: Processing issue #69493: Opus 4.8 agentic GUI work: cannot converge on a trivial UI fix; verifies against synthetic fixture not the live app; stale multi-instance confusion
+Fri Jun 19 13:19:43 HKT 2026: Tracked issue #69493 [memory-issue]: Opus 4.8 agentic GUI work: cannot converge on a trivial UI fix; verifies against synthetic fixture not the live app; stale multi-instance confusion
+Fri Jun 19 13:19:44 HKT 2026: Skipped issue #69494 - detected as spam/non-issue
+Fri Jun 19 13:19:49 HKT 2026: Processing issue #69495: Support Microsoft MXC sandboxing
+Fri Jun 19 13:19:49 HKT 2026: Tracked issue #69495 [unknown]: Support Microsoft MXC sandboxing
+Fri Jun 19 13:19:53 HKT 2026: Processing issue #69496: [Feature Request] Add user:design OAuth scopes to Claude Code authentication
+Fri Jun 19 13:19:53 HKT 2026: Tracked issue #69496 [feature]: [Feature Request] Add user:design OAuth scopes to Claude Code authentication
+Fri Jun 19 13:19:53 HKT 2026: Completed processing up to issue #69496
+Fri Jun 19 13:19:53 HKT 2026: Progress saved: last processed = 69496
+Fri Jun 19 14:20:31 HKT 2026: Checking for new issues...
+Fri Jun 19 14:20:33 HKT 2026: Found new issues: 69505 69506 69507 69508 69509 
+Fri Jun 19 14:20:37 HKT 2026: Processing issue #69505: Opus 4.8 agentic coding: given a sequential workflow (ordered series), agent jumps to the high-value/terminal step and skips the intermediate steps that make it valid
+Fri Jun 19 14:20:37 HKT 2026: Tracked issue #69505 [unknown]: Opus 4.8 agentic coding: given a sequential workflow (ordered series), agent jumps to the high-value/terminal step and skips the intermediate steps that make it valid
+Fri Jun 19 14:20:38 HKT 2026: Processing issue #69506: [BUG] CHAT SUMIU
+Fri Jun 19 14:20:38 HKT 2026: Tracked issue #69506 [bug]: [BUG] CHAT SUMIU
+Fri Jun 19 14:20:44 HKT 2026: Processing issue #69507: NetSuite MCP connection broken after Claude update
+Fri Jun 19 14:20:44 HKT 2026: Tracked issue #69507 [bug]: NetSuite MCP connection broken after Claude update
+Fri Jun 19 14:20:49 HKT 2026: Processing issue #69508: [Bug] Anthropic API Error: Server Rate Limiting - Temporary Request Throttling
+Fri Jun 19 14:20:49 HKT 2026: Tracked issue #69508 [bug]: [Bug] Anthropic API Error: Server Rate Limiting - Temporary Request Throttling
+Fri Jun 19 14:20:53 HKT 2026: Processing issue #69509: [BUG] VSCode extension: new file (Write) suggestions are not expandable to preview contents
+Fri Jun 19 14:20:53 HKT 2026: Tracked issue #69509 [bug]: [BUG] VSCode extension: new file (Write) suggestions are not expandable to preview contents
+Fri Jun 19 14:20:53 HKT 2026: Completed processing up to issue #69509
+Fri Jun 19 14:20:53 HKT 2026: Progress saved: last processed = 69509
+Fri Jun 19 15:21:47 HKT 2026: Checking for new issues...
+Fri Jun 19 15:21:49 HKT 2026: Found new issues: 69514 69515 69516 69517 69518 
+Fri Jun 19 15:21:53 HKT 2026: Processing issue #69514: [Bug] Content filter false positive on Contributor Covenant code of conduct text
+Fri Jun 19 15:21:53 HKT 2026: Tracked issue #69514 [bug]: [Bug] Content filter false positive on Contributor Covenant code of conduct text
+Fri Jun 19 15:21:57 HKT 2026: Processing issue #69515: Cannot copy multi-line text from responses due to UI tab indentation
+Fri Jun 19 15:21:57 HKT 2026: Tracked issue #69515 [unknown]: Cannot copy multi-line text from responses due to UI tab indentation
+Fri Jun 19 15:22:02 HKT 2026: Processing issue #69516: feat: openInNewTab should reuse existing tab group (viewColumn arg or setting)
+Fri Jun 19 15:22:02 HKT 2026: Tracked issue #69516 [unknown]: feat: openInNewTab should reuse existing tab group (viewColumn arg or setting)
+Fri Jun 19 15:22:07 HKT 2026: Processing issue #69517: [BUG] API Error: Connection closed mid-response in Claude Cowork
+Fri Jun 19 15:22:07 HKT 2026: Tracked issue #69517 [bug]: [BUG] API Error: Connection closed mid-response in Claude Cowork
+Fri Jun 19 15:22:12 HKT 2026: Processing issue #69518: SIGILL on AVX2-less Intel Macs still present in 2.1.181 (regression from #50466 persists)
+Fri Jun 19 15:22:13 HKT 2026: Tracked issue #69518 [regression]: SIGILL on AVX2-less Intel Macs still present in 2.1.181 (regression from #50466 persists)
+Fri Jun 19 15:22:13 HKT 2026: Completed processing up to issue #69518
+Fri Jun 19 15:22:13 HKT 2026: Progress saved: last processed = 69518
+Fri Jun 19 16:23:18 HKT 2026: Checking for new issues...
+Fri Jun 19 16:23:20 HKT 2026: Found new issues: 69519 69520 69521 69522 69523 
+Fri Jun 19 16:23:24 HKT 2026: Processing issue #69519: [BUG] PostToolUse hook not invoked when editing files outside project CWD (path-join bug in Go binary)
+Fri Jun 19 16:23:24 HKT 2026: Tracked issue #69519 [bug]: [BUG] PostToolUse hook not invoked when editing files outside project CWD (path-join bug in Go binary)
+Fri Jun 19 16:23:28 HKT 2026: Processing issue #69520: [MODEL] API Error: Request rejected (429)
+Fri Jun 19 16:23:28 HKT 2026: Tracked issue #69520 [bug]: [MODEL] API Error: Request rejected (429)
+Fri Jun 19 16:23:33 HKT 2026: Processing issue #69521: [FEATURE] Allow to whitelist subdomains between Claude Code and Claude in Chrome
+Fri Jun 19 16:23:33 HKT 2026: Tracked issue #69521 [feature]: [FEATURE] Allow to whitelist subdomains between Claude Code and Claude in Chrome
+Fri Jun 19 16:23:38 HKT 2026: Processing issue #69522: InputValidationError: long unicode-escaped tool arguments fail JSON parse (AskUserQuestion) — retry with shorter input succeeds
+Fri Jun 19 16:23:38 HKT 2026: Tracked issue #69522 [bug]: InputValidationError: long unicode-escaped tool arguments fail JSON parse (AskUserQuestion) — retry with shorter input succeeds
+Fri Jun 19 16:23:43 HKT 2026: Processing issue #69523: [BUG] Loss of functionality of the  /permissions based "Recently denied" Menu after navigating to "Allow"
+Fri Jun 19 16:23:43 HKT 2026: Tracked issue #69523 [bug]: [BUG] Loss of functionality of the  /permissions based "Recently denied" Menu after navigating to "Allow"
+Fri Jun 19 16:23:43 HKT 2026: Completed processing up to issue #69523
+Fri Jun 19 16:23:43 HKT 2026: Progress saved: last processed = 69523
+Fri Jun 19 17:24:27 HKT 2026: Checking for new issues...
+Fri Jun 19 17:24:28 HKT 2026: Found new issues: 69527 69528 69529 69530 69531 
+Fri Jun 19 17:24:32 HKT 2026: Processing issue #69527: [BUG] VSCode extension: markdown file links with non-ASCII (Cyrillic) paths don't open files in chat panel
+Fri Jun 19 17:24:32 HKT 2026: Tracked issue #69527 [bug]: [BUG] VSCode extension: markdown file links with non-ASCII (Cyrillic) paths don't open files in chat panel
+Fri Jun 19 17:24:35 HKT 2026: Processing issue #69528: [Enhancement] Decouple privacy kill switches from feature availability — silent degradation hurts power users
+Fri Jun 19 17:24:35 HKT 2026: Tracked issue #69528 [unknown]: [Enhancement] Decouple privacy kill switches from feature availability — silent degradation hurts power users
+Fri Jun 19 17:24:35 HKT 2026: Skipped issue #69529 - detected as spam/non-issue
+Fri Jun 19 17:24:39 HKT 2026: Processing issue #69530: Automatic model routing: send each task to the cheapest capable model (Haiku/Sonnet/Opus)
+Fri Jun 19 17:24:39 HKT 2026: Tracked issue #69530 [unknown]: Automatic model routing: send each task to the cheapest capable model (Haiku/Sonnet/Opus)
+Fri Jun 19 17:24:43 HKT 2026: Processing issue #69531: [BUG] Bedrock Guardrails — session permanently blocked after guardrail trigger in Cowork 3P (Desktop)
+Fri Jun 19 17:24:43 HKT 2026: Tracked issue #69531 [bug]: [BUG] Bedrock Guardrails — session permanently blocked after guardrail trigger in Cowork 3P (Desktop)
+Fri Jun 19 17:24:43 HKT 2026: Completed processing up to issue #69531
+Fri Jun 19 17:24:43 HKT 2026: Progress saved: last processed = 69531
+Fri Jun 19 18:25:20 HKT 2026: Checking for new issues...
+Fri Jun 19 18:25:22 HKT 2026: Found new issues: 69544 69545 69546 69547 69548 
+Fri Jun 19 18:25:24 HKT 2026: Processing issue #69544: [BUG] Code quality issues caused avoidable rework and client billable hours
+Fri Jun 19 18:25:24 HKT 2026: Tracked issue #69544 [bug]: [BUG] Code quality issues caused avoidable rework and client billable hours
+Fri Jun 19 18:25:27 HKT 2026: Processing issue #69545: Feature Request: SubagentStart hook should support updatedInput to enable deterministic model routing
+Fri Jun 19 18:25:27 HKT 2026: Tracked issue #69545 [feature]: Feature Request: SubagentStart hook should support updatedInput to enable deterministic model routing
+Fri Jun 19 18:25:30 HKT 2026: Processing issue #69546: Claude in Chrome native-host wrapper hardcodes a CLI version path → silent CIC death on every CC version bump
+Fri Jun 19 18:25:30 HKT 2026: Tracked issue #69546 [unknown]: Claude in Chrome native-host wrapper hardcodes a CLI version path → silent CIC death on every CC version bump
+Fri Jun 19 18:25:33 HKT 2026: Processing issue #69547: OAuth token exchange fails with AADSTS900144 (missing 'scope') when using --client-id for Entra ID MCP server
+Fri Jun 19 18:25:33 HKT 2026: Tracked issue #69547 [bug]: OAuth token exchange fails with AADSTS900144 (missing 'scope') when using --client-id for Entra ID MCP server
+Fri Jun 19 18:25:36 HKT 2026: Processing issue #69548: [FEATURE] [Claude in Chrome] Log session conversation sidebar chats
+Fri Jun 19 18:25:37 HKT 2026: Tracked issue #69548 [feature]: [FEATURE] [Claude in Chrome] Log session conversation sidebar chats
+Fri Jun 19 18:25:37 HKT 2026: Completed processing up to issue #69548
+Fri Jun 19 18:25:37 HKT 2026: Progress saved: last processed = 69548
+Fri Jun 19 19:26:27 HKT 2026: Checking for new issues...
+Fri Jun 19 19:26:29 HKT 2026: Found new issues: 69553 69554 69555 69556 69557 
+Fri Jun 19 19:26:33 HKT 2026: Processing issue #69553: [Bug] Sandbox env exports UV_CACHE_DIR=~/.cache/uv with literal tilde, causing uv to create stray '~' directories in cwd
+Fri Jun 19 19:26:33 HKT 2026: Tracked issue #69553 [bug]: [Bug] Sandbox env exports UV_CACHE_DIR=~/.cache/uv with literal tilde, causing uv to create stray '~' directories in cwd
+Fri Jun 19 19:26:37 HKT 2026: Processing issue #69554: [FEATURE] Add --worktree support for parallel sessions in VS Code (same as Agent View in VSCode does)
+Fri Jun 19 19:26:37 HKT 2026: Tracked issue #69554 [feature]: [FEATURE] Add --worktree support for parallel sessions in VS Code (same as Agent View in VSCode does)
+Fri Jun 19 19:26:42 HKT 2026: Processing issue #69555: [BUG] URL-mode elicitation broken: client capability dropped from {form,url} to {} (~2.1.108); server elicitation/create mode:"url" rejected with -32602
+Fri Jun 19 19:26:42 HKT 2026: Tracked issue #69555 [bug]: [BUG] URL-mode elicitation broken: client capability dropped from {form,url} to {} (~2.1.108); server elicitation/create mode:"url" rejected with -32602
+Fri Jun 19 19:26:46 HKT 2026: Processing issue #69556: gif_creator always fails: "not in the agent's managed tab group" (Chrome + Brave)
+Fri Jun 19 19:26:47 HKT 2026: Tracked issue #69556 [bug]: gif_creator always fails: "not in the agent's managed tab group" (Chrome + Brave)
+Fri Jun 19 19:26:51 HKT 2026: Processing issue #69557: Allow assistant to share Google Drive files with explicit user consent (a sad LLM self-reports)
+Fri Jun 19 19:26:51 HKT 2026: Tracked issue #69557 [false-positive]: Allow assistant to share Google Drive files with explicit user consent (a sad LLM self-reports)
+Fri Jun 19 19:26:51 HKT 2026: Completed processing up to issue #69557
+Fri Jun 19 19:26:51 HKT 2026: Progress saved: last processed = 69557
+Fri Jun 19 20:27:26 HKT 2026: Checking for new issues...
+Fri Jun 19 20:27:27 HKT 2026: Found new issues: 69558 69559 69560 69561 69562 
+Fri Jun 19 20:27:31 HKT 2026: Processing issue #69558: [Bug] Auto-update mechanism not functioning
+Fri Jun 19 20:27:32 HKT 2026: Tracked issue #69558 [bug]: [Bug] Auto-update mechanism not functioning
+Fri Jun 19 20:27:35 HKT 2026: Processing issue #69559: [FEATURE] Expose context-window usage to subagents so they can self-delegate before quality degrades
+Fri Jun 19 20:27:35 HKT 2026: Tracked issue #69559 [feature]: [FEATURE] Expose context-window usage to subagents so they can self-delegate before quality degrades
+Fri Jun 19 20:27:40 HKT 2026: Processing issue #69560: [BUG] Spurious `/init` slash command trigger
+Fri Jun 19 20:27:40 HKT 2026: Tracked issue #69560 [bug]: [BUG] Spurious `/init` slash command trigger
+Fri Jun 19 20:27:45 HKT 2026: Processing issue #69561: Feature request: Automatic model selection based on task complexity
+Fri Jun 19 20:27:45 HKT 2026: Tracked issue #69561 [feature]: Feature request: Automatic model selection based on task complexity
+Fri Jun 19 20:27:49 HKT 2026: Processing issue #69562: [BUG] Claude code is hanging on every command.
+Fri Jun 19 20:27:49 HKT 2026: Tracked issue #69562 [bug]: [BUG] Claude code is hanging on every command.
+Fri Jun 19 20:27:49 HKT 2026: Completed processing up to issue #69562
+Fri Jun 19 20:27:49 HKT 2026: Progress saved: last processed = 69562
+Fri Jun 19 21:28:39 HKT 2026: Checking for new issues...
+Fri Jun 19 21:28:40 HKT 2026: Found new issues: 69564 69565 69567 69568 69569 
+Fri Jun 19 21:28:43 HKT 2026: Processing issue #69564: Feature request: add chat:deleteWordBackward action for option+backspace word deletion
+Fri Jun 19 21:28:43 HKT 2026: Tracked issue #69564 [feature]: Feature request: add chat:deleteWordBackward action for option+backspace word deletion
+Fri Jun 19 21:28:46 HKT 2026: Processing issue #69565: Session name overlaps with clock in input bar
+Fri Jun 19 21:28:46 HKT 2026: Tracked issue #69565 [unknown]: Session name overlaps with clock in input bar
+Fri Jun 19 21:28:48 HKT 2026: Processing issue #69567: [Bug] OSC 8 hyperlinks not clickable in agent view output pane
+Fri Jun 19 21:28:49 HKT 2026: Tracked issue #69567 [bug]: [Bug] OSC 8 hyperlinks not clickable in agent view output pane
+Fri Jun 19 21:28:52 HKT 2026: Processing issue #69568: [Bug] Resume/fork includes completed-turn thinking signatures, inflating context usage to near limits
+Fri Jun 19 21:28:52 HKT 2026: Tracked issue #69568 [bug]: [Bug] Resume/fork includes completed-turn thinking signatures, inflating context usage to near limits
+Fri Jun 19 21:28:53 HKT 2026: Processing issue #69569: [BUG]
+Fri Jun 19 21:28:53 HKT 2026: Tracked issue #69569 [bug]: [BUG]
+Fri Jun 19 21:28:53 HKT 2026: Completed processing up to issue #69569
+Fri Jun 19 21:28:53 HKT 2026: Progress saved: last processed = 69569
+Fri Jun 19 22:29:36 HKT 2026: Checking for new issues...
+Fri Jun 19 22:29:37 HKT 2026: Found new issues: 69583 69584 69585 69586 69587 
+Fri Jun 19 22:29:41 HKT 2026: Processing issue #69583: bwrap sandbox broken on usrmerge Linux (WSL2/Ubuntu): missing /bin /lib /lib64 compat symlinks → every command fails with execvp: No such file or directory
+Fri Jun 19 22:29:41 HKT 2026: Tracked issue #69583 [bug]: bwrap sandbox broken on usrmerge Linux (WSL2/Ubuntu): missing /bin /lib /lib64 compat symlinks → every command fails with execvp: No such file or directory
+Fri Jun 19 22:29:44 HKT 2026: Processing issue #69584: [FEATURE] Add a bindable keybinding action to toggle focus mode (`/focus`)
+Fri Jun 19 22:29:44 HKT 2026: Tracked issue #69584 [feature]: [FEATURE] Add a bindable keybinding action to toggle focus mode (`/focus`)
+Fri Jun 19 22:29:48 HKT 2026: Processing issue #69585: [BUG] Desktop app fails to display/index sessions migrated from another machine (works fine in CLI)
+Fri Jun 19 22:29:48 HKT 2026: Tracked issue #69585 [bug]: [BUG] Desktop app fails to display/index sessions migrated from another machine (works fine in CLI)
+Fri Jun 19 22:29:52 HKT 2026: Processing issue #69586: Claude Code on the web: Stop hook (stop-hook-git-check.sh) flags entire branch history as Unverified when local branch diverges from upstream
+Fri Jun 19 22:29:52 HKT 2026: Tracked issue #69586 [unknown]: Claude Code on the web: Stop hook (stop-hook-git-check.sh) flags entire branch history as Unverified when local branch diverges from upstream
+Fri Jun 19 22:29:56 HKT 2026: Processing issue #69587: [BUG] claude plugin install clones github plugin source over SSH only — no HTTPS fallback (unlike marketplace add)
+Fri Jun 19 22:29:56 HKT 2026: Tracked issue #69587 [bug]: [BUG] claude plugin install clones github plugin source over SSH only — no HTTPS fallback (unlike marketplace add)
+Fri Jun 19 22:29:56 HKT 2026: Completed processing up to issue #69587
+Fri Jun 19 22:29:56 HKT 2026: Progress saved: last processed = 69587
+Fri Jun 19 23:33:19 HKT 2026: Checking for new issues...
+Fri Jun 19 23:33:21 HKT 2026: Found new issues: 69588 69589 69590 69591 69592 
+Fri Jun 19 23:33:24 HKT 2026: Processing issue #69588: Feature request: pin prompt input and status bar while scrolling conversation history
+Fri Jun 19 23:33:24 HKT 2026: Tracked issue #69588 [feature]: Feature request: pin prompt input and status bar while scrolling conversation history
+Fri Jun 19 23:33:27 HKT 2026: Processing issue #69589: [BUG] Claude cowork not able to access the context of a particular chat from claude code
+Fri Jun 19 23:33:27 HKT 2026: Tracked issue #69589 [bug]: [BUG] Claude cowork not able to access the context of a particular chat from claude code
+Fri Jun 19 23:33:31 HKT 2026: Processing issue #69590: [BUG] Native Windows CLI crashes at loader init (0xC0000005) before entry point — Win11 26200, i9-13900
+Fri Jun 19 23:33:31 HKT 2026: Tracked issue #69590 [bug]: [BUG] Native Windows CLI crashes at loader init (0xC0000005) before entry point — Win11 26200, i9-13900
+Fri Jun 19 23:33:35 HKT 2026: Processing issue #69591: Windows Terminal: Claude Code shows block cursor despite `cursorShape = "bar"`
+Fri Jun 19 23:33:35 HKT 2026: Tracked issue #69591 [unknown]: Windows Terminal: Claude Code shows block cursor despite `cursorShape = "bar"`
+Fri Jun 19 23:33:38 HKT 2026: Processing issue #69592: You've hit your session limit · resets 12:30pm (America/Toronto)
+Fri Jun 19 23:33:38 HKT 2026: Tracked issue #69592 [unknown]: You've hit your session limit · resets 12:30pm (America/Toronto)
+Fri Jun 19 23:33:38 HKT 2026: Completed processing up to issue #69592
+Fri Jun 19 23:33:38 HKT 2026: Progress saved: last processed = 69592
+Sat Jun 20 00:34:26 HKT 2026: Checking for new issues...
+Sat Jun 20 00:34:28 HKT 2026: Found new issues: 69594 69595 69596 69597 69598 
+Sat Jun 20 00:34:31 HKT 2026: Processing issue #69594: [BUG] Server is temporarily limiting requests breaks workflows
+Sat Jun 20 00:34:31 HKT 2026: Tracked issue #69594 [bug]: [BUG] Server is temporarily limiting requests breaks workflows
+Sat Jun 20 00:34:34 HKT 2026: Processing issue #69595: [BUG] Claude Code in Claude Desktop ignores instructions and claims not to have received anything
+Sat Jun 20 00:34:34 HKT 2026: Tracked issue #69595 [bug]: [BUG] Claude Code in Claude Desktop ignores instructions and claims not to have received anything
+Sat Jun 20 00:34:38 HKT 2026: Processing issue #69596: [FEATURE] Local playback speed control for Claude Code Desktop Read aloud allowing faster voice speeds
+Sat Jun 20 00:34:38 HKT 2026: Tracked issue #69596 [feature]: [FEATURE] Local playback speed control for Claude Code Desktop Read aloud allowing faster voice speeds
+Sat Jun 20 00:34:41 HKT 2026: Processing issue #69597: [BUG] Claude.app PID held 511/511 ptys with only 19 living children, uptime 2d18h.
+Sat Jun 20 00:34:41 HKT 2026: Tracked issue #69597 [bug]: [BUG] Claude.app PID held 511/511 ptys with only 19 living children, uptime 2d18h.
+Sat Jun 20 00:34:44 HKT 2026: Processing issue #69598: Custom status line strips leading whitespace from each row, breaking multi-line column alignment
+Sat Jun 20 00:34:45 HKT 2026: Tracked issue #69598 [unknown]: Custom status line strips leading whitespace from each row, breaking multi-line column alignment
+Sat Jun 20 00:34:45 HKT 2026: Completed processing up to issue #69598
+Sat Jun 20 00:34:45 HKT 2026: Progress saved: last processed = 69598
+Sat Jun 20 01:35:36 HKT 2026: Checking for new issues...
+Sat Jun 20 01:35:37 HKT 2026: Found new issues: 69607 69608 69609 69610 69611 
+Sat Jun 20 01:35:41 HKT 2026: Processing issue #69607: [Bug] IDE detection uses unanchored substring matching on ps aux output
+Sat Jun 20 01:35:41 HKT 2026: Tracked issue #69607 [bug]: [Bug] IDE detection uses unanchored substring matching on ps aux output
+Sat Jun 20 01:35:44 HKT 2026: Processing issue #69608: [BUG] Weekly usage limit draining 10x faster than normal after June 19 reset
+Sat Jun 20 01:35:44 HKT 2026: Tracked issue #69608 [bug]: [BUG] Weekly usage limit draining 10x faster than normal after June 19 reset
+Sat Jun 20 01:35:47 HKT 2026: Processing issue #69609: claude-sonnet-4-6 classifier unavailable, blocks all write operations
+Sat Jun 20 01:35:47 HKT 2026: Tracked issue #69609 [unknown]: claude-sonnet-4-6 classifier unavailable, blocks all write operations
+Sat Jun 20 01:35:51 HKT 2026: Processing issue #69610: [BUG] InvokeModelWithResponseStream triggered with fable model on Bedrock
+Sat Jun 20 01:35:51 HKT 2026: Tracked issue #69610 [bug]: [BUG] InvokeModelWithResponseStream triggered with fable model on Bedrock
+Sat Jun 20 01:35:54 HKT 2026: Processing issue #69611: [BUG] Session proxy blocks pushes to the target branch specified at session launch
+Sat Jun 20 01:35:54 HKT 2026: Tracked issue #69611 [bug]: [BUG] Session proxy blocks pushes to the target branch specified at session launch
+Sat Jun 20 01:35:54 HKT 2026: Completed processing up to issue #69611
+Sat Jun 20 01:35:54 HKT 2026: Progress saved: last processed = 69611
+Sat Jun 20 02:37:01 HKT 2026: Checking for new issues...
+Sat Jun 20 02:37:03 HKT 2026: Found new issues: 69620 69621 69622 69623 69624 
+Sat Jun 20 02:37:06 HKT 2026: Processing issue #69620: [DOCS] Headless and Agent SDK MCP docs do not explain unauthenticated server behavior
+Sat Jun 20 02:37:06 HKT 2026: Tracked issue #69620 [docs]: [DOCS] Headless and Agent SDK MCP docs do not explain unauthenticated server behavior
+Sat Jun 20 02:37:10 HKT 2026: Processing issue #69621: [DOCS] [Agent teams] Teammate background-task lifetime across turns is undocumented
+Sat Jun 20 02:37:10 HKT 2026: Tracked issue #69621 [docs]: [DOCS] [Agent teams] Teammate background-task lifetime across turns is undocumented
+Sat Jun 20 02:37:13 HKT 2026: Processing issue #69622: [Bug] Anthropic API Error: Server Rate Limiting with Excessive Retry Delays
+Sat Jun 20 02:37:14 HKT 2026: Tracked issue #69622 [bug]: [Bug] Anthropic API Error: Server Rate Limiting with Excessive Retry Delays
+Sat Jun 20 02:37:17 HKT 2026: Processing issue #69623: [FEATURE] Inject context into a running agent mid-reasoning without interrupting or queuing
+Sat Jun 20 02:37:17 HKT 2026: Tracked issue #69623 [feature]: [FEATURE] Inject context into a running agent mid-reasoning without interrupting or queuing
+Sat Jun 20 02:37:20 HKT 2026: Processing issue #69624: [Bug] Auto-update failed notification persists after /doctor command
+Sat Jun 20 02:37:20 HKT 2026: Tracked issue #69624 [bug]: [Bug] Auto-update failed notification persists after /doctor command
+Sat Jun 20 02:37:20 HKT 2026: Completed processing up to issue #69624
+Sat Jun 20 02:37:20 HKT 2026: Progress saved: last processed = 69624
+Sat Jun 20 03:38:05 HKT 2026: Checking for new issues...
+Sat Jun 20 03:38:06 HKT 2026: Found new issues: 69630 69631 69632 69633 69634 
+Sat Jun 20 03:38:11 HKT 2026: Processing issue #69630: Subagent sessions spawned by multi-agent tasks remain active after parent session exits
+Sat Jun 20 03:38:11 HKT 2026: Tracked issue #69630 [unknown]: Subagent sessions spawned by multi-agent tasks remain active after parent session exits
+Sat Jun 20 03:38:16 HKT 2026: Processing issue #69631: [Bug] `/doctor` misdiagnoses keychain authorization as locked/corrupt in daemon context
+Sat Jun 20 03:38:16 HKT 2026: Tracked issue #69631 [bug]: [Bug] `/doctor` misdiagnoses keychain authorization as locked/corrupt in daemon context
+Sat Jun 20 03:38:21 HKT 2026: Processing issue #69632: VSCode extension: webview fails to render sessions — Cannot read properties of undefined (reading 'toUrl') in asBrowserUri, Monaco workers fail, process "exited with code 1"
+Sat Jun 20 03:38:21 HKT 2026: Tracked issue #69632 [bug]: VSCode extension: webview fails to render sessions — Cannot read properties of undefined (reading 'toUrl') in asBrowserUri, Monaco workers fail, process "exited with code 1"
+Sat Jun 20 03:38:26 HKT 2026: Processing issue #69633: [FEATURE] Add "Read aloud selected text" option to right-click context menu in Claude Code Desktop
+Sat Jun 20 03:38:26 HKT 2026: Tracked issue #69633 [feature]: [FEATURE] Add "Read aloud selected text" option to right-click context menu in Claude Code Desktop
+Sat Jun 20 03:38:31 HKT 2026: Processing issue #69634: [Bug] Mouse tracking highlights incorrect agent row when hovering over prompt
+Sat Jun 20 03:38:31 HKT 2026: Tracked issue #69634 [bug]: [Bug] Mouse tracking highlights incorrect agent row when hovering over prompt
+Sat Jun 20 03:38:31 HKT 2026: Completed processing up to issue #69634
+Sat Jun 20 03:38:31 HKT 2026: Progress saved: last processed = 69634
+Sat Jun 20 04:39:10 HKT 2026: Checking for new issues...
+Sat Jun 20 04:39:12 HKT 2026: Found new issues: 69642 69643 69644 69645 69646 
+Sat Jun 20 04:39:13 HKT 2026: Processing issue #69642: [BUG]
+Sat Jun 20 04:39:14 HKT 2026: Tracked issue #69642 [bug]: [BUG]
+Sat Jun 20 04:39:19 HKT 2026: Processing issue #69643: [Bug] Agent fork hangs with "Running — will report back when it's done" message
+Sat Jun 20 04:39:19 HKT 2026: Tracked issue #69643 [bug]: [Bug] Agent fork hangs with "Running — will report back when it's done" message
+Sat Jun 20 04:39:26 HKT 2026: Processing issue #69644: [BUG] Bash tool output panel does not adapt to VSCode conversation panel width
+Sat Jun 20 04:39:26 HKT 2026: Tracked issue #69644 [bug]: [BUG] Bash tool output panel does not adapt to VSCode conversation panel width
+Sat Jun 20 04:39:32 HKT 2026: Processing issue #69645: [BUG] File paths in chat panel responses not ctrl+clickable (plain text and backtick format)
+Sat Jun 20 04:39:32 HKT 2026: Tracked issue #69645 [bug]: [BUG] File paths in chat panel responses not ctrl+clickable (plain text and backtick format)
+Sat Jun 20 04:39:33 HKT 2026: Skipped issue #69646 - duplicate of issue in same batch
+Sat Jun 20 04:39:33 HKT 2026: Processing issue #69646: [BUG]
+Sat Jun 20 04:39:33 HKT 2026: Tracked issue #69646 [bug]: [BUG]
+Sat Jun 20 04:39:33 HKT 2026: Completed processing up to issue #69646
+Sat Jun 20 04:39:33 HKT 2026: Progress saved: last processed = 69646
+Sat Jun 20 05:41:05 HKT 2026: Checking for new issues...
+Sat Jun 20 05:41:06 HKT 2026: Found new issues: 69649 69650 69651 69652 69653 
+Sat Jun 20 05:41:10 HKT 2026: Processing issue #69649: Connected HTTP MCP server's tools never appear in tool registry (ToolSearch) even after full app restart
+Sat Jun 20 05:41:10 HKT 2026: Tracked issue #69649 [unknown]: Connected HTTP MCP server's tools never appear in tool registry (ToolSearch) even after full app restart
+Sat Jun 20 05:41:14 HKT 2026: Processing issue #69650: [BUG] API Error: 500 Internal server error. This is a server-side issue, usually temporary — try again in a moment. If it persists, check https://status.claude.com.
+Sat Jun 20 05:41:14 HKT 2026: Tracked issue #69650 [bug]: [BUG] API Error: 500 Internal server error. This is a server-side issue, usually temporary — try again in a moment. If it persists, check https://status.claude.com.
+Sat Jun 20 05:41:18 HKT 2026: Processing issue #69651: [FEATURE] Ability for the agent to read the % of tokens used
+Sat Jun 20 05:41:18 HKT 2026: Tracked issue #69651 [feature]: [FEATURE] Ability for the agent to read the % of tokens used
+Sat Jun 20 05:41:21 HKT 2026: Processing issue #69652: [BUG] Automatic cleanup silently deletes session transcripts, leaving orphaned sidebar entries
+Sat Jun 20 05:41:21 HKT 2026: Tracked issue #69652 [bug]: [BUG] Automatic cleanup silently deletes session transcripts, leaving orphaned sidebar entries
+Sat Jun 20 05:41:25 HKT 2026: Processing issue #69653: /effort presents 'ultracode' as a top effort tier, but it's xhigh + a workflow flag — and nothing at selection says so
+Sat Jun 20 05:41:25 HKT 2026: Tracked issue #69653 [unknown]: /effort presents 'ultracode' as a top effort tier, but it's xhigh + a workflow flag — and nothing at selection says so
+Sat Jun 20 05:41:25 HKT 2026: Completed processing up to issue #69653
+Sat Jun 20 05:41:25 HKT 2026: Progress saved: last processed = 69653
+Sat Jun 20 06:42:13 HKT 2026: Checking for new issues...
+Sat Jun 20 06:42:14 HKT 2026: Found new issues: 69654 69655 69656 69657 
+Sat Jun 20 06:42:17 HKT 2026: Processing issue #69654: [MODEL] Claude exposes sensitive credentials from .env.local in chat output
+Sat Jun 20 06:42:17 HKT 2026: Tracked issue #69654 [unknown]: [MODEL] Claude exposes sensitive credentials from .env.local in chat output
+Sat Jun 20 06:42:21 HKT 2026: Processing issue #69655: [BUG] Remote Control: ended sessions stay "Connected" — stale entries accumulate, never reaped
+Sat Jun 20 06:42:21 HKT 2026: Tracked issue #69655 [bug]: [BUG] Remote Control: ended sessions stay "Connected" — stale entries accumulate, never reaped
+Sat Jun 20 06:42:24 HKT 2026: Processing issue #69656: [BUG] Haven't use my claude code, i type something and it already says hit limit.
+Sat Jun 20 06:42:24 HKT 2026: Tracked issue #69656 [bug]: [BUG] Haven't use my claude code, i type something and it already says hit limit.
+Sat Jun 20 06:42:26 HKT 2026: Processing issue #69657: [BUG] PowerShell commands executed through bash instead of PowerShell
+Sat Jun 20 06:42:27 HKT 2026: Tracked issue #69657 [bug]: [BUG] PowerShell commands executed through bash instead of PowerShell
+Sat Jun 20 06:42:27 HKT 2026: Completed processing up to issue #69657
+Sat Jun 20 06:42:27 HKT 2026: Progress saved: last processed = 69657
+Sat Jun 20 07:43:05 HKT 2026: Checking for new issues...
+Sat Jun 20 07:43:07 HKT 2026: Found new issues: 69658 
+Sat Jun 20 07:43:11 HKT 2026: Processing issue #69658: [BUG] Issue: Cowork "spawn UNKNOWN" error on all new chat/project creation. (conversation ID (215474628489584))
+Sat Jun 20 07:43:11 HKT 2026: Tracked issue #69658 [bug]: [BUG] Issue: Cowork "spawn UNKNOWN" error on all new chat/project creation. (conversation ID (215474628489584))
+Sat Jun 20 07:43:11 HKT 2026: Completed processing up to issue #69658
+Sat Jun 20 07:43:11 HKT 2026: Progress saved: last processed = 69658
+Sat Jun 20 08:44:01 HKT 2026: Checking for new issues...
+Sat Jun 20 08:44:03 HKT 2026: No new issues (latest: 69658)
+Sat Jun 20 08:44:03 HKT 2026: Progress saved: last processed = 69658
+Sat Jun 20 09:44:38 HKT 2026: Checking for new issues...
+Sat Jun 20 09:44:40 HKT 2026: Found new issues: 69659 69660 69661 69662 69663 
+Sat Jun 20 09:44:44 HKT 2026: Processing issue #69659: [BUG] Commands in plain text output are wrapped with real newlines, making copy-paste impossible
+Sat Jun 20 09:44:44 HKT 2026: Tracked issue #69659 [bug]: [BUG] Commands in plain text output are wrapped with real newlines, making copy-paste impossible
+Sat Jun 20 09:44:48 HKT 2026: Processing issue #69660: [Bug] Intermittent "No response from API" errors on Linux requiring automatic retry
+Sat Jun 20 09:44:48 HKT 2026: Tracked issue #69660 [bug]: [Bug] Intermittent "No response from API" errors on Linux requiring automatic retry
+Sat Jun 20 09:44:53 HKT 2026: Processing issue #69661: Add a dockable in-app browser panel (like Codex's embedded browser)
+Sat Jun 20 09:44:53 HKT 2026: Tracked issue #69661 [unknown]: Add a dockable in-app browser panel (like Codex's embedded browser)
+Sat Jun 20 09:44:54 HKT 2026: Processing issue #69662: [BUG] connectio problem
+Sat Jun 20 09:44:54 HKT 2026: Tracked issue #69662 [bug]: [BUG] connectio problem
+Sat Jun 20 09:44:59 HKT 2026: Processing issue #69663: [BUG] Cowork local-agent-mode sessions missing from Recents despite intact data on disk (Windows)
+Sat Jun 20 09:44:59 HKT 2026: Tracked issue #69663 [bug]: [BUG] Cowork local-agent-mode sessions missing from Recents despite intact data on disk (Windows)
+Sat Jun 20 09:44:59 HKT 2026: Completed processing up to issue #69663
+Sat Jun 20 09:44:59 HKT 2026: Progress saved: last processed = 69663
+Sat Jun 20 10:45:38 HKT 2026: Checking for new issues...
+Sat Jun 20 10:45:40 HKT 2026: Found new issues: 69664 69665 69666 69667 
+Sat Jun 20 10:45:44 HKT 2026: Processing issue #69664: [Bug] Claude Code not updating to latest version
+Sat Jun 20 10:45:44 HKT 2026: Tracked issue #69664 [bug]: [Bug] Claude Code not updating to latest version
+Sat Jun 20 10:45:48 HKT 2026: Processing issue #69665: [BUG] hookify plugin: 'No module named hookify' on every hook event when installed from marketplace
+Sat Jun 20 10:45:48 HKT 2026: Tracked issue #69665 [bug]: [BUG] hookify plugin: 'No module named hookify' on every hook event when installed from marketplace
+Sat Jun 20 10:45:52 HKT 2026: Processing issue #69666: [BUG]  Since update to 1.14271.0, app restarts every 30-60 seconds on Windows (MSIX). VM module loads but doesn't   boot, causing restart loop
+Sat Jun 20 10:45:52 HKT 2026: Tracked issue #69666 [bug]: [BUG]  Since update to 1.14271.0, app restarts every 30-60 seconds on Windows (MSIX). VM module loads but doesn't   boot, causing restart loop
+Sat Jun 20 10:45:55 HKT 2026: Processing issue #69667: [Bug] Agent dialog blocks remote control input until terminal interaction
+Sat Jun 20 10:45:55 HKT 2026: Tracked issue #69667 [bug]: [Bug] Agent dialog blocks remote control input until terminal interaction
+Sat Jun 20 10:45:55 HKT 2026: Completed processing up to issue #69667
+Sat Jun 20 10:45:55 HKT 2026: Progress saved: last processed = 69667
+Sat Jun 20 11:46:29 HKT 2026: Checking for new issues...
+Sat Jun 20 11:46:30 HKT 2026: Found new issues: 69668 69669 69670 69671 69672 
+Sat Jun 20 11:46:33 HKT 2026: Processing issue #69668: [FEATURE] Built-in grammar and spelling checker for chat input
+Sat Jun 20 11:46:33 HKT 2026: Tracked issue #69668 [feature]: [FEATURE] Built-in grammar and spelling checker for chat input
+Sat Jun 20 11:46:36 HKT 2026: Processing issue #69669: [Bug] Claude Code leaks private session identifier in commit messages to public repositories
+Sat Jun 20 11:46:36 HKT 2026: Tracked issue #69669 [bug]: [Bug] Claude Code leaks private session identifier in commit messages to public repositories
+Sat Jun 20 11:46:40 HKT 2026: Processing issue #69670: Auto-archive on PR close archives long-lived "hub" sessions prematurely — scope it to PR ownership
+Sat Jun 20 11:46:40 HKT 2026: Tracked issue #69670 [unknown]: Auto-archive on PR close archives long-lived "hub" sessions prematurely — scope it to PR ownership
+Sat Jun 20 11:46:41 HKT 2026: Processing issue #69671: [BUG]
+Sat Jun 20 11:46:41 HKT 2026: Tracked issue #69671 [bug]: [BUG]
+Sat Jun 20 11:46:44 HKT 2026: Processing issue #69672: Allow theming the named-session (claude -n) display-name chip background color
+Sat Jun 20 11:46:44 HKT 2026: Tracked issue #69672 [unknown]: Allow theming the named-session (claude -n) display-name chip background color
+Sat Jun 20 11:46:44 HKT 2026: Completed processing up to issue #69672
+Sat Jun 20 11:46:44 HKT 2026: Progress saved: last processed = 69672
+Sat Jun 20 12:47:38 HKT 2026: Checking for new issues...
+Sat Jun 20 12:47:39 HKT 2026: Found new issues: 69673 69674 
+Sat Jun 20 12:47:43 HKT 2026: Processing issue #69673: [BUG] Claude Code connection error on macOS (Max Plan) - Linux works fine on same IP
+Sat Jun 20 12:47:43 HKT 2026: Tracked issue #69673 [bug]: [BUG] Claude Code connection error on macOS (Max Plan) - Linux works fine on same IP
+Sat Jun 20 12:47:46 HKT 2026: Processing issue #69674: Rating prompt: AZERTY keyboard users cannot type digit keys without Shift
+Sat Jun 20 12:47:46 HKT 2026: Tracked issue #69674 [unknown]: Rating prompt: AZERTY keyboard users cannot type digit keys without Shift
+Sat Jun 20 12:47:46 HKT 2026: Completed processing up to issue #69674
+Sat Jun 20 12:47:46 HKT 2026: Progress saved: last processed = 69674
+Sat Jun 20 13:48:39 HKT 2026: Checking for new issues...
+Sat Jun 20 13:48:40 HKT 2026: Found new issues: 69675 69676 69677 69678 69679 
+Sat Jun 20 13:48:44 HKT 2026: Processing issue #69675: Session deletion has no confirmation dialog
+Sat Jun 20 13:48:44 HKT 2026: Tracked issue #69675 [unknown]: Session deletion has no confirmation dialog
+Sat Jun 20 13:48:48 HKT 2026: Processing issue #69676: Feature request: keyboard shortcut to switch between chats/sessions in the sidebar panel
+Sat Jun 20 13:48:48 HKT 2026: Tracked issue #69676 [feature]: Feature request: keyboard shortcut to switch between chats/sessions in the sidebar panel
+Sat Jun 20 13:48:52 HKT 2026: Processing issue #69677: [BUG] Background tasks option missing from session menu when no tasks are running
+Sat Jun 20 13:48:52 HKT 2026: Tracked issue #69677 [bug]: [BUG] Background tasks option missing from session menu when no tasks are running
+Sat Jun 20 13:48:55 HKT 2026: Processing issue #69678: [FEATURE] Running/idle visual indicator on session tabs in VSCode extension
+Sat Jun 20 13:48:55 HKT 2026: Tracked issue #69678 [feature]: [FEATURE] Running/idle visual indicator on session tabs in VSCode extension
+Sat Jun 20 13:48:59 HKT 2026: Processing issue #69679: Stale skill invocation arguments leak across sessions after context compaction
+Sat Jun 20 13:48:59 HKT 2026: Tracked issue #69679 [unknown]: Stale skill invocation arguments leak across sessions after context compaction
+Sat Jun 20 13:48:59 HKT 2026: Completed processing up to issue #69679
+Sat Jun 20 13:48:59 HKT 2026: Progress saved: last processed = 69679
+Sat Jun 20 14:49:40 HKT 2026: Checking for new issues...
+Sat Jun 20 14:49:41 HKT 2026: Found new issues: 69681 69682 69683 69684 69685 
+Sat Jun 20 14:49:44 HKT 2026: Processing issue #69681: [BUG]  conversation auto-compacts repeatedly while context meter shows ~3%
+Sat Jun 20 14:49:44 HKT 2026: Tracked issue #69681 [bug]: [BUG]  conversation auto-compacts repeatedly while context meter shows ~3%
+Sat Jun 20 14:49:45 HKT 2026: Skipped issue #69682 - detected as spam/non-issue
+Sat Jun 20 14:49:48 HKT 2026: Processing issue #69683: [BUG] Cowork: personal GitHub marketplace never updates — clone silently fails, runtime serves stale version despite correct metadata
+Sat Jun 20 14:49:48 HKT 2026: Tracked issue #69683 [bug]: [BUG] Cowork: personal GitHub marketplace never updates — clone silently fails, runtime serves stale version despite correct metadata
+Sat Jun 20 14:49:53 HKT 2026: Processing issue #69684: [BUG] Confirming same issue — macOS 26.5.1 (build 25F80), Apple Silicon (arm64), Claude Desktop 1.14271.0
+Sat Jun 20 14:49:53 HKT 2026: Tracked issue #69684 [bug]: [BUG] Confirming same issue — macOS 26.5.1 (build 25F80), Apple Silicon (arm64), Claude Desktop 1.14271.0
+Sat Jun 20 14:49:56 HKT 2026: Processing issue #69685: [Claude Desktop App - Code / Windows / v2.1.183] GUI model selector does not show 1M, Opus, and Sonnet model variants
+Sat Jun 20 14:49:56 HKT 2026: Tracked issue #69685 [unknown]: [Claude Desktop App - Code / Windows / v2.1.183] GUI model selector does not show 1M, Opus, and Sonnet model variants
+Sat Jun 20 14:49:56 HKT 2026: Completed processing up to issue #69685
+Sat Jun 20 14:49:56 HKT 2026: Progress saved: last processed = 69685
+Sat Jun 20 15:50:54 HKT 2026: Checking for new issues...
+Sat Jun 20 15:50:56 HKT 2026: Found new issues: 69688 69689 69691 69692 69693 
+Sat Jun 20 15:50:57 HKT 2026: Processing issue #69688: [MODEL]
+Sat Jun 20 15:50:57 HKT 2026: Tracked issue #69688 [unknown]: [MODEL]
+Sat Jun 20 15:51:02 HKT 2026: Processing issue #69689: [BUG] start working at 1:20 session limit reached at 2.18  BULLSHIT.  you are bait and switching me.  SCAM. I paid you deliver
+Sat Jun 20 15:51:02 HKT 2026: Tracked issue #69689 [bug]: [BUG] start working at 1:20 session limit reached at 2.18  BULLSHIT.  you are bait and switching me.  SCAM. I paid you deliver
+Sat Jun 20 15:51:06 HKT 2026: Processing issue #69691: Sub-agent sync-vs-async is session-host-dependent (not version/flag); run_in_background:false not reliably honored — no documented way to force synchronous execution
+Sat Jun 20 15:51:06 HKT 2026: Tracked issue #69691 [docs]: Sub-agent sync-vs-async is session-host-dependent (not version/flag); run_in_background:false not reliably honored — no documented way to force synchronous execution
+Sat Jun 20 15:51:11 HKT 2026: Processing issue #69692: [FEATURE] Show cached token count and break-even estimate in /model switch dialog
+Sat Jun 20 15:51:11 HKT 2026: Tracked issue #69692 [feature]: [FEATURE] Show cached token count and break-even estimate in /model switch dialog
+Sat Jun 20 15:51:16 HKT 2026: Processing issue #69693: [MODEL] Claude Code scanned my entire hard drive without permission — and ADMITTED it
+Sat Jun 20 15:51:16 HKT 2026: Tracked issue #69693 [unknown]: [MODEL] Claude Code scanned my entire hard drive without permission — and ADMITTED it
+Sat Jun 20 15:51:16 HKT 2026: Completed processing up to issue #69693
+Sat Jun 20 15:51:16 HKT 2026: Progress saved: last processed = 69693
+Sat Jun 20 16:51:59 HKT 2026: Checking for new issues...
+Sat Jun 20 16:52:00 HKT 2026: Found new issues: 69694 69695 69696 69697 69698 
+Sat Jun 20 16:52:05 HKT 2026: Processing issue #69694: [FEATURE] Word-level diff highlighting for removed text (symmetric to additions)
+Sat Jun 20 16:52:05 HKT 2026: Tracked issue #69694 [feature]: [FEATURE] Word-level diff highlighting for removed text (symmetric to additions)
+Sat Jun 20 16:52:08 HKT 2026: Processing issue #69695: VS Code extension hangs on tool dispatch — requests never reach the (healthy) daemon — Windows
+Sat Jun 20 16:52:08 HKT 2026: Tracked issue #69695 [feature]: VS Code extension hangs on tool dispatch — requests never reach the (healthy) daemon — Windows
+Sat Jun 20 16:52:09 HKT 2026: Skipped issue #69696 - detected as spam/non-issue
+Sat Jun 20 16:52:10 HKT 2026: Processing issue #69697: [DOCS]
+Sat Jun 20 16:52:10 HKT 2026: Tracked issue #69697 [docs]: [DOCS]
+Sat Jun 20 16:52:13 HKT 2026: Processing issue #69698: fix(hookify): use root-relative imports to fix marketplace install
+Sat Jun 20 16:52:13 HKT 2026: Tracked issue #69698 [unknown]: fix(hookify): use root-relative imports to fix marketplace install
+Sat Jun 20 16:52:13 HKT 2026: Completed processing up to issue #69698
+Sat Jun 20 16:52:13 HKT 2026: Progress saved: last processed = 69698
+Sat Jun 20 17:52:47 HKT 2026: Checking for new issues...
+Sat Jun 20 17:52:48 HKT 2026: Found new issues: 69700 69701 69702 
+Sat Jun 20 17:52:53 HKT 2026: Processing issue #69700: URLs not clickable in Ghostty terminal (TUI breaks URL detection)
+Sat Jun 20 17:52:53 HKT 2026: Tracked issue #69700 [unknown]: URLs not clickable in Ghostty terminal (TUI breaks URL detection)
+Sat Jun 20 17:52:56 HKT 2026: Processing issue #69701: [MODEL] Opus 4.8 very bad, like cursor(auto) 1 year ago
+Sat Jun 20 17:52:56 HKT 2026: Tracked issue #69701 [memory-issue]: [MODEL] Opus 4.8 very bad, like cursor(auto) 1 year ago
+Sat Jun 20 17:53:00 HKT 2026: Processing issue #69702: [Feature Request] Add safety filter bypass or configurable content moderation for security testing workflows
+Sat Jun 20 17:53:01 HKT 2026: Tracked issue #69702 [feature]: [Feature Request] Add safety filter bypass or configurable content moderation for security testing workflows
+Sat Jun 20 17:53:01 HKT 2026: Completed processing up to issue #69702
+Sat Jun 20 17:53:01 HKT 2026: Progress saved: last processed = 69702
