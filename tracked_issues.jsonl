@@ -5545,3 +5545,20 @@
 {"number":69935,"title":"[Bug] Multiple shell snapshot processes consuming 100% CPU causing battery drain\n","category":"bug","tracked_at":"2026-06-21T23:36Z"}
 {"number":69936,"title":"Voice dictation: support multiple languages or separate language setting for speech-to-text\n","category":"unknown","tracked_at":"2026-06-21T23:36Z"}
 {"number":69937,"title":"[FEATURE] [BUG] New working folder in a new session in Claude Code on the desktop app\n","category":"bug","tracked_at":"2026-06-21T23:36Z"}
+{"number":69940,"title":"[BUG] MCP server '...' is a local/stdio server. Plugins may only declare remote (http/sse/ws) or MCPB servers.\n","category":"bug","tracked_at":"2026-06-22T00:37Z"}
+{"number":69941,"title":"[Bug] Anthropic API Error: Output blocked by content filtering policy\n","category":"bug","tracked_at":"2026-06-22T00:38Z"}
+{"number":69942,"title":"[Bug] Anthropic API Error: Service Unavailable\n","category":"bug","tracked_at":"2026-06-22T00:38Z"}
+{"number":69944,"title":"[Bug] Anthropic API Error: Insufficient Context\n","category":"bug","tracked_at":"2026-06-22T00:38Z"}
+{"number":69948,"title":"[FEATURE] Preserve hyperlinks/URLs when pasting rich text into the prompt input\n","category":"feature","tracked_at":"2026-06-22T01:39Z"}
+{"number":69949,"title":"[BUG]\n","category":"bug","tracked_at":"2026-06-22T01:39Z"}
+{"number":69951,"title":"[Feature Request] Add progress persistence and recovery for interrupted API sessions\n","category":"feature","tracked_at":"2026-06-22T01:39Z"}
+{"number":69952,"title":"[BUG]  --resume fails with \"No conversation found\" after account permission reset — local session files intact\n","category":"bug","tracked_at":"2026-06-22T01:39Z"}
+{"number":69956,"title":"[Bug] Claude not loading CLAUDE.md configuration file\n","category":"bug","tracked_at":"2026-06-22T02:40Z"}
+{"number":69957,"title":"Extension 2.1.185 crash-loops VS Code renderer (code 5) on macOS arm64 — regression from 2.1.183\n","category":"bug","tracked_at":"2026-06-22T02:40Z"}
+{"number":69958,"title":"Thai character Sara Am (ำ, U+0E33) causes cursor to jump one position in input\n","category":"unknown","tracked_at":"2026-06-22T02:40Z"}
+{"number":69959,"title":"[BUG] Scheduled tasks run inside the user's working tree and leave orphaned   git\n","category":"bug","tracked_at":"2026-06-22T02:40Z"}
+{"number":69960,"title":"[BUG]   Cloud routines (CCR) cannot use Slack MCP write tools — \"Always allow\" option unavailable\n","category":"bug","tracked_at":"2026-06-22T02:40Z"}
+{"number":69961,"title":"[VSCode] Write tool (new file): no content preview or expand button in \"Ask before edit\" mode\n","category":"unknown","tracked_at":"2026-06-22T03:41Z"}
+{"number":69962,"title":"Agent executes a gated workflow out of order on task transition: enforcement state left pointing at the completed prior task goes inert, and the agent free-styles step order\n","category":"unknown","tracked_at":"2026-06-22T03:41Z"}
+{"number":69963,"title":"[BUG] /login URL hyperlink truncated when URL spans multiple lines\n","category":"bug","tracked_at":"2026-06-22T03:41Z"}
+{"number":69966,"title":"I don't see a bug report in your message. Please provide the actual bug report or issue description for Claude Code that you'd like me to generate a GitHub issue title for.\n","category":"bug","tracked_at":"2026-06-22T03:42Z"}

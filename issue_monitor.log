@@ -17881,3 +17881,56 @@ Mon Jun 22 07:36:41 HKT 2026: Processing issue #69937: [FEATURE] [BUG] New worki
 Mon Jun 22 07:36:41 HKT 2026: Tracked issue #69937 [bug]: [FEATURE] [BUG] New working folder in a new session in Claude Code on the desktop app
 Mon Jun 22 07:36:41 HKT 2026: Completed processing up to issue #69937
 Mon Jun 22 07:36:41 HKT 2026: Progress saved: last processed = 69937
+Mon Jun 22 08:37:53 HKT 2026: Checking for new issues...
+Mon Jun 22 08:37:54 HKT 2026: Found new issues: 69940 69941 69942 69943 69944 
+Mon Jun 22 08:37:58 HKT 2026: Processing issue #69940: [BUG] MCP server '...' is a local/stdio server. Plugins may only declare remote (http/sse/ws) or MCPB servers.
+Mon Jun 22 08:37:58 HKT 2026: Tracked issue #69940 [bug]: [BUG] MCP server '...' is a local/stdio server. Plugins may only declare remote (http/sse/ws) or MCPB servers.
+Mon Jun 22 08:38:02 HKT 2026: Processing issue #69941: [Bug] Anthropic API Error: Output blocked by content filtering policy
+Mon Jun 22 08:38:02 HKT 2026: Tracked issue #69941 [bug]: [Bug] Anthropic API Error: Output blocked by content filtering policy
+Mon Jun 22 08:38:06 HKT 2026: Processing issue #69942: [Bug] Anthropic API Error: Service Unavailable
+Mon Jun 22 08:38:06 HKT 2026: Tracked issue #69942 [bug]: [Bug] Anthropic API Error: Service Unavailable
+Mon Jun 22 08:38:07 HKT 2026: Skipped issue #69943 - detected as spam/non-issue
+Mon Jun 22 08:38:10 HKT 2026: Processing issue #69944: [Bug] Anthropic API Error: Insufficient Context
+Mon Jun 22 08:38:10 HKT 2026: Tracked issue #69944 [bug]: [Bug] Anthropic API Error: Insufficient Context
+Mon Jun 22 08:38:10 HKT 2026: Completed processing up to issue #69944
+Mon Jun 22 08:38:10 HKT 2026: Progress saved: last processed = 69944
+Mon Jun 22 09:39:28 HKT 2026: Checking for new issues...
+Mon Jun 22 09:39:29 HKT 2026: Found new issues: 69948 69949 69950 69951 69952 
+Mon Jun 22 09:39:32 HKT 2026: Processing issue #69948: [FEATURE] Preserve hyperlinks/URLs when pasting rich text into the prompt input
+Mon Jun 22 09:39:32 HKT 2026: Tracked issue #69948 [feature]: [FEATURE] Preserve hyperlinks/URLs when pasting rich text into the prompt input
+Mon Jun 22 09:39:33 HKT 2026: Processing issue #69949: [BUG]
+Mon Jun 22 09:39:33 HKT 2026: Tracked issue #69949 [bug]: [BUG]
+Mon Jun 22 09:39:34 HKT 2026: Skipped issue #69950 - detected as spam/non-issue
+Mon Jun 22 09:39:37 HKT 2026: Processing issue #69951: [Feature Request] Add progress persistence and recovery for interrupted API sessions
+Mon Jun 22 09:39:38 HKT 2026: Tracked issue #69951 [feature]: [Feature Request] Add progress persistence and recovery for interrupted API sessions
+Mon Jun 22 09:39:42 HKT 2026: Processing issue #69952: [BUG]  --resume fails with "No conversation found" after account permission reset — local session files intact
+Mon Jun 22 09:39:42 HKT 2026: Tracked issue #69952 [bug]: [BUG]  --resume fails with "No conversation found" after account permission reset — local session files intact
+Mon Jun 22 09:39:42 HKT 2026: Completed processing up to issue #69952
+Mon Jun 22 09:39:42 HKT 2026: Progress saved: last processed = 69952
+Mon Jun 22 10:40:26 HKT 2026: Checking for new issues...
+Mon Jun 22 10:40:27 HKT 2026: Found new issues: 69956 69957 69958 69959 69960 
+Mon Jun 22 10:40:32 HKT 2026: Processing issue #69956: [Bug] Claude not loading CLAUDE.md configuration file
+Mon Jun 22 10:40:32 HKT 2026: Tracked issue #69956 [bug]: [Bug] Claude not loading CLAUDE.md configuration file
+Mon Jun 22 10:40:37 HKT 2026: Processing issue #69957: Extension 2.1.185 crash-loops VS Code renderer (code 5) on macOS arm64 — regression from 2.1.183
+Mon Jun 22 10:40:37 HKT 2026: Tracked issue #69957 [bug]: Extension 2.1.185 crash-loops VS Code renderer (code 5) on macOS arm64 — regression from 2.1.183
+Mon Jun 22 10:40:41 HKT 2026: Processing issue #69958: Thai character Sara Am (ำ, U+0E33) causes cursor to jump one position in input
+Mon Jun 22 10:40:41 HKT 2026: Tracked issue #69958 [unknown]: Thai character Sara Am (ำ, U+0E33) causes cursor to jump one position in input
+Mon Jun 22 10:40:45 HKT 2026: Processing issue #69959: [BUG] Scheduled tasks run inside the user's working tree and leave orphaned   git
+Mon Jun 22 10:40:46 HKT 2026: Tracked issue #69959 [bug]: [BUG] Scheduled tasks run inside the user's working tree and leave orphaned   git
+Mon Jun 22 10:40:50 HKT 2026: Processing issue #69960: [BUG]   Cloud routines (CCR) cannot use Slack MCP write tools — "Always allow" option unavailable
+Mon Jun 22 10:40:50 HKT 2026: Tracked issue #69960 [bug]: [BUG]   Cloud routines (CCR) cannot use Slack MCP write tools — "Always allow" option unavailable
+Mon Jun 22 10:40:50 HKT 2026: Completed processing up to issue #69960
+Mon Jun 22 10:40:50 HKT 2026: Progress saved: last processed = 69960
+Mon Jun 22 11:41:45 HKT 2026: Checking for new issues...
+Mon Jun 22 11:41:47 HKT 2026: Found new issues: 69961 69962 69963 69964 69966 
+Mon Jun 22 11:41:51 HKT 2026: Processing issue #69961: [VSCode] Write tool (new file): no content preview or expand button in "Ask before edit" mode
+Mon Jun 22 11:41:51 HKT 2026: Tracked issue #69961 [unknown]: [VSCode] Write tool (new file): no content preview or expand button in "Ask before edit" mode
+Mon Jun 22 11:41:55 HKT 2026: Processing issue #69962: Agent executes a gated workflow out of order on task transition: enforcement state left pointing at the completed prior task goes inert, and the agent free-styles step order
+Mon Jun 22 11:41:55 HKT 2026: Tracked issue #69962 [unknown]: Agent executes a gated workflow out of order on task transition: enforcement state left pointing at the completed prior task goes inert, and the agent free-styles step order
+Mon Jun 22 11:41:58 HKT 2026: Processing issue #69963: [BUG] /login URL hyperlink truncated when URL spans multiple lines
+Mon Jun 22 11:41:58 HKT 2026: Tracked issue #69963 [bug]: [BUG] /login URL hyperlink truncated when URL spans multiple lines
+Mon Jun 22 11:41:59 HKT 2026: Skipped issue #69964 - detected as spam/non-issue
+Mon Jun 22 11:42:03 HKT 2026: Processing issue #69966: I don't see a bug report in your message. Please provide the actual bug report or issue description for Claude Code that you'd like me to generate a GitHub issue title for.
+Mon Jun 22 11:42:03 HKT 2026: Tracked issue #69966 [bug]: I don't see a bug report in your message. Please provide the actual bug report or issue description for Claude Code that you'd like me to generate a GitHub issue title for.
+Mon Jun 22 11:42:03 HKT 2026: Completed processing up to issue #69966
+Mon Jun 22 11:42:03 HKT 2026: Progress saved: last processed = 69966
