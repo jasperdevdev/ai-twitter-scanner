@@ -5883,3 +5883,21 @@
 {"number":70726,"title":"[BUG] Claude Code / background-task issue on my account\n","category":"bug","tracked_at":"2026-06-25T03:08Z"}
 {"number":70727,"title":"[BUG] Rewind to here does not revert file changes made by Claude in the same session\n","category":"bug","tracked_at":"2026-06-25T03:08Z"}
 {"number":70728,"title":"[BUG] Windows: MCP image generation servers fail to load despite correct configuration\n","category":"bug","tracked_at":"2026-06-25T03:08Z"}
+{"number":70734,"title":"[BUG] Read tool fails on Opus 4.7 / 4.8 but works on Haiku 4.5 in the same session\n","category":"bug","tracked_at":"2026-06-25T04:10Z"}
+{"number":70735,"title":"[Bug] Translation error: \"pagale\" incorrectly translated\n","category":"bug","tracked_at":"2026-06-25T04:10Z"}
+{"number":70736,"title":"RTL (Arabic/Hebrew) text renders incorrectly in chat panel — VS Code extension & macOS desktop app (v2.1.191)\n","category":"bug","tracked_at":"2026-06-25T04:10Z"}
+{"number":70737,"title":"[Bug] Claude Code blocked on authorized incident response operations because it s apiece of shit\n","category":"bug","tracked_at":"2026-06-25T04:10Z"}
+{"number":70738,"title":"[Windows] Auto-updater freezes when child processes (git, node, python) are still running\n","category":"unknown","tracked_at":"2026-06-25T04:10Z"}
+{"number":70744,"title":"[cyber] False-positive block (req_011CcPQ3KbDroW7QoqCcy8Q7)\n","category":"false-positive","tracked_at":"2026-06-25T05:11Z"}
+{"number":70746,"title":"[cyber] False-positive block (req_011CcPPtHJ4XTPBejQeAEut7)\n","category":"false-positive","tracked_at":"2026-06-25T05:11Z"}
+{"number":70754,"title":"[BUG] Claude Code shared usage gate blocks despite /usage showing quota remaining\n","category":"bug","tracked_at":"2026-06-25T06:12Z"}
+{"number":70755,"title":"[BUG] detached HEAD\n","category":"bug","tracked_at":"2026-06-25T06:12Z"}
+{"number":70756,"title":"[BUG] \"Failed to save changes\" error when enabling unrestricted git push permission\n","category":"bug","tracked_at":"2026-06-25T06:12Z"}
+{"number":70757,"title":"Feature Request: RTL (right-to-left) support for Hebrew, Arabic, and other RTL languages\n","category":"feature","tracked_at":"2026-06-25T06:12Z"}
+{"number":70758,"title":"[BUG] Max 5x: Session limits depleting 3-4x faster than normal since June 24, 2026 (claude.ai web)\n","category":"bug","tracked_at":"2026-06-25T06:12Z"}
+{"number":70759,"title":"[MODEL] Opus 4.8 security classifier was trigereed on the harmless prompt to check if \".env.example\" is used correctly.\n","category":"unknown","tracked_at":"2026-06-25T07:13Z"}
+{"number":70807,"title":"[Bug][cyber] Safety block halts script enumerating cloud tenant org display name and verified domains (req_011CcPLNccEEEAFdsqYEDWaR)\n","category":"bug","tracked_at":"2026-06-25T08:14Z"}
+{"number":70808,"title":"[Bug][aup] Reviewing and hardening IAM roles/policies on own cloud tenant blocked as policy violation (req_011CcPdudXdWL8aMKMCfewMQ)\n","category":"bug","tracked_at":"2026-06-25T08:14Z"}
+{"number":70809,"title":"[Bug][harness] Auto-mode classifier blocks reading own service's config over SSH during deploy debugging, halt\n","category":"bug","tracked_at":"2026-06-25T08:14Z"}
+{"number":70810,"title":"The work was enumerating Azure AD/Entra tenant details (display name and verified domains) via Microsoft Graph (req_011CcPLDzeYDff7v5Xc5r7tt)\n","category":"false-positive","tracked_at":"2026-06-25T08:14Z"}
+{"number":70811,"title":"[Bug][cyber] Refused to improve PII scrubber for redacting tenant/client IDs and domains in cloud IAM output (req_011CcPKyX1EgzbWgarVyTH5d)\n","category":"bug","tracked_at":"2026-06-25T08:14Z"}

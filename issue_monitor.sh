@@ -218,8 +218,12 @@ for ISSUE_NUM in $NEW_ISSUES; do
     LOWER_TITLE=$(echo "$ISSUE_TITLE" | tr '[:upper:]' '[:lower:]')
     LOWER_BODY=$(echo "$ISSUE_BODY" | tr '[:upper:]' '[:lower:]')
 
+    # Check for false-positive safety blocks FIRST (before bug) - these are high-priority issues
+    # that need accurate categorization for trend analysis
+    if echo "$LOWER_TITLE $LOWER_BODY" | grep -qiE '(false.*positive|误报|safety.*block|aup.*block|policy.*violation|classifier.*block|cyber.*block|cyber.*halts|cyber.*refused|safety.*halts)'; then
+        CATEGORY="false-positive"
     # Check for thank you notes / non-issues (defensive - should have been caught by spam filter)
-    if echo "$LOWER_BODY" | grep -qiE 'not a bug|not a feature|thank you|thanks|gratitude|appreciate|no technical'; then
+    elif echo "$LOWER_BODY" | grep -qiE 'not a bug|not a feature|thank you|thanks|gratitude|appreciate|no technical'; then
         CATEGORY="non-issue"
     elif echo "$LOWER_TITLE" | grep -qiE '(\[bug\]|bug:|bug report|not working|fails|crash|error|doesn.?t|broken|conflict|incorrect|wrong)'; then
         CATEGORY="bug"
@@ -231,8 +235,6 @@ for ISSUE_NUM in $NEW_ISSUES; do
         CATEGORY="regression"
     elif echo "$LOWER_TITLE $LOWER_BODY" | grep -qiE '(memory|forget|ignore|amnesia)'; then
         CATEGORY="memory-issue"
-    elif echo "$LOWER_TITLE $LOWER_BODY" | grep -qiE '(false.*positive|误报|safety|aup|policy.*violation)'; then
-        CATEGORY="false-positive"
     fi
 
     # Record issue to tracked file (ensure file exists first)

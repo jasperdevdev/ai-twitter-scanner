@@ -18891,3 +18891,66 @@ Thu Jun 25 11:08:44 HKT 2026: Processing issue #70728: [BUG] Windows: MCP image 
 Thu Jun 25 11:08:44 HKT 2026: Tracked issue #70728 [bug]: [BUG] Windows: MCP image generation servers fail to load despite correct configuration
 Thu Jun 25 11:08:44 HKT 2026: Completed processing up to issue #70728
 Thu Jun 25 11:08:44 HKT 2026: Progress saved: last processed = 70728
+Thu Jun 25 12:09:56 HKT 2026: Checking for new issues...
+Thu Jun 25 12:09:57 HKT 2026: Found new issues: 70734 70735 70736 70737 70738 
+Thu Jun 25 12:10:03 HKT 2026: Processing issue #70734: [BUG] Read tool fails on Opus 4.7 / 4.8 but works on Haiku 4.5 in the same session
+Thu Jun 25 12:10:03 HKT 2026: Tracked issue #70734 [bug]: [BUG] Read tool fails on Opus 4.7 / 4.8 but works on Haiku 4.5 in the same session
+Thu Jun 25 12:10:09 HKT 2026: Processing issue #70735: [Bug] Translation error: "pagale" incorrectly translated
+Thu Jun 25 12:10:09 HKT 2026: Tracked issue #70735 [bug]: [Bug] Translation error: "pagale" incorrectly translated
+Thu Jun 25 12:10:13 HKT 2026: Processing issue #70736: RTL (Arabic/Hebrew) text renders incorrectly in chat panel — VS Code extension & macOS desktop app (v2.1.191)
+Thu Jun 25 12:10:13 HKT 2026: Tracked issue #70736 [bug]: RTL (Arabic/Hebrew) text renders incorrectly in chat panel — VS Code extension & macOS desktop app (v2.1.191)
+Thu Jun 25 12:10:19 HKT 2026: Processing issue #70737: [Bug] Claude Code blocked on authorized incident response operations because it s apiece of shit
+Thu Jun 25 12:10:19 HKT 2026: Tracked issue #70737 [bug]: [Bug] Claude Code blocked on authorized incident response operations because it s apiece of shit
+Thu Jun 25 12:10:23 HKT 2026: Processing issue #70738: [Windows] Auto-updater freezes when child processes (git, node, python) are still running
+Thu Jun 25 12:10:24 HKT 2026: Tracked issue #70738 [unknown]: [Windows] Auto-updater freezes when child processes (git, node, python) are still running
+Thu Jun 25 12:10:24 HKT 2026: Completed processing up to issue #70738
+Thu Jun 25 12:10:24 HKT 2026: Progress saved: last processed = 70738
+Thu Jun 25 13:11:01 HKT 2026: Checking for new issues...
+Thu Jun 25 13:11:03 HKT 2026: Found new issues: 70744 70745 70746 70747 70748 
+Thu Jun 25 13:11:07 HKT 2026: Processing issue #70744: [cyber] False-positive block (req_011CcPQ3KbDroW7QoqCcy8Q7)
+Thu Jun 25 13:11:07 HKT 2026: Tracked issue #70744 [false-positive]: [cyber] False-positive block (req_011CcPQ3KbDroW7QoqCcy8Q7)
+Thu Jun 25 13:11:11 HKT 2026: Skipped issue #70745 - detected as duplicate of existing issue
+Thu Jun 25 13:11:15 HKT 2026: Processing issue #70746: [cyber] False-positive block (req_011CcPPtHJ4XTPBejQeAEut7)
+Thu Jun 25 13:11:15 HKT 2026: Tracked issue #70746 [false-positive]: [cyber] False-positive block (req_011CcPPtHJ4XTPBejQeAEut7)
+Thu Jun 25 13:11:19 HKT 2026: Skipped issue #70747 - detected as duplicate of existing issue
+Thu Jun 25 13:11:20 HKT 2026: Skipped issue #70748 - detected as spam/non-issue
+Thu Jun 25 13:11:20 HKT 2026: Completed processing up to issue #70748
+Thu Jun 25 13:11:20 HKT 2026: Progress saved: last processed = 70748
+Thu Jun 25 14:12:36 HKT 2026: Checking for new issues...
+Thu Jun 25 14:12:38 HKT 2026: Found new issues: 70754 70755 70756 70757 70758 
+Thu Jun 25 14:12:42 HKT 2026: Processing issue #70754: [BUG] Claude Code shared usage gate blocks despite /usage showing quota remaining
+Thu Jun 25 14:12:42 HKT 2026: Tracked issue #70754 [bug]: [BUG] Claude Code shared usage gate blocks despite /usage showing quota remaining
+Thu Jun 25 14:12:43 HKT 2026: Processing issue #70755: [BUG] detached HEAD
+Thu Jun 25 14:12:43 HKT 2026: Tracked issue #70755 [bug]: [BUG] detached HEAD
+Thu Jun 25 14:12:47 HKT 2026: Processing issue #70756: [BUG] "Failed to save changes" error when enabling unrestricted git push permission
+Thu Jun 25 14:12:47 HKT 2026: Tracked issue #70756 [bug]: [BUG] "Failed to save changes" error when enabling unrestricted git push permission
+Thu Jun 25 14:12:51 HKT 2026: Processing issue #70757: Feature Request: RTL (right-to-left) support for Hebrew, Arabic, and other RTL languages
+Thu Jun 25 14:12:51 HKT 2026: Tracked issue #70757 [feature]: Feature Request: RTL (right-to-left) support for Hebrew, Arabic, and other RTL languages
+Thu Jun 25 14:12:54 HKT 2026: Processing issue #70758: [BUG] Max 5x: Session limits depleting 3-4x faster than normal since June 24, 2026 (claude.ai web)
+Thu Jun 25 14:12:55 HKT 2026: Tracked issue #70758 [bug]: [BUG] Max 5x: Session limits depleting 3-4x faster than normal since June 24, 2026 (claude.ai web)
+Thu Jun 25 14:12:55 HKT 2026: Completed processing up to issue #70758
+Thu Jun 25 14:12:55 HKT 2026: Progress saved: last processed = 70758
+Thu Jun 25 15:13:44 HKT 2026: Checking for new issues...
+Thu Jun 25 15:13:45 HKT 2026: Found new issues: 70759 70761 
+Thu Jun 25 15:13:49 HKT 2026: Processing issue #70759: [MODEL] Opus 4.8 security classifier was trigereed on the harmless prompt to check if ".env.example" is used correctly.
+Thu Jun 25 15:13:49 HKT 2026: Tracked issue #70759 [unknown]: [MODEL] Opus 4.8 security classifier was trigereed on the harmless prompt to check if ".env.example" is used correctly.
+Thu Jun 25 15:13:50 HKT 2026: Skipped issue #70761 - detected as spam/non-issue
+Thu Jun 25 15:13:50 HKT 2026: Completed processing up to issue #70761
+Thu Jun 25 15:13:50 HKT 2026: Progress saved: last processed = 70761
+Thu Jun 25 16:14:35 HKT 2026: Checking for new issues...
+Thu Jun 25 16:14:36 HKT 2026: Found new issues: 70807 70808 70809 70810 70811 
+Thu Jun 25 16:14:40 HKT 2026: Processing issue #70807: [Bug][cyber] Safety block halts script enumerating cloud tenant org display name and verified domains (req_011CcPLNccEEEAFdsqYEDWaR)
+Thu Jun 25 16:14:40 HKT 2026: Tracked issue #70807 [bug]: [Bug][cyber] Safety block halts script enumerating cloud tenant org display name and verified domains (req_011CcPLNccEEEAFdsqYEDWaR)
+Thu Jun 25 16:14:43 HKT 2026: Processing issue #70808: [Bug][aup] Reviewing and hardening IAM roles/policies on own cloud tenant blocked as policy violation (req_011CcPdudXdWL8aMKMCfewMQ)
+Thu Jun 25 16:14:43 HKT 2026: Tracked issue #70808 [bug]: [Bug][aup] Reviewing and hardening IAM roles/policies on own cloud tenant blocked as policy violation (req_011CcPdudXdWL8aMKMCfewMQ)
+Thu Jun 25 16:14:46 HKT 2026: Processing issue #70809: [Bug][harness] Auto-mode classifier blocks reading own service's config over SSH during deploy debugging, halt
+Thu Jun 25 16:14:46 HKT 2026: Tracked issue #70809 [bug]: [Bug][harness] Auto-mode classifier blocks reading own service's config over SSH during deploy debugging, halt
+Thu Jun 25 16:14:50 HKT 2026: Processing issue #70810: The work was enumerating Azure AD/Entra tenant details (display name and verified domains) via Microsoft Graph (req_011CcPLDzeYDff7v5Xc5r7tt)
+Thu Jun 25 16:14:50 HKT 2026: Tracked issue #70810 [false-positive]: The work was enumerating Azure AD/Entra tenant details (display name and verified domains) via Microsoft Graph (req_011CcPLDzeYDff7v5Xc5r7tt)
+Thu Jun 25 16:14:54 HKT 2026: Processing issue #70811: [Bug][cyber] Refused to improve PII scrubber for redacting tenant/client IDs and domains in cloud IAM output (req_011CcPKyX1EgzbWgarVyTH5d)
+Thu Jun 25 16:14:54 HKT 2026: Tracked issue #70811 [bug]: [Bug][cyber] Refused to improve PII scrubber for redacting tenant/client IDs and domains in cloud IAM output (req_011CcPKyX1EgzbWgarVyTH5d)
+Thu Jun 25 16:14:54 HKT 2026: Completed processing up to issue #70811
+Thu Jun 25 16:14:54 HKT 2026: Progress saved: last processed = 70811
+Thu Jun 25 16:15:42 HKT 2026: Checking for new issues...
+Thu Jun 25 16:15:42 HKT 2026: No new issues (latest: 70811)
+Thu Jun 25 16:15:42 HKT 2026: Progress saved: last processed = 70811
