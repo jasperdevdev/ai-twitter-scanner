@@ -18954,3 +18954,114 @@ Thu Jun 25 16:14:54 HKT 2026: Progress saved: last processed = 70811
 Thu Jun 25 16:15:42 HKT 2026: Checking for new issues...
 Thu Jun 25 16:15:42 HKT 2026: No new issues (latest: 70811)
 Thu Jun 25 16:15:42 HKT 2026: Progress saved: last processed = 70811
+Thu Jun 25 17:16:46 HKT 2026: Checking for new issues...
+Thu Jun 25 17:16:47 HKT 2026: Found new issues: 70848 70849 70850 70851 70852 
+Thu Jun 25 17:16:50 HKT 2026: Processing issue #70848: [Bug][aup] Safety block halts legitimate phishing/BEC email investigation and incident report for admin's own  (req_011CcPH3vmFMPzj6uapDHn21)
+Thu Jun 25 17:16:50 HKT 2026: Tracked issue #70848 [false-positive]: [Bug][aup] Safety block halts legitimate phishing/BEC email investigation and incident report for admin's own  (req_011CcPH3vmFMPzj6uapDHn21)
+Thu Jun 25 17:16:53 HKT 2026: Processing issue #70849: [Bug][aup] Read-only multi-tenant O365/M365 security posture audit (BEC/spoofing/forwarding/consent checks) wr (req_011CcPiTujKTE1rxobeRXXgY)
+Thu Jun 25 17:16:53 HKT 2026: Tracked issue #70849 [false-positive]: [Bug][aup] Read-only multi-tenant O365/M365 security posture audit (BEC/spoofing/forwarding/consent checks) wr (req_011CcPiTujKTE1rxobeRXXgY)
+Thu Jun 25 17:16:56 HKT 2026: Processing issue #70850: [Bug][harness] Toolchain bootstrap blocked installing Solidity dev toolchain via official vendor install scrip
+Thu Jun 25 17:16:56 HKT 2026: Tracked issue #70850 [false-positive]: [Bug][harness] Toolchain bootstrap blocked installing Solidity dev toolchain via official vendor install scrip
+Thu Jun 25 17:16:59 HKT 2026: Processing issue #70851: [Bug][aup] Investigating spoofed self-to-self phishing email in own M365 tenant flagged as policy violation (req_011CcPDtscPq7dauMMzXm3vD)
+Thu Jun 25 17:16:59 HKT 2026: Tracked issue #70851 [false-positive]: [Bug][aup] Investigating spoofed self-to-self phishing email in own M365 tenant flagged as policy violation (req_011CcPDtscPq7dauMMzXm3vD)
+Thu Jun 25 17:17:06 HKT 2026: Processing issue #70852: [Bug][cyber] Auditing own M365 tenant for missing anti-spoof mail-flow rule after registrar defederation false (req_011CcPEezHx9SZ9QBaEPGSMg)
+Thu Jun 25 17:17:06 HKT 2026: Tracked issue #70852 [false-positive]: [Bug][cyber] Auditing own M365 tenant for missing anti-spoof mail-flow rule after registrar defederation false (req_011CcPEezHx9SZ9QBaEPGSMg)
+Thu Jun 25 17:17:06 HKT 2026: Completed processing up to issue #70852
+Thu Jun 25 17:17:06 HKT 2026: Progress saved: last processed = 70852
+Thu Jun 25 18:18:14 HKT 2026: Checking for new issues...
+Thu Jun 25 18:18:15 HKT 2026: Found new issues: 70894 70895 70896 70897 70898 
+Thu Jun 25 18:18:18 HKT 2026: Processing issue #70894: [BUG]  Why when I click in your window when you are waiting for an answer seem to initiate as if I have made a selection. This was not happening before.
+Thu Jun 25 18:18:18 HKT 2026: Tracked issue #70894 [bug]: [BUG]  Why when I click in your window when you are waiting for an answer seem to initiate as if I have made a selection. This was not happening before.
+Thu Jun 25 18:18:21 HKT 2026: Processing issue #70895: [Tracking] Classifier false-positives on authorized admin of the reporter's own infrastructure — 82 Request IDs
+Thu Jun 25 18:18:21 HKT 2026: Tracked issue #70895 [false-positive]: [Tracking] Classifier false-positives on authorized admin of the reporter's own infrastructure — 82 Request IDs
+Thu Jun 25 18:18:24 HKT 2026: Processing issue #70896: [Bug] Claude modifies main repository instead of worktree during --resume with -w flag
+Thu Jun 25 18:18:24 HKT 2026: Tracked issue #70896 [bug]: [Bug] Claude modifies main repository instead of worktree during --resume with -w flag
+Thu Jun 25 18:18:28 HKT 2026: Processing issue #70897: [FEATURE] Web UI: No persistent user-level settings (e.g. attribution config) across sessions
+Thu Jun 25 18:18:28 HKT 2026: Tracked issue #70897 [feature]: [FEATURE] Web UI: No persistent user-level settings (e.g. attribution config) across sessions
+Thu Jun 25 18:18:32 HKT 2026: Processing issue #70898: [Feature Request] Add faxing capability to thinking comments
+Thu Jun 25 18:18:32 HKT 2026: Tracked issue #70898 [feature]: [Feature Request] Add faxing capability to thinking comments
+Thu Jun 25 18:18:32 HKT 2026: Completed processing up to issue #70898
+Thu Jun 25 18:18:32 HKT 2026: Progress saved: last processed = 70898
+Thu Jun 25 19:19:18 HKT 2026: Checking for new issues...
+Thu Jun 25 19:19:20 HKT 2026: Found new issues: 70956 70957 70958 70959 70960 
+Thu Jun 25 19:19:23 HKT 2026: Processing issue #70956: [Bug][cyber] Safety block prevented OSINT/Shodan exposure check of own infra during internal vendor connector  (req_011CcGvGgE2gecADLunFUMgV)
+Thu Jun 25 19:19:23 HKT 2026: Tracked issue #70956 [false-positive]: [Bug][cyber] Safety block prevented OSINT/Shodan exposure check of own infra during internal vendor connector  (req_011CcGvGgE2gecADLunFUMgV)
+Thu Jun 25 19:19:26 HKT 2026: Processing issue #70957: [Bug][cyber] Defensive hardening request to log plaintext-transmitting integration into encrypted audit DB wro (req_011CcGvUjqu7wkujn86e122w)
+Thu Jun 25 19:19:26 HKT 2026: Tracked issue #70957 [false-positive]: [Bug][cyber] Defensive hardening request to log plaintext-transmitting integration into encrypted audit DB wro (req_011CcGvUjqu7wkujn86e122w)
+Thu Jun 25 19:19:30 HKT 2026: Processing issue #70958: Sub-agent API 401 (auth expired) is reported to parent agent as "Request interrupted by user for tool use"
+Thu Jun 25 19:19:30 HKT 2026: Tracked issue #70958 [feature]: Sub-agent API 401 (auth expired) is reported to parent agent as "Request interrupted by user for tool use"
+Thu Jun 25 19:19:33 HKT 2026: Processing issue #70959: [Bug][cyber] Safety block stopped generating a vendor-integration audit report section summarizing parsed orde (req_011CcGvJbDTbhNumnpWK9Khy)
+Thu Jun 25 19:19:33 HKT 2026: Tracked issue #70959 [false-positive]: [Bug][cyber] Safety block stopped generating a vendor-integration audit report section summarizing parsed orde (req_011CcGvJbDTbhNumnpWK9Khy)
+Thu Jun 25 19:19:36 HKT 2026: Processing issue #70960: [Bug][cyber] Safety block stopped tuning SIEM detection rules to reclassify benign accounting-connector API tr (req_011CcGui76KzkTPWm5QmdZ1d)
+Thu Jun 25 19:19:36 HKT 2026: Tracked issue #70960 [false-positive]: [Bug][cyber] Safety block stopped tuning SIEM detection rules to reclassify benign accounting-connector API tr (req_011CcGui76KzkTPWm5QmdZ1d)
+Thu Jun 25 19:19:36 HKT 2026: Completed processing up to issue #70960
+Thu Jun 25 19:19:36 HKT 2026: Progress saved: last processed = 70960
+Thu Jun 25 20:20:29 HKT 2026: Checking for new issues...
+Thu Jun 25 20:20:30 HKT 2026: Found new issues: 71020 71021 71022 71023 71024 
+Thu Jun 25 20:20:33 HKT 2026: Processing issue #71020: [Bug][cyber] ADB app sideload and GPS location simulation setup for a mobile game wrongly blocked (req_011CcFDUVe6dCBb2dVSWsjPf)
+Thu Jun 25 20:20:33 HKT 2026: Tracked issue #71020 [false-positive]: [Bug][cyber] ADB app sideload and GPS location simulation setup for a mobile game wrongly blocked (req_011CcFDUVe6dCBb2dVSWsjPf)
+Thu Jun 25 20:20:36 HKT 2026: Processing issue #71021: [Bug][cyber] ClAudit false-positive in mod — req_011CcFDTphJFoRAeYhvf6Cfo
+Thu Jun 25 20:20:36 HKT 2026: Tracked issue #71021 [false-positive]: [Bug][cyber] ClAudit false-positive in mod — req_011CcFDTphJFoRAeYhvf6Cfo
+Thu Jun 25 20:20:40 HKT 2026: Processing issue #71022: Per-turn command hooks (PreToolUse/UserPromptSubmit/Stop) don't fire in non-interactive modes (VS Code extension, `claude -p`) — only SessionStart fires
+Thu Jun 25 20:20:40 HKT 2026: Tracked issue #71022 [unknown]: Per-turn command hooks (PreToolUse/UserPromptSubmit/Stop) don't fire in non-interactive modes (VS Code extension, `claude -p`) — only SessionStart fires
+Thu Jun 25 20:20:43 HKT 2026: Processing issue #71023: [Bug][cyber] ClAudit false-positive in mod — req_011CcFDCnB4zT2nrksCQamdx
+Thu Jun 25 20:20:43 HKT 2026: Tracked issue #71023 [false-positive]: [Bug][cyber] ClAudit false-positive in mod — req_011CcFDCnB4zT2nrksCQamdx
+Thu Jun 25 20:20:47 HKT 2026: Processing issue #71024: [Bug][harness] Safety block halted batch deletion of unused cloud projects after user gave explicit "wipe it" 
+Thu Jun 25 20:20:47 HKT 2026: Tracked issue #71024 [false-positive]: [Bug][harness] Safety block halted batch deletion of unused cloud projects after user gave explicit "wipe it" 
+Thu Jun 25 20:20:47 HKT 2026: Completed processing up to issue #71024
+Thu Jun 25 20:20:47 HKT 2026: Progress saved: last processed = 71024
+Thu Jun 25 21:21:43 HKT 2026: Checking for new issues...
+Thu Jun 25 21:21:45 HKT 2026: Found new issues: 71089 71090 71091 71092 71093 
+Thu Jun 25 21:21:48 HKT 2026: Processing issue #71089: [Bug][harness] Safety classifier blocks authorized SSH enumeration of self-owned PVE API tokens on own hypervi
+Thu Jun 25 21:21:48 HKT 2026: Tracked issue #71089 [false-positive]: [Bug][harness] Safety classifier blocks authorized SSH enumeration of self-owned PVE API tokens on own hypervi
+Thu Jun 25 21:21:51 HKT 2026: Processing issue #71090: [Bug][harness] Safety block prevented disabling Proxmox token privsep so scoped relay token could inherit its 
+Thu Jun 25 21:21:51 HKT 2026: Tracked issue #71090 [false-positive]: [Bug][harness] Safety block prevented disabling Proxmox token privsep so scoped relay token could inherit its 
+Thu Jun 25 21:21:54 HKT 2026: Processing issue #71091: [BUG] search_threads in the Gmail connector returns "Tool execution failed"
+Thu Jun 25 21:21:54 HKT 2026: Tracked issue #71091 [bug]: [BUG] search_threads in the Gmail connector returns "Tool execution failed"
+Thu Jun 25 21:21:57 HKT 2026: Processing issue #71092: [Bug][harness] Permission-scope fix blocked: can't SSH to hypervisor host to audit users and API tokens leakin
+Thu Jun 25 21:21:57 HKT 2026: Tracked issue #71092 [false-positive]: [Bug][harness] Permission-scope fix blocked: can't SSH to hypervisor host to audit users and API tokens leakin
+Thu Jun 25 21:22:00 HKT 2026: Processing issue #71093: [Bug][harness] Cross-chain gas-funding send executed after user interrupt; treated prior approval as covering 
+Thu Jun 25 21:22:00 HKT 2026: Tracked issue #71093 [false-positive]: [Bug][harness] Cross-chain gas-funding send executed after user interrupt; treated prior approval as covering 
+Thu Jun 25 21:22:00 HKT 2026: Completed processing up to issue #71093
+Thu Jun 25 21:22:00 HKT 2026: Progress saved: last processed = 71093
+Thu Jun 25 22:23:12 HKT 2026: Checking for new issues...
+Thu Jun 25 22:23:13 HKT 2026: Found new issues: 71155 71156 71157 71158 71159 
+Thu Jun 25 22:23:17 HKT 2026: Processing issue #71155: [Bug][harness] Safety block stopped authorized bugfix deploy after user said "send it", forcing manual server 
+Thu Jun 25 22:23:17 HKT 2026: Tracked issue #71155 [false-positive]: [Bug][harness] Safety block stopped authorized bugfix deploy after user said "send it", forcing manual server 
+Thu Jun 25 22:23:21 HKT 2026: Processing issue #71156: [Bug][harness] Safety classifier blocks user-authorized SSH restart of staging web server daemon after explici
+Thu Jun 25 22:23:21 HKT 2026: Tracked issue #71156 [false-positive]: [Bug][harness] Safety classifier blocks user-authorized SSH restart of staging web server daemon after explici
+Thu Jun 25 22:23:24 HKT 2026: Processing issue #71157: [Bug][harness] Safety block halts authorized AD agent provisioning by misreading session-token reuse as browse
+Thu Jun 25 22:23:24 HKT 2026: Tracked issue #71157 [false-positive]: [Bug][harness] Safety block halts authorized AD agent provisioning by misreading session-token reuse as browse
+Thu Jun 25 22:23:27 HKT 2026: Processing issue #71158: Plugin HTTP/OAuth MCP (e.g. Linear) with a valid stored token does not connect on session cold-start — only /reload-plugins (no re-auth) brings it up
+Thu Jun 25 22:23:27 HKT 2026: Tracked issue #71158 [unknown]: Plugin HTTP/OAuth MCP (e.g. Linear) with a valid stored token does not connect on session cold-start — only /reload-plugins (no re-auth) brings it up
+Thu Jun 25 22:23:31 HKT 2026: Processing issue #71159: [BUG] Claude Desktop MSIX install fails 0x80073CF9 / 0x80070490 — orphaned StateRepository PackageFamily row (AtlasOS) — and where should Desktop/Cowork bugs actually be filed?
+Thu Jun 25 22:23:31 HKT 2026: Tracked issue #71159 [bug]: [BUG] Claude Desktop MSIX install fails 0x80073CF9 / 0x80070490 — orphaned StateRepository PackageFamily row (AtlasOS) — and where should Desktop/Cowork bugs actually be filed?
+Thu Jun 25 22:23:31 HKT 2026: Completed processing up to issue #71159
+Thu Jun 25 22:23:31 HKT 2026: Progress saved: last processed = 71159
+Thu Jun 25 23:24:11 HKT 2026: Checking for new issues...
+Thu Jun 25 23:24:12 HKT 2026: Found new issues: 71220 71221 71222 71223 71224 
+Thu Jun 25 23:24:15 HKT 2026: Processing issue #71220: [Bug][aup] Incident-response review of web/container infra for compromise after IAM identity breach wrongly bl (req_011CbwtsL6ywueFavs7QiQwe)
+Thu Jun 25 23:24:15 HKT 2026: Tracked issue #71220 [false-positive]: [Bug][aup] Incident-response review of web/container infra for compromise after IAM identity breach wrongly bl (req_011CbwtsL6ywueFavs7QiQwe)
+Thu Jun 25 23:24:18 HKT 2026: Processing issue #71221: [Bug][harness] ClAudit: auto-mode classifier denied — The user said Keith "is no longer with the company" as context, not as
+Thu Jun 25 23:24:18 HKT 2026: Tracked issue #71221 [false-positive]: [Bug][harness] ClAudit: auto-mode classifier denied — The user said Keith "is no longer with the company" as context, not as
+Thu Jun 25 23:24:21 HKT 2026: Processing issue #71222: [Bug][aup] Loading a coding-assistant skill file that adjusts response tone for security work wrongly blocked  (req_011CbwtPmZdwPz7KU4VD8Z2j)
+Thu Jun 25 23:24:21 HKT 2026: Tracked issue #71222 [false-positive]: [Bug][aup] Loading a coding-assistant skill file that adjusts response tone for security work wrongly blocked  (req_011CbwtPmZdwPz7KU4VD8Z2j)
+Thu Jun 25 23:24:24 HKT 2026: Processing issue #71223: [Bug][aup] False-positive cyber policy block while loading a local skill file during normal session startup (req_011CbwsbChBAfxQKcxKwNsA1)
+Thu Jun 25 23:24:24 HKT 2026: Tracked issue #71223 [false-positive]: [Bug][aup] False-positive cyber policy block while loading a local skill file during normal session startup (req_011CbwsbChBAfxQKcxKwNsA1)
+Thu Jun 25 23:24:28 HKT 2026: Processing issue #71224: [BUG] /resume shows no sessions when project directory is an NTFS junction (VS Code extension + CLI resolve different paths)
+Thu Jun 25 23:24:28 HKT 2026: Tracked issue #71224 [bug]: [BUG] /resume shows no sessions when project directory is an NTFS junction (VS Code extension + CLI resolve different paths)
+Thu Jun 25 23:24:28 HKT 2026: Completed processing up to issue #71224
+Thu Jun 25 23:24:28 HKT 2026: Progress saved: last processed = 71224
+Fri Jun 26 00:25:08 HKT 2026: Checking for new issues...
+Fri Jun 26 00:25:09 HKT 2026: Found new issues: 71294 71295 71296 71297 71298 
+Fri Jun 26 00:25:13 HKT 2026: Processing issue #71294: [Bug] Escape terminates background subagents instead of interrupting foreground turn only
+Fri Jun 26 00:25:13 HKT 2026: Tracked issue #71294 [bug]: [Bug] Escape terminates background subagents instead of interrupting foreground turn only
+Fri Jun 26 00:25:18 HKT 2026: Processing issue #71295: [Bug][harness] Locating a file by hash across mirrors blocked as piracy when ownership claimed
+Fri Jun 26 00:25:18 HKT 2026: Tracked issue #71295 [false-positive]: [Bug][harness] Locating a file by hash across mirrors blocked as piracy when ownership claimed
+Fri Jun 26 00:25:21 HKT 2026: Processing issue #71296: [Bug][harness] Classifier blocks adding refusal-text filter to auto-posted issue body pipeline
+Fri Jun 26 00:25:22 HKT 2026: Tracked issue #71296 [false-positive]: [Bug][harness] Classifier blocks adding refusal-text filter to auto-posted issue body pipeline
+Fri Jun 26 00:25:22 HKT 2026: Skipped issue #71297 - detected as spam/non-issue
+Fri Jun 26 00:25:25 HKT 2026: Processing issue #71298: [Bug][harness] Safety block on ZFS pool export/import advice despite user confirming no active streams
+Fri Jun 26 00:25:26 HKT 2026: Tracked issue #71298 [false-positive]: [Bug][harness] Safety block on ZFS pool export/import advice despite user confirming no active streams
+Fri Jun 26 00:25:26 HKT 2026: Completed processing up to issue #71298
+Fri Jun 26 00:25:26 HKT 2026: Progress saved: last processed = 71298
