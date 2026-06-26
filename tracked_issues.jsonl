@@ -5940,3 +5940,125 @@
 {"number":71295,"title":"[Bug][harness] Locating a file by hash across mirrors blocked as piracy when ownership claimed\n","category":"false-positive","tracked_at":"2026-06-25T16:25Z"}
 {"number":71296,"title":"[Bug][harness] Classifier blocks adding refusal-text filter to auto-posted issue body pipeline\n","category":"false-positive","tracked_at":"2026-06-25T16:25Z"}
 {"number":71298,"title":"[Bug][harness] Safety block on ZFS pool export/import advice despite user confirming no active streams\n","category":"false-positive","tracked_at":"2026-06-25T16:25Z"}
+{"number":71334,"title":"[Bug][aup] False positive cyber block when removing Claude's own stored memory files from a skill directory (req_011Cbu1nYDQiPLHx1i8yiYnx)\n","category":"false-positive","tracked_at":"2026-06-25T17:27Z"}
+{"number":71335,"title":"[Bug][aup] Coinbase API crypto trading bot with fund transfer blocked as violative cyber content (req_011CbtwJnmWrmJgZTThdDoT4)\n","category":"false-positive","tracked_at":"2026-06-25T17:27Z"}
+{"number":71336,"title":"[Bug][aup] Crypto trading bot dev blocked: on-chain fund transfer + win-rate strategy optimization (req_011CbtwB2y4nUGFSzGgxGMR9)\n","category":"false-positive","tracked_at":"2026-06-25T17:27Z"}
+{"number":71337,"title":"[Bug][harness] Safety block wrongly halts user-authorized irreversible financial transaction despite explicit \n","category":"false-positive","tracked_at":"2026-06-25T17:27Z"}
+{"number":71338,"title":"[BUG] Reverse tab cycling in VS Code extension conflicts with cycleMode\n","category":"bug","tracked_at":"2026-06-25T17:27Z"}
+{"number":71375,"title":"[BUG] relatorio_bug_instalacao\n","category":"bug","tracked_at":"2026-06-25T18:28Z"}
+{"number":71376,"title":"[Bug][harness] Safety block stopped adding wildcard edge cert coverage for two-level subdomains via API\n","category":"false-positive","tracked_at":"2026-06-25T18:28Z"}
+{"number":71377,"title":"[FEATURE] Programmatic org-skill deployment for support tier workflows via GitHub Actions\n","category":"feature","tracked_at":"2026-06-25T18:28Z"}
+{"number":71378,"title":"[Bug][harness] Trusting Caddy-generated local-CA root certs on workstation blocked, halting internal-TLS FQDN-\n","category":"false-positive","tracked_at":"2026-06-25T18:28Z"}
+{"number":71379,"title":"[Bug][harness] Safety classifier blocked authorized deploy of user-approved trading-bot service binary to prod\n","category":"false-positive","tracked_at":"2026-06-25T18:29Z"}
+{"number":71415,"title":"[Bug][aup] Defensive admin API-key proxy hardening task blocked mid-implementation after handler tests passed\n","category":"false-positive","tracked_at":"2026-06-25T19:29Z"}
+{"number":71416,"title":"[Bug][aup] Security audit comparing HMAC-SHA256 vs ratcheted-key transport auth wrongly blocked mid-report\n","category":"false-positive","tracked_at":"2026-06-25T19:29Z"}
+{"number":71417,"title":"[Bug][aup] Security review of HMAC-SHA512, double-ratchet, and rotating API keys in streaming app wrongly bloc\n","category":"false-positive","tracked_at":"2026-06-25T19:29Z"}
+{"number":71418,"title":"[BUG] Copying from Claude Code in Windows Terminal to Notepad introduce errors in the text.\n","category":"bug","tracked_at":"2026-06-25T19:30Z"}
+{"number":71419,"title":"[BUG] [Linux/WSL2] Agent-view reconnect-hang on resuming a pre-reboot background session — Ctrl+C swallowed, no in-TUI abort\n","category":"bug","tracked_at":"2026-06-25T19:30Z"}
+{"number":71430,"title":"[Bug][cyber] Running and monitoring a local security assessment tool session incorrectly flagged as unsafe (req_011CcQaiWpQiXuj49fahfaGi)\n","category":"false-positive","tracked_at":"2026-06-25T20:32Z"}
+{"number":71431,"title":"[BUG] [UX] long filepaths are buried in edit confirm dialog\n","category":"bug","tracked_at":"2026-06-25T20:32Z"}
+{"number":71432,"title":"[Security] settings.json env vars leak into Bash tool context, bypassing trust boundaries (compounds #69970)\n","category":"unknown","tracked_at":"2026-06-25T20:33Z"}
+{"number":71433,"title":"[FEATURE] EnterWorktree should refuse or auto-uniquify a contested worktree path\n","category":"feature","tracked_at":"2026-06-25T20:33Z"}
+{"number":71434,"title":"[Bug] TUI fullscreen mode has severe scrolling performance issues\n","category":"bug","tracked_at":"2026-06-25T20:33Z"}
+{"number":71441,"title":"[FEATURE] Multi-Repo Routine Triggers\n","category":"feature","tracked_at":"2026-06-25T21:33Z"}
+{"number":71442,"title":"[Bug] Anthropic API Error: Excessive false positive blocks on document reading requests\n","category":"false-positive","tracked_at":"2026-06-25T21:33Z"}
+{"number":71443,"title":"[BUG] Usage ring has disappeared on Claude Desktop in Windows\n","category":"bug","tracked_at":"2026-06-25T21:33Z"}
+{"number":71444,"title":"[FEATURE] No about screen or version visible in desktop application\n","category":"feature","tracked_at":"2026-06-25T21:34Z"}
+{"number":71445,"title":"[Bug][harness] Adding a GPP printer mapping with SID-targeting to a GPO blocked as production-wide push\n","category":"false-positive","tracked_at":"2026-06-25T21:34Z"}
+{"number":71451,"title":"[FEATURE] Why isn't there an Excellent rating?  Fine and Good don't cut it.\n","category":"feature","tracked_at":"2026-06-25T22:34Z"}
+{"number":71452,"title":"[Bug][harness] Safety block halts user-approved SSH service-status check via fleet skill, blocking authorized \n","category":"false-positive","tracked_at":"2026-06-25T22:34Z"}
+{"number":71453,"title":"[Bug][harness] Skill-based file transfer and service restart deployment to a fleet container wrongly blocked a\n","category":"false-positive","tracked_at":"2026-06-25T22:35Z"}
+{"number":71454,"title":"Claude Code edited a locked/protected file without permission and churned speculative fixes instead of verifying against the running app\n","category":"unknown","tracked_at":"2026-06-25T22:35Z"}
+{"number":71455,"title":"[BUG] [platform::intellij] Regression of #10813: 'Slow operations are prohibited on EDT' in DiagnosticTools.openVirtualFileFromPath (macOS, plugin 0.1.14-beta)\n","category":"bug","tracked_at":"2026-06-25T22:35Z"}
+{"number":71471,"title":"[A11y] Desktop app: expose speech-rate and voice controls for the built-in read-aloud feature\n","category":"unknown","tracked_at":"2026-06-25T23:36Z"}
+{"number":71472,"title":"[Feature Request] Side-by-side diff view for file changes\n","category":"feature","tracked_at":"2026-06-25T23:36Z"}
+{"number":71473,"title":"[BUG] Code/SSH: all session history blank when ~/.claude/projects is a symlink (transcript locator runs `find` without -L)\n","category":"bug","tracked_at":"2026-06-25T23:36Z"}
+{"number":71474,"title":"[Bug] Inconsistent token usage reporting with similar workloads\n","category":"bug","tracked_at":"2026-06-25T23:36Z"}
+{"number":71475,"title":"Windows MSIX (ARM64): \"Relaunch to update\" never applies — bundled CoworkVMService keeps the package in-use; update only lands at logon/reboot\n","category":"unknown","tracked_at":"2026-06-25T23:36Z"}
+{"number":71476,"title":"[Bug] Team subscription Claude Code billing to API credits instead of Team plan after forced re-login\n","category":"bug","tracked_at":"2026-06-26T00:37Z"}
+{"number":71477,"title":"[Bug] Anthropic API Error: Server rate limiting during request handling\n","category":"bug","tracked_at":"2026-06-26T00:37Z"}
+{"number":71478,"title":"[BUG] VS Code extension resumes huge sessions without warning and rapidly exhausts Max usage\n","category":"bug","tracked_at":"2026-06-26T00:37Z"}
+{"number":71479,"title":"[FEATURE] Permission dialog / tool approval UI should support localization (Japanese)\n","category":"feature","tracked_at":"2026-06-26T00:37Z"}
+{"number":71483,"title":"Feature request: option for neutral/static spinner text instead of randomized whimsical verbs\n","category":"feature","tracked_at":"2026-06-26T01:37Z"}
+{"number":71484,"title":"[BUG] Vim mode: Ctrl+[ does not exit insert mode (should be equivalent to Escape)\n","category":"bug","tracked_at":"2026-06-26T01:37Z"}
+{"number":71485,"title":"https://github.com/anthropics/claude-code/issues/new/choose\n","category":"unknown","tracked_at":"2026-06-26T01:38Z"}
+{"number":71486,"title":"Feature request: allow /feedback submission without attaching session/context (privacy opt-out)\n","category":"feature","tracked_at":"2026-06-26T01:38Z"}
+{"number":71489,"title":"[BUG]\n","category":"bug","tracked_at":"2026-06-26T02:38Z"}
+{"number":71490,"title":"[Bug] Claude Desktop (Windows) OAuth token lacks user:design:read/write scopes — /design-sync (DesignSync tool) cannot be authorized; no in-app grant path\n","category":"bug","tracked_at":"2026-06-26T02:38Z"}
+{"number":71491,"title":"Scrollbar not visible and copy/paste broken in interactive CLI (TERM=xterm, SSH)\n","category":"bug","tracked_at":"2026-06-26T02:38Z"}
+{"number":71492,"title":"Anthropic has become the enemy of the US constitution. The...\n","category":"unknown","tracked_at":"2026-06-26T02:38Z"}
+{"number":71493,"title":"[BUG] Extreme latency — memory leak found via /heapdump (348,766 MB/hour growth rate)\n","category":"bug","tracked_at":"2026-06-26T02:39Z"}
+{"number":71503,"title":"[Bug] Anthropic API Error: Server Rate Limiting - Temporary Request Throttling\n","category":"bug","tracked_at":"2026-06-26T03:41Z"}
+{"number":71504,"title":"[Bug] Anthropic API Error: Server rate limit exceeded\n","category":"bug","tracked_at":"2026-06-26T03:41Z"}
+{"number":71505,"title":"[Bug] Anthropic API Error: Server rate limiting requests\n","category":"bug","tracked_at":"2026-06-26T03:41Z"}
+{"number":71506,"title":"[Bug] Anthropic API Error: Server rate limiting on requests\n","category":"bug","tracked_at":"2026-06-26T03:41Z"}
+{"number":71507,"title":"[Bug] Simplified Chinese kanji glyphs appearing in Japanese responses\n","category":"bug","tracked_at":"2026-06-26T03:41Z"}
+{"number":71514,"title":"[Billing] Confirmed refund $90.00 USD not processed after 59 days - Extra Usage Credits\n","category":"unknown","tracked_at":"2026-06-26T04:43Z"}
+{"number":71515,"title":"workflows right pane silently truncates agent list when phase has more than 5 agents\n","category":"unknown","tracked_at":"2026-06-26T04:43Z"}
+{"number":71516,"title":"[Bug] Console window unfocused clicks trigger unintended actions\n","category":"bug","tracked_at":"2026-06-26T04:43Z"}
+{"number":71517,"title":"[BUG] out of credits in 3 days, as a hobbyist.\n","category":"bug","tracked_at":"2026-06-26T04:43Z"}
+{"number":71518,"title":"claude remote-control --permission-mode bypassPermissions is silently ignored on mobile (native Windows)\n","category":"memory-issue","tracked_at":"2026-06-26T04:43Z"}
+{"number":71519,"title":"[BUG] Fucking cursor disappears in the fucking console\n","category":"bug","tracked_at":"2026-06-26T05:44Z"}
+{"number":71520,"title":"Feature request: allow users to configure or exclude teammate pane colors\n","category":"feature","tracked_at":"2026-06-26T05:44Z"}
+{"number":71521,"title":"Feature request: auto-close TUI pane when teammate agent shuts down\n","category":"feature","tracked_at":"2026-06-26T05:44Z"}
+{"number":71522,"title":"[Bug] Plan overlay blocks scrolling to view full plan in flicker-free rendering mode\n","category":"bug","tracked_at":"2026-06-26T05:44Z"}
+{"number":71523,"title":"[FEATURE] design-sync is React-only: add support for Svelte / non-React design systems\n","category":"feature","tracked_at":"2026-06-26T05:44Z"}
+{"number":71525,"title":"Auto-mode classifier treats a stale memory note as a standing authorization boundary\n","category":"false-positive","tracked_at":"2026-06-26T06:45Z"}
+{"number":71527,"title":"[BUG] Inconsistent Context Window Between CLI and VSCode plugin\n","category":"bug","tracked_at":"2026-06-26T06:45Z"}
+{"number":71528,"title":"Desktop app crashes when clicking hamburger menu (☰)\n","category":"bug","tracked_at":"2026-06-26T06:45Z"}
+{"number":71529,"title":"[BUG] Claude presents unverified inferences as facts and treats the audited system's own files as proof of its integrity during security audits\n","category":"bug","tracked_at":"2026-06-26T06:45Z"}
+{"number":71530,"title":"Merge pull request #1 from anthropics/main\n","category":"feature","tracked_at":"2026-06-26T06:46Z"}
+{"number":71537,"title":"[FEATURE] Expose effort level to model's reasoning\n","category":"feature","tracked_at":"2026-06-26T07:46Z"}
+{"number":71539,"title":"[BUG] Mouse click to refocus terminal triggers permission prompt unintentionally\n","category":"bug","tracked_at":"2026-06-26T07:46Z"}
+{"number":71540,"title":"[FEATURE] VS Code extension: support custom working directory (cwd) different from workspace root\n","category":"feature","tracked_at":"2026-06-26T07:46Z"}
+{"number":71541,"title":"[BUG]\n","category":"bug","tracked_at":"2026-06-26T07:47Z"}
+{"number":71542,"title":"GitHub connector links repositories successfully but Claude cannot access content for ANY repository (account-wide, public and private alike) — recent regression\n","category":"regression","tracked_at":"2026-06-26T07:47Z"}
+{"number":71545,"title":"[FEATURE] reopen last session at start\n","category":"feature","tracked_at":"2026-06-26T08:48Z"}
+{"number":71547,"title":"AskUserQuestion dialog auto-submits on mouse click without confirmation\n","category":"unknown","tracked_at":"2026-06-26T08:48Z"}
+{"number":71548,"title":"[BUG] Filesystem Breakoff\n","category":"bug","tracked_at":"2026-06-26T08:48Z"}
+{"number":71549,"title":"[BUG] Activity heatmap and streak counters do not reflect actual daily usage\n","category":"bug","tracked_at":"2026-06-26T08:48Z"}
+{"number":71550,"title":"[BUG] Anthropic.claude-code 2.1.193 linux-x64 platform files missing (404) on openvsx.org\n","category":"bug","tracked_at":"2026-06-26T08:48Z"}
+{"number":71561,"title":"[BUG] Text input in flicker-free rendering does not work\n","category":"bug","tracked_at":"2026-06-26T09:49Z"}
+{"number":71562,"title":"[BUG] hasTrustDialogAccepted never persisted to ~/.claude.json despite repeated interactive sessions\n","category":"bug","tracked_at":"2026-06-26T09:49Z"}
+{"number":71563,"title":"[Feature Request] Implement automatic `/scrutinize` and `/ponytail-review` analysis on initial code generation\n","category":"feature","tracked_at":"2026-06-26T09:49Z"}
+{"number":71564,"title":"[BUG][SECURITY] Tool results appear to be modified after execution with injected pseudo-\"system instructions\" repeatedly urging destructive `git push --force` (Cowork research preview, Windows)\n","category":"bug","tracked_at":"2026-06-26T09:49Z"}
+{"number":71565,"title":"Security disclosure submitted to security@anthropic.com — GPI-1: Geometric Prior Injection (CVE pending MITRE assignment)\n","category":"unknown","tracked_at":"2026-06-26T09:49Z"}
+{"number":71573,"title":"[Bug] Enterprise login success message requires inconsistent key press to complete authentication\n","category":"bug","tracked_at":"2026-06-26T10:50Z"}
+{"number":71574,"title":"[BUG]\n","category":"bug","tracked_at":"2026-06-26T10:50Z"}
+{"number":71575,"title":"[Bug] Tool fails to apply API after multiple requests\n","category":"bug","tracked_at":"2026-06-26T10:50Z"}
+{"number":71576,"title":"[Bug] Claude Code ignoring explicit user instructions and autonomously executing actions without approval\n","category":"bug","tracked_at":"2026-06-26T10:50Z"}
+{"number":71577,"title":"Claude ignores CLAUDE.md instruction to never git commit/push without explicit user approval\n","category":"memory-issue","tracked_at":"2026-06-26T10:50Z"}
+{"number":71585,"title":"[BUG] The external-file-change system note asserts an unverifiable cause (\"by the user or by a linter\") and the user's awareness — the model relays it as fact\n","category":"bug","tracked_at":"2026-06-26T11:51Z"}
+{"number":71586,"title":"[Bug] Claude Code generates incorrect content instead of performing language corrections\n","category":"bug","tracked_at":"2026-06-26T11:51Z"}
+{"number":71587,"title":"[FEATURE] Desktop: session status should reflect background task activity, plus more/customizable statuses & colors\n","category":"feature","tracked_at":"2026-06-26T11:51Z"}
+{"number":71588,"title":"Claude Code repeatedly fabricates technical explanations without verifying source data\n","category":"unknown","tracked_at":"2026-06-26T11:51Z"}
+{"number":71589,"title":"[Bug] Excessive token consumption in session - 42% usage in 40 minutes for standard PR review workflow\n","category":"bug","tracked_at":"2026-06-26T11:51Z"}
+{"number":71592,"title":"[Bug] Claude Code fails to apply language corrections despite multiple iterations\n","category":"bug","tracked_at":"2026-06-26T12:52Z"}
+{"number":71593,"title":"[Bug] High task failure rate (82 failures) with basic operations\n","category":"bug","tracked_at":"2026-06-26T12:52Z"}
+{"number":71594,"title":"[BUG] Got a session limit issue without actually using it, hit the limit exactly at the start of the reset\n","category":"bug","tracked_at":"2026-06-26T12:52Z"}
+{"number":71595,"title":"[FEATURE] Desktop app: option to dock the terminal panel to the bottom\n","category":"feature","tracked_at":"2026-06-26T12:52Z"}
+{"number":71596,"title":"[Feature Request] Auto-populate package details from user account/session context\n","category":"feature","tracked_at":"2026-06-26T12:52Z"}
+{"number":71598,"title":"[BUG] Session shows as working (running timer + busy spinner + active work-tracker) while idle awaiting user input\n","category":"bug","tracked_at":"2026-06-26T13:53Z"}
+{"number":71599,"title":"Vertex/Bedrock: `thinking.display:\"summarized\"` stripped from request body → empty thinking on Opus 4.8/4.7 (regression 2.1.150→2.1.177, still in 2.1.193)\n","category":"feature","tracked_at":"2026-06-26T13:53Z"}
+{"number":71601,"title":"[Bug] Documents not persisting on Finsetup server after signout\n","category":"bug","tracked_at":"2026-06-26T13:53Z"}
+{"number":71603,"title":"[BUG] Mobile (Pixel 8 Pro): input typed while the agent is busy stays as an unconfirmed draft and is silently discarded when the app is backgrounded\n","category":"bug","tracked_at":"2026-06-26T13:53Z"}
+{"number":71609,"title":"Stale/duplicate session titles + no wrong-session safeguard → silent data loss in Bypass-permissions mode\n","category":"bug","tracked_at":"2026-06-26T14:54Z"}
+{"number":71610,"title":"claude mcp login skips the 401 / WWW-Authenticate discovery step and only probes the RS own PRM path\n","category":"unknown","tracked_at":"2026-06-26T14:54Z"}
+{"number":71611,"title":"[FEATURE] Global session search across all projects in --resume picker\n","category":"feature","tracked_at":"2026-06-26T14:55Z"}
+{"number":71612,"title":"Completed Explore sub-agent re-fires with hallucinated content, fabricates a 'security classifier' urging permission escalation\n","category":"unknown","tracked_at":"2026-06-26T14:55Z"}
+{"number":71613,"title":"[FEATURE] Config setting to disable ultra plan\n","category":"feature","tracked_at":"2026-06-26T14:55Z"}
+{"number":71620,"title":"[BUG] claudeCode.environmentVariables workspace scope regression in v2.1.193 — setting greyed out with scope warning\n","category":"bug","tracked_at":"2026-06-26T15:56Z"}
+{"number":71621,"title":"[FEATURE] Plan Mode: Actually show the the plan while discussing it\n","category":"feature","tracked_at":"2026-06-26T15:56Z"}
+{"number":71622,"title":"[BUG] [Billing] Max account inaccessible — wrong account routing, Fin refuses to escalate\n","category":"bug","tracked_at":"2026-06-26T15:56Z"}
+{"number":71623,"title":"[Bug] ESC key in primary REPL window terminates all background agents when team lead is idle\n","category":"bug","tracked_at":"2026-06-26T15:56Z"}
+{"number":71624,"title":"collaborative multi-session Claude\n","category":"unknown","tracked_at":"2026-06-26T15:56Z"}
+{"number":71632,"title":"[BUG] Claude Routine permission bug\n","category":"bug","tracked_at":"2026-06-26T16:57Z"}
+{"number":71633,"title":"[Bug] skill-creator run_loop.py burns ~50% of a usage window in minutes: full claude -p agent per query x run x iteration, no cost preview or cap\n","category":"bug","tracked_at":"2026-06-26T16:57Z"}
+{"number":71634,"title":"[Bug] Anthropic API Error: Server rate limit exceeded (temporary)\n","category":"bug","tracked_at":"2026-06-26T16:57Z"}
+{"number":71635,"title":"[Bug] Anthropic API Error: Server rate limiting on valid requests\n","category":"bug","tracked_at":"2026-06-26T16:57Z"}
+{"number":71636,"title":"[Bug] Anthropic API Error: Server rate limiting during requests\n","category":"bug","tracked_at":"2026-06-26T16:58Z"}
+{"number":71640,"title":"[Bug] Agent Teams conversation blocks navigation back to agents view\n","category":"bug","tracked_at":"2026-06-26T17:58Z"}
+{"number":71641,"title":"[Bug] Voice dictation fails with microphone error instead of authentication error when logged out\n","category":"bug","tracked_at":"2026-06-26T17:59Z"}
+{"number":71642,"title":"Subagent cards no longer show context size / token / cost next to runtime\n","category":"unknown","tracked_at":"2026-06-26T17:59Z"}
+{"number":71643,"title":"Attached/pasted images are visible to the model but not written to disk — blocks image-processing tools (sips/ImageMagick)\n","category":"unknown","tracked_at":"2026-06-26T17:59Z"}
+{"number":71644,"title":"[BUG] Subagents going idle\n","category":"bug","tracked_at":"2026-06-26T17:59Z"}
