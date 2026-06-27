@@ -225,6 +225,13 @@ for ISSUE_NUM in $NEW_ISSUES; do
     # Check for thank you notes / non-issues (defensive - should have been caught by spam filter)
     elif echo "$LOWER_BODY" | grep -qiE 'not a bug|not a feature|thank you|thanks|gratitude|appreciate|no technical'; then
         CATEGORY="non-issue"
+    # Check for [MODEL] tag - these are typically bugs about model behavior
+    # (e.g., model ignoring instructions, fabricating output, wrong behavior)
+    elif echo "$LOWER_TITLE" | grep -qiE '(\[MODEL\])'; then
+        CATEGORY="bug"
+    # Check for fabrication/hallucination indicators - these are bugs
+    elif echo "$LOWER_TITLE $LOWER_BODY" | grep -qiE '(fabricat|hallucinat|fake output|fake result|made up|invented|non-existent.*output|phantom)'; then
+        CATEGORY="bug"
     elif echo "$LOWER_TITLE" | grep -qiE '(\[bug\]|bug:|bug report|not working|fails|crash|error|doesn.?t|broken|conflict|incorrect|wrong)'; then
         CATEGORY="bug"
     elif echo "$LOWER_TITLE" | grep -qiE '(\[feature\]|feature request|add.*support|should.*support|would be nice|capability|request)'; then
