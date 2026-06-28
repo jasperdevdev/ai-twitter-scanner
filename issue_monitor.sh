@@ -88,6 +88,10 @@ is_spam() {
     if [ "$total_chars" -gt 0 ] && [ "$confusable_count" -gt 0 ] && [ $((confusable_count * 100 / total_chars)) -gt 20 ]; then
         return 0
     fi
+    # Guard against division by zero
+    if [ "$total_chars" -eq 0 ]; then
+        return 1
+    fi
     local lower_title
     lower_title=$(echo "$title" | tr '[:upper:]' '[:lower:]' 2>/dev/null | tr -d '\0' 2>/dev/null) || true
     if [ -n "$lower_title" ]; then
@@ -242,6 +246,9 @@ for ISSUE_NUM in $NEW_ISSUES; do
         CATEGORY="regression"
     elif echo "$LOWER_TITLE $LOWER_BODY" | grep -qiE '(memory|forget|ignore|amnesia)'; then
         CATEGORY="memory-issue"
+    # Check for permission/system issues - these are bugs
+    elif echo "$LOWER_TITLE $LOWER_BODY" | grep -qiE '(permission denied|access denied|write denied|edit denied)'; then
+        CATEGORY="bug"
     fi
 
     # Record issue to tracked file (ensure file exists first)
