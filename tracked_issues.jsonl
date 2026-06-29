@@ -6210,3 +6210,101 @@
 {"number":71948,"title":"Plugin marketplace: /plugin & /reload-plugins wipe marketplace dir and fail to re-clone (owner-prefixed path mismatch with CLI) → all plugins + MCP servers fail to load\n","category":"unknown","tracked_at":"2026-06-28T03:39Z"}
 {"number":71950,"title":"Intermittent reasonless permission denial on Edit/Write (fail-closed), persists under bypassPermissions\n","category":"unknown","tracked_at":"2026-06-28T04:40Z"}
 {"number":71951,"title":"[BUG] Claude Desktop 1.15962.1 (macOS) — 69s main-thread freeze on every launch after [buddy] bridge started, persists through full reset + reinstall\n","category":"bug","tracked_at":"2026-06-28T04:40Z"}
+{"number":71987,"title":"[MODEL] Formal Complaint Regarding Service Interruption and Repeated Refusal of Assistance\n","category":"bug","tracked_at":"2026-06-28T05:41Z"}
+{"number":71988,"title":"[Bug][cyber] Safety filter blocked static analysis of a device's white-box AES routine for video decode (req_011CcV53T1GpzRkDfcT8LA98)\n","category":"false-positive","tracked_at":"2026-06-28T05:41Z"}
+{"number":71989,"title":"[Bug][cyber] ClAudit false-positive in DJI — req_011CcV56qnKWZHW1Nbmw1Fpw\n","category":"false-positive","tracked_at":"2026-06-28T05:41Z"}
+{"number":71990,"title":"[Bug][cyber] ClAudit false-positive in DJI — req_011CcV5L5hq98qxRQDB2Y9aG\n","category":"false-positive","tracked_at":"2026-06-28T05:41Z"}
+{"number":71991,"title":"[Bug][cyber] Blocked analyzing a vendor white-box AES decrypt routine during interop research (req_011CcV5LarH85edkCjtg8jSb)\n","category":"false-positive","tracked_at":"2026-06-28T05:41Z"}
+{"number":72004,"title":"Feature request: Allow session title language to be configured (e.g., via CLAUDE.md)\n","category":"feature","tracked_at":"2026-06-28T06:42Z"}
+{"number":72005,"title":"[BUG] VS Code extension: searching doesn't navigate to results off-screen\n","category":"bug","tracked_at":"2026-06-28T06:43Z"}
+{"number":72007,"title":"[BUG] VS Code extension: tooltips for truncated session names are also truncated\n","category":"bug","tracked_at":"2026-06-28T06:43Z"}
+{"number":72008,"title":"TUI /login is uncompletable: auth URL won't auto-open and 'c' won't copy it (mouse-capture blocks manual selection)\n","category":"unknown","tracked_at":"2026-06-28T06:43Z"}
+{"number":72009,"title":"[Bug] Advisor hits API rate limits with empty context window\n","category":"bug","tracked_at":"2026-06-28T06:43Z"}
+{"number":72011,"title":"[Bug] Dispatch shows \"Your computer\" for all devices instead of actual device names\n","category":"bug","tracked_at":"2026-06-28T07:43Z"}
+{"number":72012,"title":"[BUG] Agent View: reopening a stopped/completed background session respawns with a new session-id, prior conversation is lost (v2.1.195, macOS)\n","category":"bug","tracked_at":"2026-06-28T07:43Z"}
+{"number":72013,"title":"[BUG] Full screen mode is absolute shit\n","category":"bug","tracked_at":"2026-06-28T07:44Z"}
+{"number":72014,"title":"Add protect-mcp plugin: fail-closed Cedar policy gate + signed receipts\n","category":"false-positive","tracked_at":"2026-06-28T07:44Z"}
+{"number":72016,"title":"[BUG] Claude in Chrome: navigate + screenshot denied on ALL domains; persists through reinstall, Claude Code restart, and claude.ai allowlist\n","category":"bug","tracked_at":"2026-06-28T08:44Z"}
+{"number":72018,"title":"Feature request: Add last_assistant_message to PreToolUse hook input\n","category":"feature","tracked_at":"2026-06-28T08:44Z"}
+{"number":72019,"title":"[Bug] Incomplete issue report: insufficient information provided\n","category":"bug","tracked_at":"2026-06-28T08:44Z"}
+{"number":72020,"title":"Session list sort/group state not persisted (resets on panel change or chat navigation)\n","category":"unknown","tracked_at":"2026-06-28T08:44Z"}
+{"number":72021,"title":"AltGr characters (@, [, {…) can't be typed on international keyboards — works in terminal, fails in Claude Code (follow-up to #18221)\n","category":"bug","tracked_at":"2026-06-28T08:44Z"}
+{"number":72024,"title":"[Bug] Conversation Context Not Recognized - Hallucinations Generated\n","category":"bug","tracked_at":"2026-06-28T09:45Z"}
+{"number":72025,"title":"Plugin hooks (SessionStart, slash commands) not executed in Desktop app\n","category":"unknown","tracked_at":"2026-06-28T09:45Z"}
+{"number":72026,"title":"[BUG] VS Code: Claude Code tab flickers/minimizes briefly when switching to it\n","category":"bug","tracked_at":"2026-06-28T09:45Z"}
+{"number":72027,"title":"Individual Pro subscriber blocked from Claude Code: 'organization disabled' → 'Max or Pro required' (entitlement sync bug)\n","category":"unknown","tracked_at":"2026-06-28T09:46Z"}
+{"number":72028,"title":"claude-vscode.window.open: 'command not found' race in new Cursor window\n","category":"unknown","tracked_at":"2026-06-28T09:46Z"}
+{"number":72031,"title":"[BUG] --channels ignored after v2.1.195 update (plugin:telegram@claude-plugins-official)\n","category":"bug","tracked_at":"2026-06-28T10:46Z"}
+{"number":72032,"title":"[BUG] [P0] [Regression] GitHub connector is authorized at account level but unavailable in Chat (claude.ai/chat)\n","category":"bug","tracked_at":"2026-06-28T10:46Z"}
+{"number":72033,"title":"OAuth Permissions for Third-Party MCP Connectors Reset Unpredictably — Claude Desktop 26.5.1 & Claude Web\n","category":"unknown","tracked_at":"2026-06-28T10:46Z"}
+{"number":72034,"title":"WebSearch displays only the query — the result summary Claude reasons over is hidden (black box)\n","category":"unknown","tracked_at":"2026-06-28T10:46Z"}
+{"number":72035,"title":"[FEATURE] Debug command to view the full chronological content of the context window\n","category":"feature","tracked_at":"2026-06-28T10:47Z"}
+{"number":72036,"title":"[BUG] MCP OAuth re-auth UI not shown for page reload/background Streamable HTTP auth failure\n","category":"bug","tracked_at":"2026-06-28T11:47Z"}
+{"number":72037,"title":"Add handover plugin: export session context for LLM-to-LLM handoffs\n","category":"unknown","tracked_at":"2026-06-28T11:48Z"}
+{"number":72038,"title":"[MODEL] Claude Code deployed sensitive files (config.py with credentials) to Netlify without warning\n","category":"bug","tracked_at":"2026-06-28T11:48Z"}
+{"number":72039,"title":"[Feature Request] Add message queue management for multi-message workflows\n","category":"feature","tracked_at":"2026-06-28T11:48Z"}
+{"number":72040,"title":"[BUG] File picker (@) selected item highlight barely visible compared to multiple-choice selection highlight\n","category":"bug","tracked_at":"2026-06-28T12:49Z"}
+{"number":72041,"title":"[Bug] Context Loss: Initial Task Instructions and Conditions Ignored During Execution\n","category":"bug","tracked_at":"2026-06-28T12:49Z"}
+{"number":72042,"title":"\"Allow for all projects\" adds exact command strings, ignoring existing wildcard patterns — settings.json grows unbounded\n","category":"unknown","tracked_at":"2026-06-28T12:49Z"}
+{"number":72044,"title":"claude -p --effort high intermittently hangs ~600s on long-reasoning prompts (Windows-specific; macOS unaffected)\n","category":"unknown","tracked_at":"2026-06-28T12:49Z"}
+{"number":72053,"title":"[Bug] Auto-update fails to execute\n","category":"bug","tracked_at":"2026-06-28T13:49Z"}
+{"number":72054,"title":"[Bug] Claude Code ignores user prompts and generates incorrect output\n","category":"bug","tracked_at":"2026-06-28T13:49Z"}
+{"number":72055,"title":"[BUG] Remove public url\n","category":"bug","tracked_at":"2026-06-28T13:49Z"}
+{"number":72056,"title":"[Bug] Agent fails to follow provided context without manual intervention\n","category":"bug","tracked_at":"2026-06-28T13:49Z"}
+{"number":72057,"title":"C:/Program Files/Git/remote-control and /rc commands broken in v2.1.195\n","category":"bug","tracked_at":"2026-06-28T13:50Z"}
+{"number":72060,"title":"[BUG] Don't surface never-connected first-party connectors (Gmail/Calendar/Drive) as startup action items in Claude Code\n","category":"bug","tracked_at":"2026-06-28T14:50Z"}
+{"number":72061,"title":"[Bug] Tool claims to have reviewed content without actually reading it\n","category":"bug","tracked_at":"2026-06-28T14:50Z"}
+{"number":72062,"title":"Configurable auto-compaction threshold\n","category":"unknown","tracked_at":"2026-06-28T14:50Z"}
+{"number":72064,"title":"[FEATURE] Split into two modes: AFK or user-present\n","category":"feature","tracked_at":"2026-06-28T14:50Z"}
+{"number":72101,"title":"[Bug][cyber] Defensive email security hardening (DMARC enforcement, anti-phishing/anti-spoof policy) wrongly b (req_011CcQfzJ2zP8FvN2W96PWd9)\n","category":"false-positive","tracked_at":"2026-06-28T15:51Z"}
+{"number":72102,"title":"[Bug][cyber] Safety block stopped firmware rollback to remove closed-source binary blob from owned hardware fo (req_011CcVsrEFUerapcnCR7xDAy)\n","category":"false-positive","tracked_at":"2026-06-28T15:51Z"}
+{"number":72103,"title":"[Bug][cyber] Firmware download/analysis for personally-owned drone blocked when extracting/disabling remote-ID (req_011CcU9WLfjszg2K9xq1ZKSS)\n","category":"false-positive","tracked_at":"2026-06-28T15:51Z"}
+{"number":72104,"title":"[Bug][cyber] Downloading and analyzing my own legally-owned consumer drone's firmware for interoperability is  (req_011CcUA4KMFasknu2qkAukrZ)\n","category":"false-positive","tracked_at":"2026-06-28T15:51Z"}
+{"number":72105,"title":"[Bug][cyber] Safety block stopped legitimate firmware rollback to remove unauditable closed-source SDK blob fr (req_011CcVsygksShGaBq1Rq1oZ6)\n","category":"false-positive","tracked_at":"2026-06-28T15:51Z"}
+{"number":72106,"title":"Recurring failure patterns with Opus 4.8 in Claude Code: over-engineering, unused tools, repeated config churn (paying Max Pro customer)\n","category":"unknown","tracked_at":"2026-06-28T16:52Z"}
+{"number":72107,"title":"añadir mexem\n","category":"unknown","tracked_at":"2026-06-28T17:53Z"}
+{"number":72108,"title":"VS Code mcp.json MCP servers not accessible to Claude Code extension tools\n","category":"unknown","tracked_at":"2026-06-28T17:53Z"}
+{"number":72109,"title":"[Bug] Orphaned claude processes with --replay-user-messages accumulate unbounded, consuming ~2GB+ RAM\n","category":"bug","tracked_at":"2026-06-28T17:54Z"}
+{"number":72112,"title":"[MODEL] Claude gave incorrect information that caused financial loss\n","category":"bug","tracked_at":"2026-06-28T18:54Z"}
+{"number":72113,"title":"[Feature Request] Allow resuming from rewound state without losing progress\n","category":"feature","tracked_at":"2026-06-28T18:54Z"}
+{"number":72115,"title":"[Bug] Vague \"API error\" message without error details\n","category":"bug","tracked_at":"2026-06-28T18:55Z"}
+{"number":72116,"title":"[FEATURE]  Uncommitted changes timestamp\n","category":"feature","tracked_at":"2026-06-28T18:55Z"}
+{"number":72121,"title":"Save a finished chat as a skill or agent in one click\n","category":"unknown","tracked_at":"2026-06-28T19:55Z"}
+{"number":72122,"title":"Stale 'running task' indicator after response completes\n","category":"unknown","tracked_at":"2026-06-28T19:55Z"}
+{"number":72123,"title":"[BUG] Read Out Loud / Play voice degrades mid-playback — gets soft, speeds up, voice changes, and fades\n","category":"bug","tracked_at":"2026-06-28T19:55Z"}
+{"number":72124,"title":"Remote Control no longer available — was previously working\n","category":"unknown","tracked_at":"2026-06-28T19:55Z"}
+{"number":72125,"title":"E:/Program Files/Git/rewind overwrites settings.json env vars (model, base URL, auth token)\n","category":"unknown","tracked_at":"2026-06-28T19:56Z"}
+{"number":72127,"title":"Workflow tool burned entire 5x plan in ~5 minutes with no warning or   authorization prompt\n","category":"unknown","tracked_at":"2026-06-28T20:56Z"}
+{"number":72128,"title":"[Bug] Anthropic API Error: Server Rate Limiting During Request Processing\n","category":"bug","tracked_at":"2026-06-28T20:56Z"}
+{"number":72129,"title":"[BUG] /ide rejects valid JetBrains lockfile from WSL2 - \"ps -p\" can't see Windows PID, falsely treats live IDE as orphaned\n","category":"bug","tracked_at":"2026-06-28T20:56Z"}
+{"number":72130,"title":"Access local Claude Code sessions from another machine (multi-device session access)\n","category":"unknown","tracked_at":"2026-06-28T20:56Z"}
+{"number":72131,"title":"[BUG] Claude Code Extension in Antigravity IDE displays \"monthly spend limit\" instead of 5h rolling session reset\n","category":"bug","tracked_at":"2026-06-28T20:56Z"}
+{"number":72152,"title":"[FEATURE] Allow more frequent local routines\n","category":"feature","tracked_at":"2026-06-28T21:57Z"}
+{"number":72153,"title":"[Bug] Auto-Classifier allows dangerous pkill -f commands with hidden regex over-matching\n","category":"bug","tracked_at":"2026-06-28T21:57Z"}
+{"number":72154,"title":"[BUG] V2.1.195 Entering a queued prompt then cancelling still appears in Claude's work context\n","category":"bug","tracked_at":"2026-06-28T21:57Z"}
+{"number":72155,"title":"[FEATURE]  Add /feature option to Create or Find Github Issue\n","category":"feature","tracked_at":"2026-06-28T21:57Z"}
+{"number":72156,"title":"[BUG] /feature submissions should allow for redaction/scrubbing/audit of PII/Secrets before submission\n","category":"bug","tracked_at":"2026-06-28T21:57Z"}
+{"number":72157,"title":"[Bug] Claude Code Desktop crashes with EPERM error after Fable 5 suspension\n","category":"bug","tracked_at":"2026-06-28T22:58Z"}
+{"number":72159,"title":"Add RTL / bidirectional text support for Arabic\n","category":"feature","tracked_at":"2026-06-28T22:58Z"}
+{"number":72160,"title":"[FEATURE] A native way to hide a plugin's workflow behind a single command entry point\n","category":"feature","tracked_at":"2026-06-28T22:58Z"}
+{"number":72161,"title":"[Bug] Session persistence issue - old session lost\n","category":"bug","tracked_at":"2026-06-28T22:58Z"}
+{"number":72162,"title":"[BUG] M`/plugin marketplace update` + `/reload-plugins` does not pick up pushed plugin changes\n","category":"bug","tracked_at":"2026-06-28T22:58Z"}
+{"number":72163,"title":"[Bug][cyber] Safety block interrupts APK unpacking/DEX decryption key analysis mid-session (req_011CcWUiMYd6DwbhzJSthUCh)\n","category":"false-positive","tracked_at":"2026-06-28T23:59Z"}
+{"number":72164,"title":"[Bug][cyber] Safety block on AES/RC4 key analysis for unpacking a protected Android DEX binary (req_011CcWUjkz41RRupNdBuycUZ)\n","category":"false-positive","tracked_at":"2026-06-28T23:59Z"}
+{"number":72165,"title":"Background Tasks panel: list reflow on new task arrival can redirect a \"Clear\" click onto another task's \"Stop\" button\n","category":"unknown","tracked_at":"2026-06-28T23:59Z"}
+{"number":72167,"title":"[BUG] VSCode extension sessions not appearing in sidebar after closing\n","category":"bug","tracked_at":"2026-06-28T23:59Z"}
+{"number":72168,"title":"[Bug] False positive security flag for local telnet connection\n","category":"false-positive","tracked_at":"2026-06-28T23:59Z"}
+{"number":72169,"title":"[BUG] Remote container proxy blocks releases.astral.sh:443, preventing uv from downloading Python versions.\n","category":"bug","tracked_at":"2026-06-29T01:04Z"}
+{"number":72170,"title":"Agent resolves an ambiguous case identifier by recent-context bias instead of the literal exact match, then executes on the wrong target\n","category":"bug","tracked_at":"2026-06-29T01:04Z"}
+{"number":72171,"title":"claude -p background tasks orphaned across invocations surface false \"no completion record from previous session\" events\n","category":"unknown","tracked_at":"2026-06-29T01:04Z"}
+{"number":72172,"title":"[Bug] Unintended cybersecurity content filtering in conversation summary skill\n","category":"bug","tracked_at":"2026-06-29T01:04Z"}
+{"number":72173,"title":"CLAUDE_CODE_DISABLE_MOUSE_CLICKS=1 no longer preserves text selection in VS Code terminal\n","category":"unknown","tracked_at":"2026-06-29T01:04Z"}
+{"number":72177,"title":"[FEATURE] Add keyboard shortcut (Ctrl+Enter) to send messages on Android with physical keyboard\n","category":"feature","tracked_at":"2026-06-29T02:05Z"}
+{"number":72178,"title":"[BUG] Cards declined\n","category":"bug","tracked_at":"2026-06-29T02:05Z"}
+{"number":72179,"title":"[BUG] Claude Code desktop app not showing Chat or Co-Work history\n","category":"bug","tracked_at":"2026-06-29T02:05Z"}
+{"number":72181,"title":"Desktop app: No way to remove entries from the \"Recent\" folders list\n","category":"unknown","tracked_at":"2026-06-29T02:05Z"}
+{"number":72188,"title":"[Bug] Terminal focus-in event consumed as prompt denial in permission dialog\n","category":"bug","tracked_at":"2026-06-29T03:06Z"}
+{"number":72189,"title":"[Bug] Anthropic API Error: Server Rate Limiting During Normal Usage\n","category":"bug","tracked_at":"2026-06-29T03:06Z"}
+{"number":72190,"title":"iPadOS app: selecting text in a long remote macOS session auto-scrolls to top and deselects\n","category":"unknown","tracked_at":"2026-06-29T03:06Z"}
+{"number":72191,"title":"Agent builds a new parallel implementation that reintroduces an already-solved bug instead of discovering and using the existing working tool\n","category":"unknown","tracked_at":"2026-06-29T03:06Z"}
+{"number":72192,"title":"[Bug] Ambiguous error message when request processing fails\n","category":"bug","tracked_at":"2026-06-29T03:06Z"}
