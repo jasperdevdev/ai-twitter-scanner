@@ -71,11 +71,16 @@ is_spam() {
     fi
     
     # Check for thank you notes / non-issue messages
+    # Only flag as spam if the body is short (< 500 chars) AND contains thank-you language
+    # This prevents false positives on legitimate bug reports that happen to say "thanks"
     local lower_body
     lower_body=$(echo "$body" | tr '[:upper:]' '[:lower:]' 2>/dev/null | tr -d '\0' 2>/dev/null) || true
     if [ -n "$lower_body" ]; then
-        if echo "$lower_body" | grep -qiE 'not a bug|not a feature|thank you|thanks|gratitude|appreciate|no technical|positive experience|great job|well done'; then
-            return 0
+        local body_len=$(echo "$lower_body" | wc -c)
+        if [ "$body_len" -lt 500 ]; then
+            if echo "$lower_body" | grep -qiE 'not a bug|not a feature|thank you|thanks|gratitude|appreciate|no technical|positive experience|great job|well done'; then
+                return 0
+            fi
         fi
     fi
     
