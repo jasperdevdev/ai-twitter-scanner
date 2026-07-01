@@ -243,7 +243,7 @@ for ISSUE_NUM in $NEW_ISSUES; do
         CATEGORY="bug"
     # Check for fabrication/hallucination indicators - these are bugs
     # (already matched above as false-positive or this check is redundant - skip for performance)
-    elif echo "$LOWER_TITLE" | grep -qiE '(\[bug\]|bug:|bug report|not working|fails|crash|error|doesn.?t|broken|conflict|incorrect|wrong)'; then
+    elif echo "$LOWER_TITLE" | grep -qiE '(\[bug\]|bug:|bug report|not working|fails|crash|error|doesn.?t|broken|conflict|incorrect|wrong|\b[45][0-9]{2}\b)'; then
         CATEGORY="bug"
     elif echo "$LOWER_TITLE" | grep -qiE '(\[feature\]|feature request|add.*support|should.*support|would be nice|capability|request)'; then
         CATEGORY="feature"
