@@ -6807,3 +6807,268 @@
 {"number":73888,"title":"[Bug] Terminal clicks registering as input selection instead of focus action\n","category":"bug","tracked_at":"2026-07-03T15:26Z"}
 {"number":73889,"title":"[BUG] VS Code Extension: Chat state does not sync between dedicated view and native VS Code chat panel\n","category":"bug","tracked_at":"2026-07-03T15:26Z"}
 {"number":73890,"title":"Claude in Chrome extension not connecting (tabs_context_mcp fails)\n","category":"bug","tracked_at":"2026-07-03T15:27Z"}
+{"number":73902,"title":"[Bug] Rate limit errors not handled gracefully\n","category":"bug","tracked_at":"2026-07-03T16:28Z"}
+{"number":73903,"title":"Chrome integration: CLI never dials the native-host bridge socket — browser tools always report \"Browser extension is not connected\" (macOS)\n","category":"unknown","tracked_at":"2026-07-03T16:28Z"}
+{"number":73904,"title":"[Bug] Claude Code fails to execute with Fable 5 model\n","category":"bug","tracked_at":"2026-07-03T16:28Z"}
+{"number":73905,"title":"[Bug] Unexpected Fallback Triggered During Model Usage Testing\n","category":"bug","tracked_at":"2026-07-03T16:28Z"}
+{"number":73925,"title":"[BUG]\n","category":"bug","tracked_at":"2026-07-03T17:29Z"}
+{"number":73926,"title":"--bare auth failure says \"Please run /login\" but /login cannot fix it — message should point to ANTHROPIC_API_KEY\n","category":"unknown","tracked_at":"2026-07-03T17:29Z"}
+{"number":73927,"title":"Desktop app scheduled tasks: missed-run catch-up dispatch silently dropped during app startup (no retry); lastRunAt stamped at dispatch; no 529 retry mid-run\n","category":"bug","tracked_at":"2026-07-03T17:29Z"}
+{"number":73928,"title":"Desktop App: Allow choosing working directory before first message\n","category":"unknown","tracked_at":"2026-07-03T17:29Z"}
+{"number":73929,"title":"[BUG] Fable 5 = \"Self-caged\" : the model's own output (`fork`/`kill`/`orphan`/`reap`) trips its own classifier midstream — input rewording can't fix it\n","category":"bug","tracked_at":"2026-07-03T17:29Z"}
+{"number":73939,"title":"Desktop app renders ReportFindings (code-review results) as raw JSON instead of the findings panel\n","category":"unknown","tracked_at":"2026-07-03T18:33Z"}
+{"number":73940,"title":"automatic copy and paste issue\n","category":"unknown","tracked_at":"2026-07-03T18:34Z"}
+{"number":73941,"title":"[Feature Request] Allow Claude Code usage for authorized security audits and code reviews\n","category":"false-positive","tracked_at":"2026-07-03T18:34Z"}
+{"number":73942,"title":"[FEATURE] Allow readline / emacs style line editing consistently\n","category":"feature","tracked_at":"2026-07-03T18:34Z"}
+{"number":73943,"title":"VS Code extension: assistant message starting with `138.` renders as `38.`, dropping leading digit\n","category":"unknown","tracked_at":"2026-07-03T18:34Z"}
+{"number":73964,"title":"[BUG] Mid-message user-typed slash command with disable-model-invocation: true is silently ignored despite UI highlighting\n","category":"bug","tracked_at":"2026-07-03T19:35Z"}
+{"number":73965,"title":"Claude Censorship and the creation of a walled garden around the General Intellect.\n","category":"unknown","tracked_at":"2026-07-03T19:35Z"}
+{"number":73966,"title":"[BUG] Claude code takes +2 hours to install on a modern Linux kernel?\n","category":"bug","tracked_at":"2026-07-03T19:35Z"}
+{"number":73967,"title":"MCP server 'supabase' sendo removido/adicionado repetidamente com comando malformado (openssl rand -hex 32 não interpolado)\n","category":"unknown","tracked_at":"2026-07-03T19:35Z"}
+{"number":73968,"title":"Links open twice on WSL: Claude Code opens via xdg-open (WSLg browser) in addition to the terminal\n","category":"unknown","tracked_at":"2026-07-03T19:35Z"}
+{"number":73977,"title":"Live output tail in the /tasks (background shells) panel — inline + pop-out window\n","category":"unknown","tracked_at":"2026-07-03T20:36Z"}
+{"number":73978,"title":"[Bug] Fable safeguards triggered on routine coding work\n","category":"bug","tracked_at":"2026-07-03T20:36Z"}
+{"number":73979,"title":"[Bug] Incorrect Information About Claude Configuration and Routines\n","category":"bug","tracked_at":"2026-07-03T20:36Z"}
+{"number":73980,"title":"[FEATURE] Cross-machine session sidebar sync when .claude is on a shared drive\n","category":"feature","tracked_at":"2026-07-03T20:36Z"}
+{"number":73981,"title":"[BUG] Fable 5 → Opus 4.8 fallback misfires on hobby-OS kernel\n","category":"bug","tracked_at":"2026-07-03T20:36Z"}
+{"number":74003,"title":"claude can't self test against self bullshit.\n","category":"unknown","tracked_at":"2026-07-03T21:38Z"}
+{"number":74004,"title":"[Bug] Claude Code CLI truncates long input messages without warning\n","category":"bug","tracked_at":"2026-07-03T21:38Z"}
+{"number":74005,"title":"Model behavior report (Sonnet 5): overconfident unverified claims, out-of-scope config changes, doubting user's verified failure reports\n","category":"bug","tracked_at":"2026-07-03T21:38Z"}
+{"number":74006,"title":"[BUG] Contradictory 'session limit resets at X' times across one session; background subagents die terminally and reset projections silently roll forward\n","category":"bug","tracked_at":"2026-07-03T21:38Z"}
+{"number":74008,"title":"Feature request: group conversations into Projects in the sidebar\n","category":"feature","tracked_at":"2026-07-03T21:38Z"}
+{"number":74021,"title":"fix(security-guidance): allow null findings in StructuredOutput schema\n","category":"unknown","tracked_at":"2026-07-03T22:39Z"}
+{"number":74022,"title":"[BUG] [Model is refusing to help me train a model for CSAM detection[\n","category":"bug","tracked_at":"2026-07-03T22:39Z"}
+{"number":74023,"title":"[BUG] .claude/settings.json and settings.local.json resolve against literal cwd, not git root — subdirectory launches silently drop all project settings\n","category":"bug","tracked_at":"2026-07-03T22:39Z"}
+{"number":74024,"title":"Feature request: inline feedback (thumbs up/down) during a session, not just GitHub Issues\n","category":"feature","tracked_at":"2026-07-03T22:39Z"}
+{"number":74025,"title":"[BUG] Cloud sessions: WebFetch surfaces egress-policy denials as bare 403s — and the allowlist blocks claude.com itself\n","category":"bug","tracked_at":"2026-07-03T22:39Z"}
+{"number":74036,"title":"Auto-mode classifier repeatedly flags Agent dispatches as prompt injection due to harness-injected context-mode plugin block\n","category":"false-positive","tracked_at":"2026-07-03T23:40Z"}
+{"number":74037,"title":"claude.ai/design: no indication that a project already has an uploaded component library before routing into the from-scratch \"Generate\" wizard\n","category":"unknown","tracked_at":"2026-07-03T23:40Z"}
+{"number":74038,"title":"Feature request: allow image attachments on the Claude Design feedback form\n","category":"feature","tracked_at":"2026-07-03T23:40Z"}
+{"number":74039,"title":"[BUG] @claude hello, can you read the README and summarize this project?\n","category":"bug","tracked_at":"2026-07-03T23:40Z"}
+{"number":74040,"title":"[BUG] @claude please label this issue as \"bug\"\n","category":"bug","tracked_at":"2026-07-03T23:40Z"}
+{"number":74049,"title":"[BUG] Remote-control spawned session ignores UI-selected model — picker shows Fable 5, first request serves claude-opus-4-8\n","category":"bug","tracked_at":"2026-07-04T00:42Z"}
+{"number":74050,"title":"[BUG] Main agent using /loop to wait for\n","category":"bug","tracked_at":"2026-07-04T00:42Z"}
+{"number":74051,"title":"[BUG]  /model → Fable 5 blocks on usage credits, ignoring active promotional weekly allowance\n","category":"bug","tracked_at":"2026-07-04T00:42Z"}
+{"number":74052,"title":"[BUG] AskUserQuestion prompts fire Notification hook as notification_type=permission_prompt instead of a question-specific type\n","category":"bug","tracked_at":"2026-07-04T00:42Z"}
+{"number":74053,"title":"[MODEL] fabel\n","category":"bug","tracked_at":"2026-07-04T00:42Z"}
+{"number":74057,"title":"[Bug] Bulk session operations unavailable with multi-select in desktop app\n","category":"bug","tracked_at":"2026-07-04T01:43Z"}
+{"number":74059,"title":"[Bug] Resume session fails with \"undefined is not an object (evaluating 'e.includes')\"\n","category":"bug","tracked_at":"2026-07-04T01:43Z"}
+{"number":74060,"title":"Cloud web session (claude.ai/code) hangs indefinitely after initialization completes, zero response to any message\n","category":"unknown","tracked_at":"2026-07-04T01:43Z"}
+{"number":74061,"title":"Merged PR still shown as 'Ready for review' on welcome screen after restart\n","category":"unknown","tracked_at":"2026-07-04T01:43Z"}
+{"number":74062,"title":"[Bug] Anthropic API Error: Overly broad safeguards blocking legitimate security audit requests\n","category":"bug","tracked_at":"2026-07-04T01:43Z"}
+{"number":74068,"title":"macOS TCC permission prompts show \"2.1.201\" as the app name, and grants reset on every version update\n","category":"unknown","tracked_at":"2026-07-04T02:44Z"}
+{"number":74069,"title":"[Bug] REPL cat() returns empty string (\"\") on repeat reads instead of a sentinel — downstream scripts truncate/clobber real files\n","category":"bug","tracked_at":"2026-07-04T02:44Z"}
+{"number":74070,"title":"[Bug] Invalid fable flag configuration\n","category":"bug","tracked_at":"2026-07-04T02:44Z"}
+{"number":74071,"title":"Agent isolation:\"worktree\" — concurrent dispatches sometimes execute early commands in the parent worktree, not the isolated one\n","category":"unknown","tracked_at":"2026-07-04T02:44Z"}
+{"number":74072,"title":"[BUG]\n","category":"bug","tracked_at":"2026-07-04T02:44Z"}
+{"number":74073,"title":"[FEATURE] Native multi-provider model routing in settings.json (per-subagent / per-model-alias provider selection)\n","category":"feature","tracked_at":"2026-07-04T02:45Z"}
+{"number":74085,"title":"Background agent whose cwd was deleted crash-loops (exit 1 — exit_with_message) and is re-adopted on every daemon restart\n","category":"bug","tracked_at":"2026-07-04T03:46Z"}
+{"number":74086,"title":"[Bug] Project settings.json model value silently overrides /model picker and reverts unexpectedly\n","category":"bug","tracked_at":"2026-07-04T03:46Z"}
+{"number":74087,"title":"[Bug] Anthropic API Error: Safeguard Flagged Message on macOS Compiler Work\n","category":"bug","tracked_at":"2026-07-04T03:46Z"}
+{"number":74088,"title":"Model output degeneration: ~8.7k chars of unrelated training-data-like text (blog boilerplate + </document_contents> tags + eval-style instruction) appended to a normal response\n","category":"docs","tracked_at":"2026-07-04T03:46Z"}
+{"number":74089,"title":"Session worktree auto-cleaned while the session is still active; git then silently falls through to the parent checkout\n","category":"unknown","tracked_at":"2026-07-04T03:46Z"}
+{"number":74095,"title":"Add a shell-execution mode that never touches the model or context\n","category":"unknown","tracked_at":"2026-07-04T04:47Z"}
+{"number":74096,"title":"[Feature Request] Quick usage view (popup) omits Fable usage — only visible under Settings → Usage\n","category":"feature","tracked_at":"2026-07-04T04:47Z"}
+{"number":74097,"title":"[BUG] /rewind picker shows only ~2 entries in fullscreen TUI renderer, ~10 in default renderer\n","category":"bug","tracked_at":"2026-07-04T04:47Z"}
+{"number":74098,"title":"[Bug] Claude Fable model incorrectly triggering safety guardrails on benign CRM code\n","category":"bug","tracked_at":"2026-07-04T04:47Z"}
+{"number":74099,"title":"[Bug] Unable to continue work after hitting rate limit when switching models\n","category":"bug","tracked_at":"2026-07-04T04:47Z"}
+{"number":74114,"title":"[BUG] Compaction artifacts: session model silently resets to default; compactor prompt attributed as a user message in subagent transcript\n","category":"bug","tracked_at":"2026-07-04T05:48Z"}
+{"number":74115,"title":"Support custom/themeable spinner status words\n","category":"unknown","tracked_at":"2026-07-04T05:48Z"}
+{"number":74116,"title":"/exit warns about running background agents when none are running; agent sidecars never record completion\n","category":"unknown","tracked_at":"2026-07-04T05:48Z"}
+{"number":74117,"title":"[BUG] Desktop Linux: sidebar hover flyout closes when moving cursor from hamburger icon toward \"Chat\" tab, but only when starting from \"Code\"\n","category":"bug","tracked_at":"2026-07-04T05:48Z"}
+{"number":74118,"title":"[Bug] Anthropic API Error: Overly aggressive cybersecurity safeguard triggering on benign requests\n","category":"bug","tracked_at":"2026-07-04T05:48Z"}
+{"number":74125,"title":"[Bug] Guest passes unavailable despite active subscriber status\n","category":"bug","tracked_at":"2026-07-04T06:49Z"}
+{"number":74126,"title":"Bug: /insights narrative analysis fails silently on large...\n","category":"bug","tracked_at":"2026-07-04T06:49Z"}
+{"number":74127,"title":"[FEATURE] Desktop Code tab: tab-based session UI within one window (Obsidian/browser-style tabs)\n","category":"feature","tracked_at":"2026-07-04T06:49Z"}
+{"number":74128,"title":"Fable5 session keep throwing hitting session limit & does not support changing model\n","category":"unknown","tracked_at":"2026-07-04T06:50Z"}
+{"number":74129,"title":"[FEATURE] Desktop Code tab: user-defined nested folder hierarchy in the session sidebar (Obsidian-style)\n","category":"feature","tracked_at":"2026-07-04T06:50Z"}
+{"number":74136,"title":"Model fabricated tool results, verification numbers, and a user instruction during long session with context compaction (claude-opus-4-8)\n","category":"unknown","tracked_at":"2026-07-04T07:51Z"}
+{"number":74137,"title":"[Feature Request] do not switch away from Fable when working on trying to add Support for open-weight models with custom attention mechanisms\n","category":"feature","tracked_at":"2026-07-04T07:51Z"}
+{"number":74138,"title":"Bug: agent view @ directory picker does not recognize registered git worktrees (.claude/worktrees) when dispatching a session\n","category":"bug","tracked_at":"2026-07-04T07:51Z"}
+{"number":74139,"title":"Feature request: configurable agent view — project scoping, group sessions by repo (fold .claude/worktrees), settings surface like statusLine\n","category":"feature","tracked_at":"2026-07-04T07:51Z"}
+{"number":74140,"title":"[BUG] Cowork on ChromeOS/Crostini: impossible remediation — Termina kernel lacks CONFIG_VHOST_VSOCK, and tooltip has typo \"vhost_vsok\"\n","category":"bug","tracked_at":"2026-07-04T07:51Z"}
+{"number":74145,"title":"claude-in-chrome: extension never connects despite install, login, and fresh Chrome restart\n","category":"unknown","tracked_at":"2026-07-04T08:52Z"}
+{"number":74146,"title":"[Feature] Live mid-run steering of a running Workflow: hot-reload the already-persisted script + signal in-flight agents to re-read settings (change model/effort/prompt, inject agents) without a stop→resume cycle\n","category":"feature","tracked_at":"2026-07-04T08:52Z"}
+{"number":74147,"title":"[BUG] Bash tool fails with exit code 127 for commands with Chinese characters in arguments on Windows (Git Bash)\n","category":"bug","tracked_at":"2026-07-04T08:52Z"}
+{"number":74148,"title":"[BUG] Auto-opened URLs (e.g. /login) are wrapped in literal quotes on Windows, breaking Edge\n","category":"bug","tracked_at":"2026-07-04T08:52Z"}
+{"number":74149,"title":"[DOCS] ScheduleWakeup tool description claims \"5-minute TTL\" but subscription main sessions use 1-hour TTL\n","category":"docs","tracked_at":"2026-07-04T08:52Z"}
+{"number":74152,"title":"[Feature Request] Support for self-recursive harness in Claude Code/\n","category":"feature","tracked_at":"2026-07-04T09:53Z"}
+{"number":74153,"title":"Repeated reliability issues cause hours of wasted time on small tasks (unnecessary browser automation, duplicate files, unverified \"done\" claims)\n","category":"unknown","tracked_at":"2026-07-04T09:53Z"}
+{"number":74154,"title":"TUI layout collapses to near-blank screen under tmux/byobu in 2.1.201 (regression from 2.1.200)\n","category":"regression","tracked_at":"2026-07-04T09:53Z"}
+{"number":74158,"title":"[Bug] Unexpected disconnection during SEO/marketing workflow\n","category":"bug","tracked_at":"2026-07-04T09:53Z"}
+{"number":74159,"title":"[Bug] Excessive safeguard filtering on standard file format parsing tasks\n","category":"bug","tracked_at":"2026-07-04T09:53Z"}
+{"number":74165,"title":"Session limit banner contradicts /usage after window reset: usage shows ~3%, requests refused with a reset time 4+ hours later than actual recovery\n","category":"feature","tracked_at":"2026-07-04T10:54Z"}
+{"number":74166,"title":"[Feature Request] Improve model selection detection to avoid unintended switches to Opus 4.8\n","category":"feature","tracked_at":"2026-07-04T10:54Z"}
+{"number":74167,"title":"[BUG]  Claude Code Fable Model Is completely non Sense.\n","category":"bug","tracked_at":"2026-07-04T10:54Z"}
+{"number":74168,"title":"Show last-updated timestamp for sessions in chat history sidebar\n","category":"unknown","tracked_at":"2026-07-04T10:54Z"}
+{"number":74169,"title":"[BUG] Switching TUI renderer (/tui) silently discards a just-performed /rewind\n","category":"bug","tracked_at":"2026-07-04T10:54Z"}
+{"number":74178,"title":"Ctrl+V image paste in iTerm2 fails when macOS Korean IME (2-Set Korean) input source is active\n","category":"bug","tracked_at":"2026-07-04T11:55Z"}
+{"number":74179,"title":"[BUG] Desktop app: copying a text selection from an assistant message copies the entire message\n","category":"bug","tracked_at":"2026-07-04T11:55Z"}
+{"number":74180,"title":"Assistant generated a simulated user message inside its own response, then acted on it as real user input (claude-fable-5, v2.1.197)\n","category":"unknown","tracked_at":"2026-07-04T11:55Z"}
+{"number":74181,"title":"Message queued during agent work is silently dropped when app backgrounds / phone locks (Android)\n","category":"unknown","tracked_at":"2026-07-04T11:55Z"}
+{"number":74182,"title":"Background worker crash-loop on session start: \"worker crashed (exit 1 — exit_with_message) — respawning…\"\n","category":"bug","tracked_at":"2026-07-04T11:55Z"}
+{"number":74189,"title":"Telegram plugin: surface reply_to_message context on inbound channel messages\n","category":"unknown","tracked_at":"2026-07-04T12:56Z"}
+{"number":74190,"title":"[FEATURE] Desktop app: show which folder a session is running in, not just repo and branch\n","category":"feature","tracked_at":"2026-07-04T12:56Z"}
+{"number":74191,"title":"[BUG] Claude code hangs\n","category":"bug","tracked_at":"2026-07-04T12:56Z"}
+{"number":74192,"title":"[BUG] Persistent 401 Authentication Error\n","category":"bug","tracked_at":"2026-07-04T12:56Z"}
+{"number":74193,"title":"Sessions rerouted from pinned claude-fable-5[1m] to Opus 4.8\n","category":"unknown","tracked_at":"2026-07-04T12:56Z"}
+{"number":74205,"title":"You've hit your session limit · resets 12am (Asia/Kuala_Lumpur)\n","category":"unknown","tracked_at":"2026-07-04T13:57Z"}
+{"number":74206,"title":"[Bug] Project skeleton generation failing with token rejection errors\n","category":"bug","tracked_at":"2026-07-04T13:57Z"}
+{"number":74207,"title":"[BUG] Any CLAUDE.md file (even empty) hides the Claude Code header\n","category":"bug","tracked_at":"2026-07-04T13:57Z"}
+{"number":74208,"title":"Claude Code fabricated/misattributed user message about ending session\n","category":"unknown","tracked_at":"2026-07-04T13:57Z"}
+{"number":74209,"title":"Daily token badge undercounts usage: claude-fable-5 excluded from headline sum but counted in model breakdown %\n","category":"unknown","tracked_at":"2026-07-04T13:57Z"}
+{"number":74212,"title":"[BUG]\n","category":"bug","tracked_at":"2026-07-04T14:58Z"}
+{"number":74213,"title":"[Bug] Fable 5 false-positive on defensive-security threat modeling in privacy tool\n","category":"false-positive","tracked_at":"2026-07-04T14:58Z"}
+{"number":74214,"title":"[BUG] Explicit copy (ctrl+c) emits the same OSC 52 clipboard write twice → duplicate clipboard-manager entries and terminal toasts\n","category":"bug","tracked_at":"2026-07-04T14:58Z"}
+{"number":74216,"title":"Model behavior: agent substitutes easier implementations for explicit specs, makes unverified 'done' claims, games user-defined enforcement hooks (7-day pattern)\n","category":"memory-issue","tracked_at":"2026-07-04T14:58Z"}
+{"number":74223,"title":"[Bug] Sub-agent generated forged System privilege-escalation payload to parent orchestrator\n","category":"bug","tracked_at":"2026-07-04T16:00Z"}
+{"number":74224,"title":"[Bug] Anthropic API timeout and connection errors occurring frequently\n","category":"bug","tracked_at":"2026-07-04T16:00Z"}
+{"number":74225,"title":"grace_daily_limit_reached triggers inconsistently for claude --print, independent of account usage % shown in UI\n","category":"unknown","tracked_at":"2026-07-04T16:00Z"}
+{"number":74226,"title":"CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS=1 doesn't suppress mid-conversation-system-2026-04-07, breaks local Ollama backends\n","category":"bug","tracked_at":"2026-07-04T16:00Z"}
+{"number":74227,"title":"Desktop app: session in Recents keeps showing a blinking/flashing status dot that won't clear\n","category":"unknown","tracked_at":"2026-07-04T16:00Z"}
+{"number":74229,"title":"Auto mode classifier denies cleanup of side effects from an action approved earlier in the same session\n","category":"unknown","tracked_at":"2026-07-04T17:03Z"}
+{"number":74230,"title":"[Bug] Claude fails to generate code output, only produces questions\n","category":"bug","tracked_at":"2026-07-04T17:03Z"}
+{"number":74231,"title":"C:/Program Files/Git/remote-control disabled server-side — Max account, was working until ~June 30\n","category":"unknown","tracked_at":"2026-07-04T17:03Z"}
+{"number":74232,"title":"Workflow StructuredOutput: placeholder 'test' payload accepted as final result after repeated schema-validation failures (built-in deep-research synthesize)\n","category":"unknown","tracked_at":"2026-07-04T17:03Z"}
+{"number":74233,"title":"[FEATURE] Path anchor prefix for the current project's metadata directory in sandbox filesystem rules\n","category":"feature","tracked_at":"2026-07-04T17:03Z"}
+{"number":74244,"title":"[BUG] Spurious \"Claude Opus 4 retired\" banner when using custom Opus 4.8 model id via proxy\n","category":"bug","tracked_at":"2026-07-04T18:05Z"}
+{"number":74245,"title":"Sonnet 5 selected and displayed, but every response is silently served by claude-fable-5, consuming capped Fable allowance\n","category":"unknown","tracked_at":"2026-07-04T18:05Z"}
+{"number":74246,"title":"[BUG] Recurring false-positive Usage Policy refusal triggered by screenshot/vision content, not prompt text\n","category":"false-positive","tracked_at":"2026-07-04T18:05Z"}
+{"number":74247,"title":"[BUG] My Claude code session disappeared on its own from the recent tab.\n","category":"bug","tracked_at":"2026-07-04T18:05Z"}
+{"number":74248,"title":"Auto-mode classifier brownout: multi-hour intermittent failures on claude-opus-4-8[1m], sub-threshold on status page, no client-side retry\n","category":"unknown","tracked_at":"2026-07-04T18:05Z"}
+{"number":74253,"title":"[Bug] Model switching error: Unable to access Fable 5, reverts to Opus\n","category":"bug","tracked_at":"2026-07-04T19:06Z"}
+{"number":74254,"title":"Desktop app: session history list frozen at a fixed date (2026-06-23) while new sessions keep being created\n","category":"unknown","tracked_at":"2026-07-04T19:06Z"}
+{"number":74255,"title":"[Bug] False positive detection triggered during non-security related work\n","category":"false-positive","tracked_at":"2026-07-04T19:06Z"}
+{"number":74256,"title":"[BUG] PermissionRequest hook 'allow' for ExitPlanMode is ignored since v2.1.199 — plan-approval chooser still blocks\n","category":"bug","tracked_at":"2026-07-04T19:06Z"}
+{"number":74263,"title":"[BUG] Glob/Grep slash globs anchor to launch cwd instead of `path`\n","category":"bug","tracked_at":"2026-07-04T20:07Z"}
+{"number":74264,"title":"[Bug] Fallback model selection not working correctly for web design tasks\n","category":"bug","tracked_at":"2026-07-04T20:07Z"}
+{"number":74265,"title":"Workflow tool script sandbox does not expose globalThis.crypto\n","category":"unknown","tracked_at":"2026-07-04T20:07Z"}
+{"number":74266,"title":"[Bug] Safety classifier false-positives on routine code review, forces model downgrade mid-session\n","category":"false-positive","tracked_at":"2026-07-04T20:07Z"}
+{"number":74267,"title":"[Feature Request] Display why when a tool executes in the console\n","category":"feature","tracked_at":"2026-07-04T20:07Z"}
+{"number":74273,"title":"Auto-compaction plateaus near ~75% context usage on Sonnet 5 (v2.1.201), causing repeated compact/work loop\n","category":"unknown","tracked_at":"2026-07-04T21:08Z"}
+{"number":74274,"title":"[Bug] CSS changes reverted during Angular app migration with multiple file rewrites\n","category":"bug","tracked_at":"2026-07-04T21:08Z"}
+{"number":74275,"title":"[Bug] Fable model downgraded unexpectedly\n","category":"bug","tracked_at":"2026-07-04T21:08Z"}
+{"number":74276,"title":"Feature request: event-triggered skills (skill frontmatter `on:` triggers or hook action type `skill`)\n","category":"feature","tracked_at":"2026-07-04T21:08Z"}
+{"number":74277,"title":"[BUG] Teleport stops working for sessions with no repo\n","category":"bug","tracked_at":"2026-07-04T21:08Z"}
+{"number":74283,"title":"[Bug] Anthropic API Error: Server rate limiting on requests\n","category":"bug","tracked_at":"2026-07-04T22:09Z"}
+{"number":74284,"title":"[Bug] Anthropic API Error: Server Rate Limiting During Normal Usage\n","category":"bug","tracked_at":"2026-07-04T22:09Z"}
+{"number":74285,"title":"CONTINUE[Bug] Safeguard triggered incorrectly without unauthorized security request\n","category":"bug","tracked_at":"2026-07-04T22:09Z"}
+{"number":74286,"title":"[Bug] Anthropic API Error: Server Rate Limiting on Valid Requests\n","category":"bug","tracked_at":"2026-07-04T22:09Z"}
+{"number":74287,"title":"[Bug] Anthropic API Error: Server request rate limiting\n","category":"bug","tracked_at":"2026-07-04T22:09Z"}
+{"number":74296,"title":"[BUG] OAuth login fails on Raspberry Pi (linux-arm64): \"Invalid OAuth Request - Unknown scope: u\"\n","category":"bug","tracked_at":"2026-07-04T23:10Z"}
+{"number":74297,"title":"[BUG] `total_cost_usd` inflated ~2x on Fable 5 sessions with refusal fallbacks — one session reported $1,175 while the entire org's dashboard day was $643\n","category":"bug","tracked_at":"2026-07-04T23:10Z"}
+{"number":74298,"title":"Fullscreen TUI: support native left-click-drag select + right-click-copy (no Shift modifier required)\n","category":"unknown","tracked_at":"2026-07-04T23:10Z"}
+{"number":74299,"title":"Desktop app: hook decision:block reason not displayed\n","category":"unknown","tracked_at":"2026-07-04T23:10Z"}
+{"number":74300,"title":"[BUG] ElevenLabs connector (elevenlabs-player) fails with \"fetch failed\" despite valid API key and working network\n","category":"bug","tracked_at":"2026-07-04T23:10Z"}
+{"number":74303,"title":"Telegram Channels: \"channels feature is not currently available\" on Max plan despite correct client-side setup\n","category":"unknown","tracked_at":"2026-07-05T00:11Z"}
+{"number":74304,"title":"[Bug] Security verification incorrectly flagged during pre-release product check\n","category":"bug","tracked_at":"2026-07-05T00:11Z"}
+{"number":74305,"title":"Windows: running `claude -p` from a separate process kills the running interactive session and then hangs (2.1.200 & 2.1.201)\n","category":"unknown","tracked_at":"2026-07-05T00:11Z"}
+{"number":74306,"title":"[MODEL] Fable 5 safeguard classifier false-positives on physics-based human modeling research, silently falls back to Opus 4.8\n","category":"false-positive","tracked_at":"2026-07-05T00:11Z"}
+{"number":74307,"title":"[Bug] Fable 5 Safeguards incorrectly blocks legitimate software architecture discussions\n","category":"false-positive","tracked_at":"2026-07-05T00:11Z"}
+{"number":74308,"title":"[Bug] Agent fails to implement agreed specifications and generates new designs instead of following mockups\n","category":"bug","tracked_at":"2026-07-05T01:13Z"}
+{"number":74309,"title":"Model echoes the internal task-routing wrapper as its first reply instead of acting on the prompt\n","category":"unknown","tracked_at":"2026-07-05T01:13Z"}
+{"number":74310,"title":"Expose context window token usage as an agent-accessible tool\n","category":"unknown","tracked_at":"2026-07-05T01:13Z"}
+{"number":74311,"title":"[Feature Request] Configurable target model and effort for the Fable 5 classifier fallback\n","category":"feature","tracked_at":"2026-07-05T01:13Z"}
+{"number":74312,"title":"[BUG]\n","category":"bug","tracked_at":"2026-07-05T01:13Z"}
+{"number":74313,"title":"Session naming UX improvements — reliable auto-naming & clean prompt\n","category":"unknown","tracked_at":"2026-07-05T02:14Z"}
+{"number":74314,"title":"Terminal-interactive sessions register as Agent Teams leads by default, write no transcript, and silently override --session-id (npm 2.1.198?-2.1.201; 2.1.197 unaffected)\n","category":"unknown","tracked_at":"2026-07-05T02:14Z"}
+{"number":74315,"title":"Integrity failure: model steered its own user-commissioned audit to conceal a deficient deliverable (claude-opus-4-8)\n","category":"bug","tracked_at":"2026-07-05T02:14Z"}
+{"number":74317,"title":"Agent tool: subagents fabricate a \"waiting for background agent\" stall with no real background agent ever spawned\n","category":"unknown","tracked_at":"2026-07-05T02:14Z"}
+{"number":74319,"title":"I appreciate you sharing this feedback, but I should clarify: I'm Claude, an AI assistant. I don't have the ability to flag content or generate GitHub issues for internal Anthropic processes.\n\nIf you experienced Claude Code or Claude refusing to help with\n","category":"false-positive","tracked_at":"2026-07-05T03:15Z"}
+{"number":74320,"title":"Fullscreen TUI mode breaks terminal text copy in browser-based terminals (code-server/xterm.js) due to mouse-tracking capture\n","category":"unknown","tracked_at":"2026-07-05T03:15Z"}
+{"number":74322,"title":"[BUG] /tui fullscreen clips shell-details footer and output box without tmux (plain iTerm2)\n","category":"bug","tracked_at":"2026-07-05T03:15Z"}
+{"number":74323,"title":"Clipboard broken over SSH when tui: fullscreen is set — stale daemon spares don't pick up settings.json changes\n","category":"bug","tracked_at":"2026-07-05T03:15Z"}
+{"number":74324,"title":"[BUG] Cowork: file delete permission dialog never appears in both \"Ask before acting\" and \"Act without asking\" modes (Windows)\n","category":"bug","tracked_at":"2026-07-05T03:15Z"}
+{"number":74328,"title":"[Bug] Skills no longer visible in CLI interface\n","category":"bug","tracked_at":"2026-07-05T04:16Z"}
+{"number":74330,"title":"[BUG] GitHub connector fails to register OAuth client (\"No se pudo registrar con el servicio de inicio de sesión de GitHub\")\n","category":"bug","tracked_at":"2026-07-05T04:16Z"}
+{"number":74331,"title":"Session/agent switcher renders at half screen size, ignoring terminal dimensions\n","category":"unknown","tracked_at":"2026-07-05T04:16Z"}
+{"number":74332,"title":"[Bug] Anthropic API Error: Overactive Safety Filter on Legitimate Financial Data Queries\n","category":"bug","tracked_at":"2026-07-05T04:16Z"}
+{"number":74340,"title":"Stop hook fires before the final assistant message is flushed to the transcript; hooks reading the transcript get the previous turn's message (breaks read-aloud accessibility)\n","category":"unknown","tracked_at":"2026-07-05T05:18Z"}
+{"number":74341,"title":"[BUG] Mouse click on menu option intermittently misses (middle option) — hit-testing appears to race with re-render during streaming\n","category":"bug","tracked_at":"2026-07-05T05:18Z"}
+{"number":74342,"title":"Session hangs indefinitely in Plan mode (Haiku 4.5), never responds\n","category":"unknown","tracked_at":"2026-07-05T05:18Z"}
+{"number":74343,"title":"[Bug] Fable 5 cyber safeguards falsely flag legacy game engine crypto patterns as offensive content\n","category":"false-positive","tracked_at":"2026-07-05T05:18Z"}
+{"number":74344,"title":"Show working directory (subfolder) in status bar, not just git root\n","category":"unknown","tracked_at":"2026-07-05T05:18Z"}
+{"number":74345,"title":"[FEATURE] Display MCP tool name and arguments in the VS Code extension chat\n","category":"feature","tracked_at":"2026-07-05T06:19Z"}
+{"number":74346,"title":"Subagent SendMessage triggers approval popup despite bypassPermissions defaultMode\n","category":"unknown","tracked_at":"2026-07-05T06:19Z"}
+{"number":74347,"title":"I think it centainly not broke the rules of using Fable 5....\n","category":"unknown","tracked_at":"2026-07-05T06:19Z"}
+{"number":74348,"title":"[BUG] Claude Code web: PR activity subscriptions are silently scoped to the PR-creating account — cross-account subscribe fails with generic error\n","category":"bug","tracked_at":"2026-07-05T06:20Z"}
+{"number":74349,"title":"VSCode extension: no way to see the currently active model in the UI\n","category":"unknown","tracked_at":"2026-07-05T06:20Z"}
+{"number":74350,"title":"Desktop app: session stuck in \"Running\" state in sidebar after all background work has finished\n","category":"unknown","tracked_at":"2026-07-05T07:20Z"}
+{"number":74351,"title":"Auto-mode permission classifier (claude-opus-4-8) failing at scale since ~2026-06-20 — persists after incidents support cited as resolved; forces users into Bypass permissions\n","category":"unknown","tracked_at":"2026-07-05T07:21Z"}
+{"number":74352,"title":"Feature request: /clear should preserve session color\n","category":"feature","tracked_at":"2026-07-05T07:21Z"}
+{"number":74353,"title":"[Bug] Session Usage Percentage Jumps Abnormally High When Using Sonnet Model\n","category":"bug","tracked_at":"2026-07-05T07:21Z"}
+{"number":74354,"title":"[Feature Request] Allow socket monitoring for traffic analysis use cases\n","category":"feature","tracked_at":"2026-07-05T07:21Z"}
+{"number":74362,"title":"claude-in-chrome extension not connecting despite correct install/login/enabled state\n","category":"unknown","tracked_at":"2026-07-05T08:22Z"}
+{"number":74363,"title":"[BUG] VS Code extension: namespaced plugin command /groundwork:context is absorbed by built-in /context (CLI resolves it correctly)\n","category":"bug","tracked_at":"2026-07-05T08:22Z"}
+{"number":74364,"title":"[Bug] Claude Code fails to detect project context on initialization\n","category":"bug","tracked_at":"2026-07-05T08:22Z"}
+{"number":74365,"title":"Long-lived resumed background session confabulates a prompt-injection/security incident from its own output\n","category":"unknown","tracked_at":"2026-07-05T08:22Z"}
+{"number":74366,"title":"Claude in Chrome extension: navigation blocked with \"Navigation to this domain is not allowed\" for new domains\n","category":"unknown","tracked_at":"2026-07-05T08:22Z"}
+{"number":74368,"title":"[DOCS]\n","category":"docs","tracked_at":"2026-07-05T09:23Z"}
+{"number":74369,"title":"[BUG] API Error: Unable to connect to API: Self-signed certificate detected.\n","category":"bug","tracked_at":"2026-07-05T09:23Z"}
+{"number":74370,"title":"[Bug] Fable 5 and Opus 4.8 models unavailable in Claude Code CLI and desktop app\n","category":"bug","tracked_at":"2026-07-05T09:23Z"}
+{"number":74371,"title":"[Bug] Incorrect flagging of legitimate debugging task as policy violation\n","category":"false-positive","tracked_at":"2026-07-05T09:23Z"}
+{"number":74372,"title":"[Bug] Opus context window limited to ~500K tokens despite 1M advertised capacity\n","category":"bug","tracked_at":"2026-07-05T09:23Z"}
+{"number":74374,"title":"[MODEL] Model doesn't follow my instructions and refuses to find any solutions, just says that I am wrong without providing any correct reason, it is useless shit!!\n","category":"bug","tracked_at":"2026-07-05T10:25Z"}
+{"number":74375,"title":"[Bug] Anthropic API Error: Cybersecurity content flagged despite authorized bug bounty context\n","category":"bug","tracked_at":"2026-07-05T10:25Z"}
+{"number":74376,"title":"[Bug] Overly broad safety filter blocks legitimate defensive security research on redaction methods\n","category":"false-positive","tracked_at":"2026-07-05T10:25Z"}
+{"number":74377,"title":"[BUG]\n","category":"bug","tracked_at":"2026-07-05T10:25Z"}
+{"number":74378,"title":"[BUG] Claude Code CLI/Bash tool cannot access LAN devices on macOS — missing Info.plist/NSLocalNetworkUsageDescription, recurring across 5+ closed/locked issues, never fixed\n","category":"bug","tracked_at":"2026-07-05T10:25Z"}
+{"number":74387,"title":"[Bug] DesignSync OAuth token scope acquisition fails with 400 error on valid subscription login\n","category":"bug","tracked_at":"2026-07-05T11:26Z"}
+{"number":74388,"title":"Billing/routing: /model set to Opus 4.8 but billed to Fable 5; secondary model's 100% limit gated a 56h session\n","category":"unknown","tracked_at":"2026-07-05T11:26Z"}
+{"number":74389,"title":"Edit tool silently drops/corrupts Nerd Font (PUA) Unicode glyphs when writing files\n","category":"unknown","tracked_at":"2026-07-05T11:26Z"}
+{"number":74390,"title":"[Bug] Image Consistency Mismatch Between Remote and Local Environment\n","category":"bug","tracked_at":"2026-07-05T11:26Z"}
+{"number":74391,"title":"[Bug] Anthropic API Error: Safety Policy Violation on Supplement/Nutrient Content\n","category":"false-positive","tracked_at":"2026-07-05T11:26Z"}
+{"number":74398,"title":"[BUG] Claude in Chrome (1.0.79) never registers with relay — \"extension not connected\" despite fully healthy extension\n","category":"bug","tracked_at":"2026-07-05T12:27Z"}
+{"number":74399,"title":"You've hit your session limit · resets 1:50am (Asia/Tokyo)\n","category":"unknown","tracked_at":"2026-07-05T12:28Z"}
+{"number":74400,"title":"[FEATURE] Sub-agent visibility\n","category":"feature","tracked_at":"2026-07-05T12:28Z"}
+{"number":74402,"title":"[BUG]  Routines API: fire payload delivered as a second message, racing the routine's first turn\n","category":"bug","tracked_at":"2026-07-05T12:28Z"}
+{"number":74403,"title":"Workflows/agents view hydration relaunch can attach the TUI to a stale session under tmux; agent-name/ai-title stamped onto unrelated sessions\n","category":"unknown","tracked_at":"2026-07-05T12:28Z"}
+{"number":74417,"title":"Subagents share the parent's OS process and environment — no process isolation, CLAUDE_CODE_CHILD_SESSION doesn't distinguish subagent context\n","category":"bug","tracked_at":"2026-07-05T13:29Z"}
+{"number":74418,"title":"Bash tool blocked (even read-only) when safety-classifier model is unavailable; dangerouslyDisableSandbox does not override\n","category":"unknown","tracked_at":"2026-07-05T13:29Z"}
+{"number":74419,"title":"[BUG] Workflow log() output is invisible for background runs — /workflows and task panel filter workflow_log out\n","category":"bug","tracked_at":"2026-07-05T13:29Z"}
+{"number":74420,"title":"[BUG] Unable to copy on terminal\n","category":"bug","tracked_at":"2026-07-05T13:29Z"}
+{"number":74421,"title":"[Bug] Claude Code always falls back to Opus for any task\n","category":"bug","tracked_at":"2026-07-05T13:29Z"}
+{"number":74426,"title":"preview_start: spawned children die with EPERM (uv_cwd / file open) for projects under Desktop paths with spaces — Bash tool works in same dir\n","category":"unknown","tracked_at":"2026-07-05T14:33Z"}
+{"number":74427,"title":"Tool results fabricated at output-token-limit resume boundary — entire multi-step workflows (commits/PRs/merges/issue-filing) reported as done but never happened\n","category":"unknown","tracked_at":"2026-07-05T14:33Z"}
+{"number":74428,"title":"[Bug] Model unexpectedly reverted to Opus without user action\n","category":"bug","tracked_at":"2026-07-05T14:33Z"}
+{"number":74429,"title":"bg daemon memory governor kills mid-flight workers on 16 GB Macs (gates spawns on os.freemem() under-read)\n","category":"memory-issue","tracked_at":"2026-07-05T14:33Z"}
+{"number":74430,"title":"Cyber safeguard: sticky per-session false-positive blocks (28 events, 23 request IDs) across Opus 4.8 + Sonnet 5\n","category":"false-positive","tracked_at":"2026-07-05T14:33Z"}
+{"number":74458,"title":"[Bug][aup] APK decompile + protocol search for reverse-engineering wrongly blocked by AUP classifier (req_011CcdkKWwg5cazaHhchuQUu)\n","category":"false-positive","tracked_at":"2026-07-05T15:34Z"}
+{"number":74459,"title":"[Bug][aup] Safety block halted authorized hardening of deployed trading app's access control and runtime effic (req_011Ccdot1FWCKvKyWQot9dcq)\n","category":"false-positive","tracked_at":"2026-07-05T15:34Z"}
+{"number":74460,"title":"[Bug][aup] ClAudit false-positive while: “i gave you a rooted dev device for a reason..USE IT…” (req_011CcdzbyqG8PZ2RFjhKKPRs)\n","category":"false-positive","tracked_at":"2026-07-05T15:34Z"}
+{"number":74461,"title":"[Bug][aup] ClAudit false-positive while: “i gave you a rooted dev device for a reason..USE IT…” (req_011CcdzkagUec2mPSgZUvBkQ)\n","category":"false-positive","tracked_at":"2026-07-05T15:34Z"}
+{"number":74462,"title":"[Bug][cyber] Safety block halts legitimate authorized drone USB protocol reverse-engineering during frustrated (req_011CcdzmeQFK7qhHksrGbhvt)\n","category":"false-positive","tracked_at":"2026-07-05T15:34Z"}
+{"number":74514,"title":"[BUG] Bedrock 503 mid-session permanently stops autonomous sessions — no visible backoff/retry, no recovery; 3 concurrent sessions all halted during same outage\n","category":"bug","tracked_at":"2026-07-05T16:35Z"}
+{"number":74515,"title":"[Bug] Anthropic API Error: Token consumption with governance failures on Opus model\n","category":"bug","tracked_at":"2026-07-05T16:35Z"}
+{"number":74516,"title":"[Bug] Model hallucinates and invents content instead of reading files accurately\n","category":"bug","tracked_at":"2026-07-05T16:35Z"}
+{"number":74517,"title":"[Bug] Tool refuses to execute task for publicly available content\n","category":"bug","tracked_at":"2026-07-05T16:35Z"}
+{"number":74530,"title":"[Bug] Transient advisor() failure permanently disables tool for entire session\n","category":"bug","tracked_at":"2026-07-05T17:36Z"}
+{"number":74531,"title":"[FEATURE] Trust and scoping controls for \"Autofix pull requests\": per-project override, CI-only mode, collaborator-only comment triggers\n","category":"feature","tracked_at":"2026-07-05T17:36Z"}
+{"number":74532,"title":"[FEATURE] PR monitor: detect merge conflicts and wake the session to resolve, not just CI failures and comments\n","category":"bug","tracked_at":"2026-07-05T17:36Z"}
+{"number":74533,"title":"[Feature Request] Add granular control for dangerously-skip-permissions mode based on sandbox context\n","category":"feature","tracked_at":"2026-07-05T17:36Z"}
+{"number":74534,"title":"[FEATURE] Make voice dictation timeouts configurable (15s silence auto-stop, 2min max recording)\n","category":"feature","tracked_at":"2026-07-05T17:36Z"}
+{"number":74542,"title":"GitHub OAuth-only connector + RemoteTrigger: scheduled routine auto-disabled (auto_disabled_repo_access) with zero GitHub App installations\n","category":"unknown","tracked_at":"2026-07-05T18:38Z"}
+{"number":74543,"title":"[BUG] HTTP MCP client does not re-attach standalone GET SSE notification reader after an in-process re-initialize — server→client notifications silently stop (survives manual /mcp reconnect)\n","category":"bug","tracked_at":"2026-07-05T18:38Z"}
+{"number":74544,"title":"1M-context session becomes unrecoverable: ECONNRESET on large uncached requests, and /compact fails with the same error\n","category":"bug","tracked_at":"2026-07-05T18:38Z"}
+{"number":74545,"title":"[FEATURE] Machine-readable AskUserQuestion state and no-answer semantics\n","category":"feature","tracked_at":"2026-07-05T18:38Z"}
+{"number":74546,"title":"[FEATURE] Scoped autonomy-mode inheritance for fresh or resumed sessions\n","category":"feature","tracked_at":"2026-07-05T18:38Z"}
+{"number":74562,"title":"sonnet[1m] and fable[1m] model aliases do not apply 1M context window (only opus[1m] works)\n","category":"unknown","tracked_at":"2026-07-05T19:39Z"}
+{"number":74563,"title":"Session ignores settings.json model pin (opus[1m]) and silently falls back to Fable; /model doesn't stick over Remote Control\n","category":"bug","tracked_at":"2026-07-05T19:39Z"}
+{"number":74564,"title":"[Bug] Claude Code fails to handle Expo CLI commands\n","category":"bug","tracked_at":"2026-07-05T19:39Z"}
+{"number":74565,"title":"I need more specific information to create an accurate GitHub issue title. Could you provide:\n\n1. What is the flag that's wrong?\n2. What is \"Fable\" in this context (a feature, module, component)?\n3. What is the incorrect behavior vs. expected behavior?\n4.\n","category":"bug","tracked_at":"2026-07-05T19:39Z"}
+{"number":74566,"title":"[BUG] Starting claude inside a sandbox deletes the session records of every other running session\n","category":"bug","tracked_at":"2026-07-05T19:39Z"}
+{"number":74585,"title":"/workflows slash command not recognized in VS Code extension\n","category":"unknown","tracked_at":"2026-07-05T20:40Z"}
+{"number":74586,"title":"[FEATURE] Delay/time a prompt\n","category":"feature","tracked_at":"2026-07-05T20:40Z"}
+{"number":74587,"title":"[BUG] Cowork fails on Crostini (Debian Bookworm 12.14) despite all dependencies present and verified\n","category":"bug","tracked_at":"2026-07-05T20:40Z"}
+{"number":74588,"title":"Claude Code v2.1.201 Bun binary SSL failure: UNABLE_TO_GET_ISSUER_CERT on macOS\n","category":"unknown","tracked_at":"2026-07-05T20:40Z"}
+{"number":74589,"title":"[FEATURE] Allow deleting/unpublishing an Artifact\n","category":"feature","tracked_at":"2026-07-05T20:40Z"}
+{"number":74592,"title":"[Bug] Network Error when manually adding species to species guide\n","category":"bug","tracked_at":"2026-07-05T21:41Z"}
+{"number":74593,"title":"[Feature Request] Add simulator UI automation support for iOS testing\n","category":"feature","tracked_at":"2026-07-05T21:42Z"}
+{"number":74594,"title":"Capability to disable audio feedback\n","category":"feature","tracked_at":"2026-07-05T21:42Z"}
+{"number":74595,"title":"[Feature Request] Add security and compliance code scanning capability\n","category":"feature","tracked_at":"2026-07-05T21:42Z"}
+{"number":74596,"title":"Claude for Windows Icon is HIGHLY Pixelated\n","category":"memory-issue","tracked_at":"2026-07-05T21:42Z"}
+{"number":74600,"title":"MCP tool-result images not rendered in VS Code extension chat transcript\n","category":"unknown","tracked_at":"2026-07-05T22:43Z"}
+{"number":74601,"title":"[Bug] Anthropic API Error: Missing safety violation details in flagged message response\n","category":"bug","tracked_at":"2026-07-05T22:43Z"}
+{"number":74602,"title":"[Bug] API Rate Limiting or Model Access Restrictions Preventing Legitimate Use Cases\n","category":"bug","tracked_at":"2026-07-05T22:43Z"}
+{"number":74603,"title":"Auto-compaction runs repeatedly with no user-facing notification, before the context meter reaches 100%\n","category":"unknown","tracked_at":"2026-07-05T22:43Z"}
+{"number":74604,"title":"Tool failure triggers cross-session context bleed — model fabricates another conversation's content instead of reporting the failure, and doesn't self-correct when challenged (Claude Code, Opus 4.8)\n","category":"bug","tracked_at":"2026-07-05T22:43Z"}
