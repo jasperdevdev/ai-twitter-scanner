@@ -22423,3 +22423,17 @@ Mon Jul  6 06:43:16 HKT 2026: Processing issue #74604: Tool failure triggers cro
 Mon Jul  6 06:43:16 HKT 2026: Tracked issue #74604 [bug]: Tool failure triggers cross-session context bleed — model fabricates another conversation's content instead of reporting the failure, and doesn't self-correct when challenged (Claude Code, Opus 4.8)
 Mon Jul  6 06:43:16 HKT 2026: Completed processing up to issue #74604
 Mon Jul  6 06:43:16 HKT 2026: Progress saved: last processed = 74604
+Mon Jul  6 07:44:46 HKT 2026: Checking for new issues...
+Mon Jul  6 07:44:47 HKT 2026: Found new issues: 74611 74612 74613 74614 74615 
+Mon Jul  6 07:44:50 HKT 2026: Processing issue #74611: GitHub repos not visible in Claude Code web repo picker despite GitHub App installed with full access
+Mon Jul  6 07:44:50 HKT 2026: Tracked issue #74611 [unknown]: GitHub repos not visible in Claude Code web repo picker despite GitHub App installed with full access
+Mon Jul  6 07:44:53 HKT 2026: Processing issue #74612: [BUG] Project-scoped plugin installs (--scope project) load in CLI sessions but are silently ignored by the VS Code extension
+Mon Jul  6 07:44:53 HKT 2026: Tracked issue #74612 [bug]: [BUG] Project-scoped plugin installs (--scope project) load in CLI sessions but are silently ignored by the VS Code extension
+Mon Jul  6 07:44:56 HKT 2026: Processing issue #74613: [BUG] reading and repeating project instructions back to me every single message.
+Mon Jul  6 07:44:56 HKT 2026: Tracked issue #74613 [bug]: [BUG] reading and repeating project instructions back to me every single message.
+Mon Jul  6 07:44:59 HKT 2026: Processing issue #74614: run_in_background: false is ignored when the Agent dispatch includes a name — spawn goes async ("will receive instructions via mailbox")
+Mon Jul  6 07:44:59 HKT 2026: Tracked issue #74614 [memory-issue]: run_in_background: false is ignored when the Agent dispatch includes a name — spawn goes async ("will receive instructions via mailbox")
+Mon Jul  6 07:45:03 HKT 2026: Processing issue #74615: [Bug][cyber] Safety block halted mid-task Wazuh/SIEM agent enrollment and firewall zone troubleshooting on hom (req_011CcjnrDpezzpueYuJFZk1L)
+Mon Jul  6 07:45:04 HKT 2026: Tracked issue #74615 [false-positive]: [Bug][cyber] Safety block halted mid-task Wazuh/SIEM agent enrollment and firewall zone troubleshooting on hom (req_011CcjnrDpezzpueYuJFZk1L)
+Mon Jul  6 07:45:04 HKT 2026: Completed processing up to issue #74615
+Mon Jul  6 07:45:04 HKT 2026: Progress saved: last processed = 74615

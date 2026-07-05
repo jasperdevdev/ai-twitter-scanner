@@ -7072,3 +7072,8 @@
 {"number":74602,"title":"[Bug] API Rate Limiting or Model Access Restrictions Preventing Legitimate Use Cases\n","category":"bug","tracked_at":"2026-07-05T22:43Z"}
 {"number":74603,"title":"Auto-compaction runs repeatedly with no user-facing notification, before the context meter reaches 100%\n","category":"unknown","tracked_at":"2026-07-05T22:43Z"}
 {"number":74604,"title":"Tool failure triggers cross-session context bleed — model fabricates another conversation's content instead of reporting the failure, and doesn't self-correct when challenged (Claude Code, Opus 4.8)\n","category":"bug","tracked_at":"2026-07-05T22:43Z"}
+{"number":74611,"title":"GitHub repos not visible in Claude Code web repo picker despite GitHub App installed with full access\n","category":"unknown","tracked_at":"2026-07-05T23:44Z"}
+{"number":74612,"title":"[BUG] Project-scoped plugin installs (--scope project) load in CLI sessions but are silently ignored by the VS Code extension\n","category":"bug","tracked_at":"2026-07-05T23:44Z"}
+{"number":74613,"title":"[BUG] reading and repeating project instructions back to me every single message.\n","category":"bug","tracked_at":"2026-07-05T23:44Z"}
+{"number":74614,"title":"run_in_background: false is ignored when the Agent dispatch includes a name — spawn goes async (\"will receive instructions via mailbox\")\n","category":"memory-issue","tracked_at":"2026-07-05T23:44Z"}
+{"number":74615,"title":"[Bug][cyber] Safety block halted mid-task Wazuh/SIEM agent enrollment and firewall zone troubleshooting on hom (req_011CcjnrDpezzpueYuJFZk1L)\n","category":"false-positive","tracked_at":"2026-07-05T23:45Z"}
