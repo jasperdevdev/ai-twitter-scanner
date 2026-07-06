@@ -22437,3 +22437,43 @@ Mon Jul  6 07:45:03 HKT 2026: Processing issue #74615: [Bug][cyber] Safety block
 Mon Jul  6 07:45:04 HKT 2026: Tracked issue #74615 [false-positive]: [Bug][cyber] Safety block halted mid-task Wazuh/SIEM agent enrollment and firewall zone troubleshooting on hom (req_011CcjnrDpezzpueYuJFZk1L)
 Mon Jul  6 07:45:04 HKT 2026: Completed processing up to issue #74615
 Mon Jul  6 07:45:04 HKT 2026: Progress saved: last processed = 74615
+Mon Jul  6 08:46:19 HKT 2026: Checking for new issues...
+Mon Jul  6 08:46:20 HKT 2026: Found new issues: 74618 74619 74620 74621 74622 
+Mon Jul  6 08:46:23 HKT 2026: Processing issue #74618: Session picker (claude agents) takes minutes to open sessions with large JSONL transcripts; agents view pegs CPU
+Mon Jul  6 08:46:23 HKT 2026: Tracked issue #74618 [unknown]: Session picker (claude agents) takes minutes to open sessions with large JSONL transcripts; agents view pegs CPU
+Mon Jul  6 08:46:23 HKT 2026: Skipped issue #74619 - detected as spam/non-issue
+Mon Jul  6 08:46:24 HKT 2026: Skipped issue #74620 - detected as spam/non-issue
+Mon Jul  6 08:46:27 HKT 2026: Processing issue #74621: Skill mis-trigger loads ~775K-char reference doc into context for a simple usage-tracking question
+Mon Jul  6 08:46:27 HKT 2026: Tracked issue #74621 [unknown]: Skill mis-trigger loads ~775K-char reference doc into context for a simple usage-tracking question
+Mon Jul  6 08:46:30 HKT 2026: Processing issue #74622: Daemon doesn't auto-recover after shutdown-requested control-socket op - ~62 min outage kills Desktop Remote Control
+Mon Jul  6 08:46:30 HKT 2026: Tracked issue #74622 [bug]: Daemon doesn't auto-recover after shutdown-requested control-socket op - ~62 min outage kills Desktop Remote Control
+Mon Jul  6 08:46:30 HKT 2026: Completed processing up to issue #74622
+Mon Jul  6 08:46:30 HKT 2026: Progress saved: last processed = 74622
+Mon Jul  6 09:47:22 HKT 2026: Checking for new issues...
+Mon Jul  6 09:47:23 HKT 2026: Found new issues: 74630 74631 74632 74633 74634 
+Mon Jul  6 09:47:26 HKT 2026: Processing issue #74630: [Bug] Safety classifier false-positives on defensive security patching, causing silent mid-session model downgrade
+Mon Jul  6 09:47:26 HKT 2026: Tracked issue #74630 [false-positive]: [Bug] Safety classifier false-positives on defensive security patching, causing silent mid-session model downgrade
+Mon Jul  6 09:47:29 HKT 2026: Processing issue #74631: Computer Use's per-app request_access model pushes users toward a strictly more dangerous standing-permission alternative when it fails to recognize an app
+Mon Jul  6 09:47:29 HKT 2026: Tracked issue #74631 [bug]: Computer Use's per-app request_access model pushes users toward a strictly more dangerous standing-permission alternative when it fails to recognize an app
+Mon Jul  6 09:47:32 HKT 2026: Processing issue #74632: /config: search/list keyboard navigation breaks after switching tabs and returning
+Mon Jul  6 09:47:32 HKT 2026: Tracked issue #74632 [unknown]: /config: search/list keyboard navigation breaks after switching tabs and returning
+Mon Jul  6 09:47:35 HKT 2026: Processing issue #74633: Scheduled-task sessions never terminate — leaks ~48 headless processes/day, GBs of RAM
+Mon Jul  6 09:47:35 HKT 2026: Tracked issue #74633 [unknown]: Scheduled-task sessions never terminate — leaks ~48 headless processes/day, GBs of RAM
+Mon Jul  6 09:47:36 HKT 2026: Processing issue #74634: [BUG]
+Mon Jul  6 09:47:36 HKT 2026: Tracked issue #74634 [bug]: [BUG]
+Mon Jul  6 09:47:36 HKT 2026: Completed processing up to issue #74634
+Mon Jul  6 09:47:36 HKT 2026: Progress saved: last processed = 74634
+Mon Jul  6 10:48:53 HKT 2026: Checking for new issues...
+Mon Jul  6 10:48:54 HKT 2026: Found new issues: 74643 74644 74645 74646 74647 
+Mon Jul  6 10:48:57 HKT 2026: Processing issue #74643: [BUG]   Extension 2.1.201 fails to load on current VSCode: PendingMigrationError: navigator is now a global in nodejs at module init (Zod)
+Mon Jul  6 10:48:57 HKT 2026: Tracked issue #74643 [bug]: [BUG]   Extension 2.1.201 fails to load on current VSCode: PendingMigrationError: navigator is now a global in nodejs at module init (Zod)
+Mon Jul  6 10:49:00 HKT 2026: Processing issue #74644: [Bug] Safety classifier falsely flags defensive security remediation, silently downgrades model mid-task
+Mon Jul  6 10:49:00 HKT 2026: Tracked issue #74644 [false-positive]: [Bug] Safety classifier falsely flags defensive security remediation, silently downgrades model mid-task
+Mon Jul  6 10:49:04 HKT 2026: Processing issue #74645: Feature request: retract/sync channel permission prompts when resolved elsewhere (Discord plugin)
+Mon Jul  6 10:49:04 HKT 2026: Tracked issue #74645 [feature]: Feature request: retract/sync channel permission prompts when resolved elsewhere (Discord plugin)
+Mon Jul  6 10:49:07 HKT 2026: Processing issue #74646: Session 'working' indicator stays on with no running process (stale activeBackgroundTaskIds in locked Local Storage LevelDB)
+Mon Jul  6 10:49:07 HKT 2026: Tracked issue #74646 [unknown]: Session 'working' indicator stays on with no running process (stale activeBackgroundTaskIds in locked Local Storage LevelDB)
+Mon Jul  6 10:49:10 HKT 2026: Processing issue #74647: [BUG] Built-in MCP servers (mcp-registry, claude-in-chrome) never launch on Windows — "connection requested" logged but no "Launching MCP Server", no error
+Mon Jul  6 10:49:10 HKT 2026: Tracked issue #74647 [bug]: [BUG] Built-in MCP servers (mcp-registry, claude-in-chrome) never launch on Windows — "connection requested" logged but no "Launching MCP Server", no error
+Mon Jul  6 10:49:10 HKT 2026: Completed processing up to issue #74647
+Mon Jul  6 10:49:10 HKT 2026: Progress saved: last processed = 74647
