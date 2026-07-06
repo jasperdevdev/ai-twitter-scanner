@@ -84,6 +84,16 @@ is_spam() {
         fi
     fi
     
+    # Check for auto-generated issue template response titles (Claude Code's system response)
+    # These indicate the user submission wasn't a valid issue
+    local lower_title
+    lower_title=$(echo "$title" | tr '[:upper:]' '[:lower:]' 2>/dev/null | tr -d '\0' 2>/dev/null) || true
+    if [ -n "$lower_title" ]; then
+        if echo "$lower_title" | grep -qiE '^i appreciate you reaching out|i am unable to generate|to help you effectively|please provide'; then
+            return 0  # Flag as spam - this is an auto-generated non-issue
+        fi
+    fi
+    
     local confusable_count=0
     for spam_char in "⋆" "☆" "🎀" "✚" "卍" "🍉" "🍓" "❀" "💗" "【" "】" "＋"; do
         count=$(echo "$title" | grep -Fo "$spam_char" 2>/dev/null | wc -l) || true
