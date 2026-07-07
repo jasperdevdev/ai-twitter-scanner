@@ -253,7 +253,7 @@ for ISSUE_NUM in $NEW_ISSUES; do
         CATEGORY="bug"
     # Check for fabrication/hallucination indicators - these are bugs
     # (already matched above as false-positive or this check is redundant - skip for performance)
-    elif echo "$LOWER_TITLE" | grep -qiE '(\[bug\]|bug:|bug report|not working|fails|crash|error|doesn.?t|broken|conflict|incorrect|wrong|\b[45][0-9]{2}\b)'; then
+    elif echo "$LOWER_TITLE" | grep -qiE '(\[bug\]|bug:|bug report|not working|fails|crash|error|failure|doesn.?t|broken|conflict|incorrect|wrong|\b[45][0-9]{2}\b)'; then
         CATEGORY="bug"
     elif echo "$LOWER_TITLE" | grep -qiE '(\[feature\]|feature request|add.*support|should.*support|would be nice|capability|request)'; then
         CATEGORY="feature"
@@ -261,7 +261,7 @@ for ISSUE_NUM in $NEW_ISSUES; do
         CATEGORY="docs"
     elif echo "$LOWER_TITLE" | grep -qiE '(\[regression\]|regression|used to work|worked in)'; then
         CATEGORY="regression"
-    elif echo "$LOWER_TITLE $LOWER_BODY" | grep -qiE '(memory|forget|ignore|amnesia)'; then
+    elif echo "$LOWER_TITLE $LOWER_BODY" | grep -qiE '(memory|forget|ignore|amnesia|lost|disappear|vanish|missing|not found|not saved)'; then
         CATEGORY="memory-issue"
     # Check for permission/system issues - these are bugs
     elif echo "$LOWER_TITLE $LOWER_BODY" | grep -qiE '(permission denied|access denied|write denied|edit denied)'; then
