@@ -7943,3 +7943,24 @@
 {"number":77299,"title":"Windows: Chrome extension native host crashes on startup (TypeError ERR_INVALID_ARG_TYPE, Bun net.listen on named pipe)\n","category":"bug","tracked_at":"2026-07-13T21:20Z"}
 {"number":77300,"title":"[BUG] Agent teams: Monitor events and background-task notifications never wake an idle teammate — dropped, not queued (only SendMessage wakes it)\n","category":"bug","tracked_at":"2026-07-13T21:20Z"}
 {"number":77301,"title":"[BUG] Consulting Fable advisor fails, often and repeatedly wasting my time and patience\n","category":"bug","tracked_at":"2026-07-13T21:20Z"}
+{"number":77311,"title":"Windows: Shift+Enter does not insert newline — terminal protocol limitation requires Win32 input support\n","category":"unknown","tracked_at":"2026-07-13T22:22Z"}
+{"number":77312,"title":"[BUG] : claude.ai voice mode: custom MCP connector tools fail with \"tool is not registered\" (text mode works in the same chat)\n","category":"bug","tracked_at":"2026-07-13T22:22Z"}
+{"number":77314,"title":"MCP client does not re-fetch tools/list on notifications/tools/list_changed — new tools unreachable until full session restart\n","category":"unknown","tracked_at":"2026-07-13T22:22Z"}
+{"number":77315,"title":"[BUG] Settings schema: `extraKnownMarketplaces` git source requires `.git` suffix, but runtime accepts suffix-less URLs (breaks Azure DevOps)\n","category":"bug","tracked_at":"2026-07-13T22:22Z"}
+{"number":77322,"title":"[Bug] Tool ignores user instructions: executes unrequested actions and overrides explicit stop commands\n","category":"bug","tracked_at":"2026-07-13T23:23Z"}
+{"number":77323,"title":"Skill full body re-attached every turn while \"active,\" bypassing all hooks\n","category":"unknown","tracked_at":"2026-07-13T23:23Z"}
+{"number":77324,"title":"Background-task file-change system-reminder instructed agent to conceal the change from the user\n","category":"unknown","tracked_at":"2026-07-13T23:23Z"}
+{"number":77325,"title":"[BUG] Invalid MCP entry in ~/.claude.json: unattributable error, paused transcript cleanup, and an agent permission-prompt loop\n","category":"bug","tracked_at":"2026-07-13T23:23Z"}
+{"number":77326,"title":"VS Code extension shows full subagent transcript inline; no setting to collapse it (CLI/desktop show a summary)\n","category":"unknown","tracked_at":"2026-07-13T23:24Z"}
+{"number":77330,"title":"[BUG] API Error: 400 The request body is not valid JSON: unexpected character: line 1 column 1 (char 0)\n","category":"bug","tracked_at":"2026-07-14T00:24Z"}
+{"number":77331,"title":"Subagent (Agent tool) intermittently terminates in <30s with 0 tool uses, returning prompt/system-prompt echo instead of doing the task\n","category":"unknown","tracked_at":"2026-07-14T00:24Z"}
+{"number":77332,"title":"Workflow tool: deep-research synthesis step accepts schema-valid-but-empty (placeholder) agent output as final result\n","category":"unknown","tracked_at":"2026-07-14T00:25Z"}
+{"number":77333,"title":"Go programs fail TLS verification through built-in proxy on macOS Tahoe (x509: OSStatus -26276)\n","category":"unknown","tracked_at":"2026-07-14T00:25Z"}
+{"number":77337,"title":"[BUG] Move an existing task in cowork to a project\n","category":"bug","tracked_at":"2026-07-14T01:26Z"}
+{"number":77340,"title":"Remote Control: session delisted ~10-15 min after viewer disconnect; session ID rotates on reconnect (both undocumented)\n","category":"docs","tracked_at":"2026-07-14T01:26Z"}
+{"number":77341,"title":"PostToolUse hooks do not fire in daemon/background-job sessions (PreToolUse + SessionStart do) — v2.1.208\n","category":"unknown","tracked_at":"2026-07-14T01:26Z"}
+{"number":77345,"title":"[Bug] NDI Capture Encoders Spawn Uncontrollably Without Log Output\n","category":"bug","tracked_at":"2026-07-14T02:27Z"}
+{"number":77346,"title":"[Bug] Claude contradicts itself on build failure responsibility\n","category":"bug","tracked_at":"2026-07-14T02:27Z"}
+{"number":77347,"title":"[BUG] Desktop app (macOS, 2.1.207): partial text selection copies whole paragraphs — bug persists while all prior reports (#48168, #50386, #53975) closed NOT_PLANNED\n","category":"bug","tracked_at":"2026-07-14T02:27Z"}
+{"number":77348,"title":"[BUG] Linux beta: Cowork local VM never starts (\"VM not supported (linux/x64), skipping\") on a requirements-compliant machine — cloud sessions cannot link to the computer\n","category":"bug","tracked_at":"2026-07-14T02:27Z"}
+{"number":77349,"title":"[Feature Request] Add option to display per-message timestamps in interactive TUI\n","category":"feature","tracked_at":"2026-07-14T02:27Z"}

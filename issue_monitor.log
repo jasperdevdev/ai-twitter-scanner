@@ -25042,3 +25042,69 @@ Tue Jul 14 05:20:47 HKT 2026: Processing issue #77301: [BUG] Consulting Fable ad
 Tue Jul 14 05:20:47 HKT 2026: Tracked issue #77301 [bug]: [BUG] Consulting Fable advisor fails, often and repeatedly wasting my time and patience
 Tue Jul 14 05:20:47 HKT 2026: Completed processing up to issue #77301
 Tue Jul 14 05:20:47 HKT 2026: Progress saved: last processed = 77301
+Tue Jul 14 06:22:14 HKT 2026: Checking for new issues...
+Tue Jul 14 06:22:16 HKT 2026: Found new issues: 77311 77312 77313 77314 77315 
+Tue Jul 14 06:22:21 HKT 2026: Processing issue #77311: Windows: Shift+Enter does not insert newline — terminal protocol limitation requires Win32 input support
+Tue Jul 14 06:22:21 HKT 2026: Tracked issue #77311 [unknown]: Windows: Shift+Enter does not insert newline — terminal protocol limitation requires Win32 input support
+Tue Jul 14 06:22:26 HKT 2026: Processing issue #77312: [BUG] : claude.ai voice mode: custom MCP connector tools fail with "tool is not registered" (text mode works in the same chat)
+Tue Jul 14 06:22:26 HKT 2026: Tracked issue #77312 [bug]: [BUG] : claude.ai voice mode: custom MCP connector tools fail with "tool is not registered" (text mode works in the same chat)
+Tue Jul 14 06:22:27 HKT 2026: Skipped issue #77313 - detected as spam/non-issue
+Tue Jul 14 06:22:32 HKT 2026: Processing issue #77314: MCP client does not re-fetch tools/list on notifications/tools/list_changed — new tools unreachable until full session restart
+Tue Jul 14 06:22:32 HKT 2026: Tracked issue #77314 [unknown]: MCP client does not re-fetch tools/list on notifications/tools/list_changed — new tools unreachable until full session restart
+Tue Jul 14 06:22:37 HKT 2026: Processing issue #77315: [BUG] Settings schema: `extraKnownMarketplaces` git source requires `.git` suffix, but runtime accepts suffix-less URLs (breaks Azure DevOps)
+Tue Jul 14 06:22:37 HKT 2026: Tracked issue #77315 [bug]: [BUG] Settings schema: `extraKnownMarketplaces` git source requires `.git` suffix, but runtime accepts suffix-less URLs (breaks Azure DevOps)
+Tue Jul 14 06:22:37 HKT 2026: Completed processing up to issue #77315
+Tue Jul 14 06:22:37 HKT 2026: Progress saved: last processed = 77315
+Tue Jul 14 07:23:40 HKT 2026: Checking for new issues...
+Tue Jul 14 07:23:41 HKT 2026: Found new issues: 77322 77323 77324 77325 77326 
+Tue Jul 14 07:23:45 HKT 2026: Processing issue #77322: [Bug] Tool ignores user instructions: executes unrequested actions and overrides explicit stop commands
+Tue Jul 14 07:23:45 HKT 2026: Tracked issue #77322 [bug]: [Bug] Tool ignores user instructions: executes unrequested actions and overrides explicit stop commands
+Tue Jul 14 07:23:49 HKT 2026: Processing issue #77323: Skill full body re-attached every turn while "active," bypassing all hooks
+Tue Jul 14 07:23:49 HKT 2026: Tracked issue #77323 [unknown]: Skill full body re-attached every turn while "active," bypassing all hooks
+Tue Jul 14 07:23:53 HKT 2026: Processing issue #77324: Background-task file-change system-reminder instructed agent to conceal the change from the user
+Tue Jul 14 07:23:53 HKT 2026: Tracked issue #77324 [unknown]: Background-task file-change system-reminder instructed agent to conceal the change from the user
+Tue Jul 14 07:23:57 HKT 2026: Processing issue #77325: [BUG] Invalid MCP entry in ~/.claude.json: unattributable error, paused transcript cleanup, and an agent permission-prompt loop
+Tue Jul 14 07:23:57 HKT 2026: Tracked issue #77325 [bug]: [BUG] Invalid MCP entry in ~/.claude.json: unattributable error, paused transcript cleanup, and an agent permission-prompt loop
+Tue Jul 14 07:24:03 HKT 2026: Processing issue #77326: VS Code extension shows full subagent transcript inline; no setting to collapse it (CLI/desktop show a summary)
+Tue Jul 14 07:24:03 HKT 2026: Tracked issue #77326 [unknown]: VS Code extension shows full subagent transcript inline; no setting to collapse it (CLI/desktop show a summary)
+Tue Jul 14 07:24:03 HKT 2026: Completed processing up to issue #77326
+Tue Jul 14 07:24:03 HKT 2026: Progress saved: last processed = 77326
+Tue Jul 14 08:24:46 HKT 2026: Checking for new issues...
+Tue Jul 14 08:24:47 HKT 2026: Found new issues: 77329 77330 77331 77332 77333 
+Tue Jul 14 08:24:48 HKT 2026: Skipped issue #77329 - detected as spam/non-issue
+Tue Jul 14 08:24:52 HKT 2026: Processing issue #77330: [BUG] API Error: 400 The request body is not valid JSON: unexpected character: line 1 column 1 (char 0)
+Tue Jul 14 08:24:52 HKT 2026: Tracked issue #77330 [bug]: [BUG] API Error: 400 The request body is not valid JSON: unexpected character: line 1 column 1 (char 0)
+Tue Jul 14 08:24:56 HKT 2026: Processing issue #77331: Subagent (Agent tool) intermittently terminates in <30s with 0 tool uses, returning prompt/system-prompt echo instead of doing the task
+Tue Jul 14 08:24:56 HKT 2026: Tracked issue #77331 [unknown]: Subagent (Agent tool) intermittently terminates in <30s with 0 tool uses, returning prompt/system-prompt echo instead of doing the task
+Tue Jul 14 08:25:01 HKT 2026: Processing issue #77332: Workflow tool: deep-research synthesis step accepts schema-valid-but-empty (placeholder) agent output as final result
+Tue Jul 14 08:25:03 HKT 2026: Tracked issue #77332 [unknown]: Workflow tool: deep-research synthesis step accepts schema-valid-but-empty (placeholder) agent output as final result
+Tue Jul 14 08:25:10 HKT 2026: Processing issue #77333: Go programs fail TLS verification through built-in proxy on macOS Tahoe (x509: OSStatus -26276)
+Tue Jul 14 08:25:11 HKT 2026: Tracked issue #77333 [unknown]: Go programs fail TLS verification through built-in proxy on macOS Tahoe (x509: OSStatus -26276)
+Tue Jul 14 08:25:11 HKT 2026: Completed processing up to issue #77333
+Tue Jul 14 08:25:11 HKT 2026: Progress saved: last processed = 77333
+Tue Jul 14 09:25:58 HKT 2026: Checking for new issues...
+Tue Jul 14 09:25:59 HKT 2026: Found new issues: 77337 77338 77339 77340 77341 
+Tue Jul 14 09:26:05 HKT 2026: Processing issue #77337: [BUG] Move an existing task in cowork to a project
+Tue Jul 14 09:26:06 HKT 2026: Tracked issue #77337 [bug]: [BUG] Move an existing task in cowork to a project
+Tue Jul 14 09:26:06 HKT 2026: Skipped issue #77338 - detected as spam/non-issue
+Tue Jul 14 09:26:07 HKT 2026: Skipped issue #77339 - detected as spam/non-issue
+Tue Jul 14 09:26:12 HKT 2026: Processing issue #77340: Remote Control: session delisted ~10-15 min after viewer disconnect; session ID rotates on reconnect (both undocumented)
+Tue Jul 14 09:26:12 HKT 2026: Tracked issue #77340 [docs]: Remote Control: session delisted ~10-15 min after viewer disconnect; session ID rotates on reconnect (both undocumented)
+Tue Jul 14 09:26:16 HKT 2026: Processing issue #77341: PostToolUse hooks do not fire in daemon/background-job sessions (PreToolUse + SessionStart do) — v2.1.208
+Tue Jul 14 09:26:17 HKT 2026: Tracked issue #77341 [unknown]: PostToolUse hooks do not fire in daemon/background-job sessions (PreToolUse + SessionStart do) — v2.1.208
+Tue Jul 14 09:26:17 HKT 2026: Completed processing up to issue #77341
+Tue Jul 14 09:26:17 HKT 2026: Progress saved: last processed = 77341
+Tue Jul 14 10:27:28 HKT 2026: Checking for new issues...
+Tue Jul 14 10:27:30 HKT 2026: Found new issues: 77345 77346 77347 77348 77349 
+Tue Jul 14 10:27:33 HKT 2026: Processing issue #77345: [Bug] NDI Capture Encoders Spawn Uncontrollably Without Log Output
+Tue Jul 14 10:27:34 HKT 2026: Tracked issue #77345 [bug]: [Bug] NDI Capture Encoders Spawn Uncontrollably Without Log Output
+Tue Jul 14 10:27:37 HKT 2026: Processing issue #77346: [Bug] Claude contradicts itself on build failure responsibility
+Tue Jul 14 10:27:37 HKT 2026: Tracked issue #77346 [bug]: [Bug] Claude contradicts itself on build failure responsibility
+Tue Jul 14 10:27:42 HKT 2026: Processing issue #77347: [BUG] Desktop app (macOS, 2.1.207): partial text selection copies whole paragraphs — bug persists while all prior reports (#48168, #50386, #53975) closed NOT_PLANNED
+Tue Jul 14 10:27:42 HKT 2026: Tracked issue #77347 [bug]: [BUG] Desktop app (macOS, 2.1.207): partial text selection copies whole paragraphs — bug persists while all prior reports (#48168, #50386, #53975) closed NOT_PLANNED
+Tue Jul 14 10:27:46 HKT 2026: Processing issue #77348: [BUG] Linux beta: Cowork local VM never starts ("VM not supported (linux/x64), skipping") on a requirements-compliant machine — cloud sessions cannot link to the computer
+Tue Jul 14 10:27:46 HKT 2026: Tracked issue #77348 [bug]: [BUG] Linux beta: Cowork local VM never starts ("VM not supported (linux/x64), skipping") on a requirements-compliant machine — cloud sessions cannot link to the computer
+Tue Jul 14 10:27:50 HKT 2026: Processing issue #77349: [Feature Request] Add option to display per-message timestamps in interactive TUI
+Tue Jul 14 10:27:50 HKT 2026: Tracked issue #77349 [feature]: [Feature Request] Add option to display per-message timestamps in interactive TUI
+Tue Jul 14 10:27:50 HKT 2026: Completed processing up to issue #77349
+Tue Jul 14 10:27:50 HKT 2026: Progress saved: last processed = 77349
