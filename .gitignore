@@ -10,3 +10,8 @@ build/
 .env
 .DS_Store
 
+
+# Runtime files
+.last_issue
+tracked_issues.jsonl
+duplicates.txt

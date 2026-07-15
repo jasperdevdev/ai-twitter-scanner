@@ -269,6 +269,9 @@ for ISSUE_NUM in $NEW_ISSUES; do
     # Check for permission/system issues - these are bugs
     elif echo "$LOWER_TITLE $LOWER_BODY" | grep -qiE '(permission denied|access denied|write denied|edit denied)'; then
         CATEGORY="bug"
+    # Check for prompt injection / security vulnerabilities - these are critical bugs
+    elif echo "$LOWER_TITLE $LOWER_BODY" | grep -qiE '(prompt injection|security.*vulnerability|impersonat.*system.*message|tool.*result.*impersonat|xss|csrf|vulnerability|exploit)'; then
+        CATEGORY="security-bug"
     fi
 
     # Record issue to tracked file (ensure file exists first)
