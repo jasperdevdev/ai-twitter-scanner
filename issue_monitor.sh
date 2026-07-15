@@ -248,8 +248,8 @@ for ISSUE_NUM in $NEW_ISSUES; do
     # (e.g., model ignoring instructions, fabricating output, wrong behavior)
     elif echo "$LOWER_TITLE $LOWER_BODY" | grep -qiE '(\[MODEL\])'; then
         CATEGORY="bug"
-    # Check for model failure patterns: ignoring instructions, over-engineering, config churn
-    elif echo "$LOWER_TITLE $LOWER_BODY" | grep -qiE '(ignores.*instruction|ignoring.*instruction|over-?engineer|repeated.*config|config.*churn|model.*fail|repeated failure|wrong output)'; then
+    # Check for model failure patterns: ignoring instructions, over-engineering, config churn, model behavior issues
+    elif echo "$LOWER_TITLE $LOWER_BODY" | grep -qiE '(ignores.*instruction|ignoring.*instruction|over-?engineer|repeated.*config|config.*churn|model.*fail|repeated failure|wrong output|model accelerat|correction.*trigger|unauthorized action|model ignor|model.*behavio|model.*wrong)'; then
         CATEGORY="bug"
     # Check for fabrication/hallucination indicators - these are bugs
     # (already matched above as false-positive or this check is redundant - skip for performance)
