@@ -237,9 +237,12 @@ for ISSUE_NUM in $NEW_ISSUES; do
     LOWER_TITLE=$(echo "$ISSUE_TITLE" | tr '[:upper:]' '[:lower:]')
     LOWER_BODY=$(echo "$ISSUE_BODY" | tr '[:upper:]' '[:lower:]')
 
+    # Check for hook/system integration bugs (hooks not invoked, events not firing)
+    if echo "$LOWER_TITLE $LOWER_BODY" | grep -qiE '(hook.*not.*invok|hook.*not.*call|hook.*fail|event.*not.*fire|hook.*missing|hooks.*get.*no)'; then
+        CATEGORY="bug"
     # Check for false-positive safety blocks FIRST (before bug) - these are high-priority issues
     # that need accurate categorization for trend analysis
-    if echo "$LOWER_TITLE $LOWER_BODY" | grep -qiE '(false.*positive|误报|safety.*block|aup.*block|policy.*violation|classifier.*block|cyber.*block|cyber.*halts|cyber.*refused|safety.*halts)'; then
+    elif echo "$LOWER_TITLE $LOWER_BODY" | grep -qiE '(false.*positive|误报|safety.*block|aup.*block|policy.*violation|classifier.*block|cyber.*block|cyber.*halts|cyber.*refused|safety.*halts)'; then
         CATEGORY="false-positive"
     # Check for thank you notes / non-issues (defensive - should have been caught by spam filter)
     elif echo "$LOWER_BODY" | grep -qiE 'not a bug|not a feature|thank you|thanks|gratitude|appreciate|no technical'; then
@@ -253,7 +256,7 @@ for ISSUE_NUM in $NEW_ISSUES; do
         CATEGORY="bug"
     # Check for fabrication/hallucination indicators - these are bugs
     # (already matched above as false-positive or this check is redundant - skip for performance)
-    elif echo "$LOWER_TITLE" | grep -qiE '(\[bug\]|bug:|bug report|not working|fails|crash|error|failure|doesn.?t|broken|conflict|incorrect|wrong|\b[45][0-9]{2}\b)'; then
+    elif echo "$LOWER_TITLE" | grep -qiE '(\[bug\]|bug:|bug report|not working|fails|crash|error|failure|doesn.?t|broken|conflict|incorrect|wrong|never.*work|never.*connect|never.*load|never.*open|doesn.?t.*work|doesn.?t.*load|doesn.?t.*connect|\b[45][0-9]{2}\b)'; then
         CATEGORY="bug"
     elif echo "$LOWER_TITLE" | grep -qiE '(\[feature\]|feature request|add.*support|should.*support|would be nice|capability|request)'; then
         CATEGORY="feature"
